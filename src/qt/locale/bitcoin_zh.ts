@@ -92,7 +92,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Insufficient funds!</source>
-        <translation>余额不足</translation>
+        <translation>余�?�?足</translation>
     </message>
     <message>
         <source>Choose...</source>
@@ -100,15 +100,15 @@
     </message>
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
-        <translation>收款人地址无效，请再次确认。</translation>
+        <translation>收款人地�?�无效，请�?次确认。</translation>
     </message>
     <message>
         <source>Pay only the required fee of %1</source>
-        <translation>仅支付全额的%1</translation>
+        <translation>仅支付全�?的%1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Litecoin address</source>
-        <translation>警告：莱特币地址无效</translation>
+        <source>Warning: Invalid Garlicium address</source>
+        <translation>警告：莱特�?地�?�无效</translation>
     </message>
     </context>
 <context>
@@ -169,11 +169,11 @@
     <name>bitcoin-core</name>
     <message>
         <source>Transaction too large for fee policy</source>
-        <translation>根据费率标准，本次转账超额</translation>
+        <translation>根�?�费率标准，本次转账超�?</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>超额转账</translation>
+        <translation>超�?转账</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -181,11 +181,11 @@
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>正在载入地址...</translation>
+        <translation>正在载入地�?�...</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>余额不足</translation>
+        <translation>余�?�?足</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
@@ -193,11 +193,11 @@
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>再次扫描...</translation>
+        <translation>�?次扫�??...</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>载入完成</translation>
+        <translation>载入完�?</translation>
     </message>
     <message>
         <source>Error</source>

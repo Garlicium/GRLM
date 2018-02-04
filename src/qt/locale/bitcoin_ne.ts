@@ -3,47 +3,47 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>ठेगाना वा लेबल सम्पादन गर्न दायाँ-क्लिक गर्नुहोस्</translation>
+        <translation>ठेगाना वा लेबल सम�?पादन गर�?न दाया�?-क�?लिक गर�?न�?होस�?</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>नयाँ ठेगाना सिर्जना गर्नुहोस्</translation>
+        <translation>नया�? ठेगाना सिर�?जना गर�?न�?होस�?</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;amp;नयाँ</translation>
+        <translation>&amp;amp;नया�?</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>भर्खरै चयन गरेको ठेगाना प्रणाली क्लिपबोर्डमा कपी गर्नुहोस्</translation>
+        <translation>भर�?खरै चयन गरेको ठेगाना प�?रणाली क�?लिपबोर�?डमा कपी गर�?न�?होस�?</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;amp;कपी गर्नुहोस्</translation>
+        <translation>&amp;amp;कपी गर�?न�?होस�?</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>बन्द गर्नुहोस्</translation>
+        <translation>बन�?द गर�?न�?होस�?</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>भर्खरै चयन गरेको ठेगाना सूचीबाट मेटाउनुहोस्</translation>
+        <translation>भर�?खरै चयन गरेको ठेगाना सूचीबाट मेटाउन�?होस�?</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>वर्तमान ट्याबको डाटालाई फाइलमा निर्यात गर्नुहोस् </translation>
+        <translation>वर�?तमान ट�?याबको डाटालाई फाइलमा निर�?यात गर�?न�?होस�? </translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;amp;निर्यात गर्नुहोस्</translation>
+        <translation>&amp;amp;निर�?यात गर�?न�?होस�?</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;amp;मेटाउनुहोस्</translation>
+        <translation>&amp;amp;मेटाउन�?होस�?</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>छनौट गर्नुहोस्...</translation>
+        <translation>छनौट गर�?न�?होस�?...</translation>
     </message>
     <message>
         <source>Sending addresses</source>
@@ -51,11 +51,11 @@
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>प्राप्त गर्ने ठेगानाहरू...</translation>
+        <translation>प�?राप�?त गर�?ने ठेगानाहरू...</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>ठेगाना कपी गर्नुहोस्
+        <translation>ठेगाना कपी गर�?न�?होस�?
 </translation>
     </message>
     </context>
@@ -66,41 +66,41 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>पासफ्रेज संवाद</translation>
+        <translation>पासफ�?रेज संवाद</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>पासफ्रेज प्रवेश गर्नुहोस्</translation>
+        <translation>पासफ�?रेज प�?रवेश गर�?न�?होस�?</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>नयाँ पासफ्रेज</translation>
+        <translation>नया�? पासफ�?रेज</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>नयाँ पासफ्रेज दोहोर्याउनुहोस्</translation>
+        <translation>नया�? पासफ�?रेज दोहोर�?याउन�?होस�?</translation>
     </message>
     </context>
 <context>
     <name>BanTableModel</name>
     <message>
         <source>IP/Netmask</source>
-        <translation>IP/नेटमास्क</translation>
+        <translation>IP/नेटमास�?क</translation>
     </message>
     <message>
         <source>Banned Until</source>
-        <translation>प्रतिबन्धित समय</translation>
+        <translation>प�?रतिबन�?धित समय</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>सन्देशमा &amp;amp;हस्ताक्षर  गर्नुहोस्...</translation>
+        <translation>सन�?देशमा &amp;amp;हस�?ताक�?षर  गर�?न�?होस�?...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>नेटवर्कमा समिकरण हुँदै...</translation>
+        <translation>नेटवर�?कमा समिकरण ह�?�?दै...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
@@ -112,7 +112,7 @@
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>वालेटको साधारण शारांश देखाउनुहोस्</translation>
+        <translation>वालेटको साधारण शारांश देखाउन�?होस�?</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -120,15 +120,15 @@
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>कारोबारको इतिहास हेर्नुहोस्</translation>
+        <translation>कारोबारको इतिहास हेर�?न�?होस�?</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>बाहिर निस्कनुहोस्</translation>
+        <translation>बाहिर निस�?कन�?होस�?</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>एप्लिकेसन बन्द गर्नुहोस्</translation>
+        <translation>�?प�?लिकेसन बन�?द गर�?न�?होस�?</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
@@ -136,7 +136,7 @@
     </message>
     <message>
         <source>Show information about %1</source>
-        <translation>%1 को बारेमा सूचना देखाउनुहोस्</translation>
+        <translation>%1 को बारेमा सूचना देखाउन�?होस�?</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -144,27 +144,27 @@
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Qt को बारेमा सूचना देखाउनुहोस्</translation>
+        <translation>Qt को बारेमा सूचना देखाउन�?होस�?</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;amp;विकल्प...</translation>
+        <translation>&amp;amp;विकल�?प...</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
-        <translation>%1 का लागि कन्फिगुरेसनको विकल्प परिमार्जन गर्नुहोस</translation>
+        <translation>%1 का लागि कन�?फिग�?रेसनको विकल�?प परिमार�?जन गर�?न�?होस</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;amp;वालेटलाई इन्क्रिप्ट गर्नुहोस्...</translation>
+        <translation>&amp;amp;वालेटलाई इन�?क�?रिप�?ट गर�?न�?होस�?...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;amp;वालेटलाई ब्याकअप गर्नुहोस्...</translation>
+        <translation>&amp;amp;वालेटलाई ब�?याकअप गर�?न�?होस�?...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;amp;पासफ्रेज परिवर्तन गर्नुहोस्...</translation>
+        <translation>&amp;amp;पासफ�?रेज परिवर�?तन गर�?न�?होस�?...</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
@@ -172,35 +172,35 @@
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;amp;प्राप्त गर्ने ठेगानाहरू...</translation>
+        <translation>&amp;amp;प�?राप�?त गर�?ने ठेगानाहरू...</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>URI &amp;amp;खोल्नुहोस्...</translation>
+        <translation>URI &amp;amp;खोल�?न�?होस�?...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>डिस्कमा ब्लकलाई पुनः सूचीकरण गरिँदै...</translation>
+        <translation>डिस�?कमा ब�?लकलाई प�?नः सूचीकरण गरि�?दै...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Litecoin ठेगानामा सिक्का पठाउनुहोस्</translation>
+        <source>Send coins to a Garlicium address</source>
+        <translation>Garlicium ठेगानामा सिक�?का पठाउन�?होस�?</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>वालेटलाई अर्को ठेगानामा ब्याकअप गर्नुहोस्</translation>
+        <translation>वालेटलाई अर�?को ठेगानामा ब�?याकअप गर�?न�?होस�?</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>वालेट इन्क्रिप्सनमा प्रयोग हुने इन्क्रिप्सन पासफ्रेज परिवर्तन गर्नुहोस्</translation>
+        <translation>वालेट इन�?क�?रिप�?सनमा प�?रयोग ह�?ने इन�?क�?रिप�?सन पासफ�?रेज परिवर�?तन गर�?न�?होस�?</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>&amp;amp;डिबग विन्डो</translation>
+        <translation>&amp;amp;डिबग विन�?डो</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>डिबगिङ र डायाग्नोस्टिक कन्सोल खोल्नुहोस्</translation>
+        <translation>डिबगिङ र डायाग�?नोस�?टिक कन�?सोल खोल�?न�?होस�?</translation>
     </message>
     </context>
 <context>
@@ -211,7 +211,7 @@
     </message>
     <message>
         <source>Copy address</source>
-        <translation>ठेगाना कपी गर्नुहोस्
+        <translation>ठेगाना कपी गर�?न�?होस�?
 </translation>
     </message>
     </context>
@@ -227,8 +227,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>%1 will download and store a copy of the Litecoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 ले Litecoin ब्लक चेनको एउटा प्रतिलिपि डाउनलोड र भण्डारण गर्नेछ । यो निर्देशिकामा कम्तिमा पनि %2GB डाटा भण्डारण गरिनेछ, र यो समयसँगै बढ्नेछ । वालेटलाई पनि यो निर्देशिकामा भण्डारण गरिनेछ ।</translation>
+        <source>%1 will download and store a copy of the Garlicium block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 ले Garlicium ब�?लक चेनको �?उटा प�?रतिलिपि डाउनलोड र भण�?डारण गर�?नेछ । यो निर�?देशिकामा कम�?तिमा पनि %2GB डाटा भण�?डारण गरिनेछ, र यो समयस�?गै बढ�?नेछ । वालेटलाई पनि यो निर�?देशिकामा भण�?डारण गरिनेछ ।</translation>
     </message>
     </context>
 <context>
@@ -241,26 +241,26 @@
     <name>OptionsDialog</name>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>इन्टरफेसमा र सिक्का पठाउँदा देखिने डिफल्ट उपविभाजन एकाइ चयन गर्नुहोस् ।</translation>
+        <translation>इन�?टरफेसमा र सिक�?का पठाउ�?दा देखिने डिफल�?ट उपविभाजन �?काइ चयन गर�?न�?होस�? ।</translation>
     </message>
     </context>
 <context>
     <name>OverviewPage</name>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>देखाइएको सूचना पूरानो हुन सक्छ । कनेक्सन स्थापित भएपछि, तपाईंको वालेट Litecoin नेटवर्कमा स्वचालित रूपमा समिकरण हुन्छ , तर यो प्रक्रिया अहिले सम्म पूरा भएको छैन ।</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Garlicium network after a connection is established, but this process has not completed yet.</source>
+        <translation>देखाइ�?को सूचना पूरानो ह�?न सक�?छ । कनेक�?सन स�?थापित भ�?पछि, तपाईंको वालेट Garlicium नेटवर�?कमा स�?वचालित रूपमा समिकरण ह�?न�?छ , तर यो प�?रक�?रिया अहिले सम�?म पूरा भ�?को छैन ।</translation>
     </message>
     <message>
         <source>Watch-only:</source>
-        <translation>हेर्ने-मात्र:</translation>
+        <translation>हेर�?ने-मात�?र:</translation>
     </message>
     <message>
         <source>Available:</source>
-        <translation>उपलब्ध:</translation>
+        <translation>उपलब�?ध:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>तपाईंको खर्च गर्न मिल्ने ब्यालेन्स</translation>
+        <translation>तपाईंको खर�?च गर�?न मिल�?ने ब�?यालेन�?स</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -268,27 +268,27 @@
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>अझै पुष्टि हुन बाँकी र खर्च गर्न मिल्ने ब्यालेन्समा गणना गर्न नमिल्ने जम्मा कारोबार</translation>
+        <translation>अ�?ै प�?ष�?टि ह�?न बा�?की र खर�?च गर�?न मिल�?ने ब�?यालेन�?समा गणना गर�?न नमिल�?ने जम�?मा कारोबार</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>अपरिपक्व:</translation>
+        <translation>अपरिपक�?व:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>अझै परिपक्व नभएको खनन गरिएको ब्यालेन्स</translation>
+        <translation>अ�?ै परिपक�?व नभ�?को खनन गरि�?को ब�?यालेन�?स</translation>
     </message>
     <message>
         <source>Balances</source>
-        <translation>ब्यालेन्स</translation>
+        <translation>ब�?यालेन�?स</translation>
     </message>
     <message>
         <source>Mined balance in watch-only addresses that has not yet matured</source>
-        <translation>अहिलेसम्म परिपक्व नभएको खनन गरिएको, हेर्ने-मात्र ठेगानामा रहेको ब्यालेन्स</translation>
+        <translation>अहिलेसम�?म परिपक�?व नभ�?को खनन गरि�?को, हेर�?ने-मात�?र ठेगानामा रहेको ब�?यालेन�?स</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>हेर्ने-मात्र ठेगानामा रहेको हालको जम्मा ब्यालेन्स</translation>
+        <translation>हेर�?ने-मात�?र ठेगानामा रहेको हालको जम�?मा ब�?यालेन�?स</translation>
     </message>
 </context>
 <context>
@@ -298,7 +298,7 @@
     <name>PeerTableModel</name>
     <message>
         <source>User Agent</source>
-        <translation>प्रयोगकर्ता एजेन्ट</translation>
+        <translation>प�?रयोगकर�?ता �?जेन�?ट</translation>
     </message>
     <message>
         <source>Node/Service</source>
@@ -312,8 +312,8 @@
         <translation>रकम</translation>
     </message>
     <message>
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>कृपया Litecoin ठेगाना प्रवेश गर्नुहोस् (उदाहरण %1)</translation>
+        <source>Enter a Garlicium address (e.g. %1)</source>
+        <translation>कृपया Garlicium ठेगाना प�?रवेश गर�?न�?होस�? (उदाहरण %1)</translation>
     </message>
     </context>
 <context>
@@ -326,7 +326,7 @@
     <name>RPCConsole</name>
     <message>
         <source>User Agent</source>
-        <translation>प्रयोगकर्ता एजेन्ट</translation>
+        <translation>प�?रयोगकर�?ता �?जेन�?ट</translation>
     </message>
     <message>
         <source>Ping Time</source>
@@ -346,26 +346,26 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Choose...</source>
-        <translation>छनौट गर्नुहोस्...</translation>
+        <translation>छनौट गर�?न�?होस�?...</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>Choose previously used address</source>
-        <translation>पहिला प्रयोग गरिएको ठेगाना प्रयोग गर्नुहोस्</translation>
+        <translation>पहिला प�?रयोग गरि�?को ठेगाना प�?रयोग गर�?न�?होस�?</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>पठाइँदै गरेको रकमबाट शुल्क कटौती गरिनेछ । प्राप्तकर्ताले तपाईंले रकम क्षेत्रमा प्रवेष गरेको भन्दा थोरै Litecoin प्राप्त गर्ने छन् । धेरै प्राप्तकर्ता चयन गरिएको छ भने समान रूपमा शुल्क विभाजित गरिनेछ ।</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less garliciums than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>पठाइ�?दै गरेको रकमबाट श�?ल�?क कटौती गरिनेछ । प�?राप�?तकर�?ताले तपाईंले रकम क�?षेत�?रमा प�?रवेष गरेको भन�?दा थोरै Garlicium प�?राप�?त गर�?ने छन�? । धेरै प�?राप�?तकर�?ता चयन गरि�?को छ भने समान रूपमा श�?ल�?क विभाजित गरिनेछ ।</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>यो ठेगानालाई प्रयोग गरिएको ठेगानाको सूचीमा थप्न एउटा लेबल प्रविष्ट गर्नुहोस्</translation>
+        <translation>यो ठेगानालाई प�?रयोग गरि�?को ठेगानाको सूचीमा थप�?न �?उटा लेबल प�?रविष�?ट गर�?न�?होस�?</translation>
     </message>
     <message>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
-        <translation>Litecoinमा संलग्न गरिएको सन्देश: तपाईंको मध्यस्थको लागि कारोबारको साथमा भण्डारण गरिने URI । नोट: यो सन्देश Litecoin नेटवर्क मार्फत पठाइने छैन ।</translation>
+        <source>A message that was attached to the garlicium: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Garlicium network.</source>
+        <translation>Garliciumमा संलग�?न गरि�?को सन�?देश: तपाईंको मध�?यस�?थको लागि कारोबारको साथमा भण�?डारण गरिने URI । नोट: यो सन�?देश Garlicium नेटवर�?क मार�?फत पठाइने छैन ।</translation>
     </message>
     </context>
 <context>
@@ -377,20 +377,20 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>आफ्नो ठेगानामा पठाइएको Litecoin प्राप्त गर्न सकिन्छ भनेर प्रमाणित गर्न तपाईंले ती ठेगानाले सन्देश/सम्झौताहरूमा हस्ताक्षर गर्न सक्नुहुन्छ । फिसिङ आक्रमणले तपाईंलाई छक्याएर अरूका लागि तपाईंको परिचयमा हस्ताक्षर गराउने प्रयास गर्न सक्ने भएकाले अस्पष्ट वा जथाभावीमा हस्ताक्षर गर्दा ध्यान दिनुहोस् । आफू सहमत भएको पूर्ण विस्तृत-कथनमा मात्र हस्ताक्षर गर्नुहोस् ।</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive garliciums sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>आफ�?नो ठेगानामा पठाइ�?को Garlicium प�?राप�?त गर�?न सकिन�?छ भनेर प�?रमाणित गर�?न तपाईंले ती ठेगानाले सन�?देश/सम�?�?ौताहरूमा हस�?ताक�?षर गर�?न सक�?न�?ह�?न�?छ । फिसिङ आक�?रमणले तपाईंलाई छक�?या�?र अरूका लागि तपाईंको परिचयमा हस�?ताक�?षर गराउने प�?रयास गर�?न सक�?ने भ�?काले अस�?पष�?ट वा जथाभावीमा हस�?ताक�?षर गर�?दा ध�?यान दिन�?होस�? । आफू सहमत भ�?को पूर�?ण विस�?तृत-कथनमा मात�?र हस�?ताक�?षर गर�?न�?होस�? ।</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>पहिला प्रयोग गरिएको ठेगाना प्रयोग गर्नुहोस्</translation>
+        <translation>पहिला प�?रयोग गरि�?को ठेगाना प�?रयोग गर�?न�?होस�?</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>वर्तमान हस्ताक्षरलाई प्रणाली क्लिपबोर्डमा कपी गर्नुहोस्</translation>
+        <translation>वर�?तमान हस�?ताक�?षरलाई प�?रणाली क�?लिपबोर�?डमा कपी गर�?न�?होस�?</translation>
     </message>
     <message>
         <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>सन्देश प्रमाणित गर्न, तल दिइएको स्थानमा प्राप्तकर्ता ठेगाना, सन्देश (लाइन ब्रेक, स्पेस, ट्याब, आदि उस्तै गरी कपी गर्ने कुरा सुनिश्चित गर्नुहोस्) र हस्ताक्षर &amp;apos;s प्रविष्ट गर्नुहोस् । बीचमा-मानिसको-आक्रमणबाट बच्न हस्ताक्षर पढ्दा हस्ताक्षर गरिएको सन्देशमा जे छ त्यो भन्दा धेरै कुरामा ध्यान नदिनुहोस् । यो कार्यले हस्ताक्षर गर्ने पक्षले मात्र यो ठेगानाले प्राप्त गर्छ भन्ने कुरा प्रमाणित गर्छ, यसले कुनै पनि कारोबारको प्रेषककर्तालाई प्रमाणित गर्न सक्दैन भन्ने कुरा याद गर्नुहोस्!</translation>
+        <translation>सन�?देश प�?रमाणित गर�?न, तल दिइ�?को स�?थानमा प�?राप�?तकर�?ता ठेगाना, सन�?देश (लाइन ब�?रेक, स�?पेस, ट�?याब, आदि उस�?तै गरी कपी गर�?ने क�?रा स�?निश�?चित गर�?न�?होस�?) र हस�?ताक�?षर &amp;apos;s प�?रविष�?ट गर�?न�?होस�? । बीचमा-मानिसको-आक�?रमणबाट बच�?न हस�?ताक�?षर पढ�?दा हस�?ताक�?षर गरि�?को सन�?देशमा जे छ त�?यो भन�?दा धेरै क�?रामा ध�?यान नदिन�?होस�? । यो कार�?यले हस�?ताक�?षर गर�?ने पक�?षले मात�?र यो ठेगानाले प�?राप�?त गर�?छ भन�?ने क�?रा प�?रमाणित गर�?छ, यसले क�?नै पनि कारोबारको प�?रेषककर�?तालाई प�?रमाणित गर�?न सक�?दैन भन�?ने क�?रा याद गर�?न�?होस�?!</translation>
     </message>
     </context>
 <context>
@@ -412,7 +412,7 @@
     <name>TransactionView</name>
     <message>
         <source>Copy address</source>
-        <translation>ठेगाना कपी गर्नुहोस्
+        <translation>ठेगाना कपी गर�?न�?होस�?
 </translation>
     </message>
     </context>
@@ -429,203 +429,203 @@
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;amp;निर्यात गर्नुहोस्
+        <translation>&amp;amp;निर�?यात गर�?न�?होस�?
 </translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>वर्तमान ट्याबको डाटालाई फाइलमा निर्यात गर्नुहोस्</translation>
+        <translation>वर�?तमान ट�?याबको डाटालाई फाइलमा निर�?यात गर�?न�?होस�?</translation>
     </message>
     </context>
 <context>
     <name>bitcoin-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>वालेटको सबै कारोबार मेटाउनुहोस् र -स्टार्टअपको पुनः स्क्यान मार्फत ब्लकचेनका ती भागहरूलाई मात्र पुनः प्राप्त गर्नुहोस्</translation>
+        <translation>वालेटको सबै कारोबार मेटाउन�?होस�? र -स�?टार�?टअपको प�?नः स�?क�?यान मार�?फत ब�?लकचेनका ती भागहरूलाई मात�?र प�?नः प�?राप�?त गर�?न�?होस�?</translation>
     </message>
     <message>
         <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
-        <translation>ब्लक डाटाबेसमा भविष्यबाट आए जस्तो देखिने एउटा ब्लक हुन्छ । तपाईंको कम्प्युटरको मिति र समय गलत तरिकाले सेट गरिएकाले यस्तो हुन सक्छ । तपाईं आफ्नो कम्प्युटरको मिति र समय सही छ भनेर पक्का हुनुहुन्छ भने मात्र ब्लक डाटाबेस पुनर्निर्माण गर्नुहोस् ।</translation>
+        <translation>ब�?लक डाटाबेसमा भविष�?यबाट आ�? जस�?तो देखिने �?उटा ब�?लक ह�?न�?छ । तपाईंको कम�?प�?य�?टरको मिति र समय गलत तरिकाले सेट गरि�?काले यस�?तो ह�?न सक�?छ । तपाईं आफ�?नो कम�?प�?य�?टरको मिति र समय सही छ भनेर पक�?का ह�?न�?ह�?न�?छ भने मात�?र ब�?लक डाटाबेस प�?नर�?निर�?माण गर�?न�?होस�? ।</translation>
     </message>
     <message>
         <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
-        <translation>प्रि-फर्क अवस्थामा डाटाबेस रिवाइन्ड गर्न सकिएन । तपाईंले फेरि ब्लकचेन डाउनलोड गर्नु पर्ने हुन्छ</translation>
+        <translation>प�?रि-फर�?क अवस�?थामा डाटाबेस रिवाइन�?ड गर�?न सकि�?न । तपाईंले फेरि ब�?लकचेन डाउनलोड गर�?न�? पर�?ने ह�?न�?छ</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
-        <translation>UPnP प्रयोग गरेर सुन्ने पोर्टलाई म्याप गर्नुहोस् (सुन्दा र -प्रोक्सी नहुँदा डिफल्ट: 1)</translation>
+        <translation>UPnP प�?रयोग गरेर स�?न�?ने पोर�?टलाई म�?याप गर�?न�?होस�? (स�?न�?दा र -प�?रोक�?सी नह�?�?दा डिफल�?ट: 1)</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
-        <translation>तपाईंले -चेनस्टेट-पुनः सूचकांकबाट -txindex परिवर्तन प्रयोग गरेर डाटाबेस पुनर्निर्माण गर्नु आवश्यक छ</translation>
+        <translation>तपाईंले -चेनस�?टेट-प�?नः सूचकांकबाट -txindex परिवर�?तन प�?रयोग गरेर डाटाबेस प�?नर�?निर�?माण गर�?न�? आवश�?यक छ</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>
-        <translation>%s मा क्षति, बचाव विफल भयो</translation>
+        <translation>%s मा क�?षति, बचाव विफल भयो</translation>
     </message>
     <message>
         <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool कम्तिमा %d MB को हुनुपर्छ ।</translation>
+        <translation>-maxmempool कम�?तिमा %d MB को ह�?न�?पर�?छ ।</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
-        <translation>&amp;lt;वर्ग&amp;gt; निम्न आकारको हुनसक्छ:</translation>
+        <translation>&amp;lt;वर�?ग&amp;gt; निम�?न आकारको ह�?नसक�?छ:</translation>
     </message>
     <message>
         <source>Append comment to the user agent string</source>
-        <translation>प्रयोगकर्ता एजेन्ट स्ट्रिङमा टिप्पणी जोड्नुहोस्</translation>
+        <translation>प�?रयोगकर�?ता �?जेन�?ट स�?ट�?रिङमा टिप�?पणी जोड�?न�?होस�?</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet on startup</source>
-        <translation>स्टार्टअपमा क्षति पूगेको वालेटबाट निजी की प्राप्त गर्न प्रयास गर्नुहोस्</translation>
+        <translation>स�?टार�?टअपमा क�?षति पूगेको वालेटबाट निजी की प�?राप�?त गर�?न प�?रयास गर�?न�?होस�?</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>ब्लक सिर्जनाको बिकल्प:</translation>
+        <translation>ब�?लक सिर�?जनाको बिकल�?प:</translation>
     </message>
     <message>
         <source>Cannot resolve -%s address: '%s'</source>
-        <translation>-%s ठेगाना: &amp;apos;%s&amp;apos; निश्चय गर्न सकिँदैन</translation>
+        <translation>-%s ठेगाना: &amp;apos;%s&amp;apos; निश�?चय गर�?न सकि�?दैन</translation>
     </message>
     <message>
         <source>Change index out of range</source>
-        <translation>सूचकांक परिवर्तन सीमा भन्दा बाहर</translation>
+        <translation>सूचकांक परिवर�?तन सीमा भन�?दा बाहर</translation>
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>कनेक्सनको विकल्प:</translation>
+        <translation>कनेक�?सनको विकल�?प:</translation>
     </message>
     <message>
         <source>Copyright (C) %i-%i</source>
-        <translation>सर्वाधिकार (C) %i-%i</translation>
+        <translation>सर�?वाधिकार (C) %i-%i</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>क्षति पुगेको ब्लक डाटाबेस फेला पर</translation>
+        <translation>क�?षति प�?गेको ब�?लक डाटाबेस फेला पर</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
-        <translation>डिबगिङ/परीक्षणका विकल्पहरू:</translation>
+        <translation>डिबगिङ/परीक�?षणका विकल�?पहरू:</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>वालेट लोड नगर्नुहोस् र वालेट RPC कलहरू अक्षम गर्नुहोस्</translation>
+        <translation>वालेट लोड नगर�?न�?होस�? र वालेट RPC कलहरू अक�?षम गर�?न�?होस�?</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>तपाईं अहिले ब्लक डेटाबेस पुनर्निर्माण गर्न चाहनुहुन्छ ?</translation>
+        <translation>तपाईं अहिले ब�?लक डेटाबेस प�?नर�?निर�?माण गर�?न चाहन�?ह�?न�?छ ?</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. %s is probably already running.</source>
-        <translation>यो कम्प्युटरको %s मा बाँध्न सकिएन । %s सम्भवित रूपमा पहिलैबाट चलिरहेको छ ।</translation>
+        <translation>यो कम�?प�?य�?टरको %s मा बा�?ध�?न सकि�?न । %s सम�?भवित रूपमा पहिलैबाट चलिरहेको छ ।</translation>
     </message>
     <message>
         <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>असमर्थित तर्क -बेन्चमार्कलाई बेवास्ता गरियो, -डिबग=बेन्च प्रयोग गर्नुहोस् ।</translation>
+        <translation>असमर�?थित तर�?क -बेन�?चमार�?कलाई बेवास�?ता गरियो, -डिबग=बेन�?च प�?रयोग गर�?न�?होस�? ।</translation>
     </message>
     <message>
         <source>Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>असमर्थित तर्क -डिबगनेटलाई बेवास्ता गरियो, -डिबग=नेट प्रयोग गर्नुहोस् । </translation>
+        <translation>असमर�?थित तर�?क -डिबगनेटलाई बेवास�?ता गरियो, -डिबग=नेट प�?रयोग गर�?न�?होस�? । </translation>
     </message>
     <message>
         <source>Unsupported argument -tor found, use -onion.</source>
-        <translation>असमर्थित तर्क -टोर फेला पर्यो, -ओनियन प्रयोग गर्नुहोस् । </translation>
+        <translation>असमर�?थित तर�?क -टोर फेला पर�?यो, -ओनियन प�?रयोग गर�?न�?होस�? । </translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>UPnP प्रयोग गरेर सुन्ने पोर्ट म्याप गर्नुहोस् (डिफल्ट: %u) </translation>
+        <translation>UPnP प�?रयोग गरेर स�?न�?ने पोर�?ट म�?याप गर�?न�?होस�? (डिफल�?ट: %u) </translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>ब्लक प्रमाणित गरिँदै...</translation>
+        <translation>ब�?लक प�?रमाणित गरि�?दै...</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>वालेट प्रमाणित गरिँदै...</translation>
+        <translation>वालेट प�?रमाणित गरि�?दै...</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
-        <translation>वालेट %s डाटा निर्देशिका %s बाहिरमा बस्छ</translation>
+        <translation>वालेट %s डाटा निर�?देशिका %s बाहिरमा बस�?छ</translation>
     </message>
     <message>
         <source>Wallet debugging/testing options:</source>
-        <translation>वालेट डिबगिङ/परीक्षणका विकल्पहरू:</translation>
+        <translation>वालेट डिबगिङ/परीक�?षणका विकल�?पहरू:</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart %s to complete</source>
-        <translation>वालेट फेरि लेख्नु आवश्यक छ: पूरा गर्न %s लाई पुन: सुरु गर्नुहोस्</translation>
+        <translation>वालेट फेरि लेख�?न�? आवश�?यक छ: पूरा गर�?न %s लाई प�?न: स�?र�? गर�?न�?होस�?</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>वालेटका विकल्पहरू:</translation>
+        <translation>वालेटका विकल�?पहरू:</translation>
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>निर्दिष्ट गरिएको स्रोतबाट आएको JSON-RPC कनेक्सनलाई अनुमति दिनुहोस् । एकल IP (e.g. 1.2.3.4), नेटवर्क/नेटमास्क (उदाहरण 1.2.3.4/255.255.255.0) वा नेटवर्क/CIDR (उदाहरण 1.2.3.4/24) &amp;lt;ip&amp;gt; का लागि मान्य छन् । यो विकल्पलाई धेरै पटक निर्दिष्ट गर्न सकिन्छ</translation>
+        <translation>निर�?दिष�?ट गरि�?को स�?रोतबाट आ�?को JSON-RPC कनेक�?सनलाई अन�?मति दिन�?होस�? । �?कल IP (e.g. 1.2.3.4), नेटवर�?क/नेटमास�?क (उदाहरण 1.2.3.4/255.255.255.0) वा नेटवर�?क/CIDR (उदाहरण 1.2.3.4/24) &amp;lt;ip&amp;gt; का लागि मान�?य छन�? । यो विकल�?पलाई धेरै पटक निर�?दिष�?ट गर�?न सकिन�?छ</translation>
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
-        <translation>दिइएको ठेगानामा बाँध्नुहोस् र यसमा कनेक्ट गर्ने सहकर्मीलाई श्वेतसूचीमा राख्नुहोस् । IPv6 लागि [होस्ट]:पोर्ट संकेतन प्रयोग गर्नुहोस्</translation>
+        <translation>दिइ�?को ठेगानामा बा�?ध�?न�?होस�? र यसमा कनेक�?ट गर�?ने सहकर�?मीलाई श�?वेतसूचीमा राख�?न�?होस�? । IPv6 लागि [होस�?ट]:पोर�?ट संकेतन प�?रयोग गर�?न�?होस�?</translation>
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>JSON-RPC कनेक्सन सुन्नको लागि दिइएको ठेगानामा बाँध्नुहोस् । IPv6 लागि [होस्ट]:पोर्ट संकेतन प्रयोग गर्नुहोस् । यो विकल्पलाई धेरै पटक निर्दिष्ट गर्न सकिन्छ (डिफल्ट: सबै इन्टरफेसमा बाँध्नुहोस्)</translation>
+        <translation>JSON-RPC कनेक�?सन स�?न�?नको लागि दिइ�?को ठेगानामा बा�?ध�?न�?होस�? । IPv6 लागि [होस�?ट]:पोर�?ट संकेतन प�?रयोग गर�?न�?होस�? । यो विकल�?पलाई धेरै पटक निर�?दिष�?ट गर�?न सकिन�?छ (डिफल�?ट: सबै इन�?टरफेसमा बा�?ध�?न�?होस�?)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
-        <translation>umask 077 को सट्टामा प्रणालीको डिफल्ट अनुमतिको साथमा नयाँ फाइलहरू सिर्जना गर्नुहोस् । (असक्षम गरिएको वालेट कार्यक्षमतामा मात्र प्रभावकारी हुने)</translation>
+        <translation>umask 077 को सट�?टामा प�?रणालीको डिफल�?ट अन�?मतिको साथमा नया�? फाइलहरू सिर�?जना गर�?न�?होस�? । (असक�?षम गरि�?को वालेट कार�?यक�?षमतामा मात�?र प�?रभावकारी ह�?ने)</translation>
     </message>
     <message>
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
-        <translation>आफ्नै IP ठेगाना पत्ता लगाउनुहोस् (सुन्दा र -बाहिरीआइपी वा -प्रोक्सी नहुँदा डिफल्ट: 1 )</translation>
+        <translation>आफ�?नै IP ठेगाना पत�?ता लगाउन�?होस�? (स�?न�?दा र -बाहिरीआइपी वा -प�?रोक�?सी नह�?�?दा डिफल�?ट: 1 )</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>त्रुटि: आगमन कनेक्सनमा सुन्ने कार्य असफल भयो (सुन्ने कार्यले त्रुटि %s फर्कायो)</translation>
+        <translation>त�?र�?टि: आगमन कनेक�?सनमा स�?न�?ने कार�?य असफल भयो (स�?न�?ने कार�?यले त�?र�?टि %s फर�?कायो)</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>सान्दर्भिक चेतावनी प्राप्त गर्दा आदेश कार्यान्वयन गर्नुहोस् नभए धेरै लामो फोर्क देखा पर्न सक्छ । (cmd को %s लाई सन्देशले प्रतिस्थापन गर्छ)</translation>
+        <translation>सान�?दर�?भिक चेतावनी प�?राप�?त गर�?दा आदेश कार�?यान�?वयन गर�?न�?होस�? नभ�? धेरै लामो फोर�?क देखा पर�?न सक�?छ । (cmd को %s लाई सन�?देशले प�?रतिस�?थापन गर�?छ)</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
-        <translation>रिले, खनन वा कारोबारको सिर्जनाको लागि यो भन्दा कम शुल्क (%s/kB मा) लाई शून्य शुल्कको रूपमा लिइन्छ । (डिफल्ट: %s)</translation>
+        <translation>रिले, खनन वा कारोबारको सिर�?जनाको लागि यो भन�?दा कम श�?ल�?क (%s/kB मा) लाई शून�?य श�?ल�?कको रूपमा लिइन�?छ । (डिफल�?ट: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
-        <translation>paytxfee सेट गरिएको छैन भने, औसतमा n ब्लक भित्र कारोबार पुष्टिकरण सुरु होस् भन्नका लागि पर्याप्त शुल्क समावेश गर्नुहोस् (डिफल्ट: %u)</translation>
+        <translation>paytxfee सेट गरि�?को छैन भने, औसतमा n ब�?लक भित�?र कारोबार प�?ष�?टिकरण स�?र�? होस�? भन�?नका लागि पर�?याप�?त श�?ल�?क समावेश गर�?न�?होस�? (डिफल�?ट: %u)</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>maxtxfee=&amp;lt;रकम&amp;gt;: का लागि अमान्य रकम &amp;apos;%s&amp;apos; (कारोबारलाई अड्कन नदिन अनिवार्य रूपमा कम्तिमा %s को न्यूनतम रिले शुल्क हुनु पर्छ)</translation>
+        <translation>maxtxfee=&amp;lt;रकम&amp;gt;: का लागि अमान�?य रकम &amp;apos;%s&amp;apos; (कारोबारलाई अड�?कन नदिन अनिवार�?य रूपमा कम�?तिमा %s को न�?यूनतम रिले श�?ल�?क ह�?न�? पर�?छ)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>हामीले रिले र खनन गर्ने डाटा वाहक कारोबारको डाटाको अधिकतम आकार (डिफल्ट: %u)</translation>
+        <translation>हामीले रिले र खनन गर�?ने डाटा वाहक कारोबारको डाटाको अधिकतम आकार (डिफल�?ट: %u)</translation>
     </message>
     <message>
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
-        <translation>हरेक प्रोक्सी कनेक्सनका लागि क्रेडिन्सियल अनियमित बनाउनुहोस् । यसले टोर स्ट्रिमको अलगावलाई सक्षम पार्छ (डिफल्ट: %u)</translation>
+        <translation>हरेक प�?रोक�?सी कनेक�?सनका लागि क�?रेडिन�?सियल अनियमित बनाउन�?होस�? । यसले टोर स�?ट�?रिमको अलगावलाई सक�?षम पार�?छ (डिफल�?ट: %u)</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>बाइटमा उच्च-प्राथमिकता/कम शुल्कको कारोबारको अधिकतम आकार सेट गर्नुहोस् (डिफल्ट: %d)</translation>
+        <translation>बाइटमा उच�?च-प�?राथमिकता/कम श�?ल�?कको कारोबारको अधिकतम आकार सेट गर�?न�?होस�? (डिफल�?ट: %d)</translation>
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
-        <translation>कारोबार रकम शुल्क कटौती गरेपछि पठाउँदा धेरै नै सानो हुन्छ</translation>
+        <translation>कारोबार रकम श�?ल�?क कटौती गरेपछि पठाउ�?दा धेरै नै सानो ह�?न�?छ</translation>
     </message>
     <message>
         <source>Use hierarchical deterministic key generation (HD) after BIP32. Only has effect during wallet creation/first start</source>
-        <translation>BIP32 पछि पदानुक्रमित निर्धारक की सिर्जना (HD) प्रयोग गर्नुहोस् ।. केवल वालेट सिर्जना/पहिलो सुरुवातको समयमा प्रभाव पार्छ</translation>
+        <translation>BIP32 पछि पदान�?क�?रमित निर�?धारक की सिर�?जना (HD) प�?रयोग गर�?न�?होस�? ।. केवल वालेट सिर�?जना/पहिलो स�?र�?वातको समयमा प�?रभाव पार�?छ</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>श्वेतसूचीका सहकर्मी पहिलैबाट मेमपूल, उपयोगीमा भए पनि उनीहरूलाई DoS banned गर्न सकिँदैन र उनीहरूको कारोबार सधैं रिले हुन्छ, उदाहरण, गेटवेको लाग</translation>
+        <translation>श�?वेतसूचीका सहकर�?मी पहिलैबाट मेमपूल, उपयोगीमा भ�? पनि उनीहरूलाई DoS banned गर�?न सकि�?दैन र उनीहरूको कारोबार सधैं रिले ह�?न�?छ, उदाहरण, गेटवेको लाग</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
-        <translation>तपाईंले काटछाँट नगरेको मोडमा जान पुनः सूचकांक प्रयोग गरेर डाटाबेस पुनर्निर्माण गर्नु पर्ने हुन्छ । यसले सम्पूर्ण ब्लकचेनलाई फेरि डाउनलोड गर्नेछ</translation>
+        <translation>तपाईंले काटछा�?ट नगरेको मोडमा जान प�?नः सूचकांक प�?रयोग गरेर डाटाबेस प�?नर�?निर�?माण गर�?न�? पर�?ने ह�?न�?छ । यसले सम�?पूर�?ण ब�?लकचेनलाई फेरि डाउनलोड गर�?नेछ</translation>
     </message>
     </context>
 </TS>

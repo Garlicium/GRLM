@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>کپی نشانی انتخاب شده کنونی به حافظه‌ی سیستم</translation>
+        <translation>کپی نشانی انتخاب شده کنونی به حا�?ظه‌ی سیستم</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,11 +27,11 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>حذف نشانی انتخاب‌شده کنونی از لیست</translation>
+        <translation>حذ�? نشانی انتخاب‌شده کنونی از لیست</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>خروجی گرفتن داده‌های برگه‌ی فعلی به یک فایل</translation>
+        <translation>خروجی گر�?تن داده‌های برگه‌ی �?علی به یک �?ایل</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -39,7 +39,7 @@
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;حذف</translation>
+        <translation>&amp;حذ�?</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -47,7 +47,7 @@
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>آدرس موردنظر برای دریافت کوین ها را انتخاب کنید.</translation>
+        <translation>آدرس موردنظر برای دریا�?ت کوین ها را انتخاب کنید.</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -55,15 +55,15 @@
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>آدرس های فرستنده</translation>
+        <translation>آدرس های �?رستنده</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
         <translation>آدرس های گیرنده</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>اینها آدرس های شما برای فرستادن پرداخت هاست. همیشه قبل از فرستادن سکه ها مقدار و آدرس دریافت کننده را چک کنید.</translation>
+        <source>These are your Garlicium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>اینها آدرس های شما برای �?رستادن پرداخت هاست. همیشه قبل از �?رستادن سکه ها مقدار و آدرس دریا�?ت کننده را چک کنید.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -83,7 +83,7 @@
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>صدور موفق نبود</translation>
+        <translation>صدور مو�?ق نبود</translation>
     </message>
     </context>
 <context>
@@ -121,23 +121,23 @@
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>رمزنگاری کیف پول</translation>
+        <translation>رمزنگاری کی�? پول</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>این عملیات نیاز به عبارت کیف پول شما برای بازگشایی کیف پول دارد</translation>
+        <translation>این عملیات نیاز به عبارت کی�? پول شما برای بازگشایی کی�? پول دارد</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>باز کردن قفل کیف پول</translation>
+        <translation>باز کردن ق�?ل کی�? پول</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>این عملیات نیاز به عبارت کیف پول شما برای رمزگشایی کیف پول دارد.</translation>
+        <translation>این عملیات نیاز به عبارت کی�? پول شما برای رمزگشایی کی�? پول دارد.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>رمزگشایی کیف پول</translation>
+        <translation>رمزگشایی کی�? پول</translation>
     </message>
     <message>
         <source>Change passphrase</source>
@@ -145,39 +145,39 @@
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>عبارت کهنه و جدید کیف پول را وارد کنید.</translation>
+        <translation>عبارت کهنه و جدید کی�? پول را وارد کنید.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>تأیید رمزنگاری کیف پول</translation>
+        <translation>تأیید رمزنگاری کی�? پول</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>آیا مطمئن هستید که می‌خواهید کیف پول خود را رمزنگاری کنید؟</translation>
+        <translation>آیا مطمئن هستید که می‌خواهید کی�? پول خود را رمزنگاری کنید؟</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>کیف پول رمزنگاری شد</translation>
+        <translation>کی�? پول رمزنگاری شد</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>رمزنگاری کیف پول با شکست مواجه شد</translation>
+        <translation>رمزنگاری کی�? پول با شکست مواجه شد</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>رمزنگاری کیف پول بنا به یک خطای داخلی با شکست مواجه شد. کیف پول شما رمزنگاری نشد.</translation>
+        <translation>رمزنگاری کی�? پول بنا به یک خطای داخلی با شکست مواجه شد. کی�? پول شما رمزنگاری نشد.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>بازگشایی قفل کیف‌پول با شکست مواجه شد</translation>
+        <translation>بازگشایی ق�?ل کی�?‌پول با شکست مواجه شد</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>رمزگشایی کیف پول با شکست مواجه شد</translation>
+        <translation>رمزگشایی کی�? پول با شکست مواجه شد</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>گذرواژهٔ کیف پول با موفقیت عوض شد.</translation>
+        <translation>گذرواژهٔ کی�? پول با مو�?قیت عوض شد.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -215,7 +215,7 @@
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>نمایش بررسی اجمالی کیف پول</translation>
+        <translation>نمایش بررسی اجمالی کی�? پول</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -259,11 +259,11 @@
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;رمزنگاری کیف پول...</translation>
+        <translation>&amp;رمزنگاری کی�? پول...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;پیشتیبان‌گیری از کیف پول...</translation>
+        <translation>&amp;پیشتیبان‌گیری از کی�? پول...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
@@ -275,7 +275,7 @@
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;در حال دریافت آدرس ها...</translation>
+        <translation>&amp;در حال دریا�?ت آدرس ها...</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -283,31 +283,31 @@
     </message>
     <message>
         <source>Click to disable network activity.</source>
-        <translation>برای غیر فعال کردن فعالیت شبکه کلیک کنید.</translation>
+        <translation>برای غیر �?عال کردن �?عالیت شبکه کلیک کنید.</translation>
     </message>
     <message>
         <source>Network activity disabled.</source>
-        <translation>فعالیت شبکه غیر فعال شد.</translation>
+        <translation>�?عالیت شبکه غیر �?عال شد.</translation>
     </message>
     <message>
         <source>Click to enable network activity again.</source>
-        <translation>برای فعال کردن دوباره فعالیت شبکه کلیک کنید.</translation>
+        <translation>برای �?عال کردن دوباره �?عالیت شبکه کلیک کنید.</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
         <translation>بازنشانی بلوک‌ها روی دیسک...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>ارسال وجه به نشانی Litecoin</translation>
+        <source>Send coins to a Garlicium address</source>
+        <translation>ارسال وجه به نشانی Garlicium</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>تهیهٔ پشتیبان از کیف پول در یک مکان دیگر</translation>
+        <translation>تهیهٔ پشتیبان از کی�? پول در یک مکان دیگر</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>تغییر گذرواژهٔ مورد استفاده در رمزنگاری کیف پول</translation>
+        <translation>تغییر گذرواژهٔ مورد است�?اده در رمزنگاری کی�? پول</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -322,12 +322,12 @@
         <translation>با&amp;زبینی پیام...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Garlicium</source>
+        <translation>Garlicium</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>کیف پول</translation>
+        <translation>کی�? پول</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -335,7 +335,7 @@
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;دریافت</translation>
+        <translation>&amp;دریا�?ت</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -343,23 +343,23 @@
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>نمایش یا مخفی‌کردن پنجرهٔ اصلی</translation>
+        <translation>نمایش یا مخ�?ی‌کردن پنجرهٔ اصلی</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>رمزنگاری کلیدهای خصوصی متعلق به کیف پول شما</translation>
+        <translation>رمزنگاری کلیدهای خصوصی متعلق به کی�? پول شما</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>برای اثبات اینکه پیام‌ها به شما تعلق دارند، آن‌ها را با نشانی Litecoin خود امضا کنید</translation>
+        <source>Sign messages with your Garlicium addresses to prove you own them</source>
+        <translation>برای اثبات اینکه پیام‌ها به شما تعلق دارند، آن‌ها را با نشانی Garlicium خود امضا کنید</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>برای حصول اطمینان از اینکه پیام با نشانی Litecoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
+        <source>Verify messages to ensure they were signed with specified Garlicium addresses</source>
+        <translation>برای حصول اطمینان از اینکه پیام با نشانی Garlicium مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;فایل</translation>
+        <translation>&amp;�?ایل</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
@@ -374,8 +374,8 @@
         <translation>نوارابزار برگه‌ها</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>درخواست پرداخت ( تولید کد کیوار و ادرس litecoin)</translation>
+        <source>Request payments (generates QR codes and garlicium: URIs)</source>
+        <translation>درخواست پرداخت ( تولید کد کیوار و ادرس garlicium)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -383,19 +383,19 @@
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>نمایش لیست آدرس های دریافت و لیبل ها</translation>
+        <translation>نمایش لیست آدرس های دریا�?ت و لیبل ها</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>بازکردن یک litecoin: آدرس یا درخواست پرداخت</translation>
+        <source>Open a garlicium: URI or payment request</source>
+        <translation>بازکردن یک garlicium: آدرس یا درخواست پرداخت</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>گزینه‌های خط‌فرمان</translation>
+        <translation>گزینه‌های خط‌�?رمان</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n ارتباط فعال با شبکهٔ Litecoin</numerusform></translation>
+        <source>%n active connection(s) to Garlicium network</source>
+        <translation><numerusform>%n ارتباط �?عال با شبکهٔ Garlicium</numerusform></translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
@@ -411,7 +411,7 @@
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>آخرین بلاک دریافتی %1 پیش ایجاد شده است.</translation>
+        <translation>آخرین بلاک دریا�?تی %1 پیش ایجاد شده است.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
@@ -473,15 +473,15 @@
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>تراکنش دریافت شد</translation>
+        <translation>تراکنش دریا�?ت شد</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>کیف پول &lt;b&gt;رمزنگاری شده&lt;/b&gt; است و هم‌اکنون &lt;b&gt;باز&lt;/b&gt; است</translation>
+        <translation>کی�? پول &lt;b&gt;رمزنگاری شده&lt;/b&gt; است و هم‌اکنون &lt;b&gt;باز&lt;/b&gt; است</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>کیف پول &lt;b&gt;رمزنگاری شده&lt;/b&gt; است و هم‌اکنون &lt;b&gt;قفل&lt;/b&gt; است</translation>
+        <translation>کی�? پول &lt;b&gt;رمزنگاری شده&lt;/b&gt; است و هم‌اکنون &lt;b&gt;ق�?ل&lt;/b&gt; است</translation>
     </message>
     </context>
 <context>
@@ -532,11 +532,11 @@
     </message>
     <message>
         <source>Received with label</source>
-        <translation>دریافت شده با برچسب</translation>
+        <translation>دریا�?ت شده با برچسب</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>دریافت شده با نشانی</translation>
+        <translation>دریا�?ت شده با نشانی</translation>
     </message>
     <message>
         <source>Date</source>
@@ -568,11 +568,11 @@
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>قفل کردن خرج نشده ها</translation>
+        <translation>ق�?ل کردن خرج نشده ها</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>بازکردن قفل خرج نشده ها</translation>
+        <translation>بازکردن ق�?ل خرج نشده ها</translation>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -592,7 +592,7 @@
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation>(%1 قفل شده)</translation>
+        <translation>(%1 ق�?ل شده)</translation>
     </message>
     <message>
         <source>yes</source>
@@ -631,7 +631,7 @@
     </message>
     <message>
         <source>New sending address</source>
-        <translation>نشانی فرستنده جدید</translation>
+        <translation>نشانی �?رستنده جدید</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
@@ -642,16 +642,16 @@
         <translation>ویرایش آدرس قرستنده</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Litecoin address.</source>
-        <translation>نشانی وارد شده "%1" یک نشانی معتبر Litecoin نیست.</translation>
+        <source>The entered address "%1" is not a valid Garlicium address.</source>
+        <translation>نشانی وارد شده "%1" یک نشانی معتبر Garlicium نیست.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>نشانی وارد شده «%1» در حال حاضر در دفترچه وجود دارد.</translation>
+        <translation>نشانی وارد شده «%1» در حال حاضر در د�?ترچه وجود دارد.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>نمی‌توان کیف پول را رمزگشایی کرد.</translation>
+        <translation>نمی‌توان کی�? پول را رمزگشایی کرد.</translation>
     </message>
     </context>
 <context>
@@ -666,7 +666,7 @@
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>این پوشه در حال حاضر وجود دارد. اگر می‌خواهید یک دایرکتوری جدید در این‌جا ایجاد کنید، %1 را اضافه کنید.</translation>
+        <translation>این پوشه در حال حاضر وجود دارد. اگر می‌خواهید یک دایرکتوری جدید در این‌جا ایجاد کنید، %1 را اضا�?ه کنید.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
@@ -693,15 +693,15 @@
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>گزینه‌های خط‌فرمان</translation>
+        <translation>گزینه‌های خط‌�?رمان</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>استفاده:</translation>
+        <translation>است�?اده:</translation>
     </message>
     <message>
         <source>command-line options</source>
-        <translation>گزینه‌های خط فرمان</translation>
+        <translation>گزینه‌های خط �?رمان</translation>
     </message>
     <message>
         <source>UI Options:</source>
@@ -709,7 +709,7 @@
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>زبان را تنظیم کنید؛ برای مثال «de_DE» (پیشفرض: زبان سیستم)</translation>
+        <translation>زبان را تنظیم کنید؛ برای مثال «de_DE» (پیش�?رض: زبان سیستم)</translation>
     </message>
     <message>
         <source>Start minimized</source>
@@ -717,11 +717,11 @@
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>تنظیم گواهی ریشه SSl برای درخواست پرداخت (پیشفرض: -system-)</translation>
+        <translation>تنظیم گواهی ریشه SSl برای درخواست پرداخت (پیش�?رض: -system-)</translation>
     </message>
     <message>
         <source>Show splash screen on startup (default: %u)</source>
-        <translation>نمایش پنجرهٔ خوشامدگویی در ابتدای اجرای برنامه (پیش‌فرض: %u)</translation>
+        <translation>نمایش پنجرهٔ خوشامدگویی در ابتدای اجرای برنامه (پیش‌�?رض: %u)</translation>
     </message>
     </context>
 <context>
@@ -736,11 +736,11 @@
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>استفاده از مسیر پیش‌فرض</translation>
+        <translation>است�?اده از مسیر پیش‌�?رض</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>استفاده از یک مسیر سفارشی:</translation>
+        <translation>است�?اده از یک مسیر س�?ارشی:</translation>
     </message>
     <message>
         <source>Error</source>
@@ -748,14 +748,14 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n گیگابایت فضا موجود است</numerusform></translation>
+        <translation><numerusform>%n گیگابایت �?ضا موجود است</numerusform></translation>
     </message>
     </context>
 <context>
     <name>ModalOverlay</name>
     <message>
         <source>Form</source>
-        <translation>فرم</translation>
+        <translation>�?رم</translation>
     </message>
     <message>
         <source>Unknown...</source>
@@ -794,7 +794,7 @@
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>بازکردن درخواست پرداخت از آدرس یا فایل</translation>
+        <translation>بازکردن درخواست پرداخت از آدرس یا �?ایل</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -802,7 +802,7 @@
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>انتخاب فایل درخواست پرداخت</translation>
+        <translation>انتخاب �?ایل درخواست پرداخت</translation>
     </message>
     </context>
 <context>
@@ -829,11 +829,11 @@
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>اجازه دادن به اتصالات دریافتی</translation>
+        <translation>اجازه دادن به اتصالات دریا�?تی</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>بازنشانی تمام تنظیمات به پیش‌فرض.</translation>
+        <translation>بازنشانی تمام تنظیمات به پیش‌�?رض.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
@@ -845,19 +845,19 @@
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>کیف پول</translation>
+        <translation>کی�? پول</translation>
     </message>
     <message>
         <source>Expert</source>
         <translation>استخراج</translation>
     </message>
     <message>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>باز کردن خودکار درگاه شبکهٔ Litecoin روی روترها. تنها زمانی کار می‌کند که روتر از پروتکل UPnP پشتیبانی کند و این پروتکل فعال باشد.</translation>
+        <source>Automatically open the Garlicium client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>باز کردن خودکار درگاه شبکهٔ Garlicium روی روترها. تنها زمانی کار می‌کند که روتر از پروتکل UPnP پشتیبانی کند و این پروتکل �?عال باشد.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>نگاشت درگاه شبکه با استفاده از پروتکل &amp;UPnP</translation>
+        <translation>نگاشت درگاه شبکه با است�?اده از پروتکل &amp;UPnP</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -893,7 +893,7 @@
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;کوچک کردن به سینی به‌جای نوار وظیفه</translation>
+        <translation>&amp;کوچک کردن به سینی به‌جای نوار وظی�?ه</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
@@ -913,7 +913,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>انتخاب واحد پول مورد استفاده برای نمایش در پنجره‌ها و برای ارسال سکه.</translation>
+        <translation>انتخاب واحد پول مورد است�?اده برای نمایش در پنجره‌ها و برای ارسال سکه.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -925,7 +925,7 @@
     </message>
     <message>
         <source>default</source>
-        <translation>پیش‌فرض</translation>
+        <translation>پیش‌�?رض</translation>
     </message>
     <message>
         <source>none</source>
@@ -933,7 +933,7 @@
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>تأییدِ بازنشانی گزینه‌ها</translation>
+        <translation>تأیید�? بازنشانی گزینه‌ها</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
@@ -948,11 +948,11 @@
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>فرم</translation>
+        <translation>�?رم</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش‌داده شده ممکن است قدیمی باشند. بعد از این که یک اتصال با شبکه برقرار شد، کیف پول شما به‌صورت خودکار با شبکهٔ Litecoin همگام‌سازی می‌شود. اما این روند هنوز کامل نشده است.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Garlicium network after a connection is established, but this process has not completed yet.</source>
+        <translation>اطلاعات نمایش‌داده شده ممکن است قدیمی باشند. بعد از این که یک اتصال با شبکه برقرار شد، کی�? پول شما به‌صورت خودکار با شبکهٔ Garlicium همگام‌سازی می‌شود. اما این روند هنوز کامل نشده است.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -988,7 +988,7 @@
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>تراز کل فعلی شما</translation>
+        <translation>تراز کل �?علی شما</translation>
     </message>
     <message>
         <source>Spendable:</source>
@@ -1016,8 +1016,8 @@
         <translation>مبلغ</translation>
     </message>
     <message>
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>یک آدرس Litecoin وارد کنید (مثلاً %1)</translation>
+        <source>Enter a Garlicium address (e.g. %1)</source>
+        <translation>یک آدرس Garlicium وارد کنید (مثلاً %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1102,19 +1102,19 @@
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>تعداد فعلی بلوک‌ها</translation>
+        <translation>تعداد �?علی بلوک‌ها</translation>
     </message>
     <message>
         <source>Memory Pool</source>
-        <translation>استخر حافظه</translation>
+        <translation>استخر حا�?ظه</translation>
     </message>
     <message>
         <source>Memory usage</source>
-        <translation>مصرف حافظه</translation>
+        <translation>مصر�? حا�?ظه</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>دریافتی</translation>
+        <translation>دریا�?تی</translation>
     </message>
     <message>
         <source>Sent</source>
@@ -1138,7 +1138,7 @@
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>آخرین دریافتی</translation>
+        <translation>آخرین دریا�?تی</translation>
     </message>
     <message>
         <source>Ping Time</source>
@@ -1174,7 +1174,7 @@
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>فایلِ لاگِ اشکال زدایی</translation>
+        <translation>�?ایل�? لاگ�? اشکال زدایی</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -1190,7 +1190,7 @@
     </message>
     <message>
         <source>1 &amp;week</source>
-        <translation>1 هفته</translation>
+        <translation>1 ه�?ته</translation>
     </message>
     <message>
         <source>1 &amp;year</source>
@@ -1202,7 +1202,7 @@
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>دکمه‌های بالا و پایین برای پیمایش تاریخچه و &lt;b&gt;Ctrl-L&lt;/b&gt; برای پاک کردن صفحه.</translation>
+        <translation>دکمه‌های بالا و پایین برای پیمایش تاریخچه و &lt;b&gt;Ctrl-L&lt;/b&gt; برای پاک کردن ص�?حه.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
@@ -1257,11 +1257,11 @@
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>برای درخواست پرداخت از این فرم استفاده کنید.تمام قسمت ها &lt;b&gt;اختیاری&lt;b&gt; هستند.</translation>
+        <translation>برای درخواست پرداخت از این �?رم است�?اده کنید.تمام قسمت ها &lt;b&gt;اختیاری&lt;b&gt; هستند.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>تمام قسمت های فرم را خالی کن.</translation>
+        <translation>تمام قسمت های �?رم را خالی کن.</translation>
     </message>
     <message>
         <source>Clear</source>
@@ -1273,11 +1273,11 @@
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>حذف ورودی های انتخاب‌شده از لیست</translation>
+        <translation>حذ�? ورودی های انتخاب‌شده از لیست</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>حذف کردن</translation>
+        <translation>حذ�? کردن</translation>
     </message>
     <message>
         <source>Copy label</source>
@@ -1338,7 +1338,7 @@
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>بود جه نا کافی </translation>
+        <translation>بود جه نا کا�?ی </translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -1390,7 +1390,7 @@
     </message>
     <message>
         <source>Custom:</source>
-        <translation>سفارشی:</translation>
+        <translation>س�?ارشی:</translation>
     </message>
     <message>
         <source>normal</source>
@@ -1402,15 +1402,15 @@
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>ارسال به چند دریافت‌کنندهٔ به‌طور همزمان</translation>
+        <translation>ارسال به چند دریا�?ت‌کنندهٔ به‌طور همزمان</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>&amp;دریافت‌کنندهٔ جدید</translation>
+        <translation>&amp;دریا�?ت‌کنندهٔ جدید</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>تمام قسمت های فرم را خالی کن.</translation>
+        <translation>تمام قسمت های �?رم را خالی کن.</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1469,15 +1469,15 @@
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>انتخاب نشانی پیش‌تر استفاده شده</translation>
+        <translation>انتخاب نشانی پیش‌تر است�?اده شده</translation>
     </message>
     <message>
         <source>This is a normal payment.</source>
         <translation>این یک پرداخت عادی است</translation>
     </message>
     <message>
-        <source>The Litecoin address to send the payment to</source>
-        <translation>نشانی Litecoin برای ارسال پرداخت به آن</translation>
+        <source>The Garlicium address to send the payment to</source>
+        <translation>نشانی Garlicium برای ارسال پرداخت به آن</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1485,7 +1485,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>چسباندن نشانی از حافظهٔ سیستم</translation>
+        <translation>چسباندن نشانی از حا�?ظهٔ سیستم</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1493,7 +1493,7 @@
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>حذف این مدخل</translation>
+        <translation>حذ�? این مدخل</translation>
     </message>
     <message>
         <source>Message:</source>
@@ -1529,12 +1529,12 @@
         <translation>ا&amp;مضای پیام</translation>
     </message>
     <message>
-        <source>The Litecoin address to sign the message with</source>
-        <translation>نشانی Litecoin برای امضاء پیغام با آن</translation>
+        <source>The Garlicium address to sign the message with</source>
+        <translation>نشانی Garlicium برای امضاء پیغام با آن</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>انتخاب نشانی پیشتر استفاده شده</translation>
+        <translation>انتخاب نشانی پیشتر است�?اده شده</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1542,7 +1542,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>چسباندن نشانی از حافظهٔ سیستم</translation>
+        <translation>چسباندن نشانی از حا�?ظهٔ سیستم</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1558,10 +1558,10 @@
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>امضای فعلی را به حافظهٔ سیستم کپی کن</translation>
+        <translation>امضای �?علی را به حا�?ظهٔ سیستم کپی کن</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Litecoin address</source>
+        <source>Sign the message to prove you own this Garlicium address</source>
         <translation>برای اثبات تعلق این نشانی به شما، پیام را امضا کنید</translation>
     </message>
     <message>
@@ -1570,7 +1570,7 @@
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>بازنشانی تمام فیلدهای پیام</translation>
+        <translation>بازنشانی تمام �?یلدهای پیام</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1581,12 +1581,12 @@
         <translation>&amp;شناسایی پیام</translation>
     </message>
     <message>
-        <source>The Litecoin address the message was signed with</source>
-        <translation>نشانی Litecoin که پیغام با آن امضاء شده</translation>
+        <source>The Garlicium address the message was signed with</source>
+        <translation>نشانی Garlicium که پیغام با آن امضاء شده</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>برای حصول اطمینان از اینکه پیام با نشانی Litecoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
+        <source>Verify the message to ensure it was signed with the specified Garlicium address</source>
+        <translation>برای حصول اطمینان از اینکه پیام با نشانی Garlicium مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1594,7 +1594,7 @@
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>بازنشانی تمام فیلدهای پیام</translation>
+        <translation>بازنشانی تمام �?یلدهای پیام</translation>
     </message>
     </context>
 <context>
@@ -1618,7 +1618,7 @@
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>این پانل شامل توصیف کاملی از جزئیات تراکنش است</translation>
+        <translation>این پانل شامل توصی�? کاملی از جزئیات تراکنش است</translation>
     </message>
     </context>
 <context>
@@ -1660,7 +1660,7 @@
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>صدور موفق نبود</translation>
+        <translation>صدور مو�?ق نبود</translation>
     </message>
     </context>
 <context>
@@ -1687,7 +1687,7 @@
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>اتصال به یک گره برای دریافت آدرس‌های همتا و قطع اتصال پس از اتمام عملیات</translation>
+        <translation>اتصال به یک گره برای دریا�?ت آدرس‌های همتا و قطع اتصال پس از اتمام عملیات</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
@@ -1695,23 +1695,23 @@
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>پذیرش دستورات خط فرمان و دستورات JSON-RPC</translation>
+        <translation>پذیرش دستورات خط �?رمان و دستورات JSON-RPC</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
         <translation>اجرا در پشت زمینه به‌صورت یک سرویس و پذیرش دستورات</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation> هسته Litecoin </translation>
+        <source>Garlicium Core</source>
+        <translation> هسته Garlicium </translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>مقید به نشانی داده شده باشید و همیشه از آن پیروی کنید. از نشانه گذاری استاندار IPv6 به صورت Host]:Port] استفاده کنید.</translation>
+        <translation>مقید به نشانی داده شده باشید و همیشه از آن پیروی کنید. از نشانه گذاری استاندار IPv6 به صورت Host]:Port] است�?اده کنید.</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>هنگامی که یک تراکنش در کیف پولی رخ می دهد، دستور را اجرا کن(%s در دستورات بوسیله ی TxID جایگزین می شود)</translation>
+        <translation>هنگامی که یک تراکنش در کی�? پولی رخ می دهد، دستور را اجرا کن(%s در دستورات بوسیله ی TxID جایگزین می شود)</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -1723,11 +1723,11 @@
     </message>
     <message>
         <source>Copyright (C) %i-%i</source>
-        <translation>حق تألیف (C) %i-%i</translation>
+        <translation>حق تألی�? (C) %i-%i</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>یک پایگاه داده ی بلوک خراب یافت شد</translation>
+        <translation>یک پایگاه داده ی بلوک خراب یا�?ت شد</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
@@ -1751,11 +1751,11 @@
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>خطا: فضای دیسک کم است!</translation>
+        <translation>خطا: �?ضای دیسک کم است!</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>شنیدن هر گونه درگاه انجام پذیر نیست. ازlisten=0  برای اینکار استفاده کیند.</translation>
+        <translation>شنیدن هر گونه درگاه انجام پذیر نیست. ازlisten=0  برای اینکار است�?اده کیند.</translation>
     </message>
     <message>
         <source>Importing...</source>
@@ -1779,15 +1779,15 @@
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>در حال بازبینی کیف پول...</translation>
+        <translation>در حال بازبینی کی�? پول...</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>گزینه‌های کیف پول:</translation>
+        <translation>گزینه‌های کی�? پول:</translation>
     </message>
     <message>
         <source>(default: %u)</source>
-        <translation>(پیش‌فرض %u)</translation>
+        <translation>(پیش‌�?رض %u)</translation>
     </message>
     <message>
         <source>Information</source>
@@ -1795,11 +1795,11 @@
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>اطلاعات ردگیری/اشکال‌زدایی را به جای فایل لاگ اشکال‌زدایی به کنسول بفرستید</translation>
+        <translation>اطلاعات ردگیری/اشکال‌زدایی را به جای �?ایل لاگ اشکال‌زدایی به کنسول ب�?رستید</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>فایل debug.log  را در startup مشتری کوچک کن (پیش فرض:1 اگر اشکال زدایی روی نداد)</translation>
+        <translation>�?ایل debug.log  را در startup مشتری کوچک کن (پیش �?رض:1 اگر اشکال زدایی روی نداد)</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -1819,7 +1819,7 @@
     </message>
     <message>
         <source>Warning: unknown new rules activated (versionbit %i)</source>
-        <translation>هشدار: قوانین جدید ناشناخته‌ای فعال شده‌اند (نسخه‌بیت %i)</translation>
+        <translation>هشدار: قوانین جدید ناشناخته‌ای �?عال شده‌اند (نسخه‌بیت %i)</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
@@ -1839,7 +1839,7 @@
     </message>
     <message>
         <source>(default: %s)</source>
-        <translation>(پیش‌فرض %s)</translation>
+        <translation>(پیش‌�?رض %s)</translation>
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
@@ -1851,7 +1851,7 @@
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>بود جه نا کافی </translation>
+        <translation>بود جه نا کا�?ی </translation>
     </message>
     <message>
         <source>Loading block index...</source>
@@ -1859,7 +1859,7 @@
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>به اتصال یک گره اضافه کنید و اتصال را باز نگاه دارید</translation>
+        <translation>به اتصال یک گره اضا�?ه کنید و اتصال را باز نگاه دارید</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
@@ -1871,7 +1871,7 @@
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>آدرس پیش فرض قابل ذخیره نیست</translation>
+        <translation>آدرس پیش �?رض قابل ذخیره نیست</translation>
     </message>
     <message>
         <source>Rescanning...</source>

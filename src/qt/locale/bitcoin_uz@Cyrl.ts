@@ -3,11 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Манзил ёки ёрлиқни таҳрирлаш учун икки марта босинг</translation>
+        <translation>Манзил ёки ёрлиқни таҳрирлаш учун икки марта бо�?инг</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Янги манзил яратинг</translation>
+        <translation>Янги манзил �?ратинг</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,15 +15,15 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Жорий танланган манзилни тизим вақтинчалик хотирасига нусха кўчиринг</translation>
+        <translation>Жорий танланган манзилни тизим вақтинчалик хотира�?ига ну�?ха кўчиринг</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Нусха олиш</translation>
+        <translation>&amp;�?у�?ха олиш</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>&amp;Ёпиш</translation>
+        <translation>&amp;�?пиш</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -31,11 +31,11 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Жорий ички ойна ичидаги маълумотларни файлга экспорт қилиш</translation>
+        <translation>Жорий ички ойна ичидаги маълумотларни файлга �?к�?порт қилиш</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Экспорт</translation>
+        <translation>&amp;Эк�?порт</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -49,19 +49,19 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Махфий сўз ойнаси</translation>
+        <translation>Махфий �?ўз ойна�?и</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Махфий сузни киритинг</translation>
+        <translation>Махфий �?узни киритинг</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Янги махфий суз</translation>
+        <translation>Янги махфий �?уз</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Янги махфий сузни такрорланг</translation>
+        <translation>Янги махфий �?узни такрорланг</translation>
     </message>
     </context>
 <context>
@@ -75,7 +75,7 @@
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Тармоқ билан синхронланмоқда...</translation>
+        <translation>Тармоқ билан �?инхронланмоқда...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
@@ -87,7 +87,7 @@
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Ҳамённинг умумий кўринишини кўрсатиш</translation>
+        <translation>Ҳамённинг умумий кўринишини кўр�?атиш</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -111,11 +111,11 @@
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Qt ҳақидаги маълумотларни кўрсатиш</translation>
+        <translation>Qt ҳақидаги маълумотларни кўр�?атиш</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Мосламалар...</translation>
+        <translation>&amp;Мо�?ламалар...</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
@@ -127,7 +127,7 @@
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>Махфий сўзни &amp;ўзгартириш...</translation>
+        <translation>Махфий �?ўзни &amp;ўзгартириш...</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
@@ -143,11 +143,11 @@
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Дискдаги блоклар қайта индексланмоқда...</translation>
+        <translation>Ди�?кдаги блоклар қайта индек�?ланмоқда...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Тангаларни Litecoin манзилига жўнатиш</translation>
+        <source>Send coins to a Garlicium address</source>
+        <translation>Тангаларни Garlicium манзилига жўнатиш</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -159,19 +159,19 @@
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>&amp;Носозликни ҳал қилиш ойнаси</translation>
+        <translation>&amp;�?о�?озликни ҳал қилиш ойна�?и</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>Носозликни ҳал қилиш ва ташхис терминали</translation>
+        <translation>�?о�?озликни ҳал қилиш ва ташхи�? терминали</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>Хабарни &amp;тасдиқлаш...</translation>
+        <translation>Хабарни &amp;та�?диқлаш...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Garlicium</source>
+        <translation>Garlicium</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -187,23 +187,23 @@
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Кўрсатиш / Яшириш</translation>
+        <translation>&amp;Кўр�?атиш / Яшириш</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Асосий ойнани кўрсатиш ёки яшириш</translation>
+        <translation>�?�?о�?ий ойнани кўр�?атиш ёки �?шириш</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Ҳамёнингизга тегишли махфий калитларни кодлаш</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Litecoin манзилидан унинг эгаси эканлигингизни исботлаш учун хабарлар ёзинг</translation>
+        <source>Sign messages with your Garlicium addresses to prove you own them</source>
+        <translation>Garlicium манзилидан унинг �?га�?и �?канлигингизни и�?ботлаш учун хабарлар ёзинг</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Хабарларни махсус Litecoin манзилларингиз билан ёзилганлигига ишонч ҳосил қилиш учун уларни тасдиқланг</translation>
+        <source>Verify messages to ensure they were signed with specified Garlicium addresses</source>
+        <translation>Хабарларни мах�?у�? Garlicium манзилларингиз билан ёзилганлигига ишонч ҳо�?ил қилиш учун уларни та�?диқланг</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -215,35 +215,35 @@
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Ёрдам</translation>
+        <translation>&amp;�?рдам</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Ички ойналар асбоблар панели</translation>
+        <translation>Ички ойналар а�?боблар панели</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Тўловлар (QR кодлари ва litecoin ёрдамида яратишлар: URI’лар) сўраш</translation>
+        <source>Request payments (generates QR codes and garlicium: URIs)</source>
+        <translation>Тўловлар (QR кодлари ва garlicium ёрдамида �?ратишлар: URI’лар) �?ўраш</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Фойдаланилган жўнатилган манзиллар ва ёрлиқлар рўйхатини кўрсатиш</translation>
+        <translation>Фойдаланилган жўнатилган манзиллар ва ёрлиқлар рўйхатини кўр�?атиш</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Фойдаланилган қабул қилинган манзиллар ва ёрлиқлар рўйхатини кўрсатиш</translation>
+        <translation>Фойдаланилган қабул қилинган манзиллар ва ёрлиқлар рўйхатини кўр�?атиш</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Litecoin’ни очиш: URI ёки тўлов сўрови</translation>
+        <source>Open a garlicium: URI or payment request</source>
+        <translation>Garlicium’ни очиш: URI ёки тўлов �?ўрови</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>&amp;Буйруқлар сатри мосламалари</translation>
+        <translation>&amp;Буйруқлар �?атри мо�?ламалари</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n та Litecoin тармоғига фаол уланиш мавжуд</numerusform></translation>
+        <source>%n active connection(s) to Garlicium network</source>
+        <translation><numerusform>%n та Garlicium тармоғига фаол уланиш мавжуд</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -251,7 +251,7 @@
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Сўнги қабул қилинган блок %1 олдин яратилган.</translation>
+        <translation>Сўнги қабул қилинган блок %1 олдин �?ратилган.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
@@ -279,11 +279,11 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Жўнатилган операция</translation>
+        <translation>Жўнатилган операци�?</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Кирувчи операция</translation>
+        <translation>Кирувчи операци�?</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
@@ -314,11 +314,11 @@
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Ахлат қутиси:</translation>
+        <translation>�?хлат қути�?и:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Солиқдан сўнг:</translation>
+        <translation>Солиқдан �?ўнг:</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -326,15 +326,15 @@
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>барчасини танаш (бекор қилиш)</translation>
+        <translation>барча�?ини танаш (бекор қилиш)</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Дарахт усулида</translation>
+        <translation>Дарахт у�?улида</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>Рўйхат усулида</translation>
+        <translation>Рўйхат у�?улида</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -346,11 +346,11 @@
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Тасдиқлашлар</translation>
+        <translation>Та�?диқлашлар</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Тасдиқланди</translation>
+        <translation>Та�?диқланди</translation>
     </message>
     </context>
 <context>
@@ -361,15 +361,15 @@
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>&amp;Ёрлик</translation>
+        <translation>&amp;�?рлик</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Ёрлиқ ушбу манзилар рўйхати ёзуви билан боғланган</translation>
+        <translation>�?рлиқ ушбу манзилар рўйхати ёзуви билан боғланган</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Манзил ушбу манзиллар рўйхати ёзуви билан боғланган. Уни фақат жўнатиладиган манзиллар учун ўзгартирса бўлади.</translation>
+        <translation>Манзил ушбу манзиллар рўйхати ёзуви билан боғланган. Уни фақат жўнатиладиган манзиллар учун ўзгартир�?а бўлади.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -380,7 +380,7 @@
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Янги маълумотлар директорияси яратилади.</translation>
+        <translation>Янги маълумотлар директори�?�?и �?ратилади.</translation>
     </message>
     <message>
         <source>name</source>
@@ -388,22 +388,22 @@
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Директория аллақачон мавжуд. Агар бу ерда янги директория яратмоқчи бўлсангиз, %1 қўшинг.</translation>
+        <translation>Директори�? аллақачон мавжуд. �?гар бу ерда �?нги директори�? �?ратмоқчи бўл�?ангиз, %1 қўшинг.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Йўл аллақачон мавжуд. У директория эмас.</translation>
+        <translation>Йўл аллақачон мавжуд. У директори�? �?ма�?.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>Маълумотлар директориясини бу ерда яратиб бўлмайди..</translation>
+        <translation>Маълумотлар директори�?�?ини бу ерда �?ратиб бўлмайди..</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>версияси</translation>
+        <translation>вер�?и�?�?и</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -411,7 +411,7 @@
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Буйруқлар сатри мосламалари</translation>
+        <translation>Буйруқлар �?атри мо�?ламалари</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -419,26 +419,26 @@
     </message>
     <message>
         <source>command-line options</source>
-        <translation>буйруқлар қатори орқали мослаш</translation>
+        <translation>буйруқлар қатори орқали мо�?лаш</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>Хуш келибсиз</translation>
+        <translation>Хуш келиб�?из</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Стандарт маълумотлар директориясидан фойдаланиш</translation>
+        <translation>Стандарт маълумотлар директори�?�?идан фойдаланиш</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>Бошқа маълумотлар директориясида фойдаланинг:</translation>
+        <translation>Бошқа маълумотлар директори�?�?ида фойдаланинг:</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Хато: кўрсатилган "%1" маълумотлар директориясини яратиб бўлмайди.</translation>
+        <translation>Хато: кўр�?атилган "%1" маълумотлар директори�?�?ини �?ратиб бўлмайди.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -464,7 +464,7 @@
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>URL файлдан тўлов сўровларини очиш</translation>
+        <translation>URL файлдан тўлов �?ўровларини очиш</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -472,7 +472,7 @@
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Тўлов сўрови файлини танлаш</translation>
+        <translation>Тўлов �?ўрови файлини танлаш</translation>
     </message>
     </context>
 <context>
@@ -483,11 +483,11 @@
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;Асосий</translation>
+        <translation>&amp;�?�?о�?ий</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>&amp;Маълумотлар базаси кеши</translation>
+        <translation>&amp;Маълумотлар база�?и кеши</translation>
     </message>
     <message>
         <source>MB</source>
@@ -495,7 +495,7 @@
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Мавзуларни &amp;тўғрилаш скрипти миқдори</translation>
+        <translation>Мавзуларни &amp;тўғрилаш �?крипти миқдори</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -503,11 +503,11 @@
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>Кирувчи уланишларга рухсат бериш</translation>
+        <translation>Кирувчи уланишларга рух�?ат бериш</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>Прокси IP манзили (масалан: IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <translation>Прок�?и IP манзили (ма�?алан: IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
@@ -523,7 +523,7 @@
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>Прокси &amp;IP рақами:</translation>
+        <translation>Прок�?и &amp;IP рақами:</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
@@ -531,7 +531,7 @@
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Прокси порти (e.g. 9050)</translation>
+        <translation>Прок�?и порти (e.g. 9050)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -539,27 +539,27 @@
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Ойна йиғилгандан сўнг фақат трэй нишончаси кўрсатилсин.</translation>
+        <translation>Ойна йиғилгандан �?ўнг фақат тр�?й нишонча�?и кўр�?атил�?ин.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>Манзиллар панели ўрнига трэйни &amp;йиғиш</translation>
+        <translation>Манзиллар панели ўрнига тр�?йни &amp;йиғиш</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>Ёпишда й&amp;иғиш</translation>
+        <translation>�?пишда й&amp;иғиш</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>&amp;Кўрсатиш</translation>
+        <translation>&amp;Кўр�?атиш</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>Фойдаланувчи интерфейси &amp;тили:</translation>
+        <translation>Фойдаланувчи интерфей�?и &amp;тили:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>Миқдорларни кўрсатиш учун &amp;қисм:</translation>
+        <translation>Миқдорларни кўр�?атиш учун &amp;қи�?м:</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -571,7 +571,7 @@
     </message>
     <message>
         <source>default</source>
-        <translation>стандарт</translation>
+        <translation>�?тандарт</translation>
     </message>
     <message>
         <source>none</source>
@@ -579,7 +579,7 @@
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Тасдиқлаш танловларини рад қилиш</translation>
+        <translation>Та�?диқлаш танловларини рад қилиш</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
@@ -591,7 +591,7 @@
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Келтирилган прокси манзили ишламайди.</translation>
+        <translation>Келтирилган прок�?и манзили ишламайди.</translation>
     </message>
 </context>
 <context>
@@ -601,8 +601,8 @@
         <translation>Шакл</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Кўрсатилган маълумот эскирган бўлиши мумкин. Ҳамёнингиз алоқа ўрнатилгандан сўнг Litecoin тармоқ билан автоматик тарзда синхронланади, аммо жараён ҳалигача тугалланмади.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Garlicium network after a connection is established, but this process has not completed yet.</source>
+        <translation>Кўр�?атилган маълумот �?�?кирган бўлиши мумкин. Ҳамёнингиз алоқа ўрнатилгандан �?ўнг Garlicium тармоқ билан автоматик тарзда �?инхронланади, аммо жараён ҳалигача тугалланмади.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -614,7 +614,7 @@
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>Жорий сарфланадиган балансингиз</translation>
+        <translation>Жорий �?арфланадиган балан�?ингиз</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -622,19 +622,19 @@
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Жами ўтказмалар ҳозиргача тасдиқланган ва сафланадиган баланс томонга ҳали ҳам ҳисобланмади</translation>
+        <translation>Жами ўтказмалар ҳозиргача та�?диқланган ва �?афланадиган балан�? томонга ҳали ҳам ҳи�?обланмади</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>Тайёр эмас:</translation>
+        <translation>Тайёр �?ма�?:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>Миналаштирилган баланс ҳалигача тайёр эмас</translation>
+        <translation>Миналаштирилган балан�? ҳалигача тайёр �?ма�?</translation>
     </message>
     <message>
         <source>Balances</source>
-        <translation>Баланслар</translation>
+        <translation>Балан�?лар</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -642,11 +642,11 @@
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Жорий умумий балансингиз</translation>
+        <translation>Жорий умумий балан�?ингиз</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>Жорий балансингиз фақат кўринадиган манзилларда</translation>
+        <translation>Жорий балан�?ингиз фақат кўринадиган манзилларда</translation>
     </message>
     <message>
         <source>Spendable:</source>
@@ -658,11 +658,11 @@
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Тасдиқланмаган ўтказмалар-фақат манзилларини кўриш</translation>
+        <translation>Та�?диқланмаган ўтказмалар-фақат манзилларини кўриш</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>Жорий умумий баланс фақат кўринадиган манзилларда</translation>
+        <translation>Жорий умумий балан�? фақат кўринадиган манзилларда</translation>
     </message>
 </context>
 <context>
@@ -682,8 +682,8 @@
         <translation>Миқдори</translation>
     </message>
     <message>
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Litecoin манзилини киритинг (масалан.  %1)</translation>
+        <source>Enter a Garlicium address (e.g. %1)</source>
+        <translation>Garlicium манзилини киритинг (ма�?алан.  %1)</translation>
     </message>
     <message>
         <source>%1 m</source>
@@ -691,7 +691,7 @@
     </message>
     <message>
         <source>%1 s</source>
-        <translation>%1 с</translation>
+        <translation>%1 �?</translation>
     </message>
     <message>
         <source>None</source>
@@ -703,7 +703,7 @@
     </message>
     <message>
         <source>%1 ms</source>
-        <translation>%1 мс</translation>
+        <translation>%1 м�?</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -732,15 +732,15 @@
     </message>
     <message>
         <source>Debug window</source>
-        <translation>Тузатиш ойнаси</translation>
+        <translation>Тузатиш ойна�?и</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Асосий</translation>
+        <translation>�?�?о�?ий</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>Фойдаланилаётган BerkeleyDB версияси</translation>
+        <translation>Фойдаланилаётган BerkeleyDB вер�?и�?�?и</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -752,7 +752,7 @@
     </message>
     <message>
         <source>Name</source>
-        <translation>Ном</translation>
+        <translation>�?ом</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
@@ -760,7 +760,7 @@
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>Батафсил маълумотларни кўриш учун уламни танланг.</translation>
+        <translation>Батаф�?ил маълумотларни кўриш учун уламни танланг.</translation>
     </message>
     <message>
         <source>Direction</source>
@@ -768,7 +768,7 @@
     </message>
     <message>
         <source>Version</source>
-        <translation>Версия</translation>
+        <translation>Вер�?и�?</translation>
     </message>
     <message>
         <source>User Agent</source>
@@ -840,7 +840,7 @@
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Тарихни кўриш учун тепага ва пастга кўрсаткичларидан фойдаланинг, экранни тозалаш учун &lt;b&gt;Ctrl-L&lt;/b&gt; тугмалар бирикмасидан фойдаланинг.</translation>
+        <translation>Тарихни кўриш учун тепага ва па�?тга кўр�?аткичларидан фойдаланинг, �?кранни тозалаш учун &lt;b&gt;Ctrl-L&lt;/b&gt; тугмалар бирикма�?идан фойдаланинг.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
@@ -888,7 +888,7 @@
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Номаълум</translation>
+        <translation>�?омаълум</translation>
     </message>
 </context>
 <context>
@@ -899,7 +899,7 @@
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Ёрлиқ:</translation>
+        <translation>&amp;�?рлиқ:</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -907,7 +907,7 @@
     </message>
     <message>
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
-        <translation>Олдинги фойдаланилган қабул қилинган манзиллардан биридан қайта фойдаланилсин. Хавсизлик ва махфийлик муаммолар мавжуд манзиллардан қайта фойдаланилмоқда. Бундан тўлов сўров қайта яратилмагунича фойдаланманг.</translation>
+        <translation>Олдинги фойдаланилган қабул қилинган манзиллардан биридан қайта фойдаланил�?ин. Хав�?излик ва махфийлик муаммолар мавжуд манзиллардан қайта фойдаланилмоқда. Бундан тўлов �?ўров қайта �?ратилмагунича фойдаланманг.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -915,11 +915,11 @@
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>Ушбу сўровдан тўловларни сўраш учун фойдаланинг. Барча майдонлар &lt;b&gt;мажбурий эмас&lt;/b&gt;.</translation>
+        <translation>Ушбу �?ўровдан тўловларни �?ўраш учун фойдаланинг. Барча майдонлар &lt;b&gt;мажбурий �?ма�?&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>Хоҳланган миқдор сўрови. Кўрсатилган миқдорни сўраш учун буни бўш ёки ноль қолдиринг.</translation>
+        <translation>Хоҳланган миқдор �?ўрови. Кўр�?атилган миқдорни �?ўраш учун буни бўш ёки ноль қолдиринг.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -935,15 +935,15 @@
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>Тўловни &amp;сўраш</translation>
+        <translation>Тўловни &amp;�?ўраш</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>Танланган сўровни кўрсатиш (икки марта босилганда ҳам бир хил амал бажарилсин)</translation>
+        <translation>Танланган �?ўровни кўр�?атиш (икки марта бо�?илганда ҳам бир хил амал бажарил�?ин)</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>Кўрсатиш</translation>
+        <translation>Кўр�?атиш</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
@@ -962,11 +962,11 @@
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>Нусҳалаш &amp; Манзил</translation>
+        <translation>�?у�?ҳалаш &amp; Манзил</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>Расмни &amp;сақлаш</translation>
+        <translation>Ра�?мни &amp;�?ақлаш</translation>
     </message>
     </context>
 <context>
@@ -980,7 +980,7 @@
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Танга бошқаруви ҳусусиятлари</translation>
+        <translation>Танга бошқаруви ҳу�?у�?и�?тлари</translation>
     </message>
     <message>
         <source>automatically selected</source>
@@ -1008,7 +1008,7 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Солиқдан сўнг:</translation>
+        <translation>Солиқдан �?ўнг:</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -1016,7 +1016,7 @@
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Агар бу фаоллаштирилса, аммо ўзгартирилган манзил бўл ёки нотўғри бўлса, ўзгариш янги яратилган манзилга жўнатилади.</translation>
+        <translation>�?гар бу фаоллаштирил�?а, аммо ўзгартирилган манзил бўл ёки нотўғри бўл�?а, ўзгариш �?нги �?ратилган манзилга жўнатилади.</translation>
     </message>
     <message>
         <source>Custom change address</source>
@@ -1036,11 +1036,11 @@
     </message>
     <message>
         <source>Recommended:</source>
-        <translation>Тавсия этилган</translation>
+        <translation>Тав�?и�? �?тилган</translation>
     </message>
     <message>
         <source>normal</source>
-        <translation>Нормал</translation>
+        <translation>�?ормал</translation>
     </message>
     <message>
         <source>fast</source>
@@ -1056,19 +1056,19 @@
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Ахлат қутиси:</translation>
+        <translation>�?хлат қути�?и:</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Барчасини &amp; Тозалаш</translation>
+        <translation>Барча�?ини &amp; Тозалаш</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>Баланс</translation>
+        <translation>Балан�?</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Жўнатиш амалини тасдиқлаш</translation>
+        <translation>Жўнатиш амалини та�?диқлаш</translation>
     </message>
     <message>
         <source>S&amp;end</source>
@@ -1087,7 +1087,7 @@
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Ёрлиқ:</translation>
+        <translation>&amp;�?рлиқ:</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1148,7 +1148,7 @@
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Барчасини &amp; Тозалаш</translation>
+        <translation>Барча�?ини &amp; Тозалаш</translation>
     </message>
     </context>
 <context>
@@ -1168,7 +1168,7 @@
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Ушбу ойна операциянинг батафсил таърифини кўрсатади</translation>
+        <translation>Ушбу ойна операци�?нинг батаф�?ил таърифини кўр�?атади</translation>
     </message>
     </context>
 <context>
@@ -1197,23 +1197,23 @@
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>Маълумотлар директориясини кўрсатинг</translation>
+        <translation>Маълумотлар директори�?�?ини кўр�?атинг</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Буйруқлар сатри ва JSON-RPC буйруқларига рози бўлинг</translation>
+        <translation>Буйруқлар �?атри ва JSON-RPC буйруқларига рози бўлинг</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Демон сифатида орқа фонда ишга туширинг ва буйруқларга рози бўлинг</translation>
+        <translation>Демон �?ифатида орқа фонда ишга туширинг ва буйруқларга рози бўлинг</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
+        <source>Garlicium Core</source>
+        <translation>Garlicium Core</translation>
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>Уланиш кўрсаткичлари:</translation>
+        <translation>Уланиш кўр�?аткичлари:</translation>
     </message>
     <message>
         <source>Information</source>
@@ -1241,7 +1241,7 @@
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Тўсиқ индекси юкланмоқда...</translation>
+        <translation>Тў�?иқ индек�?и юкланмоқда...</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
