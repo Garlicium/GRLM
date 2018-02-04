@@ -54,8 +54,8 @@
         <translation>&amp;Odaberi</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ovo su vaše Litecoin adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your Garlicium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ovo su vaše Garlicium adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -111,7 +111,7 @@
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Prikaži opći pregled novčanika</translation>
+        <translation>Prikaži opći pregled nov�?anika</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -147,11 +147,11 @@
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>Ši&amp;friraj novčanik...</translation>
+        <translation>Ši&amp;friraj nov�?anik...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>Spremi &amp;kopiju novčanika...</translation>
+        <translation>Spremi &amp;kopiju nov�?anika...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
@@ -174,16 +174,16 @@
         <translation>Re-indeksiranje blokova na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Slanje novca na litecoin adresu</translation>
+        <source>Send coins to a Garlicium address</source>
+        <translation>Slanje novca na garlicium adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Napravite sigurnosnu kopiju novčanika na drugoj lokaciji</translation>
+        <translation>Napravite sigurnosnu kopiju nov�?anika na drugoj lokaciji</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Promijenite lozinku za šifriranje novčanika</translation>
+        <translation>Promijenite lozinku za šifriranje nov�?anika</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -198,12 +198,12 @@
         <translation>&amp;Potvrdite poruku...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Garlicium</source>
+        <translation>Garlicium</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Novčanik</translation>
+        <translation>Nov�?anik</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -223,15 +223,15 @@
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Šifriranje privatnih ključeva koji u novčaniku</translation>
+        <translation>Šifriranje privatnih klju�?eva koji u nov�?aniku</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Poruku potpišemo s litecoin adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
+        <source>Sign messages with your Garlicium addresses to prove you own them</source>
+        <translation>Poruku potpišemo s garlicium adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Provjeravanje poruke, kao dokaz, da je potpisana navedenom litecoin adresom</translation>
+        <source>Verify messages to ensure they were signed with specified Garlicium addresses</source>
+        <translation>Provjeravanje poruke, kao dokaz, da je potpisana navedenom garlicium adresom</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -250,8 +250,8 @@
         <translation>Traka kartica</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Zatraži uplatu (stvara QR kod i litecoin: URI adresu)</translation>
+        <source>Request payments (generates QR codes and garlicium: URIs)</source>
+        <translation>Zatraži uplatu (stvara QR kod i garlicium: URI adresu)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -262,16 +262,16 @@
         <translation>Prikaži popis korištenih adresa i oznaka za primanje novca</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Otvori litecoin: URI adresu ili zahtjev za uplatu</translation>
+        <source>Open a garlicium: URI or payment request</source>
+        <translation>Otvori garlicium: URI adresu ili zahtjev za uplatu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opcije &amp;naredbene linije</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n aktivna veza na Litecoin mrežu</numerusform><numerusform>%n aktivnih veza na Litecoin mrežu</numerusform><numerusform>%n aktivnih veza na Litecoin mrežu</numerusform></translation>
+        <source>%n active connection(s) to Garlicium network</source>
+        <translation><numerusform>%n aktivna veza na Garlicium mrežu</numerusform><numerusform>%n aktivnih veza na Garlicium mrežu</numerusform><numerusform>%n aktivnih veza na Garlicium mrežu</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -345,11 +345,11 @@
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Novčanik je &lt;b&gt;šifriran&lt;/b&gt; i trenutno &lt;b&gt;otključan&lt;/b&gt;</translation>
+        <translation>Nov�?anik je &lt;b&gt;šifriran&lt;/b&gt; i trenutno &lt;b&gt;otklju�?an&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Novčanik je &lt;b&gt;šifriran&lt;/b&gt; i trenutno &lt;b&gt;zaključan&lt;/b&gt;</translation>
+        <translation>Nov�?anik je &lt;b&gt;šifriran&lt;/b&gt; i trenutno &lt;b&gt;zaklju�?an&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
@@ -360,7 +360,7 @@
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Količina:</translation>
+        <translation>Koli�?ina:</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -423,11 +423,11 @@
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Oznaka litecoin adrese</translation>
+        <translation>Oznaka garlicium adrese</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Litecoin adresa. Izmjene adrese su moguće samo za adrese za slanje.</translation>
+        <translation>Garlicium adresa. Izmjene adrese su moguće samo za adrese za slanje.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -525,7 +525,7 @@
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>Veličina predmemorije baze podataka</translation>
+        <translation>Veli�?ina predmemorije baze podataka</translation>
     </message>
     <message>
         <source>MB</source>
@@ -549,7 +549,7 @@
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Nastavi sve postavke programa na početne vrijednosti.</translation>
+        <translation>Nastavi sve postavke programa na po�?etne vrijednosti.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
@@ -561,15 +561,15 @@
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>&amp;Novčanik</translation>
+        <translation>&amp;Nov�?anik</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
         <translation>&amp;Trošenje nepotvrđenih vraćenih iznosa</translation>
     </message>
     <message>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvori port Litecoin klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
+        <source>Automatically open the Garlicium client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatski otvori port Garlicium klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -609,7 +609,7 @@
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>Jezi&amp;k sučelja:</translation>
+        <translation>Jezi&amp;k su�?elja:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -617,7 +617,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Izaberite željeni najmanji dio litecoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
+        <translation>Izaberite željeni najmanji dio garliciuma koji će biti prikazan u su�?elju i koji će se koristiti za plaćanje.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -643,8 +643,8 @@
         <translation>Oblik</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s Litecoin mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Garlicium network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazani podatci mogu biti zastarjeli. Vaš nov�?anik se automatski sinkronizira s Garlicium mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -758,11 +758,11 @@
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Očisti konzolu</translation>
+        <translation>O�?isti konzolu</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Koristite tipke gore i dolje za izbor već korištenih naredbi. &lt;b&gt;Ctrl-L&lt;/b&gt; kako bi očistili ekran i povijest naredbi.</translation>
+        <translation>Koristite tipke gore i dolje za izbor već korištenih naredbi. &lt;b&gt;Ctrl-L&lt;/b&gt; kako bi o�?istili ekran i povijest naredbi.</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -830,7 +830,7 @@
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Količina:</translation>
+        <translation>Koli�?ina:</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -1034,8 +1034,8 @@
         <translation>Izvršavaj u pozadini kao uslužnik i prihvaćaj komande</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
+        <source>Garlicium Core</source>
+        <translation>Garlicium Core</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -1055,7 +1055,7 @@
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Korisničko ime za JSON-RPC veze</translation>
+        <translation>Korisni�?ko ime za JSON-RPC veze</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -1075,7 +1075,7 @@
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>Učitavanje adresa...</translation>
+        <translation>U�?itavanje adresa...</translation>
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
@@ -1087,19 +1087,19 @@
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Učitavanje indeksa blokova...</translation>
+        <translation>U�?itavanje indeksa blokova...</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Doda čvor s kojim se želite povezati i nastoji održati vezu otvorenu</translation>
+        <translation>Doda �?vor s kojim se želite povezati i nastoji održati vezu otvorenu</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Učitavanje novčanika...</translation>
+        <translation>U�?itavanje nov�?anika...</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Nije moguće novčanik vratiti na prijašnju verziju.</translation>
+        <translation>Nije moguće nov�?anik vratiti na prijašnju verziju.</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
@@ -1111,7 +1111,7 @@
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Učitavanje gotovo</translation>
+        <translation>U�?itavanje gotovo</translation>
     </message>
     <message>
         <source>Error</source>
