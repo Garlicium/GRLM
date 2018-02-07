@@ -3,19 +3,19 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>చిరునామా లేదా లేబుల్ సవరించడానికి రైట్-క్లిక్ చేయండి</translation>
+        <translation>చిర�?నామా లేదా లేబ�?ల�? సవరించడానికి రైట�?-క�?లిక�? చేయండి</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>క్రొత్త చిరునామా సృష్టించండి</translation>
+        <translation>క�?రొత�?త చిర�?నామా సృష�?టించండి</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;క్రొత్త</translation>
+        <translation>&amp;క�?రొత�?త</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>ప్రస్తుతం ఎంచుకున్న చిరునామాను సిస్టం క్లిప్ బోర్డుకు కాపీ చేయండి</translation>
+        <translation>ప�?రస�?త�?తం ఎంచ�?క�?న�?న చిర�?నామాన�? సిస�?టం క�?లిప�? బోర�?డ�?క�? కాపీ చేయండి</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -23,73 +23,73 @@
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>C&amp;కోల్పోవు</translation>
+        <translation>C&amp;కోల�?పోవ�?</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>ప్రస్తుతం ఎంచుకున్న చిరునామా ను జాబితా నుండి తీసివేయండి</translation>
+        <translation>ప�?రస�?త�?తం ఎంచ�?క�?న�?న చిర�?నామా న�? జాబితా న�?ండి తీసివేయండి</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>పంపించే చిరునామాలు</translation>
+        <translation>పంపించే చిర�?నామాల�?</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>అందుకునే చిరునామాలు</translation>
+        <translation>అంద�?క�?నే చిర�?నామాల�?</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>ఇవి మీరు పంపే చెల్లింపుల బిట్‌కాయిన్ చిరునామాలు. నాణేలు పంపే ముందు ప్రతిసారి అందుకునే చిరునామా మరియు చెల్లింపు మొత్తం సరిచూసుకోండి.</translation>
+        <source>These are your Garlicium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>ఇవి మీర�? పంపే చెల�?లింప�?ల బిట�?‌కాయిన�? చిర�?నామాల�?. నాణేల�? పంపే మ�?ంద�? ప�?రతిసారి అంద�?క�?నే చిర�?నామా మరియ�? చెల�?లింప�? మొత�?తం సరిచూస�?కోండి.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>ఇవి మీరు అందుకునే చెల్లింపుల బిట్‌కాయిన్ చిరునామాలు. ప్రతీ లావాదేవీకి క్రొత్త అందుకునే చిరునామా వాడటం మంచిది.</translation>
+        <source>These are your Garlicium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>ఇవి మీర�? అంద�?క�?నే చెల�?లింప�?ల బిట�?‌కాయిన�? చిర�?నామాల�?. ప�?రతీ లావాదేవీకి క�?రొత�?త అంద�?క�?నే చిర�?నామా వాడటం మంచిది.</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>చిరునామా జాబితాను ఎగుమతి చేయండి</translation>
+        <translation>చిర�?నామా జాబితాన�? ఎగ�?మతి చేయండి</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>ఎగుమతి విఫలమయ్యింది</translation>
+        <translation>ఎగ�?మతి విఫలమయ�?యింది</translation>
     </message>
     </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>ఉల్లాకు</translation>
+        <translation>ఉల�?లాక�?</translation>
     </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>సంకేతపదము డైలాగ్</translation>
+        <translation>సంకేతపదమ�? డైలాగ�?</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>సంకేతపదము చేర్చండి</translation>
+        <translation>సంకేతపదమ�? చేర�?చండి</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>క్రొత్త సంకేతపదము</translation>
+        <translation>క�?రొత�?త సంకేతపదమ�?</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>క్రొత్త సంకేతపదము మరలా ఇవ్వండి</translation>
+        <translation>క�?రొత�?త సంకేతపదమ�? మరలా ఇవ�?వండి</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>జోలెకు క్రొత్త సంకేతపదము ఇవ్వండి.&lt;br/&gt; &lt;b&gt;పది లేదా ఎక్కువ యాదృచ్ఛిక అక్షరాలు&lt;/b&gt;, లేక &lt;b&gt;ఎనిమిది కంటే ఎక్కువ పదాలు&lt;/b&gt; కలిగి ఉన్న సంకేతపదము దయచేసి వాడండి.</translation>
+        <translation>జోలెక�? క�?రొత�?త సంకేతపదమ�? ఇవ�?వండి.&lt;br/&gt; &lt;b&gt;పది లేదా ఎక�?క�?వ యాదృచ�?ఛిక అక�?షరాల�?&lt;/b&gt;, లేక &lt;b&gt;ఎనిమిది కంటే ఎక�?క�?వ పదాల�?&lt;/b&gt; కలిగి ఉన�?న సంకేతపదమ�? దయచేసి వాడండి.</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>హెచ్చరిక: మీ జోలెని సంకేతపరిచి మీ సంకేతపదము కోల్పోతే, &lt;b&gt;మీ బిట్‌కాయిన్లు అన్నీ కోల్పోతారు&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR GARLICIUMS&lt;/b&gt;!</source>
+        <translation>హెచ�?చరిక: మీ జోలెని సంకేతపరిచి మీ సంకేతపదమ�? కోల�?పోతే, &lt;b&gt;మీ బిట�?‌కాయిన�?ల�? అన�?నీ కోల�?పోతార�?&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>మీరు ఖచ్చితంగా మీ జోలెని సంకేతపరచాలని కోరుకుంటున్నారా?</translation>
+        <translation>మీర�? ఖచ�?చితంగా మీ జోలెని సంకేతపరచాలని కోర�?క�?ంట�?న�?నారా?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -97,7 +97,7 @@
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>జోలె సంకేతపరచడం విఫలమయ్యింది</translation>
+        <translation>జోలె సంకేతపరచడం విఫలమయ�?యింది</translation>
     </message>
     </context>
 <context>
@@ -111,11 +111,11 @@
     </message>
     <message>
         <source>Warning</source>
-        <translation>హెచ్చరిక</translation>
+        <translation>హెచ�?చరిక</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>వర్తమానము</translation>
+        <translation>వర�?తమానమ�?</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -123,7 +123,7 @@
     </message>
     <message>
         <source>Connecting to peers...</source>
-        <translation>తోటివాళ్లతో అనుసంధానం కుదురుస్తుంది</translation>
+        <translation>తోటివాళ�?లతో అన�?సంధానం క�?ద�?ర�?స�?త�?ంది</translation>
     </message>
     </context>
 <context>
@@ -190,14 +190,14 @@
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Label</source>
-        <translation>ఉల్లాకు</translation>
+        <translation>ఉల�?లాక�?</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Label</source>
-        <translation>ఉల్లాకు</translation>
+        <translation>ఉల�?లాక�?</translation>
     </message>
     </context>
 <context>
@@ -235,18 +235,18 @@
     <name>TransactionTableModel</name>
     <message>
         <source>Label</source>
-        <translation>ఉల్లాకు</translation>
+        <translation>ఉల�?లాక�?</translation>
     </message>
     </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>Label</source>
-        <translation>ఉల్లాకు</translation>
+        <translation>ఉల�?లాక�?</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>ఎగుమతి విఫలమయ్యింది</translation>
+        <translation>ఎగ�?మతి విఫలమయ�?యింది</translation>
     </message>
     </context>
 <context>
@@ -265,11 +265,11 @@
     <name>bitcoin-core</name>
     <message>
         <source>Information</source>
-        <translation>వర్తమానము</translation>
+        <translation>వర�?తమానమ�?</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>హెచ్చరిక</translation>
+        <translation>హెచ�?చరిక</translation>
     </message>
     <message>
         <source>Error</source>

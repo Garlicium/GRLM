@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>קליק ימני כדי לערוך כתובת או תווית</translation>
+        <translation>קליק ימני כדי לערוך כתובת �?ו תווית</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>העתק את הכתובת הנבחרת ללוח</translation>
+        <translation>העתק �?ת הכתובת הנבחרת ללוח</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,15 +27,15 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>מחק את הכתובת הנבחרת מהרשימה</translation>
+        <translation>מחק �?ת הכתובת הנבחרת מהרשימה</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>יצא את המידע בעמוד הנוכחי לקובץ</translation>
+        <translation>יצ�? �?ת המידע בעמוד הנוכחי לקובץ</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>ייצוא</translation>
+        <translation>ייצו�?</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>בחר את הכתובת כדי לשלוח אליה מטבעות</translation>
+        <translation>בחר �?ת הכתובת כדי לשלוח �?ליה מטבעות</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>בחר את הכתובת כדי לקבל אליה מטבעות</translation>
+        <translation>בחר �?ת הכתובת כדי לקבל �?ליה מטבעות</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>מקבל כתובות</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>אלו הן כתובות לייטקוין שלך לשליחת תשלומים. תמיד בדוק את כתובת הארנק המקבל לפני שליחת מטבעות</translation>
+        <source>These are your Garlicium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>�?לו הן כתובות לייטקוין שלך לשליחת תשלומי�?. תמיד בדוק �?ת כתובת ה�?רנק המקבל לפני שליחת מטבעות</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>אלו הן כתובות לייטקוין שלך לקבלת תשלומים. מומלץ להשתמש בכתובת חדשה בכל העברת מטבעות</translation>
+        <source>These are your Garlicium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>�?לו הן כתובות לייטקוין שלך לקבלת תשלומי�?. מומלץ להשתמש בכתובת חדשה בכל העברת מטבעות</translation>
     </message>
     </context>
 <context>
@@ -82,12 +82,12 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Litecoin</source>
+        <source>Garlicium</source>
         <translation>לייטקוין</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>ארנק</translation>
+        <translation>�?רנק</translation>
     </message>
     </context>
 <context>
@@ -190,11 +190,11 @@
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>ייצוא</translation>
+        <translation>ייצו�?</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>יצא את המידע בעמוד הנוכחי לקובץ</translation>
+        <translation>יצ�? �?ת המידע בעמוד הנוכחי לקובץ</translation>
     </message>
     </context>
 <context>

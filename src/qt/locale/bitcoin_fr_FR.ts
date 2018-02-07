@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Choisissez une adresse où envoyer les litecoins</translation>
+        <translation>Choisissez une adresse où envoyer les garliciums</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Choisissez une adresse où recevoir les litecoins</translation>
+        <translation>Choisissez une adresse où recevoir les garliciums</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -128,8 +128,8 @@
         <translation>Décrypter le porte-monnaie</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Attention : Si vous chiffrez votre portefeuille et que vous perdez votre mot de passe vous &lt;b&gt; PERDREZ TOUS VOS LITECOINS&lt;/b&gt; !</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR GARLICIUMS&lt;/b&gt;!</source>
+        <translation>Attention : Si vous chiffrez votre portefeuille et que vous perdez votre mot de passe vous &lt;b&gt; PERDREZ TOUS VOS GARLICIUMS&lt;/b&gt; !</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -238,8 +238,8 @@
         <translation>Réindexer les blocs sur le disque...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Envoyer des pièces à une adresse Litecoin</translation>
+        <source>Send coins to a Garlicium address</source>
+        <translation>Envoyer des pièces à une adresse Garlicium</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -262,8 +262,8 @@
         <translation>&amp;Vérification du message</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Garlicium</source>
+        <translation>Garlicium</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -290,8 +290,8 @@
         <translation>Crypter les clé privées qui appartiennent votre portefeuille</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Signer vos messages avec vos adresses Litecoin pour prouver que vous les détenez</translation>
+        <source>Sign messages with your Garlicium addresses to prove you own them</source>
+        <translation>Signer vos messages avec vos adresses Garlicium pour prouver que vous les détenez</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -310,24 +310,24 @@
         <translation>Barre d'outils des onglets</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Demander des paiements (générer QR codes et litecoin: URIs)</translation>
+        <source>Request payments (generates QR codes and garlicium: URIs)</source>
+        <translation>Demander des paiements (générer QR codes et garlicium: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
         <translation>Montrer la liste des adresses d'envois utilisées et les étiquettes</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Ouvrir un litecoin: URI ou demande de paiement</translation>
+        <source>Open a garlicium: URI or payment request</source>
+        <translation>Ouvrir un garlicium: URI ou demande de paiement</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Options de ligne de commande</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n connexion active au réseau Litecoin</numerusform><numerusform>%n connexions actives au réseau Litecoin</numerusform></translation>
+        <source>%n active connection(s) to Garlicium network</source>
+        <translation><numerusform>%n connexion active au réseau Garlicium</numerusform><numerusform>%n connexions actives au réseau Garlicium</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -712,8 +712,8 @@
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir le port du client Litecoin automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
+        <source>Automatically open the Garlicium client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir le port du client Garlicium automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -872,8 +872,8 @@
         <translation>Montant</translation>
     </message>
     <message>
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Entrer une adresse Litecoin (e.g. %1)</translation>
+        <source>Enter a Garlicium address (e.g. %1)</source>
+        <translation>Entrer une adresse Garlicium (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1531,7 +1531,7 @@
     </message>
     <message>
         <source>To</source>
-        <translation>Á</translation>
+        <translation>�?</translation>
     </message>
     <message>
         <source>own address</source>
@@ -1734,8 +1734,8 @@
         <translation>Impossible de démarrer le serveur HTTP. Voir le journal de débogage pour plus de détails.</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
+        <source>Garlicium Core</source>
+        <translation>Garlicium Core</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>

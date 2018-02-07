@@ -62,12 +62,12 @@
         <translation>Ricevaj adresoj</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Jen viaj Litecoin-adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson antaŭ ol sendi.</translation>
+        <source>These are your Garlicium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Jen viaj Garlicium-adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson antaŭ ol sendi.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Jen viaj litecoinj adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
+        <source>These are your Garlicium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Jen viaj garliciumj adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -139,7 +139,7 @@
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Subskribi &amp;mesaĝon...</translation>
+        <translation>Subskribi &amp;mesa�?on...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -214,8 +214,8 @@
         <translation>Reindeksado de blokoj sur disko...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Sendi monon al Litecoin-adreso</translation>
+        <source>Send coins to a Garlicium address</source>
+        <translation>Sendi monon al Garlicium-adreso</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -235,11 +235,11 @@
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Kontroli mesaĝon...</translation>
+        <translation>&amp;Kontroli mesa�?on...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Garlicium</source>
+        <translation>Garlicium</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -266,12 +266,12 @@
         <translation>Ĉifri la privatajn ŝlosilojn de via monujo</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Subskribi mesaĝojn per via Litecoin-adresoj por pravigi, ke vi estas la posedanto</translation>
+        <source>Sign messages with your Garlicium addresses to prove you own them</source>
+        <translation>Subskribi mesaĝojn per via Garlicium-adresoj por pravigi, ke vi estas la posedanto</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Litecoin-adresoj</translation>
+        <source>Verify messages to ensure they were signed with specified Garlicium addresses</source>
+        <translation>Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Garlicium-adresoj</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -290,8 +290,8 @@
         <translation>Langeto-breto</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso litecoin:)</translation>
+        <source>Request payments (generates QR codes and garlicium: URIs)</source>
+        <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso garlicium:)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -302,8 +302,8 @@
         <translation>Vidigi la liston de uzitaj ricevaj adresoj kaj etikedoj</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Malfermi litecoin:-URI-on aŭ pagpeton</translation>
+        <source>Open a garlicium: URI or payment request</source>
+        <translation>Malfermi garlicium:-URI-on aŭ pagpeton</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -381,11 +381,11 @@
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Monujo estas &lt;b&gt;ĉifrita&lt;/b&gt; kaj aktuale &lt;b&gt;malŝlosita&lt;/b&gt;</translation>
+        <translation>Monujo estas &lt;b&gt;ĉifrita&lt;/b&gt; kaj aktuale &lt;b&gt;mal�?losita&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Monujo estas &lt;b&gt;ĉifrita&lt;/b&gt; kaj aktuale &lt;b&gt;ŝlosita&lt;/b&gt;</translation>
+        <translation>Monujo estas &lt;b&gt;ĉifrita&lt;/b&gt; kaj aktuale &lt;b&gt;�?losita&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
@@ -424,11 +424,11 @@
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Arboreĝimo</translation>
+        <translation>Arbore�?imo</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>Listreĝimo</translation>
+        <translation>Listre�?imo</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -593,7 +593,7 @@
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>Dosiergrando de &amp;datumbasa kaŝmemoro</translation>
+        <translation>Dosiergrando de &amp;datumbasa ka�?memoro</translation>
     </message>
     <message>
         <source>MB</source>
@@ -628,8 +628,8 @@
         <translation>Fakulo</translation>
     </message>
     <message>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aŭtomate malfermi la kursilan pordon por Litecoino. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
+        <source>Automatically open the Garlicium client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aŭtomate malfermi la kursilan pordon por Garliciumo. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -685,7 +685,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Elekti la defaŭltan manieron por montri litecoinjn sumojn en la interfaco, kaj kiam vi sendos bitmonon.</translation>
+        <translation>Elekti la defaŭltan manieron por montri garliciumjn sumojn en la interfaco, kaj kiam vi sendos bitmonon.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -723,8 +723,8 @@
         <translation>Formularo</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la litecoin reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Garlicium network after a connection is established, but this process has not completed yet.</source>
+        <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la garlicium reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -957,7 +957,7 @@
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>&amp;Mesaĝo:</translation>
+        <translation>&amp;Mesa�?o:</translation>
     </message>
     <message>
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
@@ -1030,7 +1030,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sendi Litecoinn</translation>
+        <translation>Sendi Garliciumn</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1153,7 +1153,7 @@
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Tajpu etikedon por tiu ĉi adreso por aldoni ĝin al la listo de uzitaj adresoj</translation>
+        <translation>Tajpu etikedon por tiu ĉi adreso por aldoni �?in al la listo de uzitaj adresoj</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1171,7 +1171,7 @@
     <name>ShutdownWindow</name>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Ne sistemfermu ĝis ĉi tiu fenestro malaperas.</translation>
+        <translation>Ne sistemfermu �?is ĉi tiu fenestro malaperas.</translation>
     </message>
 </context>
 <context>
@@ -1213,8 +1213,8 @@
         <translation>Kopii la aktualan subskribon al la tondejo</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Litecoin-adreso</translation>
+        <source>Sign the message to prove you own this Garlicium address</source>
+        <translation>Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Garlicium-adreso</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1233,8 +1233,8 @@
         <translation>&amp;Kontroli Mesaĝon</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Litecoin-adreso</translation>
+        <source>Verify the message to ensure it was signed with the specified Garlicium address</source>
+        <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Garlicium-adreso</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1338,8 +1338,8 @@
         <translation>Ruli fone kiel demono kaj akcepti komandojn</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Kerno de Litecoino</translation>
+        <source>Garlicium Core</source>
+        <translation>Kerno de Garliciumo</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
@@ -1423,7 +1423,7 @@
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Plenumi komandon kiam rilata alerto riceviĝas, aŭ kiam ni vidas tre longan forkon (%s en cms anstataŭiĝas per mesaĝo)</translation>
+        <translation>Plenumi komandon kiam rilata alerto ricevi�?as, aŭ kiam ni vidas tre longan forkon (%s en cms anstataŭi�?as per mesa�?o)</translation>
     </message>
     <message>
         <source>Information</source>
@@ -1443,7 +1443,7 @@
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>ĝi estas eksperimenta programo</translation>
+        <translation>�?i estas eksperimenta programo</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -1475,7 +1475,7 @@
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>Ŝarĝante adresojn...</translation>
+        <translation>Ŝar�?ante adresojn...</translation>
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
@@ -1491,7 +1491,7 @@
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Ŝarĝante blok-indekson...</translation>
+        <translation>Ŝar�?ante blok-indekson...</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>

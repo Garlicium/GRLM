@@ -3,19 +3,19 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Клик с десен бутон на мишката за промяна на адрес или етикет</translation>
+        <translation>Клик �? де�?ен бутон на мишката за пром�?на на адре�? или етикет</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Създай нов адрес</translation>
+        <translation>Създай нов адре�?</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>Нов</translation>
+        <translation>�?ов</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Копирай текущо избрания адрес към клипборда</translation>
+        <translation>Копирай текущо избрани�? адре�? към клипборда</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,15 +27,15 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Изтрий текущо избрания адрес от листа</translation>
+        <translation>Изтрий текущо избрани�? адре�? от ли�?та</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Изнеси данните в избрания раздел към файл</translation>
+        <translation>Изне�?и данните в избрани�? раздел към файл</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>Изнеси</translation>
+        <translation>Изне�?и</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Избери адреса на който да пратиш монети</translation>
+        <translation>Избери адре�?а на който да пратиш монети</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Избери адреса на който да получиш монети</translation>
+        <translation>Избери адре�?а на който да получиш монети</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -55,23 +55,23 @@
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Адрес за пращане</translation>
+        <translation>�?дре�? за пращане</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Адрес за получаване</translation>
+        <translation>�?дре�? за получаване</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Тези са вашите Litecoin адреси за изпращане на монети. Винаги проверявайте количеството и получаващия адрес преди изпращане. </translation>
+        <source>These are your Garlicium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Тези �?а вашите Garlicium адре�?и за изпращане на монети. Винаги провер�?вайте количе�?твото и получаващи�? адре�? преди изпращане. </translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите Litecoin адреси за получаване на монети. Препоръчително е да ползвате нов адрес на всяка транзакция.</translation>
+        <source>These are your Garlicium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това �?а вашите Garlicium адре�?и за получаване на монети. Препоръчително е да ползвате нов адре�? на в�?�?ка транзакци�?.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>Копирай адрес</translation>
+        <translation>Копирай адре�?</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -83,7 +83,7 @@
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Изнеси лист с адреси</translation>
+        <translation>Изне�?и ли�?т �? адре�?и</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
@@ -91,11 +91,11 @@
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Изнасянето се провали</translation>
+        <translation>Изна�?�?нето �?е провали</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Получи се грешка при запазването на листа с адреси към %1. Моля опитайте пак.</translation>
+        <translation>Получи �?е грешка при запазването на ли�?та �? адре�?и към %1. Мол�? опитайте пак.</translation>
     </message>
 </context>
 <context>
@@ -106,7 +106,7 @@
     </message>
     <message>
         <source>Address</source>
-        <translation>Адрес</translation>
+        <translation>�?дре�?</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -117,7 +117,7 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Диалог за пропуск</translation>
+        <translation>Диалог за пропу�?к</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
@@ -125,7 +125,7 @@
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Нова парола</translation>
+        <translation>�?ова парола</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
@@ -137,7 +137,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Тази операция изисква вашата парола на портфейла за отключването на портфейла.</translation>
+        <translation>Тази операци�? изи�?ква вашата парола на портфейла за отключването на портфейла.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -145,7 +145,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Тази операция изисква вашата парола на портфейла за декриптирането на портфейла.</translation>
+        <translation>Тази операци�? изи�?ква вашата парола на портфейла за декриптирането на портфейла.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
@@ -164,7 +164,7 @@
     <name>BanTableModel</name>
     <message>
         <source>IP/Netmask</source>
-        <translation>IP/Мрежова маска</translation>
+        <translation>IP/Мрежова ма�?ка</translation>
     </message>
     <message>
         <source>Banned Until</source>
@@ -175,11 +175,11 @@
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Подпиши съобщение...</translation>
+        <translation>Подпиши �?ъобщение...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Синхронизиране с мрежата...</translation>
+        <translation>Синхронизиране �? мрежата...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
@@ -199,7 +199,7 @@
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Разгледай история на транзакциите</translation>
+        <translation>Разгледай и�?тори�? на транзакциите</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -215,19 +215,19 @@
     </message>
     <message>
         <source>Show information about %1</source>
-        <translation>Покажи информация за %1</translation>
+        <translation>Покажи информаци�? за %1</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>Относно Qt</translation>
+        <translation>Отно�?но Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Покажи информация отностно Qt</translation>
+        <translation>Покажи информаци�? отно�?тно Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>Настройки...</translation>
+        <translation>�?а�?тройки...</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
@@ -239,7 +239,7 @@
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>Направи резервно копие на портфейла...</translation>
+        <translation>�?аправи резервно копие на портфейла...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
@@ -247,11 +247,11 @@
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>Адреси за пращане...</translation>
+        <translation>�?дре�?и за пращане...</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>Адреси за получаване...</translation>
+        <translation>�?дре�?и за получаване...</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -259,7 +259,7 @@
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Повторно индексиране на блоковете на диска...</translation>
+        <translation>Повторно индек�?иране на блоковете на ди�?ка...</translation>
     </message>
     </context>
 <context>
@@ -318,7 +318,7 @@
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Address</source>
-        <translation>Адрес</translation>
+        <translation>�?дре�?</translation>
     </message>
     <message>
         <source>Label</source>
@@ -390,11 +390,11 @@
     </message>
     <message>
         <source>Address</source>
-        <translation>Адрес</translation>
+        <translation>�?дре�?</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Изнасянето се провали</translation>
+        <translation>Изна�?�?нето �?е провали</translation>
     </message>
     </context>
 <context>
@@ -410,18 +410,18 @@
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>Изнеси</translation>
+        <translation>Изне�?и</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Изнеси данните в избрания раздел към файл</translation>
+        <translation>Изне�?и данните в избрани�? раздел към файл</translation>
     </message>
     </context>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin ядро</translation>
+        <source>Garlicium Core</source>
+        <translation>Garlicium �?дро</translation>
     </message>
     </context>
 </TS>
