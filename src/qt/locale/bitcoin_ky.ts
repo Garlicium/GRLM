@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Create a new address</source>
-        <translation>Жаң даректи жасоо</translation>
+        <translation>Жаң даректи жа�?оо</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -31,15 +31,15 @@
     <name>BitcoinGUI</name>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Транзакциялар</translation>
+        <translation>&amp;Транзакци�?лар</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>Билдирүүнү &amp;текшерүү...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Garlicium</source>
+        <translation>Garlicium</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -59,7 +59,7 @@
     </message>
     <message>
         <source>Warning</source>
-        <translation>Эскертүү</translation>
+        <translation>Э�?кертүү</translation>
     </message>
     <message>
         <source>Information</source>
@@ -95,7 +95,7 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>версия</translation>
+        <translation>вер�?и�?</translation>
     </message>
     </context>
 <context>
@@ -143,7 +143,7 @@
     </message>
     <message>
         <source>default</source>
-        <translation>жарыяланбаган</translation>
+        <translation>жары�?ланбаган</translation>
     </message>
     <message>
         <source>none</source>
@@ -184,19 +184,19 @@
     </message>
     <message>
         <source>Name</source>
-        <translation>Аты</translation>
+        <translation>�?ты</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Ачуу</translation>
+        <translation>&amp;�?чуу</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;Консоль</translation>
+        <translation>&amp;Кон�?оль</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Консолду тазалоо</translation>
+        <translation>Кон�?олду тазалоо</translation>
     </message>
     </context>
 <context>
@@ -285,7 +285,7 @@
     <name>TransactionDesc</name>
     <message>
         <source>%1/offline</source>
-        <translation>%1/тармакта эмес</translation>
+        <translation>%1/тармакта �?ме�?</translation>
     </message>
     <message>
         <source>Date</source>
@@ -341,7 +341,7 @@
     </message>
     <message>
         <source>Warning</source>
-        <translation>Эскертүү</translation>
+        <translation>Э�?кертүү</translation>
     </message>
     <message>
         <source>Error</source>

@@ -3,11 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>पते या लेबल को संपादित करने के लिए राइट-क्लिक करें</translation>
+        <translation>पते या लेबल को संपादित करने के लि�? राइट-क�?लिक करें</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>नया पता लिखिए !</translation>
+        <translation>नया पता लिखि�? !</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,15 +15,15 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>चुनिन्दा पते को सिस्टम क्लिपबोर्ड पर कापी करे !</translation>
+        <translation>च�?निन�?दा पते को सिस�?टम क�?लिपबोर�?ड पर कापी करे !</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>सूची से वर्तमान में चयनित पता हटाएं</translation>
+        <translation>सूची से वर�?तमान में चयनित पता हटा�?ं</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;मिटाए !!</translation>
+        <translation>&amp;मिटा�? !!</translation>
     </message>
     </context>
 <context>
@@ -33,15 +33,15 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Enter passphrase</source>
-        <translation>पहचान शब्द/अक्षर डालिए !</translation>
+        <translation>पहचान शब�?द/अक�?षर डालि�? !</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>नया पहचान शब्द/अक्षर डालिए !</translation>
+        <translation>नया पहचान शब�?द/अक�?षर डालि�? !</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>दोबारा नया पहचान शब्द/अक्षर डालिए !</translation>
+        <translation>दोबारा नया पहचान शब�?द/अक�?षर डालि�? !</translation>
     </message>
     </context>
 <context>
@@ -51,7 +51,7 @@
     <name>BitcoinGUI</name>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>नेटवर्क से समकालिक (मिल) रहा है ...</translation>
+        <translation>नेटवर�?क से समकालिक (मिल) रहा है ...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
@@ -59,7 +59,7 @@
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>वॉलेट का सामानया विवरण दिखाए !</translation>
+        <translation>वॉलेट का सामानया विवरण दिखा�? !</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -68,7 +68,7 @@
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>देखिए पुराने लेन-देन के विवरण !</translation>
+        <translation>देखि�? प�?राने लेन-देन के विवरण !</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -76,11 +76,11 @@
     </message>
     <message>
         <source>Quit application</source>
-        <translation>अप्लिकेशन से बाहर निकलना !</translation>
+        <translation>अप�?लिकेशन से बाहर निकलना !</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;विकल्प</translation>
+        <translation>&amp;विकल�?प</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
@@ -88,10 +88,10 @@
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>पहचान शब्द/अक्षर जो वॉलेट एनक्रिपशन के लिए इस्तेमाल किया है उसे बदलिए!</translation>
+        <translation>पहचान शब�?द/अक�?षर जो वॉलेट �?नक�?रिपशन के लि�? इस�?तेमाल किया है उसे बदलि�?!</translation>
     </message>
     <message>
-        <source>Litecoin</source>
+        <source>Garlicium</source>
         <translation>बीटकोइन</translation>
     </message>
     <message>
@@ -104,7 +104,7 @@
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;सेट्टिंग्स</translation>
+        <translation>&amp;सेट�?टिंग�?स</translation>
     </message>
     <message>
         <source>&amp;Help</source>
@@ -136,19 +136,19 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>भेजी ट्रांजक्शन</translation>
+        <translation>भेजी ट�?रांजक�?शन</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>प्राप्त हुई ट्रांजक्शन</translation>
+        <translation>प�?राप�?त ह�?ई ट�?रांजक�?शन</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>वॉलेट एन्क्रिप्टेड है तथा अभी लॉक्ड नहीं है</translation>
+        <translation>वॉलेट �?न�?क�?रिप�?टेड है तथा अभी लॉक�?ड नहीं है</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>वॉलेट एन्क्रिप्टेड है तथा अभी लॉक्ड है</translation>
+        <translation>वॉलेट �?न�?क�?रिप�?टेड है तथा अभी लॉक�?ड है</translation>
     </message>
     </context>
 <context>
@@ -167,14 +167,14 @@
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>पक्का</translation>
+        <translation>पक�?का</translation>
     </message>
     </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>पता एडिट करना</translation>
+        <translation>पता �?डिट करना</translation>
     </message>
     <message>
         <source>&amp;Label</source>
@@ -192,7 +192,7 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>संस्करण</translation>
+        <translation>संस�?करण</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -210,7 +210,7 @@
     <name>ModalOverlay</name>
     <message>
         <source>Form</source>
-        <translation>फार्म</translation>
+        <translation>फार�?म</translation>
     </message>
     </context>
 <context>
@@ -220,7 +220,7 @@
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>विकल्प</translation>
+        <translation>विकल�?प</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -232,14 +232,14 @@
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;कैन्सल</translation>
+        <translation>&amp;कैन�?सल</translation>
     </message>
     </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>फार्म</translation>
+        <translation>फार�?म</translation>
     </message>
     </context>
 <context>
@@ -303,7 +303,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>सिक्के भेजें|</translation>
+        <translation>सिक�?के भेजें|</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -311,7 +311,7 @@
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>एक साथ कई प्राप्तकर्ताओं को भेजें</translation>
+        <translation>�?क साथ कई प�?राप�?तकर�?ताओं को भेजें</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -319,7 +319,7 @@
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>भेजने की पुष्टि करें</translation>
+        <translation>भेजने की प�?ष�?टि करें</translation>
     </message>
     </context>
 <context>
@@ -330,7 +330,7 @@
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>प्राप्तकर्ता:</translation>
+        <translation>प�?राप�?तकर�?ता:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -342,7 +342,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Clipboard से एड्रेस paste करें</translation>
+        <translation>Clipboard से �?ड�?रेस paste करें</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -350,7 +350,7 @@
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>प्राप्तकर्ता:</translation>
+        <translation>प�?राप�?तकर�?ता:</translation>
     </message>
     </context>
 <context>
@@ -367,7 +367,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Clipboard से एड्रेस paste करें</translation>
+        <translation>Clipboard से �?ड�?रेस paste करें</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -375,14 +375,14 @@
     </message>
     <message>
         <source>Signature</source>
-        <translation>हस्ताक्षर</translation>
+        <translation>हस�?ताक�?षर</translation>
     </message>
     </context>
 <context>
     <name>SplashScreen</name>
     <message>
         <source>[testnet]</source>
-        <translation>[टेस्टनेट]</translation>
+        <translation>[टेस�?टनेट]</translation>
     </message>
 </context>
 <context>
@@ -395,7 +395,7 @@
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation> ये खिड़की आपको लेन-देन का विस्तृत विवरण देगी !</translation>
+        <translation> ये खिड़की आपको लेन-देन का विस�?तृत विवरण देगी !</translation>
     </message>
     </context>
 <context>
@@ -420,23 +420,23 @@
     <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
-        <translation>विकल्प:</translation>
+        <translation>विकल�?प:</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>डेटा डायरेक्टरी बताएं </translation>
+        <translation>डेटा डायरेक�?टरी बता�?ं </translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>बैकग्राउंड में डेमॉन बन कर रन करे तथा कमांड्स स्वीकार करें </translation>
+        <translation>बैकग�?राउंड में डेमॉन बन कर रन करे तथा कमांड�?स स�?वीकार करें </translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>ब्लॉक्स जाँचे जा रहा है...</translation>
+        <translation>ब�?लॉक�?स जा�?चे जा रहा है...</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>वॉलेट जाँचा जा रहा है...</translation>
+        <translation>वॉलेट जा�?चा जा रहा है...</translation>
     </message>
     <message>
         <source>Information</source>
@@ -448,11 +448,11 @@
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>पता पुस्तक आ रही है...</translation>
+        <translation>पता प�?स�?तक आ रही है...</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>ब्लॉक इंडेक्स आ रहा है...</translation>
+        <translation>ब�?लॉक इंडेक�?स आ रहा है...</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
@@ -460,7 +460,7 @@
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>रि-स्केनी-इंग...</translation>
+        <translation>रि-स�?केनी-इंग...</translation>
     </message>
     <message>
         <source>Done loading</source>
