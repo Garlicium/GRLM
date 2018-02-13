@@ -147,7 +147,7 @@
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;Siun�?iami adresai...</translation>
+        <translation>&amp;Siunčiami adresai...</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
@@ -162,8 +162,8 @@
         <translation>Blokai iš naujo indeksuojami...</translation>
     </message>
     <message>
-        <source>Send coins to a Garlicium address</source>
-        <translation>Siųsti monetas Garlicium adresui</translation>
+        <source>Send coins to a Litecoin address</source>
+        <translation>Siųsti monetas Litecoin adresui</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -186,8 +186,8 @@
         <translation>&amp;Tikrinti žinutę...</translation>
     </message>
     <message>
-        <source>Garlicium</source>
-        <translation>Garlicium</translation>
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -211,7 +211,7 @@
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Užšifruoti priva�?ius raktus, kurie priklauso jūsų piniginei</translation>
+        <translation>Užšifruoti privačius raktus, kurie priklauso jūsų piniginei</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -300,7 +300,7 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Po mokes�?io:</translation>
+        <translation>Po mokesčio:</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -432,8 +432,8 @@
         <translation>Piniginė</translation>
     </message>
     <message>
-        <source>Automatically open the Garlicium client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatiškai atidaryti Garlicium kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatiškai atidaryti Litecoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -473,7 +473,7 @@
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;M sumažinti langą bet ne užduo�?ių juostą</translation>
+        <translation>&amp;M sumažinti langą bet ne užduočių juostą</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
@@ -493,7 +493,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Rodomų ir siun�?iamų monetų kiekio matavimo vienetai</translation>
+        <translation>Rodomų ir siunčiamų monetų kiekio matavimo vienetai</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -630,7 +630,7 @@
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Dabartinis blokų skai�?ius</translation>
+        <translation>Dabartinis blokų skaičius</translation>
     </message>
     <message>
         <source>Received</source>
@@ -766,7 +766,7 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Po mokes�?io:</translation>
+        <translation>Po mokesčio:</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -862,10 +862,10 @@
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Įveskite pranešimą, kurį norite pasirašyti �?ia</translation>
+        <translation>Įveskite pranešimą, kurį norite pasirašyti čia</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Garlicium address</source>
+        <source>Sign the message to prove you own this Litecoin address</source>
         <translation>Registruotis žinute įrodymuii, kad turite šį adresą</translation>
     </message>
     <message>
@@ -881,8 +881,8 @@
         <translation>&amp;Patikrinti žinutę</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Garlicium address</source>
-        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Garlicium adresas</translation>
+        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Litecoin adresas</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -958,8 +958,8 @@
         <translation>Dirbti fone kaip šešėlyje ir priimti komandas</translation>
     </message>
     <message>
-        <source>Garlicium Core</source>
-        <translation>Garlicium branduolys</translation>
+        <source>Litecoin Core</source>
+        <translation>Litecoin branduolys</translation>
     </message>
     <message>
         <source>Error opening block database</source>

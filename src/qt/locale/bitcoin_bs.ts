@@ -14,8 +14,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Garlicium</source>
-        <translation>Garlicium</translation>
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
     </message>
     </context>
 <context>
@@ -156,8 +156,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Garlicium Core</source>
-        <translation>Garlicium Jezrga</translation>
+        <source>Litecoin Core</source>
+        <translation>Litecoin Jezrga</translation>
     </message>
     </context>
 </TS>

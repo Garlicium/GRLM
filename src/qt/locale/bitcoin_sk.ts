@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Kliknutím pravým tla�?idlom upraviť adresu alebo popis</translation>
+        <translation>Kliknutím pravým tlačidlom upraviť adresu alebo popis</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -62,12 +62,12 @@
         <translation>Prijímajúce adresy</translation>
     </message>
     <message>
-        <source>These are your Garlicium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú Vaše Garlicium adresy pre posielanie platieb. Vždy skontrolujte sumu a prijímaciu adresu pred poslaním mincí.</translation>
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú Vaše Litecoin adresy pre posielanie platieb. Vždy skontrolujte sumu a prijímaciu adresu pred poslaním mincí.</translation>
     </message>
     <message>
-        <source>These are your Garlicium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše Garlicium adresy pre prijímanie platieb. Odporú�?a sa použiť vždy novú prijímaciu adresu pre každú transakciu.</translation>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše Litecoin adresy pre prijímanie platieb. Odporúča sa použiť vždy novú prijímaciu adresu pre každú transakciu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -165,11 +165,11 @@
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Potvr�?te zašifrovanie peňaženky</translation>
+        <translation>Potvrďte zašifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR GARLICIUMS&lt;/b&gt;!</source>
-        <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRAT�?TE VŠETKY VAŠE GARLICIUMY&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE LITECOINY&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -180,12 +180,12 @@
         <translation>Peňaženka zašifrovaná</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your garliciums from being stolen by malware infecting your computer.</source>
-        <translation>%1 sa teraz zavrie, aby sa ukon�?il proces šifrovania. Zašifrovanie peňaženky neochráni úplne pred krádežou garliciumov škodlivými programami, ktoré prenikli do vášho po�?íta�?a.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 sa teraz zavrie, aby sa ukončil proces šifrovania. Zašifrovanie peňaženky neochráni úplne pred krádežou litecoinov škodlivými programami, ktoré prenikli do vášho počítača.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>DÔLEŽITÉ: Všetky predchádzajúce zálohy vašej peňaženky, ktoré ste vykonali by mali byť nahradené novo vytvorenou, zašifrovanou peňaženkou. Z bezpe�?nostných dôvodov bude predchádzajúca záloha nezašifrovanej peňaženky k ni�?omu, akonáhle za�?nete používať novú, zašifrovanú peňaženku.</translation>
+        <translation>DÔLEŽITÉ: Všetky predchádzajúce zálohy vašej peňaženky, ktoré ste vykonali by mali byť nahradené novo vytvorenou, zašifrovanou peňaženkou. Z bezpečnostných dôvodov bude predchádzajúca záloha nezašifrovanej peňaženky k ničomu, akonáhle začnete používať novú, zašifrovanú peňaženku.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -263,11 +263,11 @@
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>U&amp;kon�?iť</translation>
+        <translation>U&amp;končiť</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Ukon�?iť program</translation>
+        <translation>Ukončiť program</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
@@ -331,15 +331,15 @@
     </message>
     <message>
         <source>Syncing Headers (%1%)...</source>
-        <translation>Synchronizujú sa hlavi�?ky (%1%)...</translation>
+        <translation>Synchronizujú sa hlavičky (%1%)...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
         <translation>Preindexúvam bloky na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a Garlicium address</source>
-        <translation>Poslať garliciums na adresu</translation>
+        <source>Send coins to a Litecoin address</source>
+        <translation>Poslať litecoins na adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -362,8 +362,8 @@
         <translation>O&amp;veriť správu...</translation>
     </message>
     <message>
-        <source>Garlicium</source>
-        <translation>Garlicium</translation>
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -387,15 +387,15 @@
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Zašifruj súkromné kľú�?e ktoré patria do vašej peňaženky</translation>
+        <translation>Zašifruj súkromné kľúče ktoré patria do vašej peňaženky</translation>
     </message>
     <message>
-        <source>Sign messages with your Garlicium addresses to prove you own them</source>
-        <translation>Podpísať správu s vašou adresou Garlicium aby ste preukázali že ju vlastníte</translation>
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <translation>Podpísať správu s vašou adresou Litecoin aby ste preukázali že ju vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Garlicium addresses</source>
-        <translation>Overiť �?i správa bola podpísaná uvedenou Garlicium adresou</translation>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>Overiť či správa bola podpísaná uvedenou Litecoin adresou</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -414,8 +414,8 @@
         <translation>Lišta záložiek</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and garlicium: URIs)</source>
-        <translation>Vyžiadať platby (vygeneruje QR kódy a garlicium: URI)</translation>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Vyžiadať platby (vygeneruje QR kódy a litecoin: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,16 +426,16 @@
         <translation>Zobraziť zoznam použitých prijímacích adries a ich popisov</translation>
     </message>
     <message>
-        <source>Open a garlicium: URI or payment request</source>
-        <translation>Otvoriť garlicium URI alebo výzvu k platbe</translation>
+        <source>Open a litecoin: URI or payment request</source>
+        <translation>Otvoriť litecoin URI alebo výzvu k platbe</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Možnosti príkazového riadku</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Garlicium network</source>
-        <translation><numerusform>%n aktívne pripojenie do siete Garlicium</numerusform><numerusform>%n aktívne pripojenia do siete Garlicium</numerusform><numerusform>%n aktívnych pripojení do siete Garlicium</numerusform></translation>
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n aktívne pripojenie do siete Litecoin</numerusform><numerusform>%n aktívne pripojenia do siete Litecoin</numerusform><numerusform>%n aktívnych pripojení do siete Litecoin</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -447,7 +447,7 @@
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>Spracovaných %n blok transak�?nej histórie.</numerusform><numerusform>Spracovaných %n bloky transak�?nej histórie.</numerusform><numerusform>Spracovaných %n blokov transak�?nej histórie.</numerusform></translation>
+        <translation><numerusform>Spracovaných %n blok transakčnej histórie.</numerusform><numerusform>Spracovaných %n bloky transakčnej histórie.</numerusform><numerusform>Spracovaných %n blokov transakčnej histórie.</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -459,7 +459,7 @@
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transakcie po tomto �?ase ešte nebudú viditeľné.</translation>
+        <translation>Transakcie po tomto čase ešte nebudú viditeľné.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -478,8 +478,8 @@
         <translation>Aktualizovaný</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Garlicium command-line options</source>
-        <translation>Ukáž %1 zoznam možných nastavení Garliciumu pomocou príkazového riadku</translation>
+        <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
+        <translation>Ukáž %1 zoznam možných nastavení Litecoinu pomocou príkazového riadku</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -533,11 +533,11 @@
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
-        <translation>Generovanie HD kľú�?ov je &lt;b&gt;zapnuté&lt;/b&gt;</translation>
+        <translation>Generovanie HD kľúčov je &lt;b&gt;zapnuté&lt;/b&gt;</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>Generovanie HD kľú�?ov je &lt;b&gt;vypnuté&lt;/b&gt;</translation>
+        <translation>Generovanie HD kľúčov je &lt;b&gt;vypnuté&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
@@ -548,8 +548,8 @@
         <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;zamknutá&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Garlicium can no longer continue safely and will quit.</source>
-        <translation>Vyskytla sa kritická chyba. Garlicium nemôže �?alej bezpe�?ne pokra�?ovať a ukon�?í sa.</translation>
+        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
+        <translation>Vyskytla sa kritická chyba. Litecoin nemôže ďalej bezpečne pokračovať a ukončí sa.</translation>
     </message>
 </context>
 <context>
@@ -604,7 +604,7 @@
     </message>
     <message>
         <source>Received with label</source>
-        <translation>Prijaté s ozna�?ením</translation>
+        <translation>Prijaté s označením</translation>
     </message>
     <message>
         <source>Received with address</source>
@@ -684,7 +684,7 @@
     </message>
     <message>
         <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>Tento popis s�?ervenie ak ktorýkoľvek príjemca dostane sumu menšiu ako sú�?asný limit pre "prach".</translation>
+        <translation>Tento popis sčervenie ak ktorýkoľvek príjemca dostane sumu menšiu ako súčasný limit pre "prach".</translation>
     </message>
     <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
@@ -742,8 +742,8 @@
         <translation>Upraviť odosielaciu adresu</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Garlicium address.</source>
-        <translation>Vložená adresa "%1" nieje platnou adresou Garlicium.</translation>
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>Vložená adresa "%1" nieje platnou adresou Litecoin.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -755,7 +755,7 @@
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>Generovanie nového kľú�?a zlyhalo.</translation>
+        <translation>Generovanie nového kľúča zlyhalo.</translation>
     </message>
 </context>
 <context>
@@ -770,7 +770,7 @@
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Prie�?inok už existuje. Pridajte "%1" ak chcete vytvoriť nový prie�?inok tu.</translation>
+        <translation>Priečinok už existuje. Pridajte "%1" ak chcete vytvoriť nový priečinok tu.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
@@ -813,7 +813,7 @@
     </message>
     <message>
         <source>Choose data directory on startup (default: %u)</source>
-        <translation>Vyberte dátový prie�?inok pri štarte (predvolené: %u)</translation>
+        <translation>Vyberte dátový priečinok pri štarte (predvolené: %u)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
@@ -848,11 +848,11 @@
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
-        <translation>Ke�?že toto je prvé spustenie programu, môžete si vybrať, kam %1 bude ukladať vaše údaje.</translation>
+        <translation>Keďže toto je prvé spustenie programu, môžete si vybrať, kam %1 bude ukladať vaše údaje.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Garlicium block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 stiahne a uloží kópiu Garlicium block chain. Minimálne %2GB dát bude uložených v tejto zložke, a bude sa zvä�?šovať postupom �?asu. Peňaženka bude taktiež uložená v tejto zložke.</translation>
+        <source>%1 will download and store a copy of the Litecoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 stiahne a uloží kópiu Litecoin block chain. Minimálne %2GB dát bude uložených v tejto zložke, a bude sa zväčšovať postupom času. Peňaženka bude taktiež uložená v tejto zložke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -864,7 +864,7 @@
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Chyba: Zadaný prie�?inok pre dáta "%1" nemôže byť vytvorený.</translation>
+        <translation>Chyba: Zadaný priečinok pre dáta "%1" nemôže byť vytvorený.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -886,16 +886,16 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the garlicium network, as detailed below.</source>
-        <translation>Nedávne transakcie nemusia byť ešte viditeľné preto môže byť zostatok vo vašej peňaženke nesprávny. Táto informácia bude správna ke�? sa dokon�?í synchronizovanie peňaženky so sieťou garlicium, ako je rozpísané nižšie.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
+        <translation>Nedávne transakcie nemusia byť ešte viditeľné preto môže byť zostatok vo vašej peňaženke nesprávny. Táto informácia bude správna keď sa dokončí synchronizovanie peňaženky so sieťou litecoin, ako je rozpísané nižšie.</translation>
     </message>
     <message>
-        <source>Attempting to spend garliciums that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Pokus o minutie garliciumov, ktoré sú ovplyvnené ešte nezobrazenými transakciami, nebude sieťou akceptovaný.</translation>
+        <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Pokus o minutie litecoinov, ktoré sú ovplyvnené ešte nezobrazenými transakciami, nebude sieťou akceptovaný.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
-        <translation>Po�?et zostávajúcich blokov</translation>
+        <translation>Počet zostávajúcich blokov</translation>
     </message>
     <message>
         <source>Unknown...</source>
@@ -915,11 +915,11 @@
     </message>
     <message>
         <source>calculating...</source>
-        <translation>po�?íta sa...</translation>
+        <translation>počíta sa...</translation>
     </message>
     <message>
         <source>Estimated time left until synced</source>
-        <translation>Odhadovaný �?as do ukon�?enia synchronizácie</translation>
+        <translation>Odhadovaný čas do ukončenia synchronizácie</translation>
     </message>
     <message>
         <source>Hide</source>
@@ -927,7 +927,7 @@
     </message>
     <message>
         <source>Unknown. Syncing Headers (%1)...</source>
-        <translation>Neznámy. Synchronizujú sa hlavi�?ky (%1)...</translation>
+        <translation>Neznámy. Synchronizujú sa hlavičky (%1)...</translation>
     </message>
 </context>
 <context>
@@ -981,7 +981,7 @@
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Po�?et &amp;vlákien overujúcich skript</translation>
+        <translation>Počet &amp;vlákien overujúcich skript</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -997,11 +997,11 @@
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Minimalizovať namiesto ukon�?enia aplikácie ke�? sa okno zavrie. Ke�? je zvolená táto možnosť, aplikácia sa zavrie len po zvolení Ukon�?iť v menu.</translation>
+        <translation>Minimalizovať namiesto ukončenia aplikácie keď sa okno zavrie. Keď je zvolená táto možnosť, aplikácia sa zavrie len po zvolení Ukončiť v menu.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>URL tretích strán (napr. prehliada�? blockchain) ktoré sa zobrazujú v záložke transakcií ako položky kontextového menu. %s v URL je nahradené hash-om transakcie. Viaceré URL sú oddelené zvislou �?iarou |.</translation>
+        <translation>URL tretích strán (napr. prehliadač blockchain) ktoré sa zobrazujú v záložke transakcií ako položky kontextového menu. %s v URL je nahradené hash-om transakcie. Viaceré URL sú oddelené zvislou čiarou |.</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
@@ -1041,23 +1041,23 @@
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation>Ak vypnete míňanie nepotvrdeného výdavku tak výdavok z transakcie bude možné použiť až ke�? daná transakcia bude mať aspoň jedno potvrdenie. Toto má vplyv aj na výpo�?et vášho zostatku.</translation>
+        <translation>Ak vypnete míňanie nepotvrdeného výdavku tak výdavok z transakcie bude možné použiť až keď daná transakcia bude mať aspoň jedno potvrdenie. Toto má vplyv aj na výpočet vášho zostatku.</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
         <translation>Minúť nepotvrdený výdavok</translation>
     </message>
     <message>
-        <source>Automatically open the Garlicium client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvorit port pre Garlicium na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvorit port pre Litecoin na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapovať port pomocou &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Garlicium network through a SOCKS5 proxy.</source>
-        <translation>Pripojiť do siete Garlicium cez proxy server SOCKS5.</translation>
+        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
+        <translation>Pripojiť do siete Litecoin cez proxy server SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1081,7 +1081,7 @@
     </message>
     <message>
         <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>Zobrazuje, �?i je poskytované predvolené SOCKS5 proxy používané pre získavanie peerov cez tento typ siete.</translation>
+        <translation>Zobrazuje, či je poskytované predvolené SOCKS5 proxy používané pre získavanie peerov cez tento typ siete.</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -1096,12 +1096,12 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Garlicium network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Pripojiť k Garliciumovej sieti cez separované SOCKS5 proxy pre skrytú službu Tor.</translation>
+        <source>Connect to the Litecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Pripojiť k Litecoinovej sieti cez separované SOCKS5 proxy pre skrytú službu Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
-        <translation>Použiť samostatný SOCKS5 proxy server na dosiahnutie po�?íta�?ov cez skryté služby Tor:</translation>
+        <translation>Použiť samostatný SOCKS5 proxy server na dosiahnutie počítačov cez skryté služby Tor:</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1145,7 +1145,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Zvoľte ako deliť garlicium pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
+        <translation>Zvoľte ako deliť litecoin pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1177,7 +1177,7 @@
     </message>
     <message>
         <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>Klient bude vypnutý, chcete pokra�?ovať?</translation>
+        <translation>Klient bude vypnutý, chcete pokračovať?</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
@@ -1195,8 +1195,8 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Garlicium network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť neaktuálne. Vaša peňaženka sa automaticky synchronizuje so sieťou Garlicium po nadviazaní spojenia, ale tento proces ešte nie je ukon�?ený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť neaktuálne. Vaša peňaženka sa automaticky synchronizuje so sieťou Litecoin po nadviazaní spojenia, ale tento proces ešte nie je ukončený.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1216,7 +1216,7 @@
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Suma transakcií ktoré ešte neboli potvrdené a ešte sa nepo�?ítajú do disponibilného zostatku</translation>
+        <translation>Suma transakcií ktoré ešte neboli potvrdené a ešte sa nepočítajú do disponibilného zostatku</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -1228,7 +1228,7 @@
     </message>
     <message>
         <source>Balances</source>
-        <translation>Stav ú�?tu</translation>
+        <translation>Stav účtu</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -1236,7 +1236,7 @@
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Váš sú�?asný celkový zostatok</translation>
+        <translation>Váš súčasný celkový zostatok</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
@@ -1282,8 +1282,8 @@
         <translation>Neplatná adresa platby %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Garlicium address or malformed URI parameters.</source>
-        <translation>URI sa nedá analyzovať! To môže byť spôsobené neplatnou Garlicium adresou alebo zle nastavenými vlastnosťami URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
+        <translation>URI sa nedá analyzovať! To môže byť spôsobené neplatnou Litecoin adresou alebo zle nastavenými vlastnosťami URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1291,7 +1291,7 @@
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Súbor s výzvou na zaplatenie sa nedá �?ítať! To môže byť spôsobené aj neplatným súborom s výzvou.</translation>
+        <translation>Súbor s výzvou na zaplatenie sa nedá čítať! To môže byť spôsobené aj neplatným súborom s výzvou.</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
@@ -1339,7 +1339,7 @@
     </message>
     <message>
         <source>Bad response from server %1</source>
-        <translation>Zlá odpove�? zo servera %1</translation>
+        <translation>Zlá odpoveď zo servera %1</translation>
     </message>
     <message>
         <source>Network request error</source>
@@ -1376,8 +1376,8 @@
         <translation>Suma</translation>
     </message>
     <message>
-        <source>Enter a Garlicium address (e.g. %1)</source>
-        <translation>Zadajte garlicium adresu (napr. %1)</translation>
+        <source>Enter a Litecoin address (e.g. %1)</source>
+        <translation>Zadajte litecoin adresu (napr. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1437,7 +1437,7 @@
     </message>
     <message>
         <source>%1 didn't yet exit safely...</source>
-        <translation>%1 ešte nebol bezpe�?ne ukon�?ený...</translation>
+        <translation>%1 ešte nebol bezpečne ukončený...</translation>
     </message>
 </context>
 <context>
@@ -1494,7 +1494,7 @@
     </message>
     <message>
         <source>Datadir</source>
-        <translation>Prie�?inok s dátami</translation>
+        <translation>Priečinok s dátami</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -1510,7 +1510,7 @@
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Po�?et pripojení</translation>
+        <translation>Počet pripojení</translation>
     </message>
     <message>
         <source>Block chain</source>
@@ -1518,7 +1518,7 @@
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Aktuálny po�?et blokov</translation>
+        <translation>Aktuálny počet blokov</translation>
     </message>
     <message>
         <source>Memory Pool</source>
@@ -1526,7 +1526,7 @@
     </message>
     <message>
         <source>Current number of transactions</source>
-        <translation>Aktuálny po�?et transakcií</translation>
+        <translation>Aktuálny počet transakcií</translation>
     </message>
     <message>
         <source>Memory usage</source>
@@ -1550,7 +1550,7 @@
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>Vyberte po�?íta�? pre zobrazenie podrobností.</translation>
+        <translation>Vyberte počítač pre zobrazenie podrobností.</translation>
     </message>
     <message>
         <source>Whitelisted</source>
@@ -1566,11 +1566,11 @@
     </message>
     <message>
         <source>Starting Block</source>
-        <translation>Po�?iato�?ný blok</translation>
+        <translation>Počiatočný blok</translation>
     </message>
     <message>
         <source>Synced Headers</source>
-        <translation>Synchronizované hlavi�?ky
+        <translation>Synchronizované hlavičky
 </translation>
     </message>
     <message>
@@ -1591,7 +1591,7 @@
     </message>
     <message>
         <source>Increase font size</source>
-        <translation>Zvä�?šiť písmo</translation>
+        <translation>Zväčšiť písmo</translation>
     </message>
     <message>
         <source>Services</source>
@@ -1651,7 +1651,7 @@
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;Vy�?istiť</translation>
+        <translation>&amp;Vyčistiť</translation>
     </message>
     <message>
         <source>Totals</source>
@@ -1707,7 +1707,7 @@
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Použi šípky hore a dolu pre navigáciu históriou a &lt;b&gt;Ctrl-L&lt;/b&gt; pre vy�?istenie obrazovky.</translation>
+        <translation>Použi šípky hore a dolu pre navigáciu históriou a &lt;b&gt;Ctrl-L&lt;/b&gt; pre vyčistenie obrazovky.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
@@ -1715,7 +1715,7 @@
     </message>
     <message>
         <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramification of a command.</source>
-        <translation>VAROVANIE: Podvodníci sú aktívni a môžu nabádať používateľov napísať sem príkazy, pomocou ktorých ukradnú ich obsah peňaženky. Nepoužívajte túto konzolu ak nerozumiete presne ú�?inkom príkazov.</translation>
+        <translation>VAROVANIE: Podvodníci sú aktívni a môžu nabádať používateľov napísať sem príkazy, pomocou ktorých ukradnú ich obsah peňaženky. Nepoužívajte túto konzolu ak nerozumiete presne účinkom príkazov.</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
@@ -1759,7 +1759,7 @@
     </message>
     <message>
         <source>Yes</source>
-        <translation>�?no</translation>
+        <translation>Áno</translation>
     </message>
     <message>
         <source>No</source>
@@ -1786,15 +1786,15 @@
     </message>
     <message>
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
-        <translation>Znovu použiť jednu z už použitých adries pre prijímanie. Znovu používanie adries je sporná otázka bezpe�?nosti aj súkromia. Používajte to len v prípade ak znovu generujete výzvu na zaplatenie ktorú ste už vyrobili v minulosti.</translation>
+        <translation>Znovu použiť jednu z už použitých adries pre prijímanie. Znovu používanie adries je sporná otázka bezpečnosti aj súkromia. Používajte to len v prípade ak znovu generujete výzvu na zaplatenie ktorú ste už vyrobili v minulosti.</translation>
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporú�?a sa)</translation>
+        <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Garlicium network.</source>
-        <translation>Pridať voliteľnú správu k výzve na zaplatenie, ktorá sa zobrazí ke�? bude výzva otvorená. Poznámka: Správa nebude poslaná s platbou cez sieť Garlicium.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
+        <translation>Pridať voliteľnú správu k výzve na zaplatenie, ktorá sa zobrazí keď bude výzva otvorená. Poznámka: Správa nebude poslaná s platbou cez sieť Litecoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1806,15 +1806,15 @@
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>Voliteľná požadovaná suma. Nechajte prázdne alebo nulu ak nepožadujete ur�?itú sumu.</translation>
+        <translation>Voliteľná požadovaná suma. Nechajte prázdne alebo nulu ak nepožadujete určitú sumu.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Vy�?istiť všetky polia formulára.</translation>
+        <translation>Vyčistiť všetky polia formulára.</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Vy�?istiť</translation>
+        <translation>Vyčistiť</translation>
     </message>
     <message>
         <source>Requested payments history</source>
@@ -1947,7 +1947,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Poslať Garliciums</translation>
+        <translation>Poslať Litecoins</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2015,7 +2015,7 @@
     </message>
     <message>
         <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ak je poplatok nastavený na 1000 satoshi a transakcia je veľká len 250 bajtov, potom "za kilobajt" zaplatí poplatok 250 satoshi, ale "spolu aspoň" zaplatí 1000 satoshi. Pre transakcie vä�?šie ako kilobajt platia oba spôsoby za každý kilobajt.</translation>
+        <translation>Ak je poplatok nastavený na 1000 satoshi a transakcia je veľká len 250 bajtov, potom "za kilobajt" zaplatí poplatok 250 satoshi, ale "spolu aspoň" zaplatí 1000 satoshi. Pre transakcie väčšie ako kilobajt platia oba spôsoby za každý kilobajt.</translation>
     </message>
     <message>
         <source>Hide</source>
@@ -2026,16 +2026,16 @@
         <translation>spolu aspoň</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for garlicium transactions than the network can process.</source>
-        <translation>Zaplatenie len minimálneho poplatku je v poriadku, pokiaľ existuje menej transakcií ako miesta v blokoch. Uvedomte si však, že ak bude vyšší dopyt po transakciách ako dokáže sieť spracovať, môže byť vaša transakcia odsúvaná a nepotvrdená donekone�?na.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
+        <translation>Zaplatenie len minimálneho poplatku je v poriadku, pokiaľ existuje menej transakcií ako miesta v blokoch. Uvedomte si však, že ak bude vyšší dopyt po transakciách ako dokáže sieť spracovať, môže byť vaša transakcia odsúvaná a nepotvrdená donekonečna.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
-        <translation>(pre�?ítajte si nápovedu pod kurzorom)</translation>
+        <translation>(prečítajte si nápovedu pod kurzorom)</translation>
     </message>
     <message>
         <source>Recommended:</source>
-        <translation>Odporú�?aný:</translation>
+        <translation>Odporúčaný:</translation>
     </message>
     <message>
         <source>Custom:</source>
@@ -2043,7 +2043,7 @@
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Automatický poplatok ešte nebol vypo�?ítaný. Toto zvy�?ajne trvá niekoľko blokov...)</translation>
+        <translation>(Automatický poplatok ešte nebol vypočítaný. Toto zvyčajne trvá niekoľko blokov...)</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2063,7 +2063,7 @@
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Vy�?istiť všetky polia formulára.</translation>
+        <translation>Vyčistiť všetky polia formulára.</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -2071,7 +2071,7 @@
     </message>
     <message>
         <source>Confirmation time target:</source>
-        <translation>Cieľový �?as potvrdenia:</translation>
+        <translation>Cieľový čas potvrdenia:</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -2083,7 +2083,7 @@
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Potvr�?te odoslanie</translation>
+        <translation>Potvrďte odoslanie</translation>
     </message>
     <message>
         <source>S&amp;end</source>
@@ -2123,7 +2123,7 @@
     </message>
     <message>
         <source>Are you sure you want to send?</source>
-        <translation>Ur�?ite chcete odoslať transakciu?</translation>
+        <translation>Určite chcete odoslať transakciu?</translation>
     </message>
     <message>
         <source>added as transaction fee</source>
@@ -2139,7 +2139,7 @@
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Potvr�?te odoslanie mincí</translation>
+        <translation>Potvrďte odoslanie mincí</translation>
     </message>
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
@@ -2147,7 +2147,7 @@
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Suma na úhradu musí byť vä�?šia ako 0.</translation>
+        <translation>Suma na úhradu musí byť väčšia ako 0.</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
@@ -2155,7 +2155,7 @@
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Celková suma prevyšuje Váš zostatok ak sú zapo�?ítané aj transak�?né poplatky %1.</translation>
+        <translation>Celková suma prevyšuje Váš zostatok ak sú započítané aj transakčné poplatky %1.</translation>
     </message>
     <message>
         <source>Duplicate address found: addresses should only be used once each.</source>
@@ -2187,11 +2187,11 @@
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Odhadovaný za�?iatok potvrdzovania po %n bloku.</numerusform><numerusform>Odhadovaný za�?iatok potvrdzovania po %n blokoch.</numerusform><numerusform>Odhadovaný za�?iatok potvrdzovania po %n blokoch.</numerusform></translation>
+        <translation><numerusform>Odhadovaný začiatok potvrdzovania po %n bloku.</numerusform><numerusform>Odhadovaný začiatok potvrdzovania po %n blokoch.</numerusform><numerusform>Odhadovaný začiatok potvrdzovania po %n blokoch.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Garlicium address</source>
-        <translation>Varovanie: Neplatná Garlicium adresa</translation>
+        <source>Warning: Invalid Litecoin address</source>
+        <translation>Varovanie: Neplatná Litecoin adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2199,11 +2199,11 @@
     </message>
     <message>
         <source>Confirm custom change address</source>
-        <translation>Potvr�?te zmenu adresy</translation>
+        <translation>Potvrďte zmenu adresy</translation>
     </message>
     <message>
         <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
-        <translation>Zadaná adresa nie je sú�?asťou tejto peňaženky. Časť alebo všetky peniaze z peňaženky môžu byť odoslané na túto adresu. Ste si istý?</translation>
+        <translation>Zadaná adresa nie je súčasťou tejto peňaženky. Časť alebo všetky peniaze z peňaženky môžu byť odoslané na túto adresu. Ste si istý?</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2233,7 +2233,7 @@
         <translation>Toto je normálna platba.</translation>
     </message>
     <message>
-        <source>The Garlicium address to send the payment to</source>
+        <source>The Litecoin address to send the payment to</source>
         <translation>Zvoľte adresu kam poslať platbu</translation>
     </message>
     <message>
@@ -2253,12 +2253,12 @@
         <translation>Odstrániť túto položku</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less garliciums than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Poplatok sa odpo�?íta od �?iastky, ktorú odosielate. Príjemca dostane menej garliciumov ako zadáte. Ak je vybraných viacero príjemcov, poplatok je rozdelený rovným dielom.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Poplatok sa odpočíta od čiastky, ktorú odosielate. Príjemca dostane menej litecoinov ako zadáte. Ak je vybraných viacero príjemcov, poplatok je rozdelený rovným dielom.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
-        <translation>Odpo�?ítať poplatok od s&amp;umy</translation>
+        <translation>Odpočítať poplatok od s&amp;umy</translation>
     </message>
     <message>
         <source>Message:</source>
@@ -2277,8 +2277,8 @@
         <translation>Vložte popis pre túto adresu aby sa uložila do zoznamu použitých adries</translation>
     </message>
     <message>
-        <source>A message that was attached to the garlicium: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Garlicium network.</source>
-        <translation>Správa ktorá bola pripojená k garlicium: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť Garlicium.</translation>
+        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+        <translation>Správa ktorá bola pripojená k litecoin: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť Litecoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2308,7 +2308,7 @@
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Nevypínajte po�?íta�? kým toto okno nezmizne.</translation>
+        <translation>Nevypínajte počítač kým toto okno nezmizne.</translation>
     </message>
 </context>
 <context>
@@ -2322,12 +2322,12 @@
         <translation>&amp;Podpísať Správu</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive garliciums sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Môžete podpísať správy svojou adresou a dokázať, že viete prijímať mince zaslané na túto adresu. Bu�?te však opatrní a podpíšte len podrobné prehlásenia, s ktorými plne súhlasíte, nakoľko útoky typu "phishing" Vás môžu lákať k podpísaniu nejasných alebo príliš všeobecných tvrdení �?ím prevezmú vašu identitu.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Môžete podpísať správy svojou adresou a dokázať, že viete prijímať mince zaslané na túto adresu. Buďte však opatrní a podpíšte len podrobné prehlásenia, s ktorými plne súhlasíte, nakoľko útoky typu "phishing" Vás môžu lákať k podpísaniu nejasných alebo príliš všeobecných tvrdení čím prevezmú vašu identitu.</translation>
     </message>
     <message>
-        <source>The Garlicium address to sign the message with</source>
-        <translation>Garlicium adresa pre podpísanie správy s</translation>
+        <source>The Litecoin address to sign the message with</source>
+        <translation>Litecoin adresa pre podpísanie správy s</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2358,7 +2358,7 @@
         <translation>Kopírovať tento podpis do systémovej schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Garlicium address</source>
+        <source>Sign the message to prove you own this Litecoin address</source>
         <translation>Podpíšte správu aby ste dokázali že vlastníte túto adresu</translation>
     </message>
     <message>
@@ -2379,15 +2379,15 @@
     </message>
     <message>
         <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>Vložte adresu príjemcu, správu (uistite sa, že presne kopírujete ukon�?enia riadkov, medzery, odrážky, at�?.) a podpis pre potvrdenie správy. Bu�?te opatrní a nedomýšľajte si viac než je uvedené v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu MITM útokom. Toto len potvrdzuje, že podpisujúca strana môže prijímať na tejto adrese, nepotvrdzuje to vlastníctvo žiadnej transakcie!</translation>
+        <translation>Vložte adresu príjemcu, správu (uistite sa, že presne kopírujete ukončenia riadkov, medzery, odrážky, atď.) a podpis pre potvrdenie správy. Buďte opatrní a nedomýšľajte si viac než je uvedené v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu MITM útokom. Toto len potvrdzuje, že podpisujúca strana môže prijímať na tejto adrese, nepotvrdzuje to vlastníctvo žiadnej transakcie!</translation>
     </message>
     <message>
-        <source>The Garlicium address the message was signed with</source>
-        <translation>Adresa Garlicium, ktorou bola podpísaná správa</translation>
+        <source>The Litecoin address the message was signed with</source>
+        <translation>Adresa Litecoin, ktorou bola podpísaná správa</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Garlicium address</source>
-        <translation>Overím správy sa uistiť že bola podpísaná ozna�?enou Garlicium adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+        <translation>Overím správy sa uistiť že bola podpísaná označenou Litecoin adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2411,7 +2411,7 @@
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>Vložená adresa nezodpovedá žiadnemu kľú�?u.</translation>
+        <translation>Vložená adresa nezodpovedá žiadnemu kľúču.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
@@ -2419,7 +2419,7 @@
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Súkromný kľú�? pre zadanú adresu nieje k dispozícii.</translation>
+        <translation>Súkromný kľúč pre zadanú adresu nieje k dispozícii.</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
@@ -2556,7 +2556,7 @@
     </message>
     <message>
         <source>Transaction fee</source>
-        <translation>Transak�?ný poplatok</translation>
+        <translation>Transakčný poplatok</translation>
     </message>
     <message>
         <source>Net amount</source>
@@ -2584,7 +2584,7 @@
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Vytvorené coins musia dospieť %1 blokov kým môžu byť minuté. Ke�? vytvoríte tento blok, bude rozoslaný do siete aby bol akceptovaný do reťaze blokov. Ak sa nedostane reťaze, jeho stav sa zmení na "zamietnutý" a nebude sa dať minúť. Toto sa môže ob�?as stať ak iná nóda vytvorí blok približne v tom istom �?ase.</translation>
+        <translation>Vytvorené coins musia dospieť %1 blokov kým môžu byť minuté. Keď vytvoríte tento blok, bude rozoslaný do siete aby bol akceptovaný do reťaze blokov. Ak sa nedostane reťaze, jeho stav sa zmení na "zamietnutý" a nebude sa dať minúť. Toto sa môže občas stať ak iná nóda vytvorí blok približne v tom istom čase.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2615,7 +2615,7 @@
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Táto �?asť obrazovky zobrazuje detailný popis transakcie</translation>
+        <translation>Táto časť obrazovky zobrazuje detailný popis transakcie</translation>
     </message>
     <message>
         <source>Details for %1</source>
@@ -2650,7 +2650,7 @@
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>Potvrdzujem (%1 z %2 odporú�?aných potvrdení)</translation>
+        <translation>Potvrdzujem (%1 z %2 odporúčaných potvrdení)</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
@@ -2670,7 +2670,7 @@
     </message>
     <message>
         <source>Generated but not accepted</source>
-        <translation>Vypo�?ítané ale neakceptované</translation>
+        <translation>Vypočítané ale neakceptované</translation>
     </message>
     <message>
         <source>Received with</source>
@@ -2706,11 +2706,11 @@
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Stav transakcie. Prejdite ponad toto pole pre zobrazenie po�?tu potvrdení.</translation>
+        <translation>Stav transakcie. Prejdite ponad toto pole pre zobrazenie počtu potvrdení.</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>Dátum a �?as prijatia transakcie.</translation>
+        <translation>Dátum a čas prijatia transakcie.</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
@@ -2887,7 +2887,7 @@
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
-        <translation>Nie je na�?ítaná peňaženka.</translation>
+        <translation>Nie je načítaná peňaženka.</translation>
     </message>
 </context>
 <context>
@@ -2940,15 +2940,15 @@
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>Ur�?iť prie�?inok s dátami</translation>
+        <translation>Určiť priečinok s dátami</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Pripojiť sa k uzlu, získať adresy �?alších po�?íta�?ov v sieti a odpojiť sa</translation>
+        <translation>Pripojiť sa k uzlu, získať adresy ďalších počítačov v sieti a odpojiť sa</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Ur�?ite vašu vlastnú verejnú adresu</translation>
+        <translation>Určite vašu vlastnú verejnú adresu</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2956,7 +2956,7 @@
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
-        <translation>Distribuované pod softvérovou licenciou MIT, vi�? sprievodný súbor %s alebo %s</translation>
+        <translation>Distribuované pod softvérovou licenciou MIT, viď sprievodný súbor %s alebo %s</translation>
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
@@ -2987,8 +2987,8 @@
         <translation>Nepodarilo sa spustiť HTTP server. Pre viac detailov zobrazte debug log.</translation>
     </message>
     <message>
-        <source>Garlicium Core</source>
-        <translation>Garlicium Core</translation>
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -2996,11 +2996,11 @@
     </message>
     <message>
         <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
-        <translation>Akceptovať postúpené transakcie od povolených partnerov aj ke�? normálne nepostupujete transakcie (predvolené: %d)</translation>
+        <translation>Akceptovať postúpené transakcie od povolených partnerov aj keď normálne nepostupujete transakcie (predvolené: %d)</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Spojiť s danou adresou a vždy na nej po�?úvať. Použite zápis [host]:port pre IPv6</translation>
+        <translation>Spojiť s danou adresou a vždy na nej počúvať. Použite zápis [host]:port pre IPv6</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
@@ -3012,27 +3012,27 @@
     </message>
     <message>
         <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
-        <translation>Chyba po�?as na�?ítavania %s: Nemôžete povoliť HD na už existujúcej non-HD peaženke</translation>
+        <translation>Chyba počas načítavania %s: Nemôžete povoliť HD na už existujúcej non-HD peaženke</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Vykonaj príkaz ke�? sa zmení transakcia peňaženky (%s v príkaze je nahradená TxID)</translation>
+        <translation>Vykonaj príkaz keď sa zmení transakcia peňaženky (%s v príkaze je nahradená TxID)</translation>
     </message>
     <message>
         <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
-        <translation>Prosím skontrolujte systémový �?as a dátum. Ke�? je váš �?as nesprávny, %s nebude fungovať správne.</translation>
+        <translation>Prosím skontrolujte systémový čas a dátum. Keď je váš čas nesprávny, %s nebude fungovať správne.</translation>
     </message>
     <message>
         <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
-        <translation>Ke�? si myslíte, že %s je užito�?ný, podporte nás. Pre viac informácií o software navštívte %s.</translation>
+        <translation>Keď si myslíte, že %s je užitočný, podporte nás. Pre viac informácií o software navštívte %s.</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>Nastaviť po�?eť vlákien overujúcich skripty (%u až %d, 0 = auto, &lt;0 = nechať toľkoto jadier voľných, prednastavené: %d)</translation>
+        <translation>Nastaviť počeť vlákien overujúcich skripty (%u až %d, 0 = auto, &lt;0 = nechať toľkoto jadier voľných, prednastavené: %d)</translation>
     </message>
     <message>
         <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
-        <translation>Databáza blokov obsahuje blok, ktorý vyzerá byť z budúcnosti. Toto môže byť spôsobené nesprávnym systémovým �?asom vášho po�?íta�?a. Obnovujte databázu blokov len ke�? ste si istý, že systémový �?as je nastavený správne.</translation>
+        <translation>Databáza blokov obsahuje blok, ktorý vyzerá byť z budúcnosti. Toto môže byť spôsobené nesprávnym systémovým časom vášho počítača. Obnovujte databázu blokov len keď ste si istý, že systémový čas je nastavený správne.</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
@@ -3040,7 +3040,7 @@
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
-        <translation>Skúsiť použiť UPnP pre mapovanie po�?úvajúceho portu (predvolené: 1 po�?as po�?úvania a bez -proxy)</translation>
+        <translation>Skúsiť použiť UPnP pre mapovanie počúvajúceho portu (predvolené: 1 počas počúvania a bez -proxy)</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3068,7 +3068,7 @@
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet on startup</source>
-        <translation>Pokúsiť sa o obnovenie privátnych kľú�?ov z poškodenej peňaženky pri spustení</translation>
+        <translation>Pokúsiť sa o obnovenie privátnych kľúčov z poškodenej peňaženky pri spustení</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -3128,19 +3128,19 @@
     </message>
     <message>
         <source>Error loading %s</source>
-        <translation>Chyba na�?ítania %s</translation>
+        <translation>Chyba načítania %s</translation>
     </message>
     <message>
         <source>Error loading %s: Wallet corrupted</source>
-        <translation>Chyba na�?ítania %s: Peňaženka je poškodená</translation>
+        <translation>Chyba načítania %s: Peňaženka je poškodená</translation>
     </message>
     <message>
         <source>Error loading %s: Wallet requires newer version of %s</source>
-        <translation>Chyba na�?ítania %s: Peňaženka vyžaduje novšiu verziu %s</translation>
+        <translation>Chyba načítania %s: Peňaženka vyžaduje novšiu verziu %s</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>Chyba na�?ítania databázy blokov</translation>
+        <translation>Chyba načítania databázy blokov</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3152,7 +3152,7 @@
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Chyba po�?úvania na ktoromkoľvek porte. Použi -listen=0 ak toto chcete.</translation>
+        <translation>Chyba počúvania na ktoromkoľvek porte. Použi -listen=0 ak toto chcete.</translation>
     </message>
     <message>
         <source>Importing...</source>
@@ -3160,11 +3160,11 @@
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Nesprávny alebo žiadny genesis blok nájdený. Nesprávny dátový prie�?inok alebo sieť?</translation>
+        <translation>Nesprávny alebo žiadny genesis blok nájdený. Nesprávny dátový priečinok alebo sieť?</translation>
     </message>
     <message>
         <source>Initialization sanity check failed. %s is shutting down.</source>
-        <translation>Kontrola �?istoty pri inicializácií zlyhala. %s sa vypína.</translation>
+        <translation>Kontrola čistoty pri inicializácií zlyhala. %s sa vypína.</translation>
     </message>
     <message>
         <source>Invalid -onion address: '%s'</source>
@@ -3180,15 +3180,15 @@
     </message>
     <message>
         <source>Loading banlist...</source>
-        <translation>Na�?ítavam banlist...</translation>
+        <translation>Načítavam banlist...</translation>
     </message>
     <message>
         <source>Location of the auth cookie (default: data dir)</source>
-        <translation>Umiestnenie overovacieho cookie súboru (predvolená: Prie�?inok s dátami)</translation>
+        <translation>Umiestnenie overovacieho cookie súboru (predvolená: Priečinok s dátami)</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>Nedostatok kľú�?ových slov súboru.</translation>
+        <translation>Nedostatok kľúčových slov súboru.</translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
@@ -3196,11 +3196,11 @@
     </message>
     <message>
         <source>Print this help message and exit</source>
-        <translation>Vytla�?iť túto pomocnú správu a ukon�?iť</translation>
+        <translation>Vytlačiť túto pomocnú správu a ukončiť</translation>
     </message>
     <message>
         <source>Print version and exit</source>
-        <translation>Vytla�?iť verziu a ukon�?iť</translation>
+        <translation>Vytlačiť verziu a ukončiť</translation>
     </message>
     <message>
         <source>Prune cannot be configured with a negative value.</source>
@@ -3224,11 +3224,11 @@
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
-        <translation>Nastaviť najvä�?šiu veľkosť bloku v bytoch (predvolené: %d)</translation>
+        <translation>Nastaviť najväčšiu veľkosť bloku v bytoch (predvolené: %d)</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Ozna�? súbor peňaženky (v prie�?inku s dátami)</translation>
+        <translation>Označ súbor peňaženky (v priečinku s dátami)</translation>
     </message>
     <message>
         <source>The source code is available from %s.</source>
@@ -3236,7 +3236,7 @@
     </message>
     <message>
         <source>Unable to bind to %s on this computer. %s is probably already running.</source>
-        <translation>Nemožné pripojiť k %s na tomto po�?íťa�?i. %s už pravdepodobne beží.</translation>
+        <translation>Nemožné pripojiť k %s na tomto počíťači. %s už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -3252,7 +3252,7 @@
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>Použiť UPnP pre mapovanie po�?úvajúceho portu (predvolené: %u)</translation>
+        <translation>Použiť UPnP pre mapovanie počúvajúceho portu (predvolené: %u)</translation>
     </message>
     <message>
         <source>Use the test chain</source>
@@ -3268,7 +3268,7 @@
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
-        <translation>Peňaženka %s sa nachádza mimo dátového prie�?inka %s </translation>
+        <translation>Peňaženka %s sa nachádza mimo dátového priečinka %s </translation>
     </message>
     <message>
         <source>Wallet debugging/testing options:</source>
@@ -3276,7 +3276,7 @@
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart %s to complete</source>
-        <translation>Peňaženka musí byť prepísaná: pre dokon�?enie reštartujte %s</translation>
+        <translation>Peňaženka musí byť prepísaná: pre dokončenie reštartujte %s</translation>
     </message>
     <message>
         <source>Wallet options:</source>
@@ -3292,7 +3292,7 @@
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>Spojiť s danou adresou pre po�?úvanie JSON-RPC spojení. Použite zápis [host]:port pre IPv6. Táto možnosť môže byt zadaná niekoľko krát (predvolené: spojiť so všetkými rozhraniami)</translation>
+        <translation>Spojiť s danou adresou pre počúvanie JSON-RPC spojení. Použite zápis [host]:port pre IPv6. Táto možnosť môže byt zadaná niekoľko krát (predvolené: spojiť so všetkými rozhraniami)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3304,19 +3304,19 @@
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>Chyba: Po�?úvanie prichádzajúcich spojení zlyhalo (vrátená chyba je %s)</translation>
+        <translation>Chyba: Počúvanie prichádzajúcich spojení zlyhalo (vrátená chyba je %s)</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Vykonať príkaz po prijatí patri�?ného varovania alebo uvidíme veľmi dlhé rozdvojenie siete (%s v cmd je nahradené správou)</translation>
+        <translation>Vykonať príkaz po prijatí patričného varovania alebo uvidíme veľmi dlhé rozdvojenie siete (%s v cmd je nahradené správou)</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
-        <translation>Poplatky (v %s/kB) menšie ako toto, sú považované za nulový transak�?ný poplatok (predvolené: %s)</translation>
+        <translation>Poplatky (v %s/kB) menšie ako toto, sú považované za nulový transakčný poplatok (predvolené: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
-        <translation>Ak nie je nastavené paytxfee, pridať dostato�?ný poplatok aby sa transakcia za�?ala potvrdzovať priemerne v rámci bloku (predvolené: %u)</translation>
+        <translation>Ak nie je nastavené paytxfee, pridať dostatočný poplatok aby sa transakcia začala potvrdzovať priemerne v rámci bloku (predvolené: %u)</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
@@ -3328,7 +3328,7 @@
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Nastaviť najvä�?šiu veľkosť vysoká-dôležitosť/nízke-poplatky transakcií v bajtoch (prednastavené: %d)</translation>
+        <translation>Nastaviť najväčšiu veľkosť vysoká-dôležitosť/nízke-poplatky transakcií v bajtoch (prednastavené: %d)</translation>
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
@@ -3336,7 +3336,7 @@
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>Uzle na zoznam povolených nemôžu byť DoS zakázané a ich transakcie vždy postúpené �?alej, aj v prípade, ak sú už pamäťovej fronte. Užito�?né napr. pre brány</translation>
+        <translation>Uzle na zoznam povolených nemôžu byť DoS zakázané a ich transakcie vždy postúpené ďalej, aj v prípade, ak sú už pamäťovej fronte. Užitočné napr. pre brány</translation>
     </message>
     <message>
         <source>(default: %u)</source>
@@ -3356,7 +3356,7 @@
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
-        <translation>Chyba pri na�?ítaní z databázy, ukon�?uje sa.</translation>
+        <translation>Chyba pri načítaní z databázy, ukončuje sa.</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file on startup</source>
@@ -3440,7 +3440,7 @@
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation>Na tomto po�?íta�?i sa nedá vytvoriť väzba %s (vytvorenie väzby vrátilo chybu %s)</translation>
+        <translation>Na tomto počítači sa nedá vytvoriť väzba %s (vytvorenie väzby vrátilo chybu %s)</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format on startup</source>
@@ -3476,15 +3476,15 @@
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>Na�?ítavanie adries...</translation>
+        <translation>Načítavanie adries...</translation>
     </message>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
-        <translation>(1 = zachovať metaúdaje tx napr. vlastníka ú�?tu a informácie o platobných príkazoch, 2 = zahodiť metaúdaje tx)</translation>
+        <translation>(1 = zachovať metaúdaje tx napr. vlastníka účtu a informácie o platobných príkazoch, 2 = zahodiť metaúdaje tx)</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Poplatky (v %s/kB) menšie ako toto, sú považované za nulový transak�?ný poplatok (predvolené: %s)</translation>
+        <translation>Poplatky (v %s/kB) menšie ako toto, sú považované za nulový transakčný poplatok (predvolené: %s)</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
@@ -3492,11 +3492,11 @@
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
-        <translation>Udržiavať kompletný transak�?ný index, využíva getrawtransaction rpc volanie (predvolené: %u)</translation>
+        <translation>Udržiavať kompletný transakčný index, využíva getrawtransaction rpc volanie (predvolené: %u)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>Po�?et sekúnd, po�?as ktorých nepripájať zle správajúce sa uzle (predvolené: %u)</translation>
+        <translation>Počet sekúnd, počas ktorých nepripájať zle správajúce sa uzle (predvolené: %u)</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
@@ -3504,11 +3504,11 @@
     </message>
     <message>
         <source>This is the transaction fee you may pay when fee estimates are not available.</source>
-        <translation>Toto je poplatok za transakciu ke�? odhad poplatkov ešte nie je k dispozícii.</translation>
+        <translation>Toto je poplatok za transakciu keď odhad poplatkov ešte nie je k dispozícii.</translation>
     </message>
     <message>
         <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
-        <translation>Celková dĺžka verzie sieťového reťazca (%i) prekra�?uje maximálnu dĺžku (%i). Znížte po�?et a veľkosť komentárov.</translation>
+        <translation>Celková dĺžka verzie sieťového reťazca (%i) prekračuje maximálnu dĺžku (%i). Znížte počet a veľkosť komentárov.</translation>
     </message>
     <message>
         <source>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</source>
@@ -3524,7 +3524,7 @@
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Použiť samostatný SOCKS5 proxy server na dosiahnutie po�?íta�?ov cez skryté služby Tor (predvolené: %s)</translation>
+        <translation>Použiť samostatný SOCKS5 proxy server na dosiahnutie počítačov cez skryté služby Tor (predvolené: %s)</translation>
     </message>
     <message>
         <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
@@ -3564,15 +3564,15 @@
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Po�?úvať JSON-RPC pripojenia na &lt;port&gt; (predvolené: %u alebo testovacia sieť: %u)</translation>
+        <translation>Počúvať JSON-RPC pripojenia na &lt;port&gt; (predvolené: %u alebo testovacia sieť: %u)</translation>
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Po�?úvať pripojenia na &lt;port&gt; (predvolené: %u alebo testovacia sieť: %u)</translation>
+        <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: %u alebo testovacia sieť: %u)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Udržiavať najviac &lt;n&gt; spojení s inými po�?íta�?mi (predvolené: %u)</translation>
+        <translation>Udržiavať najviac &lt;n&gt; spojení s inými počítačmi (predvolené: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
@@ -3584,7 +3584,7 @@
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>Na za�?iatok pripojiť �?asovú známku k ladiacemu výstupu (predvolené: %u)</translation>
+        <translation>Na začiatok pripojiť časovú známku k ladiacemu výstupu (predvolené: %u)</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
@@ -3596,19 +3596,19 @@
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
-        <translation>Nastaviť veľkosť kľú�?a fronty na &lt;n&gt; (predvolené: %u)</translation>
+        <translation>Nastaviť veľkosť kľúča fronty na &lt;n&gt; (predvolené: %u)</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
-        <translation>Nastaviť po�?et vlákien na obsluhu RPC volaní (predvolené: %d)</translation>
+        <translation>Nastaviť počet vlákien na obsluhu RPC volaní (predvolené: %d)</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
-        <translation>Zadať konfigura�?ný súbor (predvolené: %s)</translation>
+        <translation>Zadať konfiguračný súbor (predvolené: %s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Zadajte �?asový limit pripojenia v milisekundách (minimum: 1, predvolené: %d)</translation>
+        <translation>Zadajte časový limit pripojenia v milisekundách (minimum: 1, predvolené: %d)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
@@ -3656,7 +3656,7 @@
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Na�?ítavanie zoznamu blokov...</translation>
+        <translation>Načítavanie zoznamu blokov...</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
@@ -3664,7 +3664,7 @@
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Na�?ítavam peňaženku...</translation>
+        <translation>Načítavam peňaženku...</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
@@ -3680,7 +3680,7 @@
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Dokon�?ené na�?ítavanie</translation>
+        <translation>Dokončené načítavanie</translation>
     </message>
     <message>
         <source>Error</source>

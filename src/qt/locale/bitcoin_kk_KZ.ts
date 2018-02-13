@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Create a new address</source>
-        <translation>Жаңа адре�? енгізу</translation>
+        <translation>Жаңа адрес енгізу</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -11,7 +11,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Таңдаған адре�?ті тізімнен жою</translation>
+        <translation>Таңдаған адресті тізімнен жою</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
@@ -19,7 +19,7 @@
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>Эк�?порт</translation>
+        <translation>Экспорт</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -33,15 +33,15 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Enter passphrase</source>
-        <translation>Құпи�? �?өзді енгізу</translation>
+        <translation>Құпия сөзді енгізу</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Жаңа құпи�? �?өзі</translation>
+        <translation>Жаңа құпия сөзі</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Жаңа құпи�? �?өзді қайта енгізу</translation>
+        <translation>Жаңа құпия сөзді қайта енгізу</translation>
     </message>
     </context>
 <context>
@@ -51,7 +51,7 @@
     <name>BitcoinGUI</name>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Транзакци�?лар</translation>
+        <translation>&amp;Транзакциялар</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -63,19 +63,19 @@
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>Әми�?нды жа�?ыру</translation>
+        <translation>Әмиянды жасыру</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>Құпи�? �?өзді өзгерту</translation>
+        <translation>Құпия сөзді өзгерту</translation>
     </message>
     <message>
-        <source>Garlicium</source>
+        <source>Litecoin</source>
         <translation>Биткоин</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Әми�?н</translation>
+        <translation>Әмиян</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -83,7 +83,7 @@
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>�?лу</translation>
+        <translation>Алу</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -103,11 +103,11 @@
     </message>
     <message>
         <source>Warning</source>
-        <translation>Е�?керту</translation>
+        <translation>Ескерту</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Информаци�?</translation>
+        <translation>Информация</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -122,7 +122,7 @@
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Коми�?�?и�?</translation>
+        <translation>Комиссия</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -130,7 +130,7 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Коми�?�?и�? алу кейін</translation>
+        <translation>Комиссия алу кейін</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -142,11 +142,11 @@
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Ра�?тау �?аны</translation>
+        <translation>Растау саны</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Ра�?тық</translation>
+        <translation>Растық</translation>
     </message>
     </context>
 <context>
@@ -157,7 +157,7 @@
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>�?дре�?</translation>
+        <translation>Адрес</translation>
     </message>
     </context>
 <context>
@@ -183,7 +183,7 @@
     <name>OptionsDialog</name>
     <message>
         <source>W&amp;allet</source>
-        <translation>Әми�?н</translation>
+        <translation>Әмиян</translation>
     </message>
     </context>
 <context>
@@ -203,7 +203,7 @@
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 неме�?е %2</translation>
+        <translation>%1 немесе %2</translation>
     </message>
     </context>
 <context>
@@ -216,7 +216,7 @@
     <name>RPCConsole</name>
     <message>
         <source>&amp;Information</source>
-        <translation>Информаци�?</translation>
+        <translation>Информация</translation>
     </message>
     </context>
 <context>
@@ -240,11 +240,11 @@
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Коми�?�?и�?:</translation>
+        <translation>Комиссия:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Коми�?�?и�? алу кейін:</translation>
+        <translation>Комиссия алу кейін:</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -301,19 +301,19 @@
     <name>bitcoin-core</name>
     <message>
         <source>Information</source>
-        <translation>Информаци�?</translation>
+        <translation>Информация</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>Транзакци�? өте кішкентай</translation>
+        <translation>Транзакция өте кішкентай</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>Транзакци�? өте үлкен</translation>
+        <translation>Транзакция өте үлкен</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Е�?керту</translation>
+        <translation>Ескерту</translation>
     </message>
     <message>
         <source>Error</source>

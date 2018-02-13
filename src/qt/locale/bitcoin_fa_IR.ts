@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>کپی کردن حساب انتخاب شده به حا�?ظه سیستم - کلیپ بورد</translation>
+        <translation>کپی کردن حساب انتخاب شده به حافظه سیستم - کلیپ بورد</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,11 +27,11 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>حذ�? آدرس های انتخاب شده از لیست</translation>
+        <translation>حذف آدرس های انتخاب شده از لیست</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>صدور داده نوار جاری به یک �?ایل</translation>
+        <translation>صدور داده نوار جاری به یک فایل</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -39,7 +39,7 @@
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>حذ�?</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -47,7 +47,7 @@
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>انتخاب آدرس جهت دریا�?ت سکه‌ها با آن</translation>
+        <translation>انتخاب آدرس جهت دریافت سکه‌ها با آن</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -55,19 +55,19 @@
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>آدرس‌های �?رستنده</translation>
+        <translation>آدرس‌های فرستنده</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
         <translation>آدرس‌های گیرنده</translation>
     </message>
     <message>
-        <source>These are your Garlicium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>اینها آدرس‌های بیتکوین شما برای ارسال وجوه هستند. همیشه قبل از ارسال، مقدار و آدرس گیرنده را بررسی کنید.</translation>
     </message>
     <message>
-        <source>These are your Garlicium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>اینها آدرس‌های بیتکوین شما برای دریا�?ت وجوه هستند. توصیه می‌شود برای هر دریا�?ت از یک آدرس جدید است�?اده کنید.</translation>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>اینها آدرس‌های بیتکوین شما برای دریافت وجوه هستند. توصیه می‌شود برای هر دریافت از یک آدرس جدید استفاده کنید.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -83,11 +83,11 @@
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>از �?هرست آدرس خروجی گر�?ته شود</translation>
+        <translation>از فهرست آدرس خروجی گرفته شود</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>گر�?تن خروجی به مشکل خورد</translation>
+        <translation>گرفتن خروجی به مشکل خورد</translation>
     </message>
     </context>
 <context>
@@ -109,23 +109,23 @@
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>رمز/پَس �?ر�?یز را وارد کنید</translation>
+        <translation>رمز/پَس فرِیز را وارد کنید</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>رمز/پَس �?ر�?یز جدید را وارد کنید</translation>
+        <translation>رمز/پَس فرِیز جدید را وارد کنید</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>رمز/پَس �?ر�?یز را دوباره وارد کنید</translation>
+        <translation>رمز/پَس فرِیز را دوباره وارد کنید</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>رمزگذاری کی�? پول</translation>
+        <translation>رمزگذاری کیف پول</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>رمزگشایی کی�? پول</translation>
+        <translation>رمزگشایی کیف پول</translation>
     </message>
     <message>
         <source>Change passphrase</source>
@@ -133,11 +133,11 @@
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>تایید رمزگذاری کی�? پول</translation>
+        <translation>تایید رمزگذاری کیف پول</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>کی�? پول رمزگذاری شده است</translation>
+        <translation>کیف پول رمزگذاری شده است</translation>
     </message>
     </context>
 <context>
@@ -191,31 +191,31 @@
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>رمزگذاری کی�? پول</translation>
+        <translation>رمزگذاری کیف پول</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>تهیه نسخه پشتیبان از کی�? پول</translation>
+        <translation>تهیه نسخه پشتیبان از کیف پول</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>تغییر رمز/پَس �?ر�?یز</translation>
+        <translation>تغییر رمز/پَس فرِیز</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>دریا�?ت آدرس ها</translation>
+        <translation>دریافت آدرس ها</translation>
     </message>
     <message>
-        <source>Send coins to a Garlicium address</source>
-        <translation>ارسال کوین به آدرس garlicium</translation>
+        <source>Send coins to a Litecoin address</source>
+        <translation>ارسال کوین به آدرس litecoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>گر�?تن نسخه پیشتیبان در آدرسی دیگر</translation>
+        <translation>گرفتن نسخه پیشتیبان در آدرسی دیگر</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>رمز عبور مربوط به رمزگذاری�? کی�? پول  را تغییر دهید</translation>
+        <translation>رمز عبور مربوط به رمزگذاریِ کیف پول  را تغییر دهید</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -226,12 +226,12 @@
         <translation>تایید پیام</translation>
     </message>
     <message>
-        <source>Garlicium</source>
-        <translation>garlicium</translation>
+        <source>Litecoin</source>
+        <translation>litecoin</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>کی�? پول</translation>
+        <translation>کیف پول</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -243,7 +243,7 @@
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>�?ایل</translation>
+        <translation>فایل</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
@@ -275,15 +275,15 @@
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>تراکنش دریا�?تی</translation>
+        <translation>تراکنش دریافتی</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>wallet رمزگذاری شد و در حال حاضر از حالت ق�?ل در آمده است</translation>
+        <translation>wallet رمزگذاری شد و در حال حاضر از حالت قفل در آمده است</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>wallet رمزگذاری شد و در حال حاضر ق�?ل است</translation>
+        <translation>wallet رمزگذاری شد و در حال حاضر قفل است</translation>
     </message>
     </context>
 <context>
@@ -318,11 +318,11 @@
     </message>
     <message>
         <source>Received with label</source>
-        <translation>دریا�?ت شده با برچسب</translation>
+        <translation>دریافت شده با برچسب</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>دریا�?ت شده با آدرس</translation>
+        <translation>دریافت شده با آدرس</translation>
     </message>
     <message>
         <source>Date</source>
@@ -385,7 +385,7 @@
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>آدرس دریا�?تی جدید</translation>
+        <translation>آدرس دریافتی جدید</translation>
     </message>
     <message>
         <source>New sending address</source>
@@ -393,7 +393,7 @@
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>ویرایش آدرس دریا�?تی</translation>
+        <translation>ویرایش آدرس دریافتی</translation>
     </message>
     <message>
         <source>Edit sending address</source>
@@ -415,7 +415,7 @@
     </message>
     <message>
         <source>Usage:</source>
-        <translation>میزان است�?اده:</translation>
+        <translation>میزان استفاده:</translation>
     </message>
     </context>
 <context>
@@ -433,7 +433,7 @@
     <name>ModalOverlay</name>
     <message>
         <source>Form</source>
-        <translation>�?رم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Unknown...</source>
@@ -471,7 +471,7 @@
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>کی�? پول</translation>
+        <translation>کیف پول</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
@@ -495,18 +495,18 @@
     </message>
     <message>
         <source>default</source>
-        <translation>پیش �?رض</translation>
+        <translation>پیش فرض</translation>
     </message>
     </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>�?رم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Garlicium network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه garlicium به روز می شود اما این �?رایند هنوز تکمیل نشده است.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه litecoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -522,7 +522,7 @@
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>قابل مصر�?:</translation>
+        <translation>قابل مصرف:</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -587,7 +587,7 @@
     </message>
     <message>
         <source>Remove</source>
-        <translation>حذ�?</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <source>Copy label</source>
@@ -628,7 +628,7 @@
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>وجوه ناکا�?ی</translation>
+        <translation>وجوه ناکافی</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -699,7 +699,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>است�?اده از آدرس کلیپ بورد</translation>
+        <translation>استفاده از آدرس کلیپ بورد</translation>
     </message>
     <message>
         <source>Message:</source>
@@ -815,7 +815,7 @@
     </message>
     <message>
         <source>Received from</source>
-        <translation>دریا�?ت شده از</translation>
+        <translation>دریافت شده از</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -862,7 +862,7 @@
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>گر�?تن خروجی به مشکل خورد</translation>
+        <translation>گرفتن خروجی به مشکل خورد</translation>
     </message>
     </context>
 <context>
@@ -905,19 +905,19 @@
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>ارسال اطلاعات پیگیری/خطایابی به کنسول به جای ارسال به �?ایل debug.log</translation>
+        <translation>ارسال اطلاعات پیگیری/خطایابی به کنسول به جای ارسال به فایل debug.log</translation>
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>ارسال تراکنش ها به صورت بدون کارمزد در صورت امکان (پیش �?رض: %u)</translation>
+        <translation>ارسال تراکنش ها به صورت بدون کارمزد در صورت امکان (پیش فرض: %u)</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>شناسه کاربری برای ارتباطات�? JSON-RPC</translation>
+        <translation>شناسه کاربری برای ارتباطاتِ JSON-RPC</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>رمز برای ارتباطات�? JSON-RPC</translation>
+        <translation>رمز برای ارتباطاتِ JSON-RPC</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
@@ -929,19 +929,19 @@
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
-        <translation>تنظیم تعداد ریسمان ها برای سرویس دهی �?راخوانی های RPC (پیش �?رض: %d)</translation>
+        <translation>تنظیم تعداد ریسمان ها برای سرویس دهی فراخوانی های RPC (پیش فرض: %d)</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
-        <translation>�?ایل تنظیمات را مشخص کنید (پیش �?رض: %s)</translation>
+        <translation>فایل تنظیمات را مشخص کنید (پیش فرض: %s)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
-        <translation>�?ایل pid را مشخص کنید (پیش �?رض: %s)</translation>
+        <translation>فایل pid را مشخص کنید (پیش فرض: %s)</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>وجوه ناکا�?ی</translation>
+        <translation>وجوه ناکافی</translation>
     </message>
     <message>
         <source>Loading block index...</source>
@@ -949,7 +949,7 @@
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>یک گره برای اتصال اضا�?ه کنید و تلاش کنید تا اتصال را باز نگاه دارید</translation>
+        <translation>یک گره برای اتصال اضافه کنید و تلاش کنید تا اتصال را باز نگاه دارید</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
@@ -961,11 +961,11 @@
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>آدرس پیش �?رض قابل ذخیره نیست</translation>
+        <translation>آدرس پیش فرض قابل ذخیره نیست</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>اسکن�? دوباره...</translation>
+        <translation>اسکنِ دوباره...</translation>
     </message>
     <message>
         <source>Done loading</source>

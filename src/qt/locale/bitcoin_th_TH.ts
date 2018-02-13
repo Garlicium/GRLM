@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>คลิ�?ขวาเพื่อ�?�?้ไขที่อยู่ หรือป้ายชื่อ</translation>
+        <translation>คลิกขวาเพื่อแก้ไขที่อยู่ หรือป้ายชื่อ</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -15,11 +15,11 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>คัดลอ�?ที่อยู่ที่ถู�?เลือ�?ไปยัง คลิปบอร์ดของระบบ</translation>
+        <translation>คัดลอกที่อยู่ที่ถูกเลือกไปยัง คลิปบอร์ดของระบบ</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;คัดลอ�?</translation>
+        <translation>&amp;คัดลอก</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
@@ -27,15 +27,15 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>ลบที่อยู่ที่เลือ�?ไว้ในขณะนี้จา�?ราย�?าร</translation>
+        <translation>ลบที่อยู่ที่เลือกไว้ในขณะนี้จากรายการ</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>ส่งออ�?ข้อมูลที่อยู่ใน�?ท็บไปที่ไฟล์</translation>
+        <translation>ส่งออกข้อมูลที่อยู่ในแท็บไปที่ไฟล์</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;ส่งออ�?</translation>
+        <translation>&amp;ส่งออก</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>เลือ�?ที่อยู่เพื่อส่งเหรีย�?ไปไว้</translation>
+        <translation>เลือกที่อยู่เพื่อส่งเหรียญไปไว้</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>เลือ�?ที่อยู่เพื่อส่งเหรีย�?ไปไว้</translation>
+        <translation>เลือกที่อยู่เพื่อส่งเหรียญไปไว้</translation>
     </message>
     <message>
         <source>Sending addresses</source>
@@ -73,14 +73,14 @@
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>�?รุณา�?รอ�?รหัสผ่านใหม่อี�?ครั้งหนึ่ง</translation>
+        <translation>กรุณากรอกรหัสผ่านใหม่อีกครั้งหนึ่ง</translation>
     </message>
     </context>
 <context>
     <name>BanTableModel</name>
     <message>
         <source>IP/Netmask</source>
-        <translation>IP/Netmask (ตัว�?รอง IP)</translation>
+        <translation>IP/Netmask (ตัวกรอง IP)</translation>
     </message>
     <message>
         <source>Banned Until</source>
@@ -95,7 +95,7 @@
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>�?ำลังทำข้อมูลให้ตรง�?ัน�?ับเครือข่าย ...</translation>
+        <translation>กำลังทำข้อมูลให้ตรงกันกับเครือข่าย ...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
@@ -107,55 +107,55 @@
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>�?สดงภาพรวมทั่วไปของ�?ระเป๋าเงิน</translation>
+        <translation>แสดงภาพรวมทั่วไปของกระเป๋าเงิน</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;�?ารทำราย�?าร</translation>
+        <translation>&amp;การทำรายการ</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>เรีย�?ดูประวัติ�?ารทำธุร�?รรม</translation>
+        <translation>เรียกดูประวัติการทำธุรกรรม</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>&amp;ออ�?</translation>
+        <translation>&amp;ออก</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>ออ�?จา�?โปร�?�?รม</translation>
+        <translation>ออกจากโปรแกรม</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
-        <translation>&amp;เ�?ี่ยว�?ับ %1</translation>
+        <translation>&amp;เกี่ยวกับ %1</translation>
     </message>
     <message>
         <source>Show information about %1</source>
-        <translation>�?สดงข้อมูล เ�?ี่ยว�?ับ %1</translation>
+        <translation>แสดงข้อมูล เกี่ยวกับ %1</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>เ�?ี่ยว�?ับ &amp;Qt</translation>
+        <translation>เกี่ยวกับ &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>�?สดงข้อมูล เ�?ี่ยว�?ับ Qt</translation>
+        <translation>แสดงข้อมูล เกี่ยวกับ Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;ตัวเลือ�?...</translation>
+        <translation>&amp;ตัวเลือก...</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
-        <translation>ปรับปรุง ข้อมูล�?ารตั้งค่าตัวเลือ�? สำหรับ %1</translation>
+        <translation>ปรับปรุง ข้อมูลการตั้งค่าตัวเลือก สำหรับ %1</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;�?ระเป๋าเงินเข้ารหัส</translation>
+        <translation>&amp;กระเป๋าเงินเข้ารหัส</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;สำรอง�?ระเป๋าเงิน...</translation>
+        <translation>&amp;สำรองกระเป๋าเงิน...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
@@ -163,11 +163,11 @@
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;ที่เ�?็บเงิน ที่จะส่ง garlicium</translation>
+        <translation>&amp;ที่เก็บเงิน ที่จะส่ง litecoin</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;ที่เ�?็บเงิน ที่จะรับ garlicium</translation>
+        <translation>&amp;ที่เก็บเงิน ที่จะรับ litecoin</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -175,19 +175,19 @@
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>�?ำลังทำดัชนี ที่เ�?็บบล็อ�? ใหม่ ในดิส�?์...</translation>
+        <translation>กำลังทำดัชนี ที่เก็บบล็อก ใหม่ ในดิสก์...</translation>
     </message>
     <message>
-        <source>Send coins to a Garlicium address</source>
-        <translation>ส่ง coins ไปยัง ที่เ�?็บ Garlicium</translation>
+        <source>Send coins to a Litecoin address</source>
+        <translation>ส่ง coins ไปยัง ที่เก็บ Litecoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>สำรอง �?ระเป๋าเงินไปยัง ที่เ�?็บอื่น</translation>
+        <translation>สำรอง กระเป๋าเงินไปยัง ที่เก็บอื่น</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>เปลี่ยนรหัสผ่านที่ใช้สำหรับ�?ารเข้ารหัส�?ระเป๋าเงิน</translation>
+        <translation>เปลี่ยนรหัสผ่านที่ใช้สำหรับการเข้ารหัสกระเป๋าเงิน</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -195,19 +195,19 @@
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>เปิด �?ผลงควบคุม debugging �?ละ diagnostic</translation>
+        <translation>เปิด แผลงควบคุม debugging และ diagnostic</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;ยืนยันข้อความ...</translation>
     </message>
     <message>
-        <source>Garlicium</source>
-        <translation>Garlicium</translation>
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>�?ระเป๋าเงิน</translation>
+        <translation>กระเป๋าเงิน</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -219,23 +219,23 @@
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;�?สดง / ซ่อน</translation>
+        <translation>&amp;แสดง / ซ่อน</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>�?สดง หรือ ซ่อน หน้าหลั�?</translation>
+        <translation>แสดง หรือ ซ่อน หน้าหลัก</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>เข้ารหัส private keys/ รหัสส่วนตัว สำหรับ�?ระเป๋าเงินของท่าน</translation>
+        <translation>เข้ารหัส private keys/ รหัสส่วนตัว สำหรับกระเป๋าเงินของท่าน</translation>
     </message>
     <message>
-        <source>Sign messages with your Garlicium addresses to prove you own them</source>
-        <translation>เซ็นชื่อด้วยข้อความ ที่เ�?็บ Garlicium เพื่อ�?สดงว่าท่านเป็นเจ้าของ garlicium นี้จริง</translation>
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <translation>เซ็นชื่อด้วยข้อความ ที่เก็บ Litecoin เพื่อแสดงว่าท่านเป็นเจ้าของ litecoin นี้จริง</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Garlicium addresses</source>
-        <translation>ตรวจสอบ ข้อความ เพื่อให้�?น่ใจว่า �?ารเซ็นต์ชื่อ ด้วยที่เ�?็บ Garlicium �?ล้ว</translation>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>ตรวจสอบ ข้อความ เพื่อให้แน่ใจว่า การเซ็นต์ชื่อ ด้วยที่เก็บ Litecoin แล้ว</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -243,7 +243,7 @@
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;�?ารตั้งค่า</translation>
+        <translation>&amp;การตั้งค่า</translation>
     </message>
     <message>
         <source>&amp;Help</source>
@@ -251,43 +251,43 @@
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>�?ถบเครื่องมือ</translation>
+        <translation>แถบเครื่องมือ</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and garlicium: URIs)</source>
-        <translation>เรีย�?เ�?็บ �?ารชำระเงิน (สร้าง QR codes �?ละ garlicium: URIs)</translation>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>เรียกเก็บ การชำระเงิน (สร้าง QR codes และ litecoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>�?สดงราย�?าร ที่เ�?็บเงินที่จะส่ง garlicium ออ�? �?ละป้ายชื่อ ที่ใช้ไป�?ล้ว</translation>
+        <translation>แสดงรายการ ที่เก็บเงินที่จะส่ง litecoin ออก และป้ายชื่อ ที่ใช้ไปแล้ว</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>�?สดงราย�?าร ที่เ�?็บเงินที่จะรับ garlicium เข้า �?ละป้ายชื่อ ที่ใช้ไป�?ล้ว</translation>
+        <translation>แสดงรายการ ที่เก็บเงินที่จะรับ litecoin เข้า และป้ายชื่อ ที่ใช้ไปแล้ว</translation>
     </message>
     <message>
-        <source>Open a garlicium: URI or payment request</source>
-        <translation>เปิด garlicium: URI หรือ �?ารเรีย�?เ�?็บเงิน (�?ารเรีย�?ให้ชำระเงิน)</translation>
+        <source>Open a litecoin: URI or payment request</source>
+        <translation>เปิด litecoin: URI หรือ การเรียกเก็บเงิน (การเรียกให้ชำระเงิน)</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>&amp;ตัวเลือ�? Command-line</translation>
+        <translation>&amp;ตัวเลือก Command-line</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Garlicium network</source>
-        <translation><numerusform>%n ช่อง�?ารเชื่อมต่อที่ใช้งานได้ เพื่อเชื่อม�?ับเครือข่าย Garlicium</numerusform></translation>
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n ช่องการเชื่อมต่อที่ใช้งานได้ เพื่อเชื่อมกับเครือข่าย Litecoin</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
-        <translation>�?าร�?ำลังสร้างดัชนีของบล็อ�? ในดิส�?์...</translation>
+        <translation>การกำลังสร้างดัชนีของบล็อก ในดิสก์...</translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
-        <translation>�?ำลังดำเนิน�?าร�?ับบล็อ�?ในดิส�?์...</translation>
+        <translation>กำลังดำเนินการกับบล็อกในดิสก์...</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>%n บล็อ�?ในประวัติราย�?าร ได้รับ�?ารดำเนิน�?ารเรียบร้อย�?ล้ว</numerusform></translation>
+        <translation><numerusform>%n บล็อกในประวัติรายการ ได้รับการดำเนินการเรียบร้อยแล้ว</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -295,11 +295,11 @@
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>บล็อ�?สุดท้ายที่ได้รับ สร้างขึ้นเมื่อ %1 มา�?ล้ว</translation>
+        <translation>บล็อกสุดท้ายที่ได้รับ สร้างขึ้นเมื่อ %1 มาแล้ว</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>ราย�?ารหลังจา�?นี้ จะไม่�?สดงให้เห็น</translation>
+        <translation>รายการหลังจากนี้ จะไม่แสดงให้เห็น</translation>
     </message>
     <message>
         <source>Error</source>
@@ -318,16 +318,16 @@
         <translation>ทันสมัย</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Garlicium command-line options</source>
-        <translation>�?สดง %1 ข้อความช่วยเหลือ เพื่อ�?สดงราย�?าร ตัวเลือ�?ที่เป็นไปได้สำหรับ Garlicium command-line</translation>
+        <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
+        <translation>แสดง %1 ข้อความช่วยเหลือ เพื่อแสดงรายการ ตัวเลือกที่เป็นไปได้สำหรับ Litecoin command-line</translation>
     </message>
     <message>
         <source>%1 client</source>
-        <translation>%1 ลู�?ค้า</translation>
+        <translation>%1 ลูกค้า</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>�?ำลังตามให้ทัน...</translation>
+        <translation>กำลังตามให้ทัน...</translation>
     </message>
     <message>
         <source>Date: %1
@@ -361,26 +361,26 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>ราย�?ารที่ส่ง</translation>
+        <translation>รายการที่ส่ง</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>�?ารทำราย�?ารขาเข้า</translation>
+        <translation>การทำรายการขาเข้า</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>ระเป๋าเงินถู�? &lt;b&gt;เข้ารหัส&lt;/b&gt; �?ละในขณะนี้ &lt;b&gt;ปลดล็อค�?ล้ว&lt;/b&gt;</translation>
+        <translation>ระเป๋าเงินถูก &lt;b&gt;เข้ารหัส&lt;/b&gt; และในขณะนี้ &lt;b&gt;ปลดล็อคแล้ว&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>�?ระเป๋าเงินถู�? &lt;b&gt;เข้ารหัส&lt;/b&gt; �?ละในปัจจุบัน &lt;b&gt;ล็อค &lt;/b&gt;</translation>
+        <translation>กระเป๋าเงินถูก &lt;b&gt;เข้ารหัส&lt;/b&gt; และในปัจจุบัน &lt;b&gt;ล็อค &lt;/b&gt;</translation>
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Selection</source>
-        <translation>�?ารเลือ�? Coin</translation>
+        <translation>การเลือก Coin</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -404,7 +404,7 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>ส่วนที่เหลือจา�?ค่าธรรมเนียม:</translation>
+        <translation>ส่วนที่เหลือจากค่าธรรมเนียม:</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -412,15 +412,15 @@
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>(ไม่)เลือ�?ทั้งหมด</translation>
+        <translation>(ไม่)เลือกทั้งหมด</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>โหมด�?บบต้นไม้</translation>
+        <translation>โหมดแบบต้นไม้</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>โหมด�?บบราย�?าร</translation>
+        <translation>โหมดแบบรายการ</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -432,7 +432,7 @@
     </message>
     <message>
         <source>Received with address</source>
-        <translation>รับโดยที่เ�?็บ</translation>
+        <translation>รับโดยที่เก็บ</translation>
     </message>
     <message>
         <source>Date</source>
@@ -440,18 +440,18 @@
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>�?ารยืนยัน</translation>
+        <translation>การยืนยัน</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>ยืนยัน�?ล้ว</translation>
+        <translation>ยืนยันแล้ว</translation>
     </message>
     </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>�?�?้ไขที่อยู่</translation>
+        <translation>แก้ไขที่อยู่</translation>
     </message>
     <message>
         <source>&amp;Label</source>
@@ -459,22 +459,22 @@
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>ราย�?าร�?สดง ป้ายชื่อที่เ�?ี่ยวข้อง�?ับที่เ�?็บนี้</translation>
+        <translation>รายการแสดง ป้ายชื่อที่เกี่ยวข้องกับที่เก็บนี้</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>ที่เ�?็บที่เ�?ี่ยวข้อง�?ับ ที่เ�?็บที่�?สดงราย�?ารนี้ �?ารปรับปรุงนี้ทำได้สำหรับ ที่เ�?็บเงินที่จะใช่ส่งเงิน เท่านั้น</translation>
+        <translation>ที่เก็บที่เกี่ยวข้องกับ ที่เก็บที่แสดงรายการนี้ การปรับปรุงนี้ทำได้สำหรับ ที่เก็บเงินที่จะใช่ส่งเงิน เท่านั้น</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;ที่เ�?็บ</translation>
+        <translation>&amp;ที่เก็บ</translation>
     </message>
     </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>ไดเร็�?ทอรี่ใหม่ที่ใช้เ�?็บข้อมูลจะถู�?สร้างขึ้นมา</translation>
+        <translation>ไดเร็กทอรี่ใหม่ที่ใช้เก็บข้อมูลจะถูกสร้างขึ้นมา</translation>
     </message>
     <message>
         <source>name</source>
@@ -482,15 +482,15 @@
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>ไดเร็�?ทอรี่มีอยู่�?ล้ว ใส่เพิ่ม %1 หา�?ท่านต้อง�?ารสร้างไดเร็�?ทอรี่ใหม่ที่นี่</translation>
+        <translation>ไดเร็กทอรี่มีอยู่แล้ว ใส่เพิ่ม %1 หากท่านต้องการสร้างไดเร็กทอรี่ใหม่ที่นี่</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>พาธ มีอยู่�?ล้ว พาธนี่ไม่ใช่ไดเร็�?ทอรี่</translation>
+        <translation>พาธ มีอยู่แล้ว พาธนี่ไม่ใช่ไดเร็กทอรี่</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>ไม่สามารถสร้างไดเร็�?ทอรี่ข้อมูลที่นี่</translation>
+        <translation>ไม่สามารถสร้างไดเร็กทอรี่ข้อมูลที่นี่</translation>
     </message>
 </context>
 <context>
@@ -505,11 +505,11 @@
     </message>
     <message>
         <source>About %1</source>
-        <translation>เ�?ี่ยว�?ับ %1</translation>
+        <translation>เกี่ยวกับ %1</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>ตัวเลือ�? Command-line</translation>
+        <translation>ตัวเลือก Command-line</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -517,19 +517,19 @@
     </message>
     <message>
         <source>command-line options</source>
-        <translation>ตัวเลือ�? command-line</translation>
+        <translation>ตัวเลือก command-line</translation>
     </message>
     <message>
         <source>UI Options:</source>
-        <translation>ตัวเลือ�? UI:</translation>
+        <translation>ตัวเลือก UI:</translation>
     </message>
     <message>
         <source>Choose data directory on startup (default: %u)</source>
-        <translation>เลือ�?ไดเร็�?ทอรี่ข้อมูลตั้ง�?ต่เริ่มต้นสตาร์ทอัพ (ค่าเริ่มต้น: %u)</translation>
+        <translation>เลือกไดเร็กทอรี่ข้อมูลตั้งแต่เริ่มต้นสตาร์ทอัพ (ค่าเริ่มต้น: %u)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>ตั้งค่าภาษา ย�?ตัวอย่าง "de_DE" (ค่าเริ่มต้น: ภาษาท้องถิ่นของระบบ)</translation>
+        <translation>ตั้งค่าภาษา ยกตัวอย่าง "de_DE" (ค่าเริ่มต้น: ภาษาท้องถิ่นของระบบ)</translation>
     </message>
     <message>
         <source>Start minimized</source>
@@ -537,15 +537,15 @@
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>ตั้งค่า SSL root certificates สำหรับเรีย�?�?ารชำระเงิน (ค่าเริ่มต้น: -system-)</translation>
+        <translation>ตั้งค่า SSL root certificates สำหรับเรียกการชำระเงิน (ค่าเริ่มต้น: -system-)</translation>
     </message>
     <message>
         <source>Show splash screen on startup (default: %u)</source>
-        <translation>�?สดง splash screen ตอนเริ่มต้น (ค่าเริ่มต้น: %u)</translation>
+        <translation>แสดง splash screen ตอนเริ่มต้น (ค่าเริ่มต้น: %u)</translation>
     </message>
     <message>
         <source>Reset all settings changed in the GUI</source>
-        <translation>รีเซต�?ารเปลี่ยน�?ารตั้งค่าทั้งหมดใน GUI</translation>
+        <translation>รีเซตการเปลี่ยนการตั้งค่าทั้งหมดใน GUI</translation>
     </message>
 </context>
 <context>
@@ -560,23 +560,23 @@
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
-        <translation>นี่เป็น�?ารรันโปร�?�?รมครั้ง�?ร�? ท่านสามารถเลือ�? ว่าจะเ�?็บข้อมูลไว้ที่ %1</translation>
+        <translation>นี่เป็นการรันโปรแกรมครั้งแรก ท่านสามารถเลือก ว่าจะเก็บข้อมูลไว้ที่ %1</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Garlicium block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 จะดาวน์โหลด�?ละเ�?็บ�?อปปี้ชุดหนึ่งของ บล็อ�?เชน Garlicium ไว้ ข้อมูลขนานอย่างน้อย %2GB จะเ�?็บไว้ในไดเร็�?ทอรี่นี้ �?ละข้อมูลจะมีขนาดให�?่ขึ้นเรื่อยๆ �?ระเป๋าเงิน จะเ�?็บไว้ในไดเร็�?ทอรี่นี้ด้วย</translation>
+        <source>%1 will download and store a copy of the Litecoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 จะดาวน์โหลดและเก็บกอปปี้ชุดหนึ่งของ บล็อกเชน Litecoin ไว้ ข้อมูลขนานอย่างน้อย %2GB จะเก็บไว้ในไดเร็กทอรี่นี้ และข้อมูลจะมีขนาดใหญ่ขึ้นเรื่อยๆ กระเป๋าเงิน จะเก็บไว้ในไดเร็กทอรี่นี้ด้วย</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>ใช้ไดเร็�?ทอรี่ข้อมูล ที่เป็นค่าเริ่มต้น</translation>
+        <translation>ใช้ไดเร็กทอรี่ข้อมูล ที่เป็นค่าเริ่มต้น</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>ใช้ไดเร็�?ทอรี่ข้อมูลที่ตั้งค่าเอง:</translation>
+        <translation>ใช้ไดเร็กทอรี่ข้อมูลที่ตั้งค่าเอง:</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>ข้อผิดพลาด: ไดเร็�?ทอรี่ข้อมูลที่ต้อง�?าร "%1" ไม่สามารถสร้างได้</translation>
+        <translation>ข้อผิดพลาด: ไดเร็กทอรี่ข้อมูลที่ต้องการ "%1" ไม่สามารถสร้างได้</translation>
     </message>
     <message>
         <source>Error</source>
@@ -584,11 +584,11 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB พื้นที่ว่างบนดิส�?์ที่ใช้ได้</numerusform></translation>
+        <translation><numerusform>%n GB พื้นที่ว่างบนดิสก์ที่ใช้ได้</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
-        <translation><numerusform>(ต้อง�?ารพื้นที่ %n GB)</numerusform></translation>
+        <translation><numerusform>(ต้องการพื้นที่ %n GB)</numerusform></translation>
     </message>
 </context>
 <context>
@@ -606,7 +606,7 @@
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>เปิด �?ารเรีย�?�?ารชำระเงิน จา�? URI หรือ ไฟล์</translation>
+        <translation>เปิด การเรียกการชำระเงิน จาก URI หรือ ไฟล์</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -614,26 +614,26 @@
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>เลือ�? ไฟล์�?ารเรีย�?�?ารชำระเงิน</translation>
+        <translation>เลือก ไฟล์การเรียกการชำระเงิน</translation>
     </message>
     </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>ตัวเลือ�?</translation>
+        <translation>ตัวเลือก</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;หลั�?</translation>
+        <translation>&amp;หลัก</translation>
     </message>
     <message>
         <source>Automatically start %1 after logging in to the system.</source>
-        <translation>เริ่มต้นอัตโนมัติ %1 หลังจา�? ล็อ�?อิน เข้าสู่ระบบ�?ล้ว</translation>
+        <translation>เริ่มต้นอัตโนมัติ %1 หลังจาก ล็อกอิน เข้าสู่ระบบแล้ว</translation>
     </message>
     <message>
         <source>&amp;Start %1 on system login</source>
-        <translation>&amp;เริ่ม %1 ใน�?ารล็อ�?อินระบบ</translation>
+        <translation>&amp;เริ่ม %1 ในการล็อกอินระบบ</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -649,35 +649,35 @@
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>ยอมรับ �?ารเชื่อมต่อจา�?ภายนอ�?</translation>
+        <translation>ยอมรับ การเชื่อมต่อจากภายนอก</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>ยอมให้เชื่อมต่อจา�?ภายนอ�?ได้</translation>
+        <translation>ยอมให้เชื่อมต่อจากภายนอกได้</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>IP �?อดเดส ของ proxy (เช่น IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <translation>IP แอดเดส ของ proxy (เช่น IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>มินิไมซ์�?อพ �?ทน�?ารออ�?จา�?�?อพพลิเคชั่น เมื่อวินโดว์ได้รับ�?ารปิด เมื่อเลือ�?ตัวเลือ�?นี้ �?อพพลิเคชั่น จะถู�?ปิด �?็ต่อเมื่อ มี�?ารเลือ�?เมนู Exit/ออ�?จา�?ระบบ เท่านั้น</translation>
+        <translation>มินิไมซ์แอพ แทนการออกจากแอพพลิเคชั่น เมื่อวินโดว์ได้รับการปิด เมื่อเลือกตัวเลือกนี้ แอพพลิเคชั่น จะถูกปิด ก็ต่อเมื่อ มีการเลือกเมนู Exit/ออกจากระบบ เท่านั้น</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>URL �?บบอื่น (ย�?ตัวอย่าง เอ็�?พลอเลอร์บล็อ�?) ที่อยู่ใน เมนูราย�?าร ลำดับ %s ใน URL จะถู�?เปลี่ยนด้วย ราย�?าร�?ฮช URL ที่เป็น�?บบหลายๆอัน จะถู�?�?ย�? โดย เครื่องหมายเส้นบาร์ตั้ง |</translation>
+        <translation>URL แบบอื่น (ยกตัวอย่าง เอ็กพลอเลอร์บล็อก) ที่อยู่ใน เมนูรายการ ลำดับ %s ใน URL จะถูกเปลี่ยนด้วย รายการแฮช URL ที่เป็นแบบหลายๆอัน จะถูกแยก โดย เครื่องหมายเส้นบาร์ตั้ง |</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
-        <translation>URI ราย�?าร �?บบของเจ้าอื่นๆ</translation>
+        <translation>URI รายการ แบบของเจ้าอื่นๆ</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>ตัวเลือ�? command-line �?อ�?ทีฟอยู่นี้ จะ�?ทนที่ ตัวเลือ�?ด้านบนนี้:</translation>
+        <translation>ตัวเลือก command-line แอกทีฟอยู่นี้ จะแทนที่ ตัวเลือกด้านบนนี้:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>รีเซต ไคลเอ็นออพชั่น �?ลับไปเป็นค่าเริ่มต้น</translation>
+        <translation>รีเซต ไคลเอ็นออพชั่น กลับไปเป็นค่าเริ่มต้น</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
@@ -685,7 +685,7 @@
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;เน็ตเวิร์�?</translation>
+        <translation>&amp;เน็ตเวิร์ก</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -693,43 +693,43 @@
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>�?ระเ&amp;ป๋าเงิน</translation>
+        <translation>กระเ&amp;ป๋าเงิน</translation>
     </message>
     <message>
         <source>Expert</source>
-        <translation>ผู้เชี่ยวชา�?</translation>
+        <translation>ผู้เชี่ยวชาญ</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>เปิดใช้ coin &amp; รูป�?บบ�?ารควบคุม</translation>
+        <translation>เปิดใช้ coin &amp; รูปแบบการควบคุม</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation>หา�?ท่านไม่เปิดใช้ �?ารใช้เงินทอนที่ยังไม่ยืนยัน เงินทอนจา�?�?ารทำราย�?ารจะไม่สามารถใช้ได้ จน�?ว่าราย�?ารที่ทำ�?าร จะได้รับ�?ารยืนยันหนึ่งครั้ง �?ละจะ�?ระทบ�?ารคำนวณยอดคงเหลือของท่านด้วย</translation>
+        <translation>หากท่านไม่เปิดใช้ การใช้เงินทอนที่ยังไม่ยืนยัน เงินทอนจากการทำรายการจะไม่สามารถใช้ได้ จนกว่ารายการที่ทำการ จะได้รับการยืนยันหนึ่งครั้ง และจะกระทบการคำนวณยอดคงเหลือของท่านด้วย</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
         <translation>&amp;ใช้เงินทอนที่ยังไม่ยืนยัน</translation>
     </message>
     <message>
-        <source>Automatically open the Garlicium client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>เปิด Garlicium ไคล์เอ็นท์พอร์ต/client port บน router โดยอัตโนมัติ วิธีนี้ใช้ได้เมื่อ router สนับสนุน UPnP �?ละสถานะเปิดใช้งาน</translation>
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>เปิด Litecoin ไคล์เอ็นท์พอร์ต/client port บน router โดยอัตโนมัติ วิธีนี้ใช้ได้เมื่อ router สนับสนุน UPnP และสถานะเปิดใช้งาน</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>จองพอร์ต โดยใช้ &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Garlicium network through a SOCKS5 proxy.</source>
-        <translation>เชื่อมต่อ�?ับ Garlicium เน็ตเวิร์�? ผ่านพร็อ�?ซี่�?บบ SOCKS5</translation>
+        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
+        <translation>เชื่อมต่อกับ Litecoin เน็ตเวิร์ก ผ่านพร็อกซี่แบบ SOCKS5</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>&amp;เชื่อมต่อผ่าน พร็อ�?ซี่ SOCKS5 (พร็อ�?ซี่เริ่มต้น):</translation>
+        <translation>&amp;เชื่อมต่อผ่าน พร็อกซี่ SOCKS5 (พร็อกซี่เริ่มต้น):</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>พร็อ�?ซี่ &amp;IP:</translation>
+        <translation>พร็อกซี่ &amp;IP:</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
@@ -737,15 +737,15 @@
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>พอร์ตของพร็อ�?ซี่ (ตัวอย่าง 9050)</translation>
+        <translation>พอร์ตของพร็อกซี่ (ตัวอย่าง 9050)</translation>
     </message>
     <message>
         <source>Used for reaching peers via:</source>
-        <translation>ใช้ใน�?ารเข้าถึงอี�?�?่ายหนึ่ง peer โดย:</translation>
+        <translation>ใช้ในการเข้าถึงอีกฝ่ายหนึ่ง peer โดย:</translation>
     </message>
     <message>
         <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>�?สดง หา�?ใช้พร็อ�?ซี่ SOCKS5 ที่เป็นค่าเริ่มต้น เพื่อเข้าถึง peer อี�?�?่าย ผ่านทางเน็ตเวิร์�?ชนิดนี้</translation>
+        <translation>แสดง หากใช้พร็อกซี่ SOCKS5 ที่เป็นค่าเริ่มต้น เพื่อเข้าถึง peer อีกฝ่าย ผ่านทางเน็ตเวิร์กชนิดนี้</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -760,12 +760,12 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Garlicium network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>เชื่อมต่อ�?ับ เครือข่าย Garlicium ผ่านทาง พร้อ�?ซี่ SOCKS5 �?ย�?ต่างหา�? สำหรับ Tor เซอร์วิส</translation>
+        <source>Connect to the Litecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>เชื่อมต่อกับ เครือข่าย Litecoin ผ่านทาง พร้อกซี่ SOCKS5 แยกต่างหาก สำหรับ Tor เซอร์วิส</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
-        <translation>ใช้ พร็อ�?ซี่ SOCKS5 �?ย�? เพื่อเข้าถึง peers ผ่าน Tor เซอร์วิสซ่อน:</translation>
+        <translation>ใช้ พร็อกซี่ SOCKS5 แยก เพื่อเข้าถึง peers ผ่าน Tor เซอร์วิสซ่อน:</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -773,7 +773,7 @@
     </message>
     <message>
         <source>&amp;Hide the icon from the system tray.</source>
-        <translation>&amp;ซ่อนไอคอน จา�?เทรย์ระบบ</translation>
+        <translation>&amp;ซ่อนไอคอน จากเทรย์ระบบ</translation>
     </message>
     <message>
         <source>Hide tray icon</source>
@@ -781,7 +781,7 @@
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>�?สดงเทรย์ไอคอน หลังมืนิไมส์วินโดว์ เท่านั้น</translation>
+        <translation>แสดงเทรย์ไอคอน หลังมืนิไมส์วินโดว์ เท่านั้น</translation>
     </message>
     </context>
 <context>
@@ -805,7 +805,7 @@
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 �?ละ %2</translation>
+        <translation>%1 และ %2</translation>
     </message>
     </context>
 <context>
@@ -834,7 +834,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>ส่งเหรีย�?</translation>
+        <translation>ส่งเหรียญ</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -854,7 +854,7 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>ส่วนที่เหลือจา�?ค่าธรรมเนียม:</translation>
+        <translation>ส่วนที่เหลือจากค่าธรรมเนียม:</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -919,7 +919,7 @@
     <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
-        <translation>ตัวเลือ�?:</translation>
+        <translation>ตัวเลือก:</translation>
     </message>
     <message>
         <source>Information</source>

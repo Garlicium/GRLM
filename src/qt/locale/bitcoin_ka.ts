@@ -3,101 +3,101 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>დ�?�?ჭირეთ მ�?რჯვენ�? ღილ�?კს მის�?მ�?რთის �?ნ ი�?რლიყის ჩ�?ს�?სწ�?რებლ�?დ</translation>
+        <translation>დააჭირეთ მარჯვენა ღილაკს მისამართის ან იარლიყის ჩასასწორებლად</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>�?ხ�?ლი მის�?მ�?რთის შექმნ�?</translation>
+        <translation>ახალი მისამართის შექმნა</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>შექმ&amp;ნ�?</translation>
+        <translation>შექმ&amp;ნა</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>მ�?ნიშნული მის�?მ�?რთის კ�?პირებ�? სისტემურ კლიპბ�?რდში</translation>
+        <translation>მონიშნული მისამართის კოპირება სისტემურ კლიპბორდში</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;კ�?პირებ�?</translation>
+        <translation>&amp;კოპირება</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>&amp;დ�?ხურვ�?</translation>
+        <translation>&amp;დახურვა</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>მ�?ნიშნული მის�?მ�?რთის წ�?შლ�? სიიდ�?ნ</translation>
+        <translation>მონიშნული მისამართის წაშლა სიიდან</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>�?მ ბ�?რ�?თიდ�?ნ მ�?ნ�?ცემების ექსპ�?რტი ფ�?ილში</translation>
+        <translation>ამ ბარათიდან მონაცემების ექსპორტი ფაილში</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;ექსპ�?რტი</translation>
+        <translation>&amp;ექსპორტი</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;წ�?შლ�?</translation>
+        <translation>&amp;წაშლა</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>&amp;�?რჩევ�?</translation>
+        <translation>&amp;არჩევა</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>გ�?მმგზ�?ვნი მის�?მ�?რთ</translation>
+        <translation>გამმგზავნი მისამართ</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>მიმღები მის�?მ�?რთი</translation>
+        <translation>მიმღები მისამართი</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;რედ�?ქტირებ�?</translation>
+        <translation>&amp;რედაქტირება</translation>
     </message>
     </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Address</source>
-        <translation>მის�?მ�?რთი</translation>
+        <translation>მისამართი</translation>
     </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>ფრ�?ზ�?-პ�?რ�?ლის დი�?ლ�?გი</translation>
+        <translation>ფრაზა-პაროლის დიალოგი</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>შეიყვ�?ნეთ ფრ�?ზ�?-პ�?რ�?ლი</translation>
+        <translation>შეიყვანეთ ფრაზა-პაროლი</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>�?ხ�?ლი ფრ�?ზ�?-პ�?რ�?ლი</translation>
+        <translation>ახალი ფრაზა-პაროლი</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>გ�?იმე�?რეთ �?ხ�?ლი ფრ�?ზ�?-პ�?რ�?ლი</translation>
+        <translation>გაიმეორეთ ახალი ფრაზა-პაროლი</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>ს�?ფულის დ�?შიფრვ�?</translation>
+        <translation>საფულის დაშიფრვა</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>ს�?ფულის გ�?ნბლ�?კვ�?</translation>
+        <translation>საფულის განბლოკვა</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>ს�?ფულის გ�?ნბლ�?კვ�?</translation>
+        <translation>საფულის განბლოკვა</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>პ�?რ�?ლის შეცვლ�?</translation>
+        <translation>პაროლის შეცვლა</translation>
     </message>
     </context>
 <context>
@@ -107,211 +107,211 @@
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>ხელ&amp;მ�?წერ�?</translation>
+        <translation>ხელ&amp;მოწერა</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>ქსელთ�?ნ სინქრ�?ნიზებ�?...</translation>
+        <translation>ქსელთან სინქრონიზება...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>მიმ&amp;�?ხილვ�?</translation>
+        <translation>მიმ&amp;ოხილვა</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>კვ�?ნძი</translation>
+        <translation>კვანძი</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>ს�?ფულის ზ�?გ�?დი მიმ�?ხილვ�?</translation>
+        <translation>საფულის ზოგადი მიმოხილვა</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;ტრ�?ნს�?ქციები</translation>
+        <translation>&amp;ტრანსაქციები</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>ტრ�?ნს�?ქციების ისტ�?რიის დ�?თვ�?ლიერებ�?</translation>
+        <translation>ტრანსაქციების ისტორიის დათვალიერება</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>&amp;გ�?სვლ�?</translation>
+        <translation>&amp;გასვლა</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>გ�?სვლ�?</translation>
+        <translation>გასვლა</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
-        <translation>%1-ის &amp;შეს�?ხებ</translation>
+        <translation>%1-ის &amp;შესახებ</translation>
     </message>
     <message>
         <source>Show information about %1</source>
-        <translation>%1-ის შეს�?ხებ ინფ�?რმ�?ციის ჩვენებ�?</translation>
+        <translation>%1-ის შესახებ ინფორმაციის ჩვენება</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>&amp;Qt-ს შეს�?ხებ</translation>
+        <translation>&amp;Qt-ს შესახებ</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>ინფ�?რმ�?ცი�? Qt-ს შეს�?ხებ</translation>
+        <translation>ინფორმაცია Qt-ს შესახებ</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;�?პციები</translation>
+        <translation>&amp;ოპციები</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>ს�?ფულის &amp;დ�?შიფრვ�?</translation>
+        <translation>საფულის &amp;დაშიფრვა</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>ს�?ფულის &amp;�?რქივირებ�?</translation>
+        <translation>საფულის &amp;არქივირება</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>ფრ�?ზ�?-პ�?რ�?ლის შე&amp;ცვლ�?</translation>
+        <translation>ფრაზა-პაროლის შე&amp;ცვლა</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>გ�?გზ�?ვნის მი&amp;ს�?მ�?რთი</translation>
+        <translation>გაგზავნის მი&amp;სამართი</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>მიღების მის�?მ�?&amp;რთი</translation>
+        <translation>მიღების მისამა&amp;რთი</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>&amp;URI-ის გ�?ხსნ�?...</translation>
+        <translation>&amp;URI-ის გახსნა...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>დისკზე ბლ�?კების რეინდექს�?ცი�?...</translation>
+        <translation>დისკზე ბლოკების რეინდექსაცია...</translation>
     </message>
     <message>
-        <source>Send coins to a Garlicium address</source>
-        <translation>მ�?ნეტების გ�?გზ�?ვნ�? Garlicium-მის�?მ�?რთზე</translation>
+        <source>Send coins to a Litecoin address</source>
+        <translation>მონეტების გაგზავნა Litecoin-მისამართზე</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>ს�?ფულის �?რქივირებ�? სხვ�? �?დგილზე</translation>
+        <translation>საფულის არქივირება სხვა ადგილზე</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>ს�?ფულის დ�?შიფრვის ფრ�?ზ�?-პ�?რ�?ლის შეცვლ�?</translation>
+        <translation>საფულის დაშიფრვის ფრაზა-პაროლის შეცვლა</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>დ�?&amp;ხვეწის ფ�?ნჯ�?რ�?</translation>
+        <translation>და&amp;ხვეწის ფანჯარა</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>დ�?ხვეწის�? დ�? გი�?გნ�?სტიკის კ�?ნს�?ლის გ�?შვებ�?</translation>
+        <translation>დახვეწისა და გიაგნოსტიკის კონსოლის გაშვება</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;ვერიფიკ�?ცი�?</translation>
+        <translation>&amp;ვერიფიკაცია</translation>
     </message>
     <message>
-        <source>Garlicium</source>
-        <translation>Garlicium</translation>
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>ს�?ფულე</translation>
+        <translation>საფულე</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;გ�?გზ�?ვნ�?</translation>
+        <translation>&amp;გაგზავნა</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;მიღებ�?</translation>
+        <translation>&amp;მიღება</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;ჩვენებ�?/დ�?ფ�?რვ�?</translation>
+        <translation>&amp;ჩვენება/დაფარვა</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>მთ�?ვ�?რი ფ�?ნჯრის ჩვენებ�?/დ�?ფ�?რვ�?</translation>
+        <translation>მთავარი ფანჯრის ჩვენება/დაფარვა</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>თქვენი ს�?ფულის პირ�?დი გ�?ს�?ღებების დ�?შიფრვ�?</translation>
+        <translation>თქვენი საფულის პირადი გასაღებების დაშიფრვა</translation>
     </message>
     <message>
-        <source>Sign messages with your Garlicium addresses to prove you own them</source>
-        <translation>მესიჯებზე ხელმ�?წერ�? თქვენი Garlicium-მის�?მ�?რთებით იმის დ�?სტურ�?დ, რ�?მ ის თქვენი�?</translation>
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <translation>მესიჯებზე ხელმოწერა თქვენი Litecoin-მისამართებით იმის დასტურად, რომ ის თქვენია</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Garlicium addresses</source>
-        <translation>შე�?მ�?წმეთ, რ�?მ მესიჯები ხელმ�?წერილი�? მითითებული Garlicium-მის�?მ�?რთით</translation>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>შეამოწმეთ, რომ მესიჯები ხელმოწერილია მითითებული Litecoin-მისამართით</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;ფ�?ილი</translation>
+        <translation>&amp;ფაილი</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;პ�?რ�?მეტრები</translation>
+        <translation>&amp;პარამეტრები</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;დ�?ხმ�?რებ�?</translation>
+        <translation>&amp;დახმარება</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>ბ�?რ�?თების პ�?ნელი</translation>
+        <translation>ბარათების პანელი</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and garlicium: URIs)</source>
-        <translation>გ�?დ�?ხდის მ�?თხ�?ვნ�? (შეიქმნებ�? QR-კ�?დები დ�? garlicium: ბმულები)</translation>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>გადახდის მოთხოვნა (შეიქმნება QR-კოდები და litecoin: ბმულები)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>გ�?მ�?ყენებული გ�?გზ�?ვნის მის�?მ�?რთების�? დ�? ნიშნულების სიის ჩვენებ�?</translation>
+        <translation>გამოყენებული გაგზავნის მისამართებისა და ნიშნულების სიის ჩვენება</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>გ�?მ�?ყენებული მიღების მის�?მ�?რთების�? დ�? ნიშნულების სიის ჩვენებ�?</translation>
+        <translation>გამოყენებული მიღების მისამართებისა და ნიშნულების სიის ჩვენება</translation>
     </message>
     <message>
-        <source>Open a garlicium: URI or payment request</source>
-        <translation>garlicium: URI-ის �?ნ გ�?დ�?ხდის მ�?თხ�?ვნის გ�?ხსნ�?</translation>
+        <source>Open a litecoin: URI or payment request</source>
+        <translation>litecoin: URI-ის ან გადახდის მოთხოვნის გახსნა</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>ს�?კ�?მ�?ნდ�? სტრიქ�?ნის �?პ&amp;ციები</translation>
+        <translation>საკომანდო სტრიქონის ოპ&amp;ციები</translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 გ�?ვლილი�?</translation>
+        <translation>%1 გავლილია</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>ბ�?ლ�? მიღებული ბლ�?კის გენერირებიდ�?ნ გ�?სული�? %1</translation>
+        <translation>ბოლო მიღებული ბლოკის გენერირებიდან გასულია %1</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>შემდგ�?მი ტრ�?ნს�?ქციები ნ�?ჩვენები ჯერ �?რ იქნებ�?.</translation>
+        <translation>შემდგომი ტრანსაქციები ნაჩვენები ჯერ არ იქნება.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>შეცდ�?მ�?</translation>
+        <translation>შეცდომა</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>გ�?ფრთხილებ�?</translation>
+        <translation>გაფრთხილება</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>ინფ�?რმ�?ცი�?</translation>
+        <translation>ინფორმაცია</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>გ�?ნ�?ხლებული�?</translation>
+        <translation>განახლებულია</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -319,18 +319,18 @@
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>მიმდინ�?რე�?ბს გ�?ნ�?ხლებ�?...</translation>
+        <translation>მიმდინარეობს განახლება...</translation>
     </message>
     <message>
         <source>Date: %1
 </source>
-        <translation>თ�?რიღი: %1
+        <translation>თარიღი: %1
 </translation>
     </message>
     <message>
         <source>Amount: %1
 </source>
-        <translation>რ�?�?დენ�?ბ�?: %1
+        <translation>რაოდენობა: %1
 </translation>
     </message>
     <message>
@@ -342,43 +342,43 @@
     <message>
         <source>Address: %1
 </source>
-        <translation>მის�?მ�?რთი: %1
+        <translation>მისამართი: %1
 </translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>გ�?გზ�?ვნილი ტრ�?ნს�?ქციები</translation>
+        <translation>გაგზავნილი ტრანსაქციები</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>მიღებული ტრ�?ნს�?ქციები</translation>
+        <translation>მიღებული ტრანსაქციები</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>ს�?ფულე &lt;b&gt;დ�?შიფრული�?&lt;/b&gt; დ�? �?მჟ�?მ�?დ &lt;b&gt;გ�?ნბლ�?კილი�?&lt;/b&gt;</translation>
+        <translation>საფულე &lt;b&gt;დაშიფრულია&lt;/b&gt; და ამჟამად &lt;b&gt;განბლოკილია&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>ს�?ფულე &lt;b&gt;დ�?შიფრული�?&lt;/b&gt; დ�? �?მჟ�?მ�?დ &lt;b&gt;დ�?ბლ�?კილი�?&lt;/b&gt;</translation>
+        <translation>საფულე &lt;b&gt;დაშიფრულია&lt;/b&gt; და ამჟამად &lt;b&gt;დაბლოკილია&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>რ�?�?დენ�?ბ�?:</translation>
+        <translation>რაოდენობა:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>ბ�?იტები:</translation>
+        <translation>ბაიტები:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>თ�?ნხ�?:</translation>
+        <translation>თანხა:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>ს�?კ�?მისი�?:</translation>
+        <translation>საკომისიო:</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -386,58 +386,58 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>დ�?მ�?ტებითი ს�?კ�?მისი�?:</translation>
+        <translation>დამატებითი საკომისიო:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>ხურდ�?:</translation>
+        <translation>ხურდა:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>ყველ�?ს მ�?ნიშვნ�?/(მ�?ხსნ�?)</translation>
+        <translation>ყველას მონიშვნა/(მოხსნა)</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>გ�?ნტ�?ტვილი</translation>
+        <translation>განტოტვილი</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>სი�?</translation>
+        <translation>სია</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>თ�?ნხ�?</translation>
+        <translation>თანხა</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>თ�?რიღი</translation>
+        <translation>თარიღი</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>დ�?დ�?სტურებ�?</translation>
+        <translation>დადასტურება</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>დ�?დ�?სტურებული�?</translation>
+        <translation>დადასტურებულია</translation>
     </message>
     <message>
         <source>yes</source>
-        <translation>დი�?ხ</translation>
+        <translation>დიახ</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>�?რ�?</translation>
+        <translation>არა</translation>
     </message>
     <message>
         <source>(change)</source>
-        <translation>(ხურდ�?)</translation>
+        <translation>(ხურდა)</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>მის�?მ�?რთის შეცვლ�?</translation>
+        <translation>მისამართის შეცვლა</translation>
     </message>
     <message>
         <source>&amp;Label</source>
@@ -445,45 +445,45 @@
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>მის�?მ�?რთების სიის �?მ ჩ�?ნ�?წერთ�?ნ �?ს�?ცირებული ნიშნული</translation>
+        <translation>მისამართების სიის ამ ჩანაწერთან ასოცირებული ნიშნული</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>მის�?მ�?რთების სიის �?მ ჩ�?ნ�?წერთ�?ნ მის�?მ�?რთი �?ს�?ცირებული. მისი შეცვლ�? შეიძლებ�? მხ�?ლ�?დ გ�?გზ�?ვნის მის�?მ�?რთის შემთხვევ�?ში.</translation>
+        <translation>მისამართების სიის ამ ჩანაწერთან მისამართი ასოცირებული. მისი შეცვლა შეიძლება მხოლოდ გაგზავნის მისამართის შემთხვევაში.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>მის&amp;�?მ�?რთი</translation>
+        <translation>მის&amp;ამართი</translation>
     </message>
     </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>შეიქმნებ�? �?ხ�?ლი მ�?ნ�?ცემთ�? კ�?ტ�?ლ�?გი.</translation>
+        <translation>შეიქმნება ახალი მონაცემთა კატალოგი.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation>ს�?ხელი</translation>
+        <translation>სახელი</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>კ�?ტ�?ლ�?გი უკვე �?რსებ�?ბს. დ�?�?მ�?ტეთ %1 თუ გინდ�?თ �?ხ�?ლი კ�?ტ�?ლ�?გის �?ქვე შექმნ�?.</translation>
+        <translation>კატალოგი უკვე არსებობს. დაამატეთ %1 თუ გინდათ ახალი კატალოგის აქვე შექმნა.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>მის�?მ�?რთი უკვე �?რსებ�?ბს დ�? �?რ წ�?რმ�?�?დგენს კ�?ტ�?ლ�?გს.</translation>
+        <translation>მისამართი უკვე არსებობს და არ წარმოადგენს კატალოგს.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>კ�?ტ�?ლ�?გის �?ქ შექმნ�? შეუძლებელი�?.</translation>
+        <translation>კატალოგის აქ შექმნა შეუძლებელია.</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>ვერსი�?</translation>
+        <translation>ვერსია</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -491,92 +491,92 @@
     </message>
     <message>
         <source>About %1</source>
-        <translation>%1-ის შეს�?ხებ</translation>
+        <translation>%1-ის შესახებ</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>კ�?მ�?ნდების ზ�?ლის �?პციები</translation>
+        <translation>კომანდების ზოლის ოპციები</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>გ�?მ�?ყენებ�?:</translation>
+        <translation>გამოყენება:</translation>
     </message>
     <message>
         <source>command-line options</source>
-        <translation>კ�?მ�?ნდების ზ�?ლის �?პციები</translation>
+        <translation>კომანდების ზოლის ოპციები</translation>
     </message>
     <message>
         <source>UI Options:</source>
-        <translation>მ�?მხმ�?რებლის ინტერფეისის �?პციები:</translation>
+        <translation>მომხმარებლის ინტერფეისის ოპციები:</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>მ�?გეს�?ლმებით</translation>
+        <translation>მოგესალმებით</translation>
     </message>
     <message>
         <source>Welcome to %1.</source>
-        <translation>კეთილი იყ�?ს თქვენი მ�?ბრძ�?ნებ�? %1-ში.</translation>
+        <translation>კეთილი იყოს თქვენი მობრძანება %1-ში.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>ნ�?გულისხმევი კ�?ტ�?ლ�?გის გ�?მ�?ყენებ�?</translation>
+        <translation>ნაგულისხმევი კატალოგის გამოყენება</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>მითითებული კ�?ტ�?ლ�?გის გ�?მ�?ყენებ�?:</translation>
+        <translation>მითითებული კატალოგის გამოყენება:</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>შეცდ�?მ�?</translation>
+        <translation>შეცდომა</translation>
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>ხელმის�?წვდ�?მი�? თ�?ვისუფ�?ლი სივრცის %n გბ</numerusform></translation>
+        <translation><numerusform>ხელმისაწვდომია თავისუფალი სივრცის %n გბ</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
-        <translation><numerusform>(ს�?ჭირ�? %n გბ-დ�?ნ)</numerusform></translation>
+        <translation><numerusform>(საჭირო %n გბ-დან)</numerusform></translation>
     </message>
 </context>
 <context>
     <name>ModalOverlay</name>
     <message>
         <source>Form</source>
-        <translation>ფ�?რმ�?</translation>
+        <translation>ფორმა</translation>
     </message>
     <message>
         <source>Unknown...</source>
-        <translation>უცნ�?ბი...</translation>
+        <translation>უცნობი...</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>ბ�?ლ�? ბლ�?კის დრ�?</translation>
+        <translation>ბოლო ბლოკის დრო</translation>
     </message>
     <message>
         <source>Progress</source>
-        <translation>პრ�?გრესი</translation>
+        <translation>პროგრესი</translation>
     </message>
     <message>
         <source>calculating...</source>
-        <translation>მიმდინ�?რე�?ბს გ�?მ�?თვლ�?...</translation>
+        <translation>მიმდინარეობს გამოთვლა...</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>დ�?მ�?ლვ�?</translation>
+        <translation>დამალვა</translation>
     </message>
     </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>URI-ის გ�?ხსნ�?</translation>
+        <translation>URI-ის გახსნა</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>გ�?დ�?ხდის მ�?თხ�?ვნის შექმნ�? URI-იდ�?ნ �?ნ ფ�?ილიდ�?ნ</translation>
+        <translation>გადახდის მოთხოვნის შექმნა URI-იდან ან ფაილიდან</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -584,22 +584,22 @@
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>გ�?დ�?ხდის მ�?თხ�?ვნის ფ�?ილის �?რჩევ�?</translation>
+        <translation>გადახდის მოთხოვნის ფაილის არჩევა</translation>
     </message>
     </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>�?პციები</translation>
+        <translation>ოპციები</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;მთ�?ვ�?რი</translation>
+        <translation>&amp;მთავარი</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>მ�?ნ�?ცემთ�? ბ�?ზის კეშის სი&amp;დიდე</translation>
+        <translation>მონაცემთა ბაზის კეშის სი&amp;დიდე</translation>
     </message>
     <message>
         <source>MB</source>
@@ -607,23 +607,23 @@
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>სკრიპტის &amp;ვერიფიცირების ნ�?კ�?დების რ�?�?დენ�?ბ�?</translation>
+        <translation>სკრიპტის &amp;ვერიფიცირების ნაკადების რაოდენობა</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>პრ�?ქსის IP-მის�?მ�?რთი (მ�?გ.: IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <translation>პროქსის IP-მისამართი (მაგ.: IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>ს�?კ�?მ�?ნდ�? სტრიქ�?ნის �?ქტიური �?პციები, რ�?მლებიც გ�?დ�?ფ�?რ�?ვენ ზემ�?თნ�?ჩვენებს:</translation>
+        <translation>საკომანდო სტრიქონის აქტიური ოპციები, რომლებიც გადაფარავენ ზემოთნაჩვენებს:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>კლიენტის ყველ�? პ�?რ�?მეტრის დ�?ბრუნებ�? ნ�?გულისხმევ მნიშვნელ�?ბებზე.</translation>
+        <translation>კლიენტის ყველა პარამეტრის დაბრუნება ნაგულისხმევ მნიშვნელობებზე.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>დ�?ბ&amp;რუნების �?პციები</translation>
+        <translation>დაბ&amp;რუნების ოპციები</translation>
     </message>
     <message>
         <source>&amp;Network</source>
@@ -631,7 +631,7 @@
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>ს&amp;�?ფულე</translation>
+        <translation>ს&amp;აფულე</translation>
     </message>
     <message>
         <source>Expert</source>
@@ -639,27 +639,27 @@
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation>დ�?უდ�?სტურებელი ხურდის გ�?მ�?ყენების �?კრძ�?ლვის შემდეგ მ�?თი გ�?მ�?ყენებ�? შეუძლებელი იქნებ�?, ს�?ნ�?მ ტრ�?ნს�?ქცი�?ს �?რ ექნებ�? ერთი დ�?სტური მ�?ინც. ეს �?ის�?ხებ�? თქვენი ნ�?შთის დ�?თვლ�?ზეც.</translation>
+        <translation>დაუდასტურებელი ხურდის გამოყენების აკრძალვის შემდეგ მათი გამოყენება შეუძლებელი იქნება, სანამ ტრანსაქციას არ ექნება ერთი დასტური მაინც. ეს აისახება თქვენი ნაშთის დათვლაზეც.</translation>
     </message>
     <message>
-        <source>Automatically open the Garlicium client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>რ�?უტერში Garlicium-კლიენტის პ�?რტის �?ვტ�?მ�?ტური გ�?ხსნ�?. მუშ�?�?ბს, თუ თქვენს რ�?უტერს ჩ�?რთული �?ქვს UPnP.</translation>
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>როუტერში Litecoin-კლიენტის პორტის ავტომატური გახსნა. მუშაობს, თუ თქვენს როუტერს ჩართული აქვს UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>პ�?რტის გ�?დ�?მის�?მ�?რთებ�? &amp;UPnP-ით</translation>
+        <translation>პორტის გადამისამართება &amp;UPnP-ით</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>პრ�?ქსის &amp;IP:</translation>
+        <translation>პროქსის &amp;IP:</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>&amp;პ�?რტი</translation>
+        <translation>&amp;პორტი</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>პრ�?ქსის პ�?რტი (მ�?გ.: 9050)</translation>
+        <translation>პროქსის პორტი (მაგ.: 9050)</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -675,27 +675,27 @@
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;ფ�?ნჯ�?რ�?</translation>
+        <translation>&amp;ფანჯარა</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>ფ�?ნჯრის მინიმიზების�?ს მხ�?ლ�?დ იკ�?ნ�? სისტემურ ზ�?ნ�?ში</translation>
+        <translation>ფანჯრის მინიმიზებისას მხოლოდ იკონა სისტემურ ზონაში</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;მინიმიზებ�? სისტემურ ზ�?ნ�?ში პრ�?გრ�?მების პ�?ნელის ნ�?ცვლ�?დ</translation>
+        <translation>&amp;მინიმიზება სისტემურ ზონაში პროგრამების პანელის ნაცვლად</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>მ&amp;ინიმიზებ�? დ�?ხურვის�?ს</translation>
+        <translation>მ&amp;ინიმიზება დახურვისას</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>&amp;ჩვენებ�?</translation>
+        <translation>&amp;ჩვენება</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>ს�?მ�?მხმ�?რებ&amp;ლ�? ენ�?:</translation>
+        <translation>სამომხმარებ&amp;ლო ენა:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -703,11 +703,11 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>�?ირჩიეთ გ�?ს�?გზ�?ვნი თ�?ნხის ნ�?გულისხმევი ერთეული.</translation>
+        <translation>აირჩიეთ გასაგზავნი თანხის ნაგულისხმევი ერთეული.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>ვ�?ჩვენ�?თ თუ �?რ�? მ�?ნეტების მ�?რთვის პ�?რ�?მეტრები.</translation>
+        <translation>ვაჩვენოთ თუ არა მონეტების მართვის პარამეტრები.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -715,66 +715,66 @@
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;გ�?უქმებ�?</translation>
+        <translation>&amp;გაუქმება</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>ნ�?გულისხმევი</translation>
+        <translation>ნაგულისხმევი</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>ც�?რიელი</translation>
+        <translation>ცარიელი</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>დ�?�?დ�?სტურეთ პ�?რ�?მეტრების დ�?ბრუნებ�? ნ�?გულისხმევზე</translation>
+        <translation>დაადასტურეთ პარამეტრების დაბრუნება ნაგულისხმევზე</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>ცვლილებები ძ�?ლ�?ში შევ�? კლიენტის ხელ�?ხ�?ლი გ�?შვების შემდეგ.</translation>
+        <translation>ცვლილებები ძალაში შევა კლიენტის ხელახალი გაშვების შემდეგ.</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>�?მ ცვლილებების ძ�?ლ�?ში შეს�?სვლელ�?დ ს�?ჭირ�?�? კლიენტის დ�?ხურვ�? დ�? ხელ�?ხ�?ლი გ�?შვებ�?.</translation>
+        <translation>ამ ცვლილებების ძალაში შესასვლელად საჭიროა კლიენტის დახურვა და ხელახალი გაშვება.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>პრ�?ქსის მის�?მ�?რთი �?რ�?სწ�?რი�?.</translation>
+        <translation>პროქსის მისამართი არასწორია.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>ფ�?რმ�?</translation>
+        <translation>ფორმა</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Garlicium network after a connection is established, but this process has not completed yet.</source>
-        <translation>ნ�?ჩვენები ინფ�?რმ�?ცი�? შეიძლებ�? მ�?ძველებული იყ�?ს. თქვენი ს�?ფულე �?ვტ�?მ�?ტურ�?დ სინქრ�?ნიზდებ�? Garlicium-ის ქსელთ�?ნ კ�?ვშირის დ�?მყ�?რების შემდეგ, ეს პრ�?ცესი ჯერ �?რ �?რის დ�?სრულებული.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>ნაჩვენები ინფორმაცია შეიძლება მოძველებული იყოს. თქვენი საფულე ავტომატურად სინქრონიზდება Litecoin-ის ქსელთან კავშირის დამყარების შემდეგ, ეს პროცესი ჯერ არ არის დასრულებული.</translation>
     </message>
     <message>
         <source>Available:</source>
-        <translation>ხელმის�?წვდ�?მი�?:</translation>
+        <translation>ხელმისაწვდომია:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>თქვენი ხელმის�?წვდ�?მი ნ�?შთი</translation>
+        <translation>თქვენი ხელმისაწვდომი ნაშთი</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>იგზ�?ვნებ�?:</translation>
+        <translation>იგზავნება:</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>დ�?ს�?დ�?სტურებელი ტრ�?ნს�?ქციების ს�?ერთ�? რ�?�?დენ�?ბ�?, რ�?მლებიც ჯერ �?რ �?რის �?ს�?ხული ბ�?ლ�?ნსში</translation>
+        <translation>დასადასტურებელი ტრანსაქციების საერთო რაოდენობა, რომლებიც ჯერ არ არის ასახული ბალანსში</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>მ�?უმზ�?დებელი�?:</translation>
+        <translation>მოუმზადებელია:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>მ�?პ�?ვებული თ�?ნხ�?, რ�?მელიც ჯერ �?რ �?რის მზ�?დყ�?ფნ�?ში</translation>
+        <translation>მოპოვებული თანხა, რომელიც ჯერ არ არის მზადყოფნაში</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -782,7 +782,7 @@
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>თქვენი სრული მიმდინ�?რე ბ�?ლ�?ნსი</translation>
+        <translation>თქვენი სრული მიმდინარე ბალანსი</translation>
     </message>
     </context>
 <context>
@@ -795,7 +795,7 @@
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>თ�?ნხ�?</translation>
+        <translation>თანხა</translation>
     </message>
     <message>
         <source>%1 h</source>
@@ -811,7 +811,7 @@
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 დ�? %2</translation>
+        <translation>%1 და %2</translation>
     </message>
     </context>
 <context>
@@ -828,23 +828,23 @@
     </message>
     <message>
         <source>Client version</source>
-        <translation>კლიენტის ვერსი�?</translation>
+        <translation>კლიენტის ვერსია</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;ინფ�?რმ�?ცი�?</translation>
+        <translation>&amp;ინფორმაცია</translation>
     </message>
     <message>
         <source>Debug window</source>
-        <translation>დ�?ხვეწის ფ�?ნჯ�?რ�?</translation>
+        <translation>დახვეწის ფანჯარა</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>ს�?ერთ�?</translation>
+        <translation>საერთო</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>სტ�?რტის დრ�?</translation>
+        <translation>სტარტის დრო</translation>
     </message>
     <message>
         <source>Network</source>
@@ -852,39 +852,39 @@
     </message>
     <message>
         <source>Name</source>
-        <translation>ს�?ხელი</translation>
+        <translation>სახელი</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>შეერთებების რ�?�?დენ�?ბ�?</translation>
+        <translation>შეერთებების რაოდენობა</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation>ბლ�?კთ�? ჯ�?ჭვი</translation>
+        <translation>ბლოკთა ჯაჭვი</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>ბლ�?კების მიმდინ�?რე რ�?�?დენ�?ბ�?</translation>
+        <translation>ბლოკების მიმდინარე რაოდენობა</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>ბ�?ლ�? ბლ�?კის დრ�?</translation>
+        <translation>ბოლო ბლოკის დრო</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;შექმნ�?</translation>
+        <translation>&amp;შექმნა</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;კ�?ნს�?ლი</translation>
+        <translation>&amp;კონსოლი</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;ქსელის ტრ�?ფიკი</translation>
+        <translation>&amp;ქსელის ტრაფიკი</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;წ�?შლ�?</translation>
+        <translation>&amp;წაშლა</translation>
     </message>
     <message>
         <source>Totals</source>
@@ -892,27 +892,27 @@
     </message>
     <message>
         <source>In:</source>
-        <translation>შემ�?მ�?ვ�?ლი:</translation>
+        <translation>შემომავალი:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>გ�?მ�?ვ�?ლი:</translation>
+        <translation>გამავალი:</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>დ�?ხვეწის ლ�?გ-ფ�?ილი</translation>
+        <translation>დახვეწის ლოგ-ფაილი</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>კ�?ნს�?ლის გ�?სუფთ�?ვებ�?</translation>
+        <translation>კონსოლის გასუფთავება</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>კლ�?ვიშები "ზევით" დ�? "ქვევით" - ისტ�?რი�?ში მ�?ძრ�?�?ბ�?, &lt;b&gt;Ctrl-L&lt;/b&gt; - ეკრ�?ნის გ�?სუფთ�?ვებ�?.</translation>
+        <translation>კლავიშები "ზევით" და "ქვევით" - ისტორიაში მოძრაობა, &lt;b&gt;Ctrl-L&lt;/b&gt; - ეკრანის გასუფთავება.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>�?კრიფეთ &lt;b&gt;help&lt;/b&gt; ფ�?შვებული ბრძ�?ნებების ს�?ნ�?ხ�?ვ�?დ.</translation>
+        <translation>აკრიფეთ &lt;b&gt;help&lt;/b&gt; ფაშვებული ბრძანებების სანახავად.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -935,7 +935,7 @@
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Amount:</source>
-        <translation>თ&amp;�?ნხ�?:</translation>
+        <translation>თ&amp;ანხა:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -947,82 +947,82 @@
     </message>
     <message>
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
-        <translation>რ�?მელიმე �?დრე გ�?მ�?ყენებული მიღების მის�?მ�?რთის გ�?მ�?ყენებ�?. ეს �?მცირებს უს�?ფრთხ�?ებ�?ს�? დ�? პრივ�?ტულ�?ბ�?ს. ნუ გ�?მ�?იყენებთ �?მ �?პცი�?ს, თუ �?რ �?ხდენთ �?დრე მ�?თხ�?ვნილი გ�?დ�?ხდის ხელ�?ხლ�? გენერირებ�?ს.</translation>
+        <translation>რომელიმე ადრე გამოყენებული მიღების მისამართის გამოყენება. ეს ამცირებს უსაფრთხოებასა და პრივატულობას. ნუ გამოიყენებთ ამ ოპციას, თუ არ ახდენთ ადრე მოთხოვნილი გადახდის ხელახლა გენერირებას.</translation>
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>�?დ&amp;რე გ�?მ�?ყენებული მიღების მის�?მ�?რთის გ�?მ�?ყენებ�? (�?რ �?რის რეკ�?მენდებული)</translation>
+        <translation>ად&amp;რე გამოყენებული მიღების მისამართის გამოყენება (არ არის რეკომენდებული)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Garlicium network.</source>
-        <translation>�?რ�?�?უცილებელი მესიჯი, რ�?მელიც ერთვის გ�?დ�?ხდის მ�?თხ�?ვნ�?ს დ�? ნ�?ჩვენები იქნებ�? მ�?თხ�?ვნის გ�?ხსნის�?ს. შენიშვნ�?: მესიჯი �?რ გ�?ყვებ�? გ�?დ�?ხდ�?ს ბითქ�?ინის ქსელში.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
+        <translation>არააუცილებელი მესიჯი, რომელიც ერთვის გადახდის მოთხოვნას და ნაჩვენები იქნება მოთხოვნის გახსნისას. შენიშვნა: მესიჯი არ გაყვება გადახდას ბითქოინის ქსელში.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
-        <translation>�?რ�?�?უცილებელი ნიშნული �?ხ�?ლ მიღების მის�?მ�?რთთ�?ნ �?ს�?ცირების�?თვის.</translation>
+        <translation>არააუცილებელი ნიშნული ახალ მიღების მისამართთან ასოცირებისათვის.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>გ�?მ�?იყენეთ ეს ფ�?რმ�? გ�?დ�?ხდის მ�?თხ�?ვნის�?თვის. ყველ�? ველი &lt;b&gt;�?რ�?�?უცილებელი�?&lt;/b&gt;.</translation>
+        <translation>გამოიყენეთ ეს ფორმა გადახდის მოთხოვნისათვის. ყველა ველი &lt;b&gt;არააუცილებელია&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>მ�?თხ�?ვნის მ�?ცულ�?ბ�?. �?რ�?�?უცილებელი�?. ჩ�?წერეთ 0 �?ნ დ�?ტ�?ვეთ ც�?რიელი, თუ �?რ მ�?ითხ�?ვებ�? კ�?ნკრეტული მ�?ცულ�?ბ�?.</translation>
+        <translation>მოთხოვნის მოცულობა. არააუცილებელია. ჩაწერეთ 0 ან დატოვეთ ცარიელი, თუ არ მოითხოვება კონკრეტული მოცულობა.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>ფ�?რმის ყველ�? ველის წ�?შლ�?</translation>
+        <translation>ფორმის ყველა ველის წაშლა</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>წ�?შლ�?</translation>
+        <translation>წაშლა</translation>
     </message>
     <message>
         <source>Requested payments history</source>
-        <translation>მ�?თხ�?ვნილი გ�?დ�?ხდების ისტ�?რი�?</translation>
+        <translation>მოთხოვნილი გადახდების ისტორია</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>&amp;გ�?დ�?ხდის მ�?თხ�?ვნ�?</translation>
+        <translation>&amp;გადახდის მოთხოვნა</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>�?რჩეული მ�?თხ�?ვნის ჩვენებ�? (იგივე�?, რ�?ც ჩ�?ნ�?წერზე �?რჯერ ჩხვლეტ�?)</translation>
+        <translation>არჩეული მოთხოვნის ჩვენება (იგივეა, რაც ჩანაწერზე ორჯერ ჩხვლეტა)</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>ჩვენებ�?</translation>
+        <translation>ჩვენება</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>მ�?ნიშნული ჩ�?ნ�?წერების წ�?შლ�? სიიდ�?ნ</translation>
+        <translation>მონიშნული ჩანაწერების წაშლა სიიდან</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>წ�?შლ�?</translation>
+        <translation>წაშლა</translation>
     </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>QR-კ�?დი</translation>
+        <translation>QR-კოდი</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation>&amp;URI-ის კ�?პირებ�?</translation>
+        <translation>&amp;URI-ის კოპირება</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>მის&amp;�?მ�?რთის კ�?პირებ�?</translation>
+        <translation>მის&amp;ამართის კოპირება</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>გ�?მ�?&amp;ს�?ხულების შენ�?ხვ�?...</translation>
+        <translation>გამო&amp;სახულების შენახვა...</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>მის�?მ�?რთი</translation>
+        <translation>მისამართი</translation>
     </message>
     </context>
 <context>
@@ -1032,75 +1032,75 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>მ�?ნეტების გ�?გზ�?ვნ�?</translation>
+        <translation>მონეტების გაგზავნა</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>მ�?ნეტების კ�?ნტრ�?ლის პ�?რ�?მეტრები</translation>
+        <translation>მონეტების კონტროლის პარამეტრები</translation>
     </message>
     <message>
         <source>Inputs...</source>
-        <translation>ხ�?რჯები...</translation>
+        <translation>ხარჯები...</translation>
     </message>
     <message>
         <source>automatically selected</source>
-        <translation>�?რჩეული�? �?ვტ�?მ�?ტურ�?დ</translation>
+        <translation>არჩეულია ავტომატურად</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>�?რ �?რის ს�?კმ�?რისი თ�?ნხ�?!</translation>
+        <translation>არ არის საკმარისი თანხა!</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>რ�?�?დენ�?ბ�?:</translation>
+        <translation>რაოდენობა:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>ბ�?იტები:</translation>
+        <translation>ბაიტები:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>თ�?ნხ�?:</translation>
+        <translation>თანხა:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>ს�?კ�?მისი�?:</translation>
+        <translation>საკომისიო:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>დ�?მ�?ტებითი ს�?კ�?მისი�?:</translation>
+        <translation>დამატებითი საკომისიო:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>ხურდ�?:</translation>
+        <translation>ხურდა:</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>�?მის გ�?�?ქტიურების�?ს თუ ხურდის მის�?მ�?რთი ც�?რიელი�? �?ნ �?რ�?სწ�?რი�?, ხურდ�? გ�?იგზ�?ვნებ�? �?ხლ�?დ გენერირებულ მის�?მ�?რთებზე.</translation>
+        <translation>ამის გააქტიურებისას თუ ხურდის მისამართი ცარიელია ან არასწორია, ხურდა გაიგზავნება ახლად გენერირებულ მისამართებზე.</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>ხურდის მის�?მ�?რთი</translation>
+        <translation>ხურდის მისამართი</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation>ტრ�?ნს�?ქციის ს�?ფ�?სური - ს�?კ�?მისი�?:</translation>
+        <translation>ტრანსაქციის საფასური - საკომისიო:</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>დ�?მ�?ლვ�?</translation>
+        <translation>დამალვა</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>გ�?გზ�?ვნ�? რ�?მდენიმე რეციპიენტთ�?ნ ერთდრ�?ულ�?დ</translation>
+        <translation>გაგზავნა რამდენიმე რეციპიენტთან ერთდროულად</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>&amp;რეციპიენტის დ�?მ�?ტებ�?</translation>
+        <translation>&amp;რეციპიენტის დამატება</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>ფ�?რმის ყველ�? ველის წ�?შლ�?</translation>
+        <translation>ფორმის ყველა ველის წაშლა</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -1108,30 +1108,30 @@
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>გ&amp;�?სუფთ�?ვებ�?</translation>
+        <translation>გ&amp;ასუფთავება</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>ბ�?ლ�?ნსი:</translation>
+        <translation>ბალანსი:</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>გ�?გზ�?ვნის დ�?დ�?სტურებ�?</translation>
+        <translation>გაგზავნის დადასტურება</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>გ�?გ&amp;ზ�?ვნ�?</translation>
+        <translation>გაგ&amp;ზავნა</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>A&amp;mount:</source>
-        <translation>&amp;რ�?�?დენ�?ბ�?</translation>
+        <translation>&amp;რაოდენობა</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>�?დრეს�?&amp;ტი:</translation>
+        <translation>ადრესა&amp;ტი:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -1139,11 +1139,11 @@
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>�?ირჩიეთ �?დრე გ�?მ�?ყენებული მის�?მ�?რთი</translation>
+        <translation>აირჩიეთ ადრე გამოყენებული მისამართი</translation>
     </message>
     <message>
         <source>This is a normal payment.</source>
-        <translation>ეს �?რის ჩვეულებრივი გ�?დ�?ხდ�?.</translation>
+        <translation>ეს არის ჩვეულებრივი გადახდა.</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1151,7 +1151,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>მის�?მ�?რთის ჩ�?სმ�? კლიპბ�?რდიდ�?ნ</translation>
+        <translation>მისამართის ჩასმა კლიპბორდიდან</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1159,7 +1159,7 @@
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>ჩ�?ნ�?წერის წ�?შლ�?</translation>
+        <translation>ჩანაწერის წაშლა</translation>
     </message>
     <message>
         <source>Message:</source>
@@ -1167,19 +1167,19 @@
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>შეიყვ�?ნეთ �?მ მის�?მ�?რთის ნიშნული გ�?მ�?ყენებული მის�?მ�?რთების სი�?ში დ�?ს�?მ�?ტებლ�?დ</translation>
+        <translation>შეიყვანეთ ამ მისამართის ნიშნული გამოყენებული მისამართების სიაში დასამატებლად</translation>
     </message>
     <message>
-        <source>A message that was attached to the garlicium: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Garlicium network.</source>
-        <translation>მესიჯი, რ�?მელიც თ�?ნ ერთვის მ�?ნეტებს:  URI, რ�?მელიც შეინ�?ხებ�? ტრ�?ნს�?ქცი�?სთ�?ნ ერთ�?დ თქვენთვის. შენიშვნ�?: მესიჯი �?რ გ�?ყვებ�? გ�?დ�?ხდ�?ს ბითქ�?ინის ქსელში.</translation>
+        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+        <translation>მესიჯი, რომელიც თან ერთვის მონეტებს:  URI, რომელიც შეინახება ტრანსაქციასთან ერთად თქვენთვის. შენიშვნა: მესიჯი არ გაყვება გადახდას ბითქოინის ქსელში.</translation>
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>�?დრეს�?ტი:</translation>
+        <translation>ადრესატი:</translation>
     </message>
     <message>
         <source>Memo:</source>
-        <translation>შენიშვნ�?:</translation>
+        <translation>შენიშვნა:</translation>
     </message>
     </context>
 <context>
@@ -1189,22 +1189,22 @@
     <name>ShutdownWindow</name>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>�?რ გ�?მ�?რთ�?თ კ�?მპიუტერი �?მ ფ�?ნჯრის გ�?ქრ�?ბ�?მდე.</translation>
+        <translation>არ გამორთოთ კომპიუტერი ამ ფანჯრის გაქრობამდე.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>ხელმ�?წერები - მესიჯის ხელმ�?წერ�?/ვერიფიკ�?ცი�?</translation>
+        <translation>ხელმოწერები - მესიჯის ხელმოწერა/ვერიფიკაცია</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>მე&amp;სიჯის ხელმ�?წერ�?</translation>
+        <translation>მე&amp;სიჯის ხელმოწერა</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>�?ირჩიეთ �?დრე გ�?მ�?ყენებული მის�?მ�?რთი</translation>
+        <translation>აირჩიეთ ადრე გამოყენებული მისამართი</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1212,7 +1212,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>მის�?მ�?რთის ჩ�?სმ�? კლიპბ�?რდიდ�?ნ</translation>
+        <translation>მისამართის ჩასმა კლიპბორდიდან</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1220,47 +1220,47 @@
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>�?კრიფეთ ხელმ�?ს�?წერი მესიჯი</translation>
+        <translation>აკრიფეთ ხელმოსაწერი მესიჯი</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation>ხელმ�?წერ�?</translation>
+        <translation>ხელმოწერა</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>მიმდინ�?რე ხელმ�?წერის კ�?პირებ�? კლიპბ�?რდში</translation>
+        <translation>მიმდინარე ხელმოწერის კოპირება კლიპბორდში</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Garlicium address</source>
-        <translation>მ�?�?წერეთ ხელი იმის დ�?ს�?დ�?სტურებლ�?დ, რ�?მ ეს მის�?მ�?რთი თქვენი�?</translation>
+        <source>Sign the message to prove you own this Litecoin address</source>
+        <translation>მოაწერეთ ხელი იმის დასადასტურებლად, რომ ეს მისამართი თქვენია</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>&amp;მესიჯის ხელმ�?წერ�?</translation>
+        <translation>&amp;მესიჯის ხელმოწერა</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>ხელმ�?წერის ყველ�? ველის წ�?შლ�?</translation>
+        <translation>ხელმოწერის ყველა ველის წაშლა</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>გ&amp;�?სუფთ�?ვებ�?</translation>
+        <translation>გ&amp;ასუფთავება</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>მესიჯის &amp;ვერიფიკ�?ცი�?</translation>
+        <translation>მესიჯის &amp;ვერიფიკაცია</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Garlicium address</source>
-        <translation>შე�?მ�?წმეთ, რ�?მ მესიჯი ხელმ�?წერილი�? მითითებული Garlicium-მის�?მ�?რთით</translation>
+        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+        <translation>შეამოწმეთ, რომ მესიჯი ხელმოწერილია მითითებული Litecoin-მისამართით</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>&amp;მესიჯის ვერიფიკ�?ცი�?</translation>
+        <translation>&amp;მესიჯის ვერიფიკაცია</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>ვერიფიკ�?ციის ყველ�? ველის წ�?შლ�?</translation>
+        <translation>ვერიფიკაციის ყველა ველის წაშლა</translation>
     </message>
     </context>
 <context>
@@ -1284,7 +1284,7 @@
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>ტრ�?ნს�?ქციის დ�?წვრილებითი �?ღწერილ�?ბ�?</translation>
+        <translation>ტრანსაქციის დაწვრილებითი აღწერილობა</translation>
     </message>
     </context>
 <context>
@@ -1294,7 +1294,7 @@
     <name>TransactionView</name>
     <message>
         <source>Address</source>
-        <translation>მის�?მ�?რთი</translation>
+        <translation>მისამართი</translation>
     </message>
     </context>
 <context>
@@ -1313,223 +1313,223 @@
     <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
-        <translation>�?პციები:</translation>
+        <translation>ოპციები:</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>მიუთითეთ მ�?ნ�?ცემთ�? კ�?ტ�?ლ�?გი</translation>
+        <translation>მიუთითეთ მონაცემთა კატალოგი</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>მიერთებ�? კვ�?ნძთ�?ნ, პირების მის�?მ�?რთების მიღებ�? დ�? გ�?თიშვ�?</translation>
+        <translation>მიერთება კვანძთან, პირების მისამართების მიღება და გათიშვა</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>მიუთითეთ თქვენი ს�?ჯ�?რ�? მის�?მ�?რთი</translation>
+        <translation>მიუთითეთ თქვენი საჯარო მისამართი</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>ს�?კ�?მ�?ნდ�? სტრიქ�?ნის�? დ�? JSON-RPC-კ�?მ�?მდების ნებ�?რთვ�?</translation>
+        <translation>საკომანდო სტრიქონისა და JSON-RPC-კომამდების ნებართვა</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>რეზიდენტულ�?დ გ�?შვებ�? დ�? კ�?მ�?ნდების მიღებ�?</translation>
+        <translation>რეზიდენტულად გაშვება და კომანდების მიღება</translation>
     </message>
     <message>
-        <source>Garlicium Core</source>
-        <translation>Garlicium Core</translation>
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>მ�?ცემულ მის�?მ�?რთზე მიჯ�?ჭვ�? მუდმივ�?დ მ�?სზე მიყურ�?დებით. გ�?მ�?იყენეთ [host]:port ფ�?რმ�? IPv6-ს�?თვის</translation>
+        <translation>მოცემულ მისამართზე მიჯაჭვა მუდმივად მასზე მიყურადებით. გამოიყენეთ [host]:port ფორმა IPv6-სათვის</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>კ�?მ�?ნდის შესრულებ�? ს�?ფულის ტრ�?ნს�?ქციის ცვლილების�?ს (%s კ�?მ�?ნდ�?ში ჩ�?ნ�?ცვლდებ�? TxID-ით)</translation>
+        <translation>კომანდის შესრულება საფულის ტრანსაქციის ცვლილებისას (%s კომანდაში ჩანაცვლდება TxID-ით)</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt; შეიძლებ�? იყ�?ს:</translation>
+        <translation>&lt;category&gt; შეიძლება იყოს:</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>ბლ�?კის შექმნის �?პციები:</translation>
+        <translation>ბლოკის შექმნის ოპციები:</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>შენიშნული�? ბლ�?კთ�? ბ�?ზის დ�?ზი�?ნებ�?</translation>
+        <translation>შენიშნულია ბლოკთა ბაზის დაზიანება</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>�?რ ჩ�?იტვირთ�?ს ს�?ფულე დ�? �?იკრძ�?ლ�?ს ს�?ფულის�?დმი RPC-მიმ�?რთვები</translation>
+        <translation>არ ჩაიტვირთოს საფულე და აიკრძალოს საფულისადმი RPC-მიმართვები</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>გ�?ვუშვ�?თ ბლ�?კთ�? ბ�?ზის ხელ�?ხლ�? �?გებ�? ეხლ�??</translation>
+        <translation>გავუშვათ ბლოკთა ბაზის ხელახლა აგება ეხლა?</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>ვერ ინიცი�?ლიზდებ�? ბლ�?კების ბ�?ზ�?</translation>
+        <translation>ვერ ინიციალიზდება ბლოკების ბაზა</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>ვერ ინიცი�?ლიზდებ�? ს�?ფულის ბ�?ზის გ�?რემ�? %s!</translation>
+        <translation>ვერ ინიციალიზდება საფულის ბაზის გარემო %s!</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>�?რ იტვირთებ�? ბლ�?კების ბ�?ზ�?</translation>
+        <translation>არ იტვირთება ბლოკების ბაზა</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>ბლ�?კთ�? ბ�?ზის შექმნ�? ვერ მ�?ხერხდ�?</translation>
+        <translation>ბლოკთა ბაზის შექმნა ვერ მოხერხდა</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>შეცდ�?მ�?: დისზე �?რ �?რის �?დგილი!</translation>
+        <translation>შეცდომა: დისზე არ არის ადგილი!</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>ვერ ხერხდებ�? პ�?რტების მიყურ�?დებ�?. თუ გსურთ, გ�?მ�?იყენეთ -listen=0.</translation>
+        <translation>ვერ ხერხდება პორტების მიყურადება. თუ გსურთ, გამოიყენეთ -listen=0.</translation>
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>ს�?წყისი ბლ�?კი �?რ �?რსებ�?ბს �?ნ �?რ�?სწ�?რი�?. ქსელის მ�?ნ�?ცემთ�? კ�?ტ�?ლ�?გი datadir ხ�?მ �?რის �?რ�?სწ�?რი?</translation>
+        <translation>საწყისი ბლოკი არ არსებობს ან არასწორია. ქსელის მონაცემთა კატალოგი datadir ხომ არის არასწორი?</translation>
     </message>
     <message>
         <source>Invalid -onion address: '%s'</source>
-        <translation>�?რ�?სწ�?რი�? მის�?მ�?რთი -onion: '%s'</translation>
+        <translation>არასწორია მისამართი -onion: '%s'</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>�?რ �?რის ს�?კმ�?რისი ფ�?ილ-დესკრიპტ�?რები.</translation>
+        <translation>არ არის საკმარისი ფაილ-დესკრიპტორები.</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
-        <translation>ბლ�?კის მ�?ქსიმ�?ლური ზ�?მის გ�?ნს�?ზღვრ�? ბ�?იტებში (ნ�?დულისხმევი: %d)</translation>
+        <translation>ბლოკის მაქსიმალური ზომის განსაზღვრა ბაიტებში (ნადულისხმევი: %d)</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>მიუთითეთ ს�?ფულის ფ�?ილი (კ�?ტ�?ლ�?გში)</translation>
+        <translation>მიუთითეთ საფულის ფაილი (კატალოგში)</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>ბლ�?კების ვერიფიკ�?ცი�?...</translation>
+        <translation>ბლოკების ვერიფიკაცია...</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>ს�?ფულის ვერიფიკ�?ცი�?...</translation>
+        <translation>საფულის ვერიფიკაცია...</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
-        <translation>ს�?ფულე %s მდებ�?რე�?ბს მ�?ნ�?ცემთ�? კ�?ტ�?ლ�?გის %s გ�?რეთ</translation>
+        <translation>საფულე %s მდებარეობს მონაცემთა კატალოგის %s გარეთ</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>სფულის �?პციები:</translation>
+        <translation>სფულის ოპციები:</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>ბრძ�?ნების შესრულებ�? შეს�?ბ�?მისი უწყების მიღების�?ს �?ნ რ�?ც�? შეინიშნებ�? ს�?გრძნ�?ბი გ�?ხლეჩ�? (cmd-ში %s შეიცვლებ�? მესიჯით)</translation>
+        <translation>ბრძანების შესრულება შესაბამისი უწყების მიღებისას ან როცა შეინიშნება საგრძნობი გახლეჩა (cmd-ში %s შეიცვლება მესიჯით)</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>მ�?ღ�?ლპრი�?რიტეტული/დ�?ბ�?ლს�?კ�?მისი�?ი�?ნი ტრ�?ნს�?ქციების მ�?ქსიმ�?ლური ზ�?მ�? ბ�?იტებში (ნ�?გულისხმევი: %d)</translation>
+        <translation>მაღალპრიორიტეტული/დაბალსაკომისიოიანი ტრანსაქციების მაქსიმალური ზომა ბაიტებში (ნაგულისხმევი: %d)</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>ინფ�?რმ�?ცი�?</translation>
+        <translation>ინფორმაცია</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>ტრ�?სირების/დ�?ხვეწის ინფ�?ს გ�?გზ�?ვნ�? კ�?ნს�?ლზე debug.log ფ�?ილის ნ�?ცვლ�?დ</translation>
+        <translation>ტრასირების/დახვეწის ინფოს გაგზავნა კონსოლზე debug.log ფაილის ნაცვლად</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>debug.log ფ�?ილის შეკუმშვ�? გ�?შვების�?ს (ნ�?გულისხმევი�?: 1 რ�?ც�? �?რ �?ყენი�? -debug)</translation>
+        <translation>debug.log ფაილის შეკუმშვა გაშვებისას (ნაგულისხმევია: 1 როცა არ აყენია -debug)</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation>ტრ�?ნს�?ქციების ხელმ�?წერ�? ვერ მ�?ხერხდ�?</translation>
+        <translation>ტრანსაქციების ხელმოწერა ვერ მოხერხდა</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>ტრ�?ნს�?ქციების რ�?�?დენ�?ბ�? ძ�?ლი�?ნ ც�?ტ�?�?</translation>
+        <translation>ტრანსაქციების რაოდენობა ძალიან ცოტაა</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>ტრ�?ნს�?ქცი�? ძ�?ლი�?ნ დიდი�?</translation>
+        <translation>ტრანსაქცია ძალიან დიდია</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>მ�?მხმ�?რებლის ს�?ხელი JSON-RPC-შეერთების�?თვის</translation>
+        <translation>მომხმარებლის სახელი JSON-RPC-შეერთებისათვის</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>გ�?ფრთხილებ�?</translation>
+        <translation>გაფრთხილება</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
-        <translation>ტრ�?ნს�?ქციების ჩ�?ხსნ�? ს�?ფულიდ�?ნ...</translation>
+        <translation>ტრანსაქციების ჩახსნა საფულიდან...</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>პ�?რ�?ლი JSON-RPC-შეერთების�?თვის</translation>
+        <translation>პაროლი JSON-RPC-შეერთებისათვის</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>კ�?მ�?ნდის შესრულებ�? უკეთესი ბლ�?კის გ�?მ�?ჩენის�?ს (%s კ�?მ�?ნდ�?ში ჩ�?ნ�?ცვლდებ�? ბლ�?კის ჰეშით)</translation>
+        <translation>კომანდის შესრულება უკეთესი ბლოკის გამოჩენისას (%s კომანდაში ჩანაცვლდება ბლოკის ჰეშით)</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>DNS-ძებნის დ�?შვებ�? -addnode, -seednode დ�? -connect-ს�?თვის</translation>
+        <translation>DNS-ძებნის დაშვება -addnode, -seednode და -connect-სათვის</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>მის�?მ�?რთების ჩ�?ტვირთვ�?...</translation>
+        <translation>მისამართების ჩატვირთვა...</translation>
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
-        <translation>�?რ�?სწ�?რი�? მის�?მ�?რთი -proxy: '%s'</translation>
+        <translation>არასწორია მისამართი -proxy: '%s'</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>-onlynet-ში მითითებული�? უცნ�?ბი ქსელი: '%s'</translation>
+        <translation>-onlynet-ში მითითებულია უცნობი ქსელი: '%s'</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>�?რ �?რის ს�?კმ�?რისი თ�?ნხ�?</translation>
+        <translation>არ არის საკმარისი თანხა</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>ბლ�?კების ინდექსის ჩ�?ტვირთვ�?...</translation>
+        <translation>ბლოკების ინდექსის ჩატვირთვა...</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>მის�?ერთებელი კვ�?ნძის დ�?მ�?ტებ�? დ�? მიერთების შეძლებისდ�?გვ�?რ�?დ შენ�?რჩუნებ�?</translation>
+        <translation>მისაერთებელი კვანძის დამატება და მიერთების შეძლებისდაგვარად შენარჩუნება</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>ს�?ფულის ჩ�?ტვირთვ�?...</translation>
+        <translation>საფულის ჩატვირთვა...</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>ს�?ფულის ძველ ვერსი�?ზე გ�?დ�?ყვ�?ნ�? შეუძლებელი�?</translation>
+        <translation>საფულის ძველ ვერსიაზე გადაყვანა შეუძლებელია</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>ვერ ხერხდებ�? ნ�?გულისხმევი მის�?მ�?რთის ჩ�?წერ�?</translation>
+        <translation>ვერ ხერხდება ნაგულისხმევი მისამართის ჩაწერა</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>სკ�?ნირებ�?...</translation>
+        <translation>სკანირება...</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>ჩ�?ტვირთვ�? დ�?სრულებული�?</translation>
+        <translation>ჩატვირთვა დასრულებულია</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>შეცდ�?მ�?</translation>
+        <translation>შეცდომა</translation>
     </message>
 </context>
 </TS>

@@ -3,19 +3,19 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Кликните правой кнопкой мыши дл�? редактировани�? адре�?а или метки</translation>
+        <translation>Кликните правой кнопкой мыши для редактирования адреса или метки</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Создать новый адре�?</translation>
+        <translation>Создать новый адрес</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>�?овый</translation>
+        <translation>Новый</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Скопировать текущий выбранный адре�? в буфер обмена �?и�?темы</translation>
+        <translation>Скопировать текущий выбранный адрес в буфер обмена системы</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,15 +27,15 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Удалить выбранный адре�? из �?пи�?ка</translation>
+        <translation>Удалить выбранный адрес из списка</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Эк�?портировать данные текущей вкладки в файл</translation>
+        <translation>Экспортировать данные текущей вкладки в файл</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>Эк�?портировать</translation>
+        <translation>Экспортировать</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Выбрать адре�? дл�? отправки монет</translation>
+        <translation>Выбрать адрес для отправки монет</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Выбрать адре�? дл�? получени�? монет</translation>
+        <translation>Выбрать адрес для получения монет</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -55,15 +55,15 @@
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>�?дре�?а отправки</translation>
+        <translation>Адреса отправки</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>�?дре�?а получени�?</translation>
+        <translation>Адреса получения</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Копировать адре�?</translation>
+        <translation>&amp;Копировать адрес</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -75,11 +75,11 @@
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Эк�?портировать �?пи�?ок адре�?ов</translation>
+        <translation>Экспортировать список адресов</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Эк�?порт не удал�?�?</translation>
+        <translation>Экспорт не удался</translation>
     </message>
     </context>
 <context>
@@ -90,7 +90,7 @@
     </message>
     <message>
         <source>Address</source>
-        <translation>�?дре�?</translation>
+        <translation>Адрес</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -101,7 +101,7 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Ввод парол�?</translation>
+        <translation>Ввод пароля</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
@@ -109,7 +109,7 @@
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>�?овый пароль</translation>
+        <translation>Новый пароль</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
@@ -121,7 +121,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Эта операци�? требует вашего парол�? дл�? разблокировки бумажника</translation>
+        <translation>Эта операция требует вашего пароля для разблокировки бумажника</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -129,7 +129,7 @@
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Ра�?шифровать бумажник</translation>
+        <translation>Расшифровать бумажник</translation>
     </message>
     <message>
         <source>Change passphrase</source>
@@ -155,7 +155,7 @@
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Подпи�?ать &amp;�?ообщение...</translation>
+        <translation>Подписать &amp;сообщение...</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -163,7 +163,7 @@
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Про�?мотр и�?тории транзакций</translation>
+        <translation>Просмотр истории транзакций</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -207,11 +207,11 @@
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;�?дре�?а дл�? отправки...</translation>
+        <translation>&amp;Адреса для отправки...</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;�?дре�?а дл�? получени�?...</translation>
+        <translation>&amp;Адреса для получения...</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -219,7 +219,7 @@
     </message>
     <message>
         <source>Syncing Headers (%1%)...</source>
-        <translation>Синхронизаци�? заголовков (%1%)...</translation>
+        <translation>Синхронизация заголовков (%1%)...</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -227,11 +227,11 @@
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Проверить �?ообщение...</translation>
+        <translation>&amp;Проверить сообщение...</translation>
     </message>
     <message>
-        <source>Garlicium</source>
-        <translation>Garlicium Core</translation>
+        <source>Litecoin</source>
+        <translation>Litecoin Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -247,7 +247,7 @@
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Показать / Спр�?тать</translation>
+        <translation>&amp;Показать / Спрятать</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -255,7 +255,7 @@
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;�?а�?тройки</translation>
+        <translation>&amp;Настройки</translation>
     </message>
     <message>
         <source>&amp;Help</source>
@@ -263,7 +263,7 @@
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>Опции командной �?троки</translation>
+        <translation>Опции командной строки</translation>
     </message>
     <message>
         <source>Error</source>
@@ -275,7 +275,7 @@
     </message>
     <message>
         <source>Information</source>
-        <translation>Информаци�?</translation>
+        <translation>Информация</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -294,11 +294,11 @@
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Количе�?тво:</translation>
+        <translation>Количество:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Коми�?�?и�?:</translation>
+        <translation>Комиссия:</translation>
     </message>
     <message>
         <source>Date</source>
@@ -306,7 +306,7 @@
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Подтверждени�?</translation>
+        <translation>Подтверждения</translation>
     </message>
     <message>
         <source>Confirmed</source>
@@ -314,7 +314,7 @@
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Копировать адре�?</translation>
+        <translation>Копировать адрес</translation>
     </message>
     <message>
         <source>Copy label</source>
@@ -322,7 +322,7 @@
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Копировать �?умму</translation>
+        <translation>Копировать сумму</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
@@ -345,7 +345,7 @@
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Изменить адре�?</translation>
+        <translation>Изменить адрес</translation>
     </message>
     </context>
 <context>
@@ -355,19 +355,19 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>вер�?и�?</translation>
+        <translation>версия</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Опции командной �?троки</translation>
+        <translation>Опции командной строки</translation>
     </message>
     <message>
         <source>command-line options</source>
-        <translation>Опции командной �?троки</translation>
+        <translation>Опции командной строки</translation>
     </message>
     <message>
         <source>Start minimized</source>
-        <translation>Запу�?кать �?вернутым</translation>
+        <translation>Запускать свернутым</translation>
     </message>
     </context>
 <context>
@@ -389,11 +389,11 @@
     <name>ModalOverlay</name>
     <message>
         <source>Progress</source>
-        <translation>Прогре�?�?</translation>
+        <translation>Прогресс</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>Спр�?тать</translation>
+        <translation>Спрятать</translation>
     </message>
     </context>
 <context>
@@ -419,11 +419,11 @@
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>Разрешить вход�?щие �?оеденени�?</translation>
+        <translation>Разрешить входящие соеденения</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>&amp;Сбро�?ить опции</translation>
+        <translation>&amp;Сбросить опции</translation>
     </message>
     <message>
         <source>&amp;Network</source>
@@ -435,19 +435,19 @@
     </message>
     <message>
         <source>Expert</source>
-        <translation>Эк�?перт</translation>
+        <translation>Эксперт</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>Пробро�?ить порт через &amp;UPnP</translation>
+        <translation>Пробросить порт через &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Garlicium network through a SOCKS5 proxy.</source>
-        <translation>Подключит�?�? к �?ети Garlicium через SOCKS5 прок�?и.</translation>
+        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
+        <translation>Подключится к сети Litecoin через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>IP прок�?и:</translation>
+        <translation>IP прокси:</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
@@ -455,7 +455,7 @@
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Порт прок�?и: (напр. 9050)</translation>
+        <translation>Порт прокси: (напр. 9050)</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -475,7 +475,7 @@
     </message>
     <message>
         <source>Hide tray icon</source>
-        <translation>Спр�?тать иконку в трее</translation>
+        <translation>Спрятать иконку в трее</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -490,27 +490,27 @@
     <name>OverviewPage</name>
     <message>
         <source>Immature:</source>
-        <translation>�?езрелые:</translation>
+        <translation>Незрелые:</translation>
     </message>
     <message>
         <source>Balances</source>
-        <translation>Балан�?ы</translation>
+        <translation>Балансы</translation>
     </message>
     <message>
         <source>Total:</source>
-        <translation>В�?его:</translation>
+        <translation>Всего:</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Ваш текущий балан�?:</translation>
+        <translation>Ваш текущий баланс:</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>Ваш текущий балан�? на адре�?ах только дл�? чтени�?:</translation>
+        <translation>Ваш текущий баланс на адресах только для чтения:</translation>
     </message>
     <message>
         <source>Recent transactions</source>
-        <translation>По�?ледние транзакции</translation>
+        <translation>Последние транзакции</translation>
     </message>
     </context>
 <context>
@@ -522,12 +522,12 @@
 <context>
     <name>QObject</name>
     <message>
-        <source>Enter a Garlicium address (e.g. %1)</source>
-        <translation>Введите биткоин-адре�? (напр. %1)</translation>
+        <source>Enter a Litecoin address (e.g. %1)</source>
+        <translation>Введите биткоин-адрес (напр. %1)</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n ча�?</numerusform><numerusform>%n ча�?а</numerusform><numerusform>%n ча�?ов</numerusform><numerusform>%n ча�?ов</numerusform></translation>
+        <translation><numerusform>%n час</numerusform><numerusform>%n часа</numerusform><numerusform>%n часов</numerusform><numerusform>%n часов</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
@@ -535,7 +535,7 @@
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n недел�?</numerusform><numerusform>%n недель</numerusform><numerusform>%n недель</numerusform><numerusform>%n недель</numerusform></translation>
+        <translation><numerusform>%n неделя</numerusform><numerusform>%n недель</numerusform><numerusform>%n недель</numerusform><numerusform>%n недель</numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -568,7 +568,7 @@
     <name>RPCConsole</name>
     <message>
         <source>&amp;Information</source>
-        <translation>Информаци�?</translation>
+        <translation>Информация</translation>
     </message>
     <message>
         <source>Debug window</source>
@@ -592,7 +592,7 @@
     </message>
     <message>
         <source>Version</source>
-        <translation>Вер�?и�?</translation>
+        <translation>Версия</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -600,11 +600,11 @@
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;Кон�?оль</translation>
+        <translation>&amp;Консоль</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
-        <translation>1 &amp;ча�?</translation>
+        <translation>1 &amp;час</translation>
     </message>
     <message>
         <source>1 &amp;day</source>
@@ -612,7 +612,7 @@
     </message>
     <message>
         <source>1 &amp;week</source>
-        <translation>1 &amp;недел�?</translation>
+        <translation>1 &amp;неделя</translation>
     </message>
     <message>
         <source>1 &amp;year</source>
@@ -644,18 +644,18 @@
     </message>
     <message>
         <source>No</source>
-        <translation>�?ет</translation>
+        <translation>Нет</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>�?еизве�?тно</translation>
+        <translation>Неизвестно</translation>
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>Clear</source>
-        <translation>Отчи�?тить</translation>
+        <translation>Отчистить</translation>
     </message>
     <message>
         <source>Show</source>
@@ -675,18 +675,18 @@
     </message>
     <message>
         <source>Copy message</source>
-        <translation>Копировать �?ообщение</translation>
+        <translation>Копировать сообщение</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Копировать �?умму</translation>
+        <translation>Копировать сумму</translation>
     </message>
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Address</source>
-        <translation>�?дре�?</translation>
+        <translation>Адрес</translation>
     </message>
     <message>
         <source>Label</source>
@@ -712,11 +712,11 @@
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Количе�?тво:</translation>
+        <translation>Количество:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Коми�?�?и�?:</translation>
+        <translation>Комиссия:</translation>
     </message>
     <message>
         <source>Choose...</source>
@@ -724,15 +724,15 @@
     </message>
     <message>
         <source>Hide</source>
-        <translation>Спр�?тать</translation>
+        <translation>Спрятать</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>Балан�?:</translation>
+        <translation>Баланс:</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Копировать �?умму</translation>
+        <translation>Копировать сумму</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -756,7 +756,7 @@
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signature</source>
-        <translation>Подпи�?ь</translation>
+        <translation>Подпись</translation>
     </message>
     </context>
 <context>
@@ -786,7 +786,7 @@
     <name>TransactionView</name>
     <message>
         <source>Copy address</source>
-        <translation>Копировать адре�?</translation>
+        <translation>Копировать адрес</translation>
     </message>
     <message>
         <source>Copy label</source>
@@ -794,7 +794,7 @@
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Копировать �?умму</translation>
+        <translation>Копировать сумму</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
@@ -806,11 +806,11 @@
     </message>
     <message>
         <source>Address</source>
-        <translation>�?дре�?</translation>
+        <translation>Адрес</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Эк�?порт не удал�?�?</translation>
+        <translation>Экспорт не удался</translation>
     </message>
     </context>
 <context>
@@ -826,14 +826,14 @@
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>Эк�?портировать</translation>
+        <translation>Экспортировать</translation>
     </message>
     </context>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Garlicium Core</source>
-        <translation>Garlicium Core</translation>
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -841,7 +841,7 @@
     </message>
     <message>
         <source>Information</source>
-        <translation>Информаци�?</translation>
+        <translation>Информация</translation>
     </message>
     <message>
         <source>Warning</source>

@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Izaberite adresu za slanje nov�?ića</translation>
+        <translation>Izaberite adresu za slanje novčića</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Izaberite adresu za prijem nov�?ića</translation>
+        <translation>Izaberite adresu za prijem novčića</translation>
     </message>
     <message>
         <source>Sending addresses</source>
@@ -58,12 +58,12 @@
         <translation>Adresa na koju se prima</translation>
     </message>
     <message>
-        <source>These are your Garlicium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ovo su Vaše Garlicium adrese na koju se vrše uplate. Uvek proverite iznos i prijemnu adresu pre slanja nov�?ića</translation>
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ovo su Vaše Litecoin adrese na koju se vrše uplate. Uvek proverite iznos i prijemnu adresu pre slanja novčića</translation>
     </message>
     <message>
-        <source>These are your Garlicium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ovo su Vaše Garlicium adrese za primanje uplata. Preporu�?uje se upotreba nove adrese za svaku transakciju.</translation>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ovo su Vaše Litecoin adrese za primanje uplata. Preporučuje se upotreba nove adrese za svaku transakciju.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -97,27 +97,27 @@
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Unesite novu pristupnu frazu u nov�?anik. &lt;br/&gt;Molimo, koristite pristupnu frazu koja ima &lt;b&gt; deset ili više nasumi�?nih znakova&lt;/b&gt;, ili &lt;b&gt;osam ili više re�?i&lt;/b&gt;.</translation>
+        <translation>Unesite novu pristupnu frazu u novčanik. &lt;br/&gt;Molimo, koristite pristupnu frazu koja ima &lt;b&gt; deset ili više nasumičnih znakova&lt;/b&gt;, ili &lt;b&gt;osam ili više reči&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Šifrujte nov�?anik</translation>
+        <translation>Šifrujte novčanik</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Da biste otklju�?ali nov�?anik potrebno je da unesete svoju pristupnu frazu.</translation>
+        <translation>Da biste otključali novčanik potrebno je da unesete svoju pristupnu frazu.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Otklju�?ajte nov�?anik</translation>
+        <translation>Otključajte novčanik</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Da biste dešifrovali nov�?anik, potrebno je da unesete svoju pristupnu frazu.</translation>
+        <translation>Da biste dešifrovali novčanik, potrebno je da unesete svoju pristupnu frazu.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Dešifrujte nov�?anik</translation>
+        <translation>Dešifrujte novčanik</translation>
     </message>
     <message>
         <source>Change passphrase</source>
@@ -125,23 +125,23 @@
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Unesite u nov�?anik staru pristupnu frazu i novu pristupnu frazu.</translation>
+        <translation>Unesite u novčanik staru pristupnu frazu i novu pristupnu frazu.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Potvrdite šifrovanje nov�?anika</translation>
+        <translation>Potvrdite šifrovanje novčanika</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR GARLICIUMS&lt;/b&gt;!</source>
-        <translation>Upozorenje: Ako šifrujete svoj nov�?anik, i potom izgubite svoju pristupnu frazu &lt;b&gt;IZGUBIĆETE SVE SVOJE BITKOINE&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <translation>Upozorenje: Ako šifrujete svoj novčanik, i potom izgubite svoju pristupnu frazu &lt;b&gt;IZGUBIĆETE SVE SVOJE BITKOINE&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Da li ste sigurni da želite da šifrujete svoj nov�?anik?</translation>
+        <translation>Da li ste sigurni da želite da šifrujete svoj novčanik?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Nov�?anik je šifrovan</translation>
+        <translation>Novčanik je šifrovan</translation>
     </message>
     </context>
 <context>
@@ -167,7 +167,7 @@
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Isklju�?i aplikaciju</translation>
+        <translation>Isključi aplikaciju</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
@@ -198,20 +198,20 @@
         <translation>Otvori &amp;URI...</translation>
     </message>
     <message>
-        <source>Send coins to a Garlicium address</source>
-        <translation>Pošalji nov�?iće na Garlicium adresu</translation>
+        <source>Send coins to a Litecoin address</source>
+        <translation>Pošalji novčiće na Litecoin adresu</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Proveri poruku...</translation>
     </message>
     <message>
-        <source>Garlicium</source>
-        <translation>Garlicium</translation>
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Nov�?anik</translation>
+        <translation>Novčanik</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -288,7 +288,7 @@
     <name>CoinControlDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>Koli�?ina:</translation>
+        <translation>Količina:</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -386,7 +386,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>Koli�?ina:</translation>
+        <translation>Količina:</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -446,8 +446,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Garlicium Core</source>
-        <translation>Garlicium Core</translation>
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
     </message>
     <message>
         <source>Information</source>

@@ -3,11 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>按�?�擊修改�?�?�或標記</translation>
+        <translation>按右擊修改位址或標記</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>新增一個�?�?�</translation>
+        <translation>新增一個位址</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>複製目�?�?�擇的�?�?�到系統剪貼簿</translation>
+        <translation>複製目前選擇的位址到系統剪貼簿</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,11 +27,11 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>把目�?�?�擇的�?�?�從列表中刪除</translation>
+        <translation>把目前選擇的位址從列表中刪除</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>把目�?分�?的資料匯出至檔案</translation>
+        <translation>把目前分頁的資料匯出至檔案</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -43,27 +43,27 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>�?�擇�?付錢�?�去的地�?�</translation>
+        <translation>選擇要付錢過去的地址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>�?�擇�?收錢的地�?�</translation>
+        <translation>選擇要收錢的地址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>�?�擇 &amp;h</translation>
+        <translation>選擇 &amp;h</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>付款地�?�</translation>
+        <translation>付款地址</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>收款地�?�</translation>
+        <translation>收款地址</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>複製地�?� &amp;C</translation>
+        <translation>複製地址 &amp;C</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -75,7 +75,7 @@
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>匯出地�?�清單</translation>
+        <translation>匯出地址清單</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
@@ -87,7 +87,7 @@
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>儲存地�?�列表到 %1 時發生錯誤。請�?試一次。</translation>
+        <translation>儲存地址列表到 %1 時發生錯誤。請再試一次。</translation>
     </message>
 </context>
 <context>
@@ -98,7 +98,7 @@
     </message>
     <message>
         <source>Address</source>
-        <translation>地�?�</translation>
+        <translation>地址</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -109,7 +109,7 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>複雜密碼�?話方塊</translation>
+        <translation>複雜密碼對話方塊</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
@@ -121,7 +121,7 @@
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>�?複新密碼</translation>
+        <translation>重複新密碼</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -129,7 +129,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>這個動作需�?你的錢包密碼來將錢包解鎖。</translation>
+        <translation>這個動作需要你的錢包密碼來將錢包解鎖。</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -137,7 +137,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>這個動作需�?你的錢包密碼來將錢包解密。</translation>
+        <translation>這個動作需要你的錢包密碼來將錢包解密。</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
@@ -153,27 +153,27 @@
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>確�?錢包加密</translation>
+        <translation>確認錢包加密</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR GARLICIUMS&lt;/b&gt;!</source>
-        <translation>警告: 如果你將錢包加密後�?�忘記密碼，你就會&lt;b&gt;失去所有 Garlicium 了&lt;/b&gt;�?</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <translation>警告: 如果你將錢包加密後又忘記密碼，你就會&lt;b&gt;失去所有 Litecoin 了&lt;/b&gt;！</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>你確定�?把錢包加密嗎？</translation>
+        <translation>你確定要把錢包加密嗎？</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
         <translation>錢包已加密</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your garliciums from being stolen by malware infecting your computer.</source>
-        <translation>%1 �?�在�?關閉來完�?加密程�?。請記得將錢包加密�?能完全防止你的 Garliciums 經被入侵電腦的惡�?程�?�?��?�。</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 現在要關閉來完成加密程序。請記得將錢包加密不能完全防止你的 Litecoins 經被入侵電腦的惡意程式偷取。</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>�?�?: 請改用新產生的加密錢包檔，來�?�代所以舊錢包檔的備份。為安全計，當你開始使用新的加密錢包檔後，舊錢包檔的備份就�?能�?使用了。</translation>
+        <translation>重要: 請改用新產生的加密錢包檔，來取代所以舊錢包檔的備份。為安全計，當你開始使用新的加密錢包檔後，舊錢包檔的備份就不能再使用了。</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -185,7 +185,7 @@
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>�??供的密碼�?一致。</translation>
+        <translation>提供的密碼不一致。</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
@@ -193,7 +193,7 @@
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>用來解密錢包的密碼�?�?。</translation>
+        <translation>用來解密錢包的密碼不對。</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
@@ -201,33 +201,33 @@
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>錢包密碼已�?功更改。</translation>
+        <translation>錢包密碼已成功更改。</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>警告: Caps Lock 已啟用�?</translation>
+        <translation>警告: Caps Lock 已啟用！</translation>
     </message>
 </context>
 <context>
     <name>BanTableModel</name>
     <message>
         <source>IP/Netmask</source>
-        <translation>IP�?�?�/�?�罩</translation>
+        <translation>IP位址/遮罩</translation>
     </message>
     <message>
         <source>Banned Until</source>
-        <translation>�?鎖至</translation>
+        <translation>封鎖至</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>簽署訊�?�... &amp;m</translation>
+        <translation>簽署訊息... &amp;m</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>與網絡�?�步中...</translation>
+        <translation>與網絡同步中...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
@@ -247,15 +247,15 @@
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>�?覽交易紀錄</translation>
+        <translation>瀏覽交易紀錄</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>�?�?� &amp;x</translation>
+        <translation>結束 &amp;x</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>�?�?�應用程�?</translation>
+        <translation>結束應用程式</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
@@ -275,11 +275,11 @@
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>�?�項... &amp;O</translation>
+        <translation>選項... &amp;O</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
-        <translation>修正 %1 的設定�?�項</translation>
+        <translation>修正 %1 的設定選項</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
@@ -295,23 +295,23 @@
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>付款�?�?�... &amp;S</translation>
+        <translation>付款位址... &amp;S</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>收款�?�?�... &amp;R</translation>
+        <translation>收款位址... &amp;R</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>開啓網�?�... &amp;U</translation>
+        <translation>開啓網址... &amp;U</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>正在為�?碟�?�塊�?建索引...</translation>
+        <translation>正在為磁碟區塊重建索引...</translation>
     </message>
     <message>
-        <source>Send coins to a Garlicium address</source>
-        <translation>付款至一個 Garlicium �?�?�</translation>
+        <source>Send coins to a Litecoin address</source>
+        <translation>付款至一個 Litecoin 位址</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -327,15 +327,15 @@
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>開啓除錯和診斷主控�?�</translation>
+        <translation>開啓除錯和診斷主控台</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>驗證訊�?�... &amp;V</translation>
+        <translation>驗證訊息... &amp;V</translation>
     </message>
     <message>
-        <source>Garlicium</source>
-        <translation>Garlicium</translation>
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -351,11 +351,11 @@
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>顯示 / 隱�? &amp;S</translation>
+        <translation>顯示 / 隱藏 &amp;S</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>顯示或隱�?主視窗</translation>
+        <translation>顯示或隱藏主視窗</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -370,12 +370,12 @@
         <translation>說明 &amp;H</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and garlicium: URIs)</source>
-        <translation>�?求付款 (產生QR碼 garlicium: URIs)</translation>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>要求付款 (產生QR碼 litecoin: URIs)</translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
-        <translation>正在為�?碟�?�塊建立索引...</translation>
+        <translation>正在為磁碟區塊建立索引...</translation>
     </message>
     <message>
         <source>Error</source>
@@ -440,8 +440,8 @@
 <context>
     <name>QObject</name>
     <message>
-        <source>Enter a Garlicium address (e.g. %1)</source>
-        <translation>輸入一個 Garlicium �?�?� (例如 %1)</translation>
+        <source>Enter a Litecoin address (e.g. %1)</source>
+        <translation>輸入一個 Litecoin 位址 (例如 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -449,7 +449,7 @@
     </message>
     <message>
         <source>%1 h</source>
-        <translation>%1 �?時</translation>
+        <translation>%1 小時</translation>
     </message>
     <message>
         <source>%1 m</source>
@@ -477,11 +477,11 @@
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation><numerusform>%n 分�?�</numerusform></translation>
+        <translation><numerusform>%n 分鐘</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n �?時</numerusform></translation>
+        <translation><numerusform>%n 小時</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
@@ -511,7 +511,7 @@
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation>PNG 影�?(*.png)</translation>
+        <translation>PNG 影像(*.png)</translation>
     </message>
 </context>
 <context>
@@ -538,7 +538,7 @@
     </message>
     <message>
         <source>Sent</source>
-        <translation>已�?出</translation>
+        <translation>已送出</translation>
     </message>
     <message>
         <source>Version</source>
@@ -552,7 +552,7 @@
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Address</source>
-        <translation>地�?�</translation>
+        <translation>地址</translation>
     </message>
     <message>
         <source>Label</source>
@@ -632,7 +632,7 @@
     </message>
     <message>
         <source>Address</source>
-        <translation>地�?�</translation>
+        <translation>地址</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
@@ -656,7 +656,7 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>把目�?分�?的資料匯出至檔案</translation>
+        <translation>把目前分頁的資料匯出至檔案</translation>
     </message>
     </context>
 <context>

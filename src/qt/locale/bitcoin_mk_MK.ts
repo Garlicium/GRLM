@@ -3,19 +3,19 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Де�?ен клик за уредување на адре�?а или етикета</translation>
+        <translation>Десен клик за уредување на адреса или етикета</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Креирај нова адре�?а</translation>
+        <translation>Креирај нова адреса</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;�?ова</translation>
+        <translation>&amp;Нова</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Копирај ја избраната адре�?а на �?и�?тем�?киот клипборд</translation>
+        <translation>Копирај ја избраната адреса на системскиот клипборд</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,15 +27,15 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Избриши ја избраната адре�?а од ли�?тата</translation>
+        <translation>Избриши ја избраната адреса од листата</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Ек�?портирај ги податоците од активното јазиче во датотека</translation>
+        <translation>Експортирај ги податоците од активното јазиче во датотека</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Ек�?порт</translation>
+        <translation>&amp;Експорт</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -49,11 +49,11 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Enter passphrase</source>
-        <translation>Вне�?и тајна фраза</translation>
+        <translation>Внеси тајна фраза</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>�?ова тајна фраза</translation>
+        <translation>Нова тајна фраза</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
@@ -71,7 +71,7 @@
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Синхронизација �?о мрежата...</translation>
+        <translation>Синхронизација со мрежата...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
@@ -83,11 +83,11 @@
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Тран�?акции</translation>
+        <translation>&amp;Трансакции</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Преглед на и�?торијата на тран�?акции</translation>
+        <translation>Преглед на историјата на трансакции</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -95,7 +95,7 @@
     </message>
     <message>
         <source>Quit application</source>
-        <translation>�?апушти ја апликацијата</translation>
+        <translation>Напушти ја апликацијата</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -123,11 +123,11 @@
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;�?дре�?и за И�?праќање...</translation>
+        <translation>&amp;Адреси за Испраќање...</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;�?дре�?и за Примање...</translation>
+        <translation>&amp;Адреси за Примање...</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -135,18 +135,18 @@
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Повторно индек�?ирање на блокови од ди�?кот...</translation>
+        <translation>Повторно индексирање на блокови од дискот...</translation>
     </message>
     <message>
-        <source>Send coins to a Garlicium address</source>
-        <translation>И�?прати биткоини на Биткоин адре�?а</translation>
+        <source>Send coins to a Litecoin address</source>
+        <translation>Испрати биткоини на Биткоин адреса</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Потврди порака...</translation>
     </message>
     <message>
-        <source>Garlicium</source>
+        <source>Litecoin</source>
         <translation>Биткоин</translation>
     </message>
     <message>
@@ -155,7 +155,7 @@
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;И�?прати</translation>
+        <translation>&amp;Испрати</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -171,7 +171,7 @@
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Поде�?увања</translation>
+        <translation>&amp;Подесувања</translation>
     </message>
     <message>
         <source>&amp;Help</source>
@@ -179,7 +179,7 @@
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>Обработен %n блок од и�?торијата на тран�?акции.</numerusform><numerusform>Обработени %n блокови од и�?торијата на тран�?акции.</numerusform></translation>
+        <translation><numerusform>Обработен %n блок од историјата на трансакции.</numerusform><numerusform>Обработени %n блокови од историјата на трансакции.</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -224,7 +224,7 @@
     <message>
         <source>Address: %1
 </source>
-        <translation>�?дре�?а: %1
+        <translation>Адреса: %1
 </translation>
     </message>
     </context>
@@ -248,11 +248,11 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>По�?ле Провизија:</translation>
+        <translation>После Провизија:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Ку�?ур:</translation>
+        <translation>Кусур:</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -267,7 +267,7 @@
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Измени �?дре�?а</translation>
+        <translation>Измени Адреса</translation>
     </message>
     <message>
         <source>&amp;Label</source>
@@ -275,7 +275,7 @@
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;�?дре�?а</translation>
+        <translation>&amp;Адреса</translation>
     </message>
     </context>
 <context>
@@ -385,11 +385,11 @@
     </message>
     <message>
         <source>%1 s</source>
-        <translation>%1 �?</translation>
+        <translation>%1 с</translation>
     </message>
     <message>
         <source>%1 ms</source>
-        <translation>%1 м�?</translation>
+        <translation>%1 мс</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -422,7 +422,7 @@
     </message>
     <message>
         <source>Sent</source>
-        <translation>И�?пратени</translation>
+        <translation>Испратени</translation>
     </message>
     <message>
         <source>Version</source>
@@ -480,7 +480,7 @@
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>Копирај &amp;�?дре�?а</translation>
+        <translation>Копирај &amp;Адреса</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
@@ -506,11 +506,11 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>По�?ле Провизија:</translation>
+        <translation>После Провизија:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Ку�?ур:</translation>
+        <translation>Кусур:</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -578,7 +578,7 @@
         <translation>Опции:</translation>
     </message>
     <message>
-        <source>Garlicium Core</source>
+        <source>Litecoin Core</source>
         <translation>Биткоин Core</translation>
     </message>
     <message>
