@@ -33,7 +33,7 @@ Build Garlicium Core
 
 1. Clone the garlicium source code and cd into `garlicium`
 
-        git clone https://github.com/Garlicium/GRLM
+        git clone https://github.com/garlicium-project/garlicium
         cd garlicium
 
 2.  Build garlicium-core:
@@ -61,9 +61,9 @@ Garlicium Core is now available at `./src/garliciumd`
 
 Before running, it's recommended you create an RPC configuration file.
 
-    echo -e "rpcuser=garliciumrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Garlicium/GRLM.conf"
+    echo -e "rpcuser=garliciumrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Garlicium/garlicium.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/Garlicium/GRLM.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Garlicium/garlicium.conf"
 
 The first time you run garliciumd, it will start downloading the blockchain. This process could take several hours.
 

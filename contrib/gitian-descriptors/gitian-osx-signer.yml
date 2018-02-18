@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/Garlicium/GRLM-detached-sigs.git"
+- "url": "https://github.com/garlicium-project/garlicium-detached-sigs.git"
   "dir": "signature"
 files:
 - "garlicium-osx-unsigned.tar.gz"

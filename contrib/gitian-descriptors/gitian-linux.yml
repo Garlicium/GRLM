@@ -28,7 +28,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/Garlicium/GRLM.git"
+- "url": "https://github.com/garlicium-project/garlicium.git"
   "dir": "garlicium"
 files: []
 script: |
