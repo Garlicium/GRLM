@@ -7,7 +7,7 @@ It is recommended to upgrade to this version.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/garlicium-project/garlicium/issues>
+  <https://github.com/Garlicium/GRLM/issues>
 
 Compatibility
 ==============

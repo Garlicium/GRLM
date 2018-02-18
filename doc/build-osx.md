@@ -33,7 +33,7 @@ Build Garlicium Core
 
 1. Clone the garlicium source code and cd into `garlicium`
 
-        git clone https://github.com/garlicium-project/garlicium
+        git clone https://github.com/Garlicium/GRLM
         cd garlicium
 
 2.  Build garlicium-core:
