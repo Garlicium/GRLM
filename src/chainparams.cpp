@@ -20,7 +20,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
     txNew.nVersion = 1;
     txNew.vin.resize(1);
     txNew.vout.resize(1);
-    txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << std::vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
+    txNew.vin[0].scriptSig = CScript() << 0 << CScriptNum(999) << std::vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
     txNew.vout[0].nValue = genesisReward;
     txNew.vout[0].scriptPubKey = genesisOutputScript;
 
@@ -48,6 +48,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
+	//Must set this to be unique! @TODO
     const char* pszTimestamp = "NY Times 05/Oct/2011 Steve Jobs, Apple’s Visionary, Dies at 56";
     const CScript genesisOutputScript = CScript() << ParseHex("040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
@@ -73,8 +74,9 @@ void CChainParams::UpdateVersionBitsParameters(Consensus::DeploymentPos d, int64
 class CMainParams : public CChainParams {
 public:
     CMainParams() {
+		// Mainnet @TODO
         strNetworkID = "main";
-        consensus.nSubsidyHalvingInterval = 840000;
+        consensus.nSubsidyHalvingInterval = 840000;   
         consensus.BIP34Height = 710000;
         consensus.BIP34Hash = uint256S("fa09d204a83a768ed5a7c8d441fa62f2043abf420cff1226c7b4329aeb9d51cf");
         consensus.BIP65Height = 918684; // bab3041e8977e0dc3eeff63fe707b92bde1dd449d8efafb248c27c8264cc311a
@@ -100,7 +102,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nStartTime = 1485561600; // January 28, 2017
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1517356801; // January 31st, 2018
 
-        // The best chain should have at least this much work.
+        // The best chain should have at least this much work.   Note: It must probably be changed to all zeros.
         consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000ba50a60f8b56c7fe0");
 
         // By default assume that the signatures in ancestors of this block are valid.
@@ -111,38 +113,42 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
+		//Must be generated at random. All letters from a to f are valid (If I'm not wrong) + Numbers. Remember to generate a new pch. @TODO
         pchMessageStart[0] = 0xfb;
         pchMessageStart[1] = 0xc0;
         pchMessageStart[2] = 0xb6;
         pchMessageStart[3] = 0xdb;
         nDefaultPort = 3839;
         nPruneAfterHeight = 100000;
-
-        genesis = CreateGenesisBlock(1317972665, 2084524493, 0x1e0ffff0, 1, 50 * COIN);
+        //Must generate the Genesis hash.   First is epoch time. Second is nNonce. @TODO
+        genesis = CreateGenesisBlock(e, 2084524493, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2"));
-        assert(genesis.hashMerkleRoot == uint256S("0x97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9"));
+		// Must put Merkle has and genesis hash @TODO
+        assert(consensus.hashGenesisBlock == uint256S("0x"));
+        assert(genesis.hashMerkleRoot == uint256S("0x"));
 
-        // Note that of those with the service bits flag, most only support a subset of possible options
+        // Note that of those with the service bits flag, most only support a subset of possible options. Note: These address are not valid, and should be removed!.
         vSeeds.emplace_back("seed-a.garlicium.loshan.co.uk", true);
         vSeeds.emplace_back("dnsseed.thrasher.io", true);
         vSeeds.emplace_back("dnsseed.garliciumtools.com", true);
         vSeeds.emplace_back("dnsseed.garliciumpool.org", true);
         vSeeds.emplace_back("dnsseed.koin-project.com", false);
-
+        
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,20);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
-        base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,50);
+        base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,50);  //This may be useless.
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,176);
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x88, 0xB2, 0x1E};
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x88, 0xAD, 0xE4};
 
+		bech32_hrp = "grlm";
+		
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
 
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
         fMineBlocksOnDemand = false;
-
+        // Must remove checkpointData and put ours. @TODO
         checkpointData = (CCheckpointData) {
             {
                 {  1500, uint256S("0x841a2965955dd288cfa707a755d05a54e45f8bd476835ec9af4402a2b59a2967")},
@@ -163,7 +169,7 @@ public:
                 {721000, uint256S("0x198a7b4de1df9478e2463bd99d75b714eab235a2e63e741641dc8a759a9840e5")},
             }
         };
-
+        // Must set epoch time of genesis block. 2nd must be set to 1. 3rd may be set to 0 @TODO (if genesis block).
         chainTxData = ChainTxData{
             // Data as of block db42d00d824950a125f9b08b6b6c282c484781562fa8b3bd29d6ce4a2627c348 (height 1259851).
             1502955334, // * UNIX timestamp of last known number of transactions
@@ -175,7 +181,7 @@ public:
 };
 
 /**
- * Testnet (v3)
+ * Testnet (v3) @TODO
  */
 class CTestNetParams : public CChainParams {
 public:
@@ -207,34 +213,35 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nStartTime = 1483228800; // January 1, 2017
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1517356801; // January 31st, 2018
 
-        // The best chain should have at least this much work.
+        // The best chain should have at least this much work. Note: It must probably be changed to all zeros.
         consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000364b0cbc3568");
 
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0xad8ff6c2f5580d2b50bd881e11312425ea84fa99f322bf132beb722f97971bba"); //153490
-
+        //Must be generated at random. All letters from a to f are valid (If I'm not wrong) + Numbers. Remember to generate a new pch. @TODO
         pchMessageStart[0] = 0xfd;
         pchMessageStart[1] = 0xd2;
         pchMessageStart[2] = 0xc8;
         pchMessageStart[3] = 0xf1;
         nDefaultPort = 19335;
         nPruneAfterHeight = 1000;
-
+        //Must generate the Genesis hash.   First is epoch time. Second is nNonce. @TODO
         genesis = CreateGenesisBlock(1486949366, 293345, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x4966625a4b2851d9fdee139e56211a0d88575f59ed816ff5e6a63deb4e3e29a0"));
-        assert(genesis.hashMerkleRoot == uint256S("0x97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9"));
+				// Must put Merkle has and genesis hash @TODO
+        assert(consensus.hashGenesisBlock == uint256S("0x0"));
+        assert(genesis.hashMerkleRoot == uint256S("0x0"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        // nodes with support for servicebits filtering should be at the top
+        // nodes with support for servicebits filtering should be at the top    Note: They should be removed as they are not valid.
         vSeeds.emplace_back("testnet-seed.garliciumtools.com", true);
         vSeeds.emplace_back("seed-b.garlicium.loshan.co.uk", true);
         vSeeds.emplace_back("dnsseed-testnet.thrasher.io", true);
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
-        base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,58);
+        base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,58); //This may be useless.
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
@@ -244,13 +251,14 @@ public:
         fDefaultConsistencyChecks = false;
         fRequireStandard = false;
         fMineBlocksOnDemand = false;
-
+		
+        // Must remove checkpointData and put ours. @TODO
         checkpointData = (CCheckpointData) {
             {
                 {2056, uint256S("17748a31ba97afdc9a4f86837a39d287e3e7c7290a08a1d816c5969c78a83289")},
             }
         };
-
+        // Must set epoch time of genesis block. 2nd must be set to 1. 3rd may be set to 0 @TODO (if genesis block).
         chainTxData = ChainTxData{
             // Data as of block 3351b6229da00b47ad7a8d7e1323b0e2874744b5296e3d6448293463ab758624 (height 153489)
             1502953751,

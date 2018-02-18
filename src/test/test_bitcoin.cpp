@@ -18,6 +18,7 @@
 #include "txdb.h"
 #include "txmempool.h"
 #include "ui_interface.h"
+#include "streams.h"
 #include "rpc/server.h"
 #include "rpc/register.h"
 #include "script/sigcache.h"
@@ -26,6 +27,18 @@
 
 #include <memory>
 
+
+	void CConnmanTest::AddNode(CNode& node)	27.	#include <memory>
+	{		
+	    LOCK(g_connman->cs_vNodes);		
+	    g_connman->vNodes.push_back(&node);		
+	}		
+			
+	void CConnmanTest::ClearNodes()		
+	{		
+	    LOCK(g_connman->cs_vNodes);		
+	    g_connman->vNodes.clear();		
+	}
 uint256 insecure_rand_seed = GetRandHash();
 FastRandomContext insecure_rand_ctx(insecure_rand_seed);
 
@@ -50,7 +63,6 @@ BasicTestingSetup::BasicTestingSetup(const std::string& chainName)
 BasicTestingSetup::~BasicTestingSetup()
 {
         ECC_Stop();
-        g_connman.reset();
 }
 
 TestingSetup::TestingSetup(const std::string& chainName) : BasicTestingSetup(chainName)
@@ -61,7 +73,7 @@ TestingSetup::TestingSetup(const std::string& chainName) : BasicTestingSetup(cha
 
         RegisterAllCoreRPCCommands(tableRPC);
         ClearDatadirCache();
-        pathTemp = GetTempPath() / strprintf("test_garlicium_%lu_%i", (unsigned long)GetTime(), (int)(InsecureRandRange(100000)));
+        pathTemp = fs::temp_directory_path() / strprintf("test_garlicium_%lu_%i", (unsigned long)GetTime(), (int)(InsecureRandRange(100000)));
         fs::create_directories(pathTemp);
         gArgs.ForceSetArg("-datadir", pathTemp.string());
 
@@ -71,9 +83,9 @@ TestingSetup::TestingSetup(const std::string& chainName) : BasicTestingSetup(cha
         GetMainSignals().RegisterBackgroundSignalScheduler(scheduler);
 
         mempool.setSanityCheck(1.0);
-        pblocktree = new CBlockTreeDB(1 << 20, true);
-        pcoinsdbview = new CCoinsViewDB(1 << 23, true);
-        pcoinsTip = new CCoinsViewCache(pcoinsdbview);
+        pblocktree.reset(new CBlockTreeDB(1 << 20, true));
+        pcoinsdbview.reset(new CCoinsViewDB(1 << 23, true));
+        pcoinsTip.reset(new CCoinsViewCache(pcoinsdbview.get()));
         if (!LoadGenesisBlock(chainparams)) {
             throw std::runtime_error("LoadGenesisBlock failed.");
         }
@@ -88,20 +100,20 @@ TestingSetup::TestingSetup(const std::string& chainName) : BasicTestingSetup(cha
             threadGroup.create_thread(&ThreadScriptCheck);
         g_connman = std::unique_ptr<CConnman>(new CConnman(0x1337, 0x1337)); // Deterministic randomness for tests.
         connman = g_connman.get();
-        RegisterNodeSignals(GetNodeSignals());
+peerLogic.reset(new PeerLogicValidation(connman, scheduler));}
 }
-
 TestingSetup::~TestingSetup()
 {
-        UnregisterNodeSignals(GetNodeSignals());
         threadGroup.interrupt_all();
         threadGroup.join_all();
         GetMainSignals().FlushBackgroundCallbacks();
         GetMainSignals().UnregisterBackgroundSignalScheduler();
+		g_connman.reset();		
+        peerLogic.reset();
         UnloadBlockIndex();
-        delete pcoinsTip;
-        delete pcoinsdbview;
-        delete pblocktree;
+        pcoinsTip.reset();
+        pcoinsdbview.reset();
+        pblocktree.reset();
         fs::remove_all(pathTemp);
 }
 
@@ -135,9 +147,12 @@ TestChain100Setup::CreateAndProcessBlock(const std::vector<CMutableTransaction>&
         block.vtx.push_back(MakeTransactionRef(tx));
     // IncrementExtraNonce creates a valid coinbase and merkleRoot
     unsigned int extraNonce = 0;
-    IncrementExtraNonce(&block, chainActive.Tip(), extraNonce);
+    {
+        LOCK(cs_main);
+        IncrementExtraNonce(&block, chainActive.Tip(), extraNonce);
+    }
 
-    while (!CheckProofOfWork(block.GetPoWHash(), block.nBits, chainparams.GetConsensus())) ++block.nNonce;
+    while (!CheckProofOfWork(block.GetHash(), block.nBits, chainparams.GetConsensus())) ++block.nNonce;
 
     std::shared_ptr<const CBlock> shared_pblock = std::make_shared<const CBlock>(block);
     ProcessNewBlock(chainparams, shared_pblock, true, nullptr);
