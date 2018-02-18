@@ -77,7 +77,9 @@ after_script:
     - echo $TRAVIS_COMMIT_RANGE
     - echo $TRAVIS_COMMIT_LOG
 before_deploy:
-- git tag "$(date +'%Y%m%d%H%M%S')-${HOST}"
+      - git config --local user.name "Garlicium"
+      - git config --local user.email "email@here.todo"
+      - git tag "$(date +'%Y%m%d%H%M%S')-${HOST}"
 deploy:
   provider: releases
   skip_cleanup: true
