@@ -1,7 +1,7 @@
 Garlicium Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/garlicium-project/garlicium.svg?branch=master)](https://travis-ci.org/garlicium-project/garlicium)
+[![Build Status](https://travis-ci.org/Garlicium/GRLM.svg?branch=master)](https://travis-ci.org/Garlicium/GRLM)
 
 https://garlicium.org
 
@@ -27,7 +27,7 @@ Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/garlicium-project/garlicium/tags) are created
+completely stable. [Tags](https://github.com/Garlicium/GRLM/tags) are created
 regularly to indicate new official, stable release versions of Garlicium Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
