@@ -167,7 +167,7 @@ namespace tinyformat {
 class format_error: public std::runtime_error
 {
 public:
-    format_error(const std::string &what): std::runtime_error(what) {
+    explicit format_error(const std::string &what): std::runtime_error(what) {
     }
 };
 
@@ -387,27 +387,21 @@ TINYFORMAT_DEFINE_FORMATVALUE_CHAR(unsigned char)
 
 /*[[[cog
 maxParams = 16
-
 def makeCommaSepLists(lineTemplate, elemTemplate, startInd=1):
     for j in range(startInd,maxParams+1):
         list = ', '.join([elemTemplate % {'i':i} for i in range(startInd,j+1)])
         cog.outl(lineTemplate % {'j':j, 'list':list})
-
 makeCommaSepLists('#define TINYFORMAT_ARGTYPES_%(j)d %(list)s',
                   'class T%(i)d')
-
 cog.outl()
 makeCommaSepLists('#define TINYFORMAT_VARARGS_%(j)d %(list)s',
                   'const T%(i)d& v%(i)d')
-
 cog.outl()
 makeCommaSepLists('#define TINYFORMAT_PASSARGS_%(j)d %(list)s', 'v%(i)d')
-
 cog.outl()
 cog.outl('#define TINYFORMAT_PASSARGS_TAIL_1')
 makeCommaSepLists('#define TINYFORMAT_PASSARGS_TAIL_%(j)d , %(list)s',
                   'v%(i)d', startInd = 2)
-
 cog.outl()
 cog.outl('#define TINYFORMAT_FOREACH_ARGNUM(m) \\\n    ' +
          ' '.join(['m(%d)' % (j,) for j in range(1,maxParams+1)]))
@@ -495,10 +489,14 @@ namespace detail {
 class FormatArg
 {
     public:
-        FormatArg() {}
+        FormatArg()
+             : m_value(nullptr),
+             m_formatImpl(nullptr),
+             m_toIntImpl(nullptr)
+         { }
 
         template<typename T>
-        FormatArg(const T& value)
+        explicit FormatArg(const T& value)
             : m_value(static_cast<const void*>(&value)),
             m_formatImpl(&formatImpl<T>),
             m_toIntImpl(&toIntImpl<T>)
@@ -507,11 +505,15 @@ class FormatArg
         void format(std::ostream& out, const char* fmtBegin,
                     const char* fmtEnd, int ntrunc) const
         {
+            assert(m_value);
+            assert(m_formatImpl);
             m_formatImpl(out, fmtBegin, fmtEnd, ntrunc, m_value);
         }
 
         int toInt() const
         {
+            assert(m_value);
+            assert(m_toIntImpl);
             return m_toIntImpl(m_value);
         }
 
@@ -712,23 +714,27 @@ inline const char* streamStateFromFormat(std::ostream& out, bool& spacePadPositi
             break;
         case 'X':
             out.setf(std::ios::uppercase);
+            // Falls through
         case 'x': case 'p':
             out.setf(std::ios::hex, std::ios::basefield);
             intConversion = true;
             break;
         case 'E':
             out.setf(std::ios::uppercase);
+            // Falls through
         case 'e':
             out.setf(std::ios::scientific, std::ios::floatfield);
             out.setf(std::ios::dec, std::ios::basefield);
             break;
         case 'F':
             out.setf(std::ios::uppercase);
+            // Falls through
         case 'f':
             out.setf(std::ios::fixed, std::ios::floatfield);
             break;
         case 'G':
             out.setf(std::ios::uppercase);
+            // Falls through
         case 'g':
             out.setf(std::ios::dec, std::ios::basefield);
             // As in boost::format, let stream decide float format.
@@ -867,7 +873,7 @@ class FormatListN : public FormatList
     public:
 #ifdef TINYFORMAT_USE_VARIADIC_TEMPLATES
         template<typename... Args>
-        FormatListN(const Args&... args)
+        explicit FormatListN(const Args&... args)
             : FormatList(&m_formatterStore[0], N),
             m_formatterStore { FormatArg(args)... }
         { static_assert(sizeof...(args) == N, "Number of args must be N"); }
@@ -876,7 +882,7 @@ class FormatListN : public FormatList
 #       define TINYFORMAT_MAKE_FORMATLIST_CONSTRUCTOR(n)       \
                                                                \
         template<TINYFORMAT_ARGTYPES(n)>                       \
-        FormatListN(TINYFORMAT_VARARGS(n))                     \
+        explicit FormatListN(TINYFORMAT_VARARGS(n))            \
             : FormatList(&m_formatterStore[0], n)              \
         { assert(n == N); init(0, TINYFORMAT_PASSARGS(n)); }   \
                                                                \
