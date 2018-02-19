@@ -16,11 +16,11 @@ uint256 CBlockHeader::GetHash() const
     return SerializeHash(*this);
 }
 
-uint256 CBlockHeader::GetPoWHash() const
+uint256 CBlockHeader::GetPoWHash(int nHeight) const
 {
     uint256 thash;
     
-   if(Params().NetworkIDString() == CBaseChainParams::TESTNET || nHeight >= 347000) // These should be changed? @TODO.
+   if(Params().NetworkIDString() == CBaseChainParams::TESTNET || nHeight >= 347000) // These should be changed? @TODO. Probably made to change algorytm only at a certain block.
    {
         lyra2re2_hash(BEGIN(nVersion), BEGIN(thash));
    }
