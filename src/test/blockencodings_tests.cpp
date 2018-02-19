@@ -162,6 +162,7 @@ BOOST_AUTO_TEST_CASE(NonCoinbasePreforwardRTTest)
     CBlock block(BuildBlockTestCase());
 
     pool.addUnchecked(block.vtx[2]->GetHash(), entry.FromTx(*block.vtx[2]));
+	    LOCK(pool.cs);	
     BOOST_CHECK_EQUAL(pool.mapTx.find(block.vtx[2]->GetHash())->GetSharedTx().use_count(), SHARED_TX_OFFSET + 0);
 
     uint256 txhash;
