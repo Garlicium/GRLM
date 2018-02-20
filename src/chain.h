@@ -207,7 +207,7 @@ public:
     uint32_t nStatus;
 
     //! block header
-    int nVersion;
+    int32_t nVersion;
     uint256 hashMerkleRoot;
     uint32_t nTime;
     uint32_t nBits;
@@ -293,7 +293,7 @@ public:
     {
         return *phashBlock;
     }
-
+    
     uint256 GetBlockPoWHash() const
     {
         return GetBlockHeader().GetPoWHash(nHeight);

@@ -387,21 +387,27 @@ TINYFORMAT_DEFINE_FORMATVALUE_CHAR(unsigned char)
 
 /*[[[cog
 maxParams = 16
+
 def makeCommaSepLists(lineTemplate, elemTemplate, startInd=1):
     for j in range(startInd,maxParams+1):
         list = ', '.join([elemTemplate % {'i':i} for i in range(startInd,j+1)])
         cog.outl(lineTemplate % {'j':j, 'list':list})
+
 makeCommaSepLists('#define TINYFORMAT_ARGTYPES_%(j)d %(list)s',
                   'class T%(i)d')
+
 cog.outl()
 makeCommaSepLists('#define TINYFORMAT_VARARGS_%(j)d %(list)s',
                   'const T%(i)d& v%(i)d')
+
 cog.outl()
 makeCommaSepLists('#define TINYFORMAT_PASSARGS_%(j)d %(list)s', 'v%(i)d')
+
 cog.outl()
 cog.outl('#define TINYFORMAT_PASSARGS_TAIL_1')
 makeCommaSepLists('#define TINYFORMAT_PASSARGS_TAIL_%(j)d , %(list)s',
                   'v%(i)d', startInd = 2)
+
 cog.outl()
 cog.outl('#define TINYFORMAT_FOREACH_ARGNUM(m) \\\n    ' +
          ' '.join(['m(%d)' % (j,) for j in range(1,maxParams+1)]))

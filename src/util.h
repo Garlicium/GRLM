@@ -201,6 +201,13 @@ protected:
 public:
     void ParseParameters(int argc, const char*const argv[]);
     void ReadConfigFile(const std::string& confPath);
+
+    /**
+     * Return a vector of strings of the given argument
+     *
+     * @param strArg Argument to get (e.g. "-foo")
+     * @return command-line arguments
+     */
     std::vector<std::string> GetArgs(const std::string& strArg) const;
 
     /**
@@ -294,7 +301,7 @@ void RenameThread(const char* name);
  */
 template <typename Callable> void TraceThread(const char* name,  Callable func)
 {
-    std::string s = strprintf("bitcoin-%s", name);
+    std::string s = strprintf("garlicium-%s", name);
     RenameThread(s.c_str());
     try
     {
@@ -318,9 +325,12 @@ template <typename Callable> void TraceThread(const char* name,  Callable func)
 }
 
 std::string CopyrightHolders(const std::string& strPrefix);
-template <typename T, typename... Args>	
-std::unique_ptr<T> MakeUnique(Args&&... args)		
-	{		
-	    return std::unique_ptr<T>(new T(std::forward<Args>(args)...));		
-	}
+
+//! Substitute for C++14 std::make_unique.
+template <typename T, typename... Args>
+std::unique_ptr<T> MakeUnique(Args&&... args)
+{
+    return std::unique_ptr<T>(new T(std::forward<Args>(args)...));
+}
+
 #endif // BITCOIN_UTIL_H

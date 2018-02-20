@@ -24,15 +24,20 @@
 /*
 CCriticalSection mutex;
     std::recursive_mutex mutex;
+
 LOCK(mutex);
     std::unique_lock<std::recursive_mutex> criticalblock(mutex);
+
 LOCK2(mutex1, mutex2);
     std::unique_lock<std::recursive_mutex> criticalblock1(mutex1);
     std::unique_lock<std::recursive_mutex> criticalblock2(mutex2);
+
 TRY_LOCK(mutex, name);
     std::unique_lock<std::recursive_mutex> name(mutex, std::try_to_lock_t);
+
 ENTER_CRITICAL_SECTION(mutex); // no RAII
     mutex.lock();
+
 LEAVE_CRITICAL_SECTION(mutex); // no RAII
     mutex.unlock();
  */
