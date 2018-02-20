@@ -30,7 +30,7 @@
 #include "policy/policy.h"
 #include "rpc/server.h"
 #include "rpc/register.h"
-#include "rcp/safemode.h"
+#include "rpc/safemode.h"
 #include "rpc/blockchain.h"
 #include "script/standard.h"
 #include "script/sigcache.h"
@@ -74,7 +74,6 @@
 bool fFeeEstimatesInitialized = false;
 static const bool DEFAULT_PROXYRANDOMIZE = true;
 static const bool DEFAULT_REST_ENABLE = false;
-static const bool DEFAULT_DISABLE_SAFEMODE = false;
 static const bool DEFAULT_STOPAFTERBLOCKIMPORT = false;
 
 std::unique_ptr<CConnman> g_connman;
@@ -194,7 +193,7 @@ void Shutdown()
     StopHTTPServer();
 #ifdef ENABLE_WALLET
     FlushWallets();	
-    }
+    
 #endif
     MapPort(false);
     UnregisterValidationInterface(peerLogic.get());
@@ -239,14 +238,11 @@ void Shutdown()
         if (pcoinsTip != nullptr) {
             FlushStateToDisk();
         }
-        delete pcoinsTip;
-        pcoinsTip = nullptr;
-        delete pcoinscatcher;
-        pcoinscatcher = nullptr;
-        delete pcoinsdbview;
-        pcoinsdbview = nullptr;
-        delete pblocktree;
-        pblocktree = nullptr;
+		    pcoinsTip.reset();
+	        pcoinscatcher.reset();
+	        pcoinsdbview.reset();
+	        pblocktree.reset();
+
     }
 #ifdef ENABLE_WALLET
     StopWallets();	
@@ -1427,10 +1423,10 @@ bool AppInitMain(boost::thread_group& threadGroup, CScheduler& scheduler)
         do {
             try {
                 UnloadBlockIndex();
-                delete pcoinsTip;
-                delete pcoinsdbview;
-                delete pcoinscatcher;
-                delete pblocktree;
+              pcoinsTip.reset();	
+                pcoinsdbview.reset();
+                pcoinscatcher.reset();
+	                pblocktree.reset(new CBlockTreeDB(nBlockTreeDBCache, false, fReset));
 
                 pblocktree = new CBlockTreeDB(nBlockTreeDBCache, false, fReset);
 
@@ -1482,9 +1478,8 @@ bool AppInitMain(boost::thread_group& threadGroup, CScheduler& scheduler)
 
                 // At this point we're either in reindex or we've loaded a useful
                 // block tree into mapBlockIndex!
-
-                pcoinsdbview = new CCoinsViewDB(nCoinDBCache, false, fReset || fReindexChainState);
-                pcoinscatcher = new CCoinsViewErrorCatcher(pcoinsdbview);
+	                pcoinsdbview.reset(new CCoinsViewDB(nCoinDBCache, false, fReset || fReindexChainState));
+	                pcoinscatcher.reset(new CCoinsViewErrorCatcher(pcoinsdbview.get()));
 
                 // If necessary, upgrade from older database format.
                 // This is a no-op if we cleared the coinsviewdb with -reindex or -reindex-chainstate
@@ -1494,13 +1489,13 @@ bool AppInitMain(boost::thread_group& threadGroup, CScheduler& scheduler)
                 }
 
                 // ReplayBlocks is a no-op if we cleared the coinsviewdb with -reindex or -reindex-chainstate
-                if (!ReplayBlocks(chainparams, pcoinsdbview)) {
+                if (!ReplayBlocks(chainparams, pcoinsdbview.get())) {
                     strLoadError = _("Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.");
                     break;
                 }
 
                 // The on-disk coinsdb is now in a good state, create the cache
-                pcoinsTip = new CCoinsViewCache(pcoinscatcher);
+                pcoinsTip = new CCoinsViewCache(pcoinscatcher.get());
 
                 bool is_coinsview_empty = fReset || fReindexChainState || pcoinsTip->GetBestBlock().IsNull();
                 if (!is_coinsview_empty) {
@@ -1542,7 +1537,7 @@ bool AppInitMain(boost::thread_group& threadGroup, CScheduler& scheduler)
                         }
                     }
 
-                    if (!CVerifyDB().VerifyDB(chainparams, pcoinsdbview, gArgs.GetArg("-checklevel", DEFAULT_CHECKLEVEL),
+                    if (!CVerifyDB().VerifyDB(chainparams, pcoinsdbview.get(), gArgs.GetArg("-checklevel", DEFAULT_CHECKLEVEL),
                                   gArgs.GetArg("-checkblocks", DEFAULT_CHECKBLOCKS))) {
                         strLoadError = _("Corrupted block database detected");
                         break;
@@ -1662,7 +1657,7 @@ bool AppInitMain(boost::thread_group& threadGroup, CScheduler& scheduler)
     }
 
     // ********************************************************* Step 11: start node
-
+      int chain_active_height;
     //// debug print
 	    {	
 	        LOCK(cs_main);	
