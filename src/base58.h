@@ -94,7 +94,6 @@ public:
     bool operator> (const CBase58Data& b58) const { return CompareTo(b58) >  0; }
 };
 
-
 /**
  * A base58-encoded secret key
  */
