@@ -176,12 +176,13 @@ UniValue generatetoaddress(const JSONRPCRequest& request)
         nMaxTries = request.params[2].get_int();
     }
 
-    CBitcoinAddress address(request.params[1].get_str());
-    if (!address.IsValid())
+    CTxDestination destination = DecodeDestination(request.params[1].get_str());
+    if (!IsValidDestination(destination)) {
         throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Error: Invalid address");
+    }
 
     std::shared_ptr<CReserveScript> coinbaseScript = std::make_shared<CReserveScript>();
-    coinbaseScript->reserveScript = GetScriptForDestination(address.Get());
+    coinbaseScript->reserveScript = GetScriptForDestination(destination);
 
     return generateBlocks(coinbaseScript, nGenerate, nMaxTries, false);
 }
@@ -195,14 +196,14 @@ UniValue getmininginfo(const JSONRPCRequest& request)
             "\nResult:\n"
             "{\n"
             "  \"blocks\": nnn,             (numeric) The current block\n"
-            "  \"currentblocksize\": nnn,   (numeric) The last block size\n"
             "  \"currentblockweight\": nnn, (numeric) The last block weight\n"
             "  \"currentblocktx\": nnn,     (numeric) The last block transaction\n"
             "  \"difficulty\": xxx.xxxxx    (numeric) The current difficulty\n"
-            "  \"errors\": \"...\"            (string) Current errors\n"
             "  \"networkhashps\": nnn,      (numeric) The network hashes per second\n"
             "  \"pooledtx\": n              (numeric) The size of the mempool\n"
             "  \"chain\": \"xxxx\",           (string) current network name as defined in BIP70 (main, test, regtest)\n"
+            "  \"warnings\": \"...\"          (string) any network and blockchain warnings\n"
+            "  \"errors\": \"...\"            (string) DEPRECATED. Same as warnings. Only shown when vertcoind is started with -deprecatedrpc=getmininginfo\n"
             "}\n"
             "\nExamples:\n"
             + HelpExampleCli("getmininginfo", "")
@@ -214,14 +215,17 @@ UniValue getmininginfo(const JSONRPCRequest& request)
 
     UniValue obj(UniValue::VOBJ);
     obj.push_back(Pair("blocks",           (int)chainActive.Height()));
-    obj.push_back(Pair("currentblocksize", (uint64_t)nLastBlockSize));
     obj.push_back(Pair("currentblockweight", (uint64_t)nLastBlockWeight));
     obj.push_back(Pair("currentblocktx",   (uint64_t)nLastBlockTx));
     obj.push_back(Pair("difficulty",       (double)GetDifficulty()));
-    obj.push_back(Pair("errors",           GetWarnings("statusbar")));
     obj.push_back(Pair("networkhashps",    getnetworkhashps(request)));
     obj.push_back(Pair("pooledtx",         (uint64_t)mempool.size()));
     obj.push_back(Pair("chain",            Params().NetworkIDString()));
+    if (IsDeprecatedRPCEnabled("getmininginfo")) {
+        obj.push_back(Pair("errors",       GetWarnings("statusbar")));
+    } else {
+        obj.push_back(Pair("warnings",     GetWarnings("statusbar")));
+    }
     return obj;
 }
 
@@ -451,7 +455,7 @@ UniValue getblocktemplate(const JSONRPCRequest& request)
     {
         // Wait to respond until either the best block changes, OR a minute has passed and there are more transactions
         uint256 hashWatchedChain;
-        boost::system_time checktxtime;
+        std::chrono::steady_clock::time_point checktxtime;
         unsigned int nTransactionsUpdatedLastLP;
 
         if (lpval.isStr())
@@ -472,17 +476,17 @@ UniValue getblocktemplate(const JSONRPCRequest& request)
         // Release the wallet and main lock while waiting
         LEAVE_CRITICAL_SECTION(cs_main);
         {
-            checktxtime = boost::get_system_time() + boost::posix_time::minutes(1);
+            checktxtime = std::chrono::steady_clock::now() + std::chrono::minutes(1);
 
-            boost::unique_lock<boost::mutex> lock(csBestBlock);
+            WaitableLock lock(csBestBlock);
             while (chainActive.Tip()->GetBlockHash() == hashWatchedChain && IsRPCRunning())
             {
-                if (!cvBlockChange.timed_wait(lock, checktxtime))
+                if (cvBlockChange.wait_until(lock, checktxtime) == std::cv_status::timeout)
                 {
                     // Timeout: Check transactions for update
                     if (mempool.GetTransactionsUpdated() != nTransactionsUpdatedLastLP)
                         break;
-                    checktxtime += boost::posix_time::seconds(10);
+                    checktxtime += std::chrono::seconds(10);
                 }
             }
         }
@@ -686,7 +690,7 @@ public:
     bool found;
     CValidationState state;
 
-    submitblock_StateCatcher(const uint256 &hashIn) : hash(hashIn), found(false), state() {}
+    explicit submitblock_StateCatcher(const uint256 &hashIn) : hash(hashIn), found(false), state() {}
 
 protected:
     void BlockChecked(const CBlock& block, const CValidationState& stateIn) override {
@@ -790,6 +794,12 @@ UniValue estimatefee(const JSONRPCRequest& request)
             + HelpExampleCli("estimatefee", "6")
             );
 
+    if (!IsDeprecatedRPCEnabled("estimatefee")) {
+        throw JSONRPCError(RPC_METHOD_DEPRECATED, "estimatefee is deprecated and will be fully removed in v0.17. "
+            "To use estimatefee in v0.16, restart vertcoind with -deprecatedrpc=estimatefee.\n"
+            "Projects should transition to using estimatesmartfee before upgrading to v0.17");
+    }
+
     RPCTypeCheck(request.params, {UniValue::VNUM});
 
     int nBlocks = request.params[0].get_int();
@@ -842,7 +852,7 @@ UniValue estimatesmartfee(const JSONRPCRequest& request)
     RPCTypeCheckArgument(request.params[0], UniValue::VNUM);
     unsigned int conf_target = ParseConfirmTarget(request.params[0]);
     bool conservative = true;
-    if (request.params.size() > 1 && !request.params[1].isNull()) {
+    if (!request.params[1].isNull()) {
         FeeEstimateMode fee_mode;
         if (!FeeModeFromString(request.params[1].get_str(), fee_mode)) {
             throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid estimate_mode parameter");
@@ -884,7 +894,7 @@ UniValue estimaterawfee(const JSONRPCRequest& request)
             "\nResult:\n"
             "{\n"
             "  \"short\" : {            (json object, optional) estimate for short time horizon\n"
-            "      \"feerate\" : x.x,        (numeric, optional) estimate fee-per-kilobyte (in BTC)\n"
+            "      \"feerate\" : x.x,        (numeric, optional) estimate fee-per-kilobyte (in GRLM)\n"
             "      \"decay\" : x.x,          (numeric) exponential decay (per block) for historical moving average of confirmation data\n"
             "      \"scale\" : x,            (numeric) The resolution of confirmation targets at this time horizon\n"
             "      \"pass\" : {              (json object, optional) information about the lowest range of feerates to succeed in meeting the threshold\n"
@@ -967,20 +977,22 @@ UniValue estimaterawfee(const JSONRPCRequest& request)
 }
 
 static const CRPCCommand commands[] =
-{ //  category              name                      actor (function)         okSafeMode
+{ //  category              name                      actor (function)         argNames
   //  --------------------- ------------------------  -----------------------  ----------
-    { "mining",             "getnetworkhashps",       &getnetworkhashps,       true,  {"nblocks","height"} },
-    { "mining",             "getmininginfo",          &getmininginfo,          true,  {} },
-    { "mining",             "prioritisetransaction",  &prioritisetransaction,  true,  {"txid","dummy","fee_delta"} },
-    { "mining",             "getblocktemplate",       &getblocktemplate,       true,  {"template_request"} },
-    { "mining",             "submitblock",            &submitblock,            true,  {"hexdata","dummy"} },
+    { "mining",             "getnetworkhashps",       &getnetworkhashps,       {"nblocks","height"} },
+    { "mining",             "getmininginfo",          &getmininginfo,          {} },
+    { "mining",             "prioritisetransaction",  &prioritisetransaction,  {"txid","dummy","fee_delta"} },
+    { "mining",             "getblocktemplate",       &getblocktemplate,       {"template_request"} },
+    { "mining",             "submitblock",            &submitblock,            {"hexdata","dummy"} },
 
     { "generating",         "generatetoaddress",      &generatetoaddress,      true,  {"nblocks","address","maxtries"} },
 
-    { "util",               "estimatefee",            &estimatefee,            true,  {"nblocks"} },
-    { "util",               "estimatesmartfee",       &estimatesmartfee,       true,  {"conf_target", "estimate_mode"} },
+    { "generating",         "generatetoaddress",      &generatetoaddress,      {"nblocks","address","maxtries"} },
 
-    { "hidden",             "estimaterawfee",         &estimaterawfee,         true,  {"conf_target", "threshold"} },
+    { "util",               "estimatefee",            &estimatefee,            {"nblocks"} },
+    { "util",               "estimatesmartfee",       &estimatesmartfee,       {"conf_target", "estimate_mode"} },
+
+    { "hidden",             "estimaterawfee",         &estimaterawfee,         {"conf_target", "threshold"} },
 };
 
 void RegisterMiningRPCCommands(CRPCTable &t)
