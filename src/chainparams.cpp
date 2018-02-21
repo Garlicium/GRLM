@@ -120,7 +120,7 @@ public:
         nDefaultPort = 3839;
         nPruneAfterHeight = 100000;
         //Must generate the Genesis hash.   First is epoch time. Second is nNonce. @TODO
-        genesis = CreateGenesisBlock(e, 2084524493, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1519231339, 0, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x4d96a915f49d40b1e5c2844d1ee2dccb90013a990ccea12c492d22110489f0c4"));
         assert(genesis.hashMerkleRoot == uint256S("0x4af38ca0e323c0a5226208a73b7589a52c030f234810cf51e13e3249fc0123e7"));
