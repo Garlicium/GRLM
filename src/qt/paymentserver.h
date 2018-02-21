@@ -6,7 +6,8 @@
 #define BITCOIN_QT_PAYMENTSERVER_H
 
 // This class handles payment requests from clicking on
-// bitcoin: URIs
+// garlicium
+: URIs
 //
 // This is somewhat tricky, because we have to deal with
 // the situation where the user clicks on a link during
@@ -72,7 +73,7 @@ public:
     static bool ipcSendCommandLine();
 
     // parent should be QApplication object
-    PaymentServer(QObject* parent, bool startLocalServer = true);
+    explicit PaymentServer(QObject* parent, bool startLocalServer = true);
     ~PaymentServer();
 
     // Load root certificate authorities. Pass nullptr (default)
@@ -113,7 +114,7 @@ public Q_SLOTS:
     void uiReady();
 
     // Submit Payment message to a merchant, get back PaymentACK:
-    void fetchPaymentACK(CWallet* wallet, SendCoinsRecipient recipient, QByteArray transaction);
+    void fetchPaymentACK(CWallet* wallet, const SendCoinsRecipient& recipient, QByteArray transaction);
 
     // Handle an incoming URI, URI with local file scheme or file
     void handleURIOrFile(const QString& s);

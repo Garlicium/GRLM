@@ -52,7 +52,8 @@ private:
     Qt::SortOrder order;
 };
 
-/** Model for list of recently generated payment requests / bitcoin: URIs.
+/** Model for list of recently generated payment requests / garlicium
+: URIs.
  * Part of wallet model.
  */
 class RecentRequestsTableModel: public QAbstractTableModel

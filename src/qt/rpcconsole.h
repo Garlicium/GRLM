@@ -27,7 +27,8 @@ class QMenu;
 class QItemSelection;
 QT_END_NAMESPACE
 
-/** Local Bitcoin RPC console. */
+/** Local garlicium
+ RPC console. */
 class RPCConsole: public QWidget
 {
     Q_OBJECT
@@ -123,7 +124,6 @@ Q_SIGNALS:
     void cmdRequest(const QString &command);
 
 private:
-    static QString FormatBytes(quint64 bytes);
     void startExecutor();
     void setTrafficGraphRange(int mins);
     /** show detailed information on ui about selected node */

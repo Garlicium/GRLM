@@ -13,7 +13,8 @@ QT_BEGIN_NAMESPACE
 class QNetworkProxy;
 QT_END_NAMESPACE
 
-/** Interface from Qt to configuration data structure for Bitcoin client.
+/** Interface from Qt to configuration data structure for garlicium
+ client.
    To Qt, the options are presented as a list with the different options
    laid out vertically.
    This can be changed to a tree once the settings become sufficiently
@@ -59,18 +60,18 @@ public:
     void setDisplayUnit(const QVariant &value);
 
     /* Explicit getters */
-    bool getHideTrayIcon() { return fHideTrayIcon; }
-    bool getMinimizeToTray() { return fMinimizeToTray; }
-    bool getMinimizeOnClose() { return fMinimizeOnClose; }
-    int getDisplayUnit() { return nDisplayUnit; }
-    QString getThirdPartyTxUrls() { return strThirdPartyTxUrls; }
+    bool getHideTrayIcon() const { return fHideTrayIcon; }
+    bool getMinimizeToTray() const { return fMinimizeToTray; }
+    bool getMinimizeOnClose() const { return fMinimizeOnClose; }
+    int getDisplayUnit() const { return nDisplayUnit; }
+    QString getThirdPartyTxUrls() const { return strThirdPartyTxUrls; }
     bool getProxySettings(QNetworkProxy& proxy) const;
-    bool getCoinControlFeatures() { return fCoinControlFeatures; }
+    bool getCoinControlFeatures() const { return fCoinControlFeatures; }
     const QString& getOverriddenByCommandLine() { return strOverriddenByCommandLine; }
 
     /* Restart flag helper */
     void setRestartRequired(bool fRequired);
-    bool isRestartRequired();
+    bool isRestartRequired() const;
 
 private:
     /* Qt-only settings */

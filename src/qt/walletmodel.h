@@ -94,7 +94,8 @@ public:
     }
 };
 
-/** Interface to Bitcoin wallet from Qt view code. */
+/** Interface to garlicium
+ wallet from Qt view code. */
 class WalletModel : public QObject
 {
     Q_OBJECT
@@ -190,7 +191,7 @@ public:
     UnlockContext requestUnlock();
 
     bool getPubKey(const CKeyID &address, CPubKey& vchPubKeyOut) const;
-    bool havePrivKey(const CKeyID &address) const;
+    bool IsSpendable(const CTxDestination& dest) const;
     bool getPrivKey(const CKeyID &address, CKey& vchPrivKeyOut) const;
     void getOutputs(const std::vector<COutPoint>& vOutpoints, std::vector<COutput>& vOutputs);
     bool isSpent(const COutPoint& outpoint) const;

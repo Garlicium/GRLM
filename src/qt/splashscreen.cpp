@@ -44,7 +44,7 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
     // define text to place
     QString titleText       = tr(PACKAGE_NAME);
     QString versionText     = QString("Version %1").arg(QString::fromStdString(FormatFullVersion()));
-    QString copyrightText   = QString::fromUtf8(CopyrightHolders(strprintf("\xc2\xA9 %u-%u ", 2011, COPYRIGHT_YEAR)).c_str());
+    QString copyrightText   = QString::fromUtf8(CopyrightHolders(strprintf("\xc2\xA9 %u-%u ", 2009, COPYRIGHT_YEAR)).c_str());
     QString titleAddText    = networkStyle->getTitleAddText();
 
     QString font            = QApplication::font().toString();
@@ -68,7 +68,8 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
     QRect rGradient(QPoint(0,0), splashSize);
     pixPaint.fillRect(rGradient, gradient);
 
-    // draw the bitcoin icon, expected size of PNG: 1024x1024
+    // draw the garlicium
+ icon, expected size of PNG: 1024x1024
     QRect rectIcon(QPoint(-150,-122), QSize(430,430));
 
     const QSize requiredSize(1024,1024);
@@ -142,8 +143,8 @@ SplashScreen::~SplashScreen()
 bool SplashScreen::eventFilter(QObject * obj, QEvent * ev) {
     if (ev->type() == QEvent::KeyPress) {
         QKeyEvent *keyEvent = static_cast<QKeyEvent *>(ev);
-        if(keyEvent->text()[0] == 'q' && breakAction != nullptr) {
-            breakAction();
+        if(keyEvent->text()[0] == 'q') {
+            StartShutdown();
         }
     }
     return QObject::eventFilter(obj, ev);
@@ -170,27 +171,18 @@ static void InitMessage(SplashScreen *splash, const std::string &message)
         Q_ARG(QColor, QColor(55,55,55)));
 }
 
-static void ShowProgress(SplashScreen *splash, const std::string &title, int nProgress)
+static void ShowProgress(SplashScreen *splash, const std::string &title, int nProgress, bool resume_possible)
 {
-    InitMessage(splash, title + strprintf("%d", nProgress) + "%");
-}
-
-void SplashScreen::setBreakAction(const std::function<void(void)> &action)
-{
-    breakAction = action;
-}
-
-static void SetProgressBreakAction(SplashScreen *splash, const std::function<void(void)> &action)
-{
-    QMetaObject::invokeMethod(splash, "setBreakAction",
-        Qt::QueuedConnection,
-        Q_ARG(std::function<void(void)>, action));
+    InitMessage(splash, title + std::string("\n") +
+            (resume_possible ? _("(press q to shutdown and continue later)")
+                                : _("press q to shutdown")) +
+            strprintf("\n%d", nProgress) + "%");
 }
 
 #ifdef ENABLE_WALLET
 void SplashScreen::ConnectWallet(CWallet* wallet)
 {
-    wallet->ShowProgress.connect(boost::bind(ShowProgress, this, _1, _2));
+    wallet->ShowProgress.connect(boost::bind(ShowProgress, this, _1, _2, false));
     connectedWallets.push_back(wallet);
 }
 #endif
@@ -199,8 +191,7 @@ void SplashScreen::subscribeToCoreSignals()
 {
     // Connect signals to client
     uiInterface.InitMessage.connect(boost::bind(InitMessage, this, _1));
-    uiInterface.ShowProgress.connect(boost::bind(ShowProgress, this, _1, _2));
-    uiInterface.SetProgressBreakAction.connect(boost::bind(SetProgressBreakAction, this, _1));
+    uiInterface.ShowProgress.connect(boost::bind(ShowProgress, this, _1, _2, _3));
 #ifdef ENABLE_WALLET
     uiInterface.LoadWallet.connect(boost::bind(&SplashScreen::ConnectWallet, this, _1));
 #endif
@@ -210,10 +201,10 @@ void SplashScreen::unsubscribeFromCoreSignals()
 {
     // Disconnect signals from client
     uiInterface.InitMessage.disconnect(boost::bind(InitMessage, this, _1));
-    uiInterface.ShowProgress.disconnect(boost::bind(ShowProgress, this, _1, _2));
+    uiInterface.ShowProgress.disconnect(boost::bind(ShowProgress, this, _1, _2, _3));
 #ifdef ENABLE_WALLET
     for (CWallet* const & pwallet : connectedWallets) {
-        pwallet->ShowProgress.disconnect(boost::bind(ShowProgress, this, _1, _2));
+        pwallet->ShowProgress.disconnect(boost::bind(ShowProgress, this, _1, _2, false));
     }
 #endif
 }

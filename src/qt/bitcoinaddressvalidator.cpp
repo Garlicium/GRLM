@@ -67,7 +67,7 @@ QValidator::State BitcoinAddressEntryValidator::validate(QString &input, int &po
         if (((ch >= '0' && ch<='9') ||
             (ch >= 'a' && ch<='z') ||
             (ch >= 'A' && ch<='Z')) &&
-            ch != 'l' && ch != 'I' && ch != '0' && ch != 'O')
+            ch != 'I' && ch != 'O') // Characters invalid in both Base58 and Bech32
         {
             // Alphanumeric and not a 'forbidden' character
         }
@@ -88,10 +88,11 @@ BitcoinAddressCheckValidator::BitcoinAddressCheckValidator(QObject *parent) :
 QValidator::State BitcoinAddressCheckValidator::validate(QString &input, int &pos) const
 {
     Q_UNUSED(pos);
-    // Validate the passed Bitcoin address
-    CBitcoinAddress addr(input.toStdString());
-    if (addr.IsValid())
+    // Validate the passed garlicium
+ address
+    if (IsValidDestinationString(input.toStdString())) {
         return QValidator::Acceptable;
+    }
 
     return QValidator::Invalid;
 }
