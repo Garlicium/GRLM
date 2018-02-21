@@ -2989,7 +2989,7 @@ static bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationSta
         return state.Invalid(false, REJECT_INVALID, "time-too-new", "block timestamp too far in the future");
 
     /*
-         Vertcoin <= 0.10.0.2 has a bug left behind from years ago where it never rejected old nVersion numbers
+         Garlicium <= 0.10.0.2 has a bug left behind from years ago where it never rejected old nVersion numbers
          so we shouldn't reject nVersion < VERSIONBITS_TOP_BITS blocks until SegWit has been enabled
     */  
     if(block.nVersion < VERSIONBITS_TOP_BITS && IsWitnessEnabled(pindexPrev, params.GetConsensus())) {

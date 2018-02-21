@@ -65,8 +65,6 @@ static const unsigned int DEFAULT_TX_CONFIRM_TARGET = 6;
 static const bool DEFAULT_WALLET_RBF = false;
 static const bool DEFAULT_WALLETBROADCAST = true;
 static const bool DEFAULT_DISABLE_WALLET = false;
-//! if set, all keys will be derived by using BIP32
-static const bool DEFAULT_USE_HD_WALLET = true;
 
 extern const char * DEFAULT_WALLET_DAT;
 
@@ -87,7 +85,7 @@ enum class FeeEstimateMode;
 /** (client) version numbers for particular wallet features */
 enum WalletFeature
 {
-    FEATURE_BASE = 10500, // the earliest version new wallets supports (only useful for getinfo's clientversion output)
+    FEATURE_BASE = 10500, // the earliest version new wallets supports (only useful for getwalletinfo's clientversion output)
 
     FEATURE_WALLETCRYPT = 40000, // wallet encryption
     FEATURE_COMPRPUBKEY = 60000, // compressed public keys
@@ -208,15 +206,11 @@ public:
         Init();
     }
 
-    CMerkleTx(CTransactionRef arg)
+    explicit CMerkleTx(CTransactionRef arg)
     {
         SetTx(std::move(arg));
         Init();
     }
-
-    /** Helper conversion operator to allow passing CMerkleTx where CTransaction is expected.
-     *  TODO: adapt callers and remove this operator. */
-    operator const CTransaction&() const { return *tx; }
 
     void Init()
     {
@@ -313,7 +307,7 @@ public:
     unsigned int nTimeSmart;
     /**
      * From me flag is set to 1 for transactions that were created by the wallet
-     * on this bitcoin node, and set to 0 for transactions that were created
+     * on this garlicium node, and set to 0 for transactions that were created
      * externally and came in through the network or sendrawtransaction RPC.
      */
     char fFromMe;
@@ -548,7 +542,7 @@ public:
     //! todo: add something to note what created it (user, getnewaddress, change)
     //!   maybe should have a map<string, string> property map
 
-    CWalletKey(int64_t nExpires=0);
+    explicit CWalletKey(int64_t nExpires=0);
 
     ADD_SERIALIZE_METHODS;
 
@@ -651,7 +645,7 @@ private:
  * A CWallet is an extension of a keystore, which also maintains a set of transactions and balances,
  * and provides the ability to create new transactions.
  */
-class CWallet : public CCryptoKeyStore, public CValidationInterface
+class CWallet final : public CCryptoKeyStore, public CValidationInterface
 {
 private:
     static std::atomic<bool> fFlushScheduled;
@@ -765,7 +759,7 @@ public:
     }
 
     // Create wallet with passed-in database handle
-    CWallet(std::unique_ptr<CWalletDBWrapper> dbw_in) : dbw(std::move(dbw_in))
+    explicit CWallet(std::unique_ptr<CWalletDBWrapper> dbw_in) : dbw(std::move(dbw_in))
     {
         SetNull();
     }
@@ -806,8 +800,6 @@ public:
     std::map<uint256, int> mapRequestCount;
 
     std::map<CTxDestination, CAddressBookData> mapAddressBook;
-
-    CPubKey vchDefaultKey;
 
     std::set<COutPoint> setLockedCoins;
 
@@ -921,7 +913,7 @@ public:
     void BlockDisconnected(const std::shared_ptr<const CBlock>& pblock) override;
     bool AddToWalletIfInvolvingMe(const CTransactionRef& tx, const CBlockIndex* pIndex, int posInBlock, bool fUpdate);
     int64_t RescanFromTime(int64_t startTime, bool update);
-    CBlockIndex* ScanForWalletTransactions(CBlockIndex* pindexStart, bool fUpdate = false);
+    CBlockIndex* ScanForWalletTransactions(CBlockIndex* pindexStart, CBlockIndex* pindexStop, bool fUpdate = false);
     void ReacceptWalletTransactions();
     void ResendWalletTransactions(int64_t nBestBlockTime, CConnman* connman) override;
     // ResendWalletTransactionsBefore may only be called if fBroadcastTransactions!
@@ -960,16 +952,6 @@ public:
     static CFeeRate minTxFee;
     static CFeeRate fallbackFee;
     static CFeeRate m_discard_rate;
-    /**
-     * Estimate the minimum fee considering user set parameters
-     * and the required fee
-     */
-    static CAmount GetMinimumFee(unsigned int nTxBytes, const CCoinControl& coin_control, const CTxMemPool& pool, const CBlockPolicyEstimator& estimator, FeeCalculation *feeCalc);
-    /**
-     * Return the minimum required fee taking into account the
-     * floating relay fee and user set minimum transaction fee
-     */
-    static CAmount GetRequiredFee(unsigned int nTxBytes);
 
     bool NewKeyPool();
     size_t KeypoolCountExternalKeys();
@@ -1038,8 +1020,6 @@ public:
         return setInternalKeyPool.size() + setExternalKeyPool.size();
     }
 
-    bool SetDefaultKey(const CPubKey &vchPubKey);
-
     //! signify that a particular wallet feature is now used. this may change nWalletVersion and nWalletMaxVersion if those are lower
     bool SetMinVersion(enum WalletFeature, CWalletDB* pwalletdbIn = nullptr, bool fExplicit = false);
 
@@ -1058,11 +1038,6 @@ public:
     //! Flush wallet (bitdb flush)
     void Flush(bool shutdown=false);
 
-    //! Responsible for reading and validating the -wallet arguments and verifying the wallet database.
-    //  This function will perform salvage on the wallet if requested, as long as only one wallet is
-    //  being loaded (CWallet::ParameterInteraction forbids -salvagewallet, -zapwallettxes or -upgradewallet with multiwallet).
-    static bool Verify();
-    
     /** 
      * Address book entry changed.
      * @note called with lock cs_wallet held.
@@ -1099,21 +1074,14 @@ public:
     /** Mark a transaction as replaced by another transaction (e.g., BIP 125). */
     bool MarkReplaced(const uint256& originalHash, const uint256& newHash);
 
-    /* Returns the wallets help message */
-    static std::string GetWalletHelpString(bool showDebug);
-
     /* Initializes the wallet, returns a new CWallet instance or a null pointer in case of an error */
     static CWallet* CreateWalletFromFile(const std::string walletFile);
-    static bool InitLoadWallet();
 
     /**
      * Wallet post-init setup
      * Gives the wallet a chance to register repetitive tasks and complete post-init tasks
      */
     void postInitProcess(CScheduler& scheduler);
-
-    /* Wallets parameter interaction */
-    static bool ParameterInteraction();
 
     bool BackupWallet(const std::string& strDest);
 
@@ -1135,7 +1103,7 @@ public:
 };
 
 /** A key allocated from the key pool. */
-class CReserveKey : public CReserveScript
+class CReserveKey final : public CReserveScript
 {
 protected:
     CWallet* pwallet;
@@ -1143,7 +1111,7 @@ protected:
     CPubKey vchPubKey;
     bool fInternal;
 public:
-    CReserveKey(CWallet* pwalletIn)
+    explicit CReserveKey(CWallet* pwalletIn)
     {
         nIndex = -1;
         pwallet = pwalletIn;
