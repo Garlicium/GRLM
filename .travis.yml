@@ -84,8 +84,7 @@ deploy:
   provider: releases
   skip_cleanup: true
   api_key:
-    secure: 
-    #TODO Put encrypted OAuth key. ^^^
+    secure: EnW8ivAI1KwJH6UY0lOiYK2J8PoefRufTFKJpgx+IXckyTgdYoX1k2oyK7q/F0ze/BpVXpmL6KX2qPjZ+eruIPruIC0lGY2WjFGHzir/TzqHELSvF0E0wILCqSZp6gWybuxAh/yNrQi1NeC6IvoHj+lWZ5f8HAlxiAzzsIZ+5LQAcFlT6/FJ8f+e6WYBedUcwEp5K0KxjklGnsDyxO0q82RRd7IJL46W/8u7l9vAWoD83smhvVPmtFV7GYgiinfcbYc8K7xrn+yoeJoAqyHJYKjUrf2OsJl3Ljq8t7/uuTI+LdoB3P+DLQV4WHASTh1sJp6vhIcG58F1fN4FsOr+Iq7bevjt52O1XtejzLdWP+OoQsrfoMFzXOv+B90LazUKTZr7L8/j7PT2/EThmsnQym3NCUK23AGU5KquZS1Xf4m+MoE7ZSc8Jci1LpqM8AZdN3sPrPIIvxPaAGtOdug4vsJqCUALwBUxdmFObTcP8DRP3XJy1w7cMAuNxmZ6DqEv4sXWXgLeI07MzYaSlJKSDDFVrWYb7rhf9zmHzYqLx7j5pqVvSuLjf5eSIpFA7jKx89amRlmB3fZodTQTBvRLgtoT+FJ1VyjqxzlqXnGJnssdvq9+a1bwJp24h9AsZqLDrgRHgJ+gB76U9+wAxnk711fcIu0LJ07f9lZVbKgdlUw=
   file: Litecoin-${HOST}.tar.gz
     #If renaming-things-again happaned must be changed to Garlicium-${HOST}.tar.gz
   on:
