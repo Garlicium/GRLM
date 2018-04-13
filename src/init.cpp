@@ -130,7 +130,7 @@ bool ShutdownRequested()
 /**
  * This is a minimally invasive approach to shutdown on LevelDB read errors from the
  * chainstate, while keeping user interface out of the common library, which is shared
- * between vertcoind, and vertcoin-qt and non-server tools.
+ * between garliciumd, and garlicium-qt and non-server tools.
 */
 class CCoinsViewErrorCatcher final : public CCoinsViewBacked
 {
@@ -179,7 +179,7 @@ void Shutdown()
     /// for example if the data directory was found to be locked.
     /// Be sure that anything that writes files or flushes caches only does this if the respective
     /// module was initialized.
-    RenameThread("vertcoin-shutoff");
+    RenameThread("garlicium-shutoff");
     mempool.AddTransactionsUpdated(1);
 
     StopHTTPRPC();
@@ -509,8 +509,8 @@ std::string HelpMessage(HelpMessageMode mode)
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/vertcoin/vertcoin>";
-    const std::string URL_WEBSITE = "<https://vertcoin.org>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/garlicium/garlicium>";
+    const std::string URL_WEBSITE = "<https://garlicium.org>";
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2009, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +
@@ -614,7 +614,7 @@ void CleanupBlockRevFiles()
 void ThreadImport(std::vector<fs::path> vImportFiles)
 {
     const CChainParams& chainparams = Params();
-    RenameThread("vertcoin-loadblk");
+    RenameThread("garlicium-loadblk");
 
     {
     CImportingNow imp;
@@ -684,7 +684,7 @@ void ThreadImport(std::vector<fs::path> vImportFiles)
 }
 
 /** Sanity checks
- *  Ensure that Vertcoin is running in a usable environment with all
+ *  Ensure that Garlicium is running in a usable environment with all
  *  necessary library support.
  */
 bool InitSanityCheck(void)
@@ -808,7 +808,7 @@ void InitLogging()
     fLogIPs = gArgs.GetBoolArg("-logips", DEFAULT_LOGIPS);
 
     LogPrintf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    LogPrintf("Vertcoin version %s\n", FormatFullVersion());
+    LogPrintf("Garlicium version %s\n", FormatFullVersion());
 }
 
 namespace { // Variables internal to initialization process only
@@ -1149,7 +1149,7 @@ static bool LockDataDirectory(bool probeOnly)
 {
     std::string strDataDir = GetDataDir().string();
 
-    // Make sure only a single Vertcoin process is using the data directory.
+    // Make sure only a single Garlicium process is using the data directory.
     fs::path pathLockFile = GetDataDir() / ".lock";
     FILE* file = fsbridge::fopen(pathLockFile, "a"); // empty lock file; created if it doesn't exist.
     if (file) fclose(file);

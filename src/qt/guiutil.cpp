@@ -128,7 +128,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a Vertcoin address (e.g. %1)").arg(
+    widget->setPlaceholderText(QObject::tr("Enter a Garlicium address (e.g. %1)").arg(
         QString::fromStdString(DummyAddress(Params()))));
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
@@ -146,8 +146,8 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
-    // return if URI is not valid or is no vertcoin: URI
-    if(!uri.isValid() || uri.scheme() != QString("vertcoin"))
+    // return if URI is not valid or is no garlicium: URI
+    if(!uri.isValid() || uri.scheme() != QString("garlicium"))
         return false;
 
     SendCoinsRecipient rv;
@@ -207,13 +207,13 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert vertcoin:// to vertcoin:
+    // Convert garlicium:// to garlicium:
     //
-    //    Cannot handle this later, because vertcoin:// will cause Qt to see the part after // as host,
+    //    Cannot handle this later, because garlicium:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("vertcoin://", Qt::CaseInsensitive))
+    if(uri.startsWith("garlicium://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 10, "vertcoin:");
+        uri.replace(0, 10, "garlicium:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -221,7 +221,7 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 
 QString formatBitcoinURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("vertcoin:%1").arg(info.address);
+    QString ret = QString("garlicium:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)
@@ -428,7 +428,7 @@ bool openBitcoinConf()
     
     configFile.close();
     
-    /* Open vertcoin.conf with the associated application */
+    /* Open garlicium.conf with the associated application */
     return QDesktopServices::openUrl(QUrl::fromLocalFile(boostPathToQString(pathConfig)));
 }
 
@@ -616,15 +616,15 @@ fs::path static StartupShortcutPath()
 {
     std::string chain = ChainNameFromCommandLine();
     if (chain == CBaseChainParams::MAIN)
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "Vertcoin.lnk";
+        return GetSpecialFolderPath(CSIDL_STARTUP) / "Garlicium.lnk";
     if (chain == CBaseChainParams::TESTNET) // Remove this special case when CBaseChainParams::TESTNET = "testnet4"
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "Vertcoin (testnet).lnk";
-    return GetSpecialFolderPath(CSIDL_STARTUP) / strprintf("Vertcoin (%s).lnk", chain);
+        return GetSpecialFolderPath(CSIDL_STARTUP) / "Garlicium (testnet).lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / strprintf("Garlicium (%s).lnk", chain);
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for Vertcoin*.lnk
+    // check for Garlicium*.lnk
     return fs::exists(StartupShortcutPath());
 }
 
@@ -714,8 +714,8 @@ fs::path static GetAutostartFilePath()
 {
     std::string chain = ChainNameFromCommandLine();
     if (chain == CBaseChainParams::MAIN)
-        return GetAutostartDir() / "vertcoin.desktop";
-    return GetAutostartDir() / strprintf("vertcoin-%s.lnk", chain);
+        return GetAutostartDir() / "garlicium.desktop";
+    return GetAutostartDir() / strprintf("garlicium-%s.lnk", chain);
 }
 
 bool GetStartOnSystemStartup()
@@ -755,13 +755,13 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         if (!optionFile.good())
             return false;
         std::string chain = ChainNameFromCommandLine();
-        // Write a vertcoin.desktop file to the autostart directory:
+        // Write a garlicium.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
         if (chain == CBaseChainParams::MAIN)
-            optionFile << "Name=Vertcoin\n";
+            optionFile << "Name=Garlicium\n";
         else
-            optionFile << strprintf("Name=Vertcoin (%s)\n", chain);
+            optionFile << strprintf("Name=Garlicium (%s)\n", chain);
         optionFile << "Exec=" << pszExePath << strprintf(" -min -testnet=%d -regtest=%d\n", gArgs.GetBoolArg("-testnet", false), gArgs.GetBoolArg("-regtest", false));
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";
@@ -787,7 +787,7 @@ LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef
         return nullptr;
     }
     
-    // loop through the list of startup items and try to find the vertcoin app
+    // loop through the list of startup items and try to find the garlicium app
     for(int i = 0; i < CFArrayGetCount(listSnapshot); i++) {
         LSSharedFileListItemRef item = (LSSharedFileListItemRef)CFArrayGetValueAtIndex(listSnapshot, i);
         UInt32 resolutionFlags = kLSSharedFileListNoUserInteraction | kLSSharedFileListDoNotMountVolumes;
@@ -844,7 +844,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
     LSSharedFileListItemRef foundItem = findStartupItemInList(loginItems, bitcoinAppUrl);
 
     if(fAutoStart && !foundItem) {
-        // add vertcoin app to startup item list
+        // add garlicium app to startup item list
         LSSharedFileListInsertItemURL(loginItems, kLSSharedFileListItemBeforeFirst, nullptr, nullptr, bitcoinAppUrl, nullptr, nullptr);
     }
     else if(!fAutoStart && foundItem) {

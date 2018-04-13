@@ -1,5 +1,5 @@
-Building Vertcoin
+Building Garlicium
 ================
 
 See doc/build-*.md for instructions on building the various
-elements of the Vertcoin Core reference implementation of Vertcoin.
+elements of the Garlicium Core reference implementation of Garlicium.

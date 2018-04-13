@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Vertcoin-Qt</string>
+  <string>Garlicium-Qt</string>
   
   <key>CFBundleName</key>
-  <string>Vertcoin-Qt</string>
+  <string>Garlicium-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.vertcoin.Vertcoin-Qt</string>
+  <string>org.garlicium.Garlicium-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,7 +46,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.vertcoin.VertcoinPayment</string>
+      <string>org.garlicium.GarliciumPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>bitcoin</string>
@@ -58,9 +58,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>org.vertcoin.paymentrequest</string>
+      <string>org.garlicium.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Vertcoin payment request</string>
+      <string>Garlicium payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -68,10 +68,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-vertcoin-payment-request</string>
+        <string>application/x-garlicium-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>vertcoinpaymentrequest</string>
+          <string>garliciumpaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -84,7 +84,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>org.vertcoin.paymentrequest</string>
+        <string>org.garlicium.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

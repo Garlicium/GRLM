@@ -1,4 +1,4 @@
-<TS language="vi" version="2.1">
+﻿<TS language="vi" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -162,6 +162,6 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>vertcoin-core</name>
+    <name>garlicium-core</name>
     </context>
 </TS>

@@ -235,11 +235,11 @@ UniValue stop(const JSONRPCRequest& jsonRequest)
     if (jsonRequest.fHelp || jsonRequest.params.size() > 1)
         throw std::runtime_error(
             "stop\n"
-            "\nStop Vertcoin server.");
+            "\nStop Garlicium server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "Vertcoin server stopping";
+    return "Garlicium server stopping";
 }
 
 UniValue uptime(const JSONRPCRequest& jsonRequest)
@@ -515,7 +515,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(const std::string& methodname, const std::string& args)
 {
-    return "> vertcoin-cli " + methodname + " " + args + "\n";
+    return "> garlicium-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(const std::string& methodname, const std::string& args)

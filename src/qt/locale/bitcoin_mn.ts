@@ -126,7 +126,7 @@
         <translation>Оношилгоо ба засварын консолыг онгойлго</translation>
     </message>
     <message>
-        <source>Vertcoin</source>
+        <source>Garlicium</source>
         <translation>Биткойн</translation>
     </message>
     <message>
@@ -546,7 +546,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>vertcoin-core</name>
+    <name>garlicium-core</name>
     <message>
         <source>Options:</source>
         <translation>Сонголтууд:</translation>

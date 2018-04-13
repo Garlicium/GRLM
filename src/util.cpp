@@ -87,8 +87,8 @@
 // Application startup time (used for uptime calculation)
 const int64_t nStartupTime = GetTime();
 
-const char * const BITCOIN_CONF_FILENAME = "vertcoin.conf";
-const char * const BITCOIN_PID_FILENAME = "vertcoind.pid";
+const char * const BITCOIN_CONF_FILENAME = "garlicium.conf";
+const char * const BITCOIN_PID_FILENAME = "garliciumd.pid";
 
 ArgsManager gArgs;
 bool fPrintToConsole = false;
@@ -503,7 +503,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(nullptr, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "vertcoin";
+    const char* pszModule = "garlicium";
 #endif
     if (pex)
         return strprintf(
@@ -522,13 +522,13 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 
 fs::path GetDefaultDataDir()
 {
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Vertcoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Vertcoin
-    // Mac: ~/Library/Application Support/Vertcoin
-    // Unix: ~/.vertcoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Garlicium
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Garlicium
+    // Mac: ~/Library/Application Support/Garlicium
+    // Unix: ~/.garlicium
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Vertcoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Garlicium";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -538,10 +538,10 @@ fs::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/Vertcoin";
+    return pathRet / "Library/Application Support/Garlicium";
 #else
     // Unix
-    return pathRet / ".vertcoin";
+    return pathRet / ".garlicium";
 #endif
 #endif
 }
@@ -600,7 +600,7 @@ void ArgsManager::ReadConfigFile(const std::string& confPath)
 {
     fs::ifstream streamConfig(GetConfigFile(confPath));
     if (!streamConfig.good())
-        return; // No vertcoin.conf file is OK
+        return; // No garlicium.conf file is OK
 
     {
         LOCK(cs_args);
@@ -609,7 +609,7 @@ void ArgsManager::ReadConfigFile(const std::string& confPath)
 
         for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it)
         {
-            // Don't overwrite existing settings so command line settings override vertcoin.conf
+            // Don't overwrite existing settings so command line settings override garlicium.conf
             std::string strKey = std::string("-") + it->string_key;
             std::string strValue = it->value[0];
             InterpretNegativeSetting(strKey, strValue);
@@ -886,8 +886,8 @@ std::string CopyrightHolders(const std::string& strPrefix)
 {
     std::string strCopyrightHolders = strPrefix + strprintf(_(COPYRIGHT_HOLDERS), _(COPYRIGHT_HOLDERS_SUBSTITUTION));
 
-    // Check for untranslated substitution to make sure Vertcoin Core copyright is not removed by accident
-    if (strprintf(COPYRIGHT_HOLDERS, COPYRIGHT_HOLDERS_SUBSTITUTION).find("Vertcoin Core") == std::string::npos) {
+    // Check for untranslated substitution to make sure Garlicium Core copyright is not removed by accident
+    if (strprintf(COPYRIGHT_HOLDERS, COPYRIGHT_HOLDERS_SUBSTITUTION).find("Garlicium Core") == std::string::npos) {
         strCopyrightHolders += "\n" + strPrefix + "The Bitcoin Core developers";
     }
     return strCopyrightHolders;

@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2016 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Vertcoin Developers
+// Copyright (c) 2014-2017 The Garlicium Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -130,7 +130,7 @@ public:
         vSeeds.emplace_back("dnsseed.pknight.ca", true); // pknight
         vSeeds.emplace_back("seed.orderofthetaco.org", true); // Eric (etang600)
         vSeeds.emplace_back("seed.alexturek.org", true); // Alex Turek
-        vSeeds.emplace_back("vertcoin.mbl.cash", true); // jk_14
+        vSeeds.emplace_back("garlicium.mbl.cash", true); // jk_14
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,71);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -226,7 +226,7 @@ public:
         vSeeds.emplace_back("jlovejoy.mit.edu", false);
         vSeeds.emplace_back("gertjaap.ddns.net", false);
         vSeeds.emplace_back("fr1.vtconline.org", false);
-        vSeeds.emplace_back("tvtc.vertcoin.org", false);
+        vSeeds.emplace_back("tvtc.garlicium.org", false);
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,74);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);

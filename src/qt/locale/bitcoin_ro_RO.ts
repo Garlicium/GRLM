@@ -154,8 +154,8 @@
         <translation>Se reindexează blocurile pe disc...</translation>
     </message>
     <message>
-        <source>Send coins to a Vertcoin address</source>
-        <translation>Trimite monede către o adresă Vertcoin</translation>
+        <source>Send coins to a Garlicium address</source>
+        <translation>Trimite monede către o adresă Garlicium</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -178,8 +178,8 @@
         <translation>&amp;Verifică mesaj...</translation>
     </message>
     <message>
-        <source>Vertcoin</source>
-        <translation>Vertcoin</translation>
+        <source>Garlicium</source>
+        <translation>Garlicium</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -206,12 +206,12 @@
         <translation>Criptează cheile private ale portofelului dvs.</translation>
     </message>
     <message>
-        <source>Sign messages with your Vertcoin addresses to prove you own them</source>
-        <translation>Semnaţi mesaje cu adresa dvs. Vertcoin pentru a dovedi că vă aparţin</translation>
+        <source>Sign messages with your Garlicium addresses to prove you own them</source>
+        <translation>Semnaţi mesaje cu adresa dvs. Garlicium pentru a dovedi că vă aparţin</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Vertcoin addresses</source>
-        <translation>Verificaţi mesaje pentru a vă asigura că au fost semnate cu adresa Vertcoin specificată</translation>
+        <source>Verify messages to ensure they were signed with specified Garlicium addresses</source>
+        <translation>Verificaţi mesaje pentru a vă asigura că au fost semnate cu adresa Garlicium specificată</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -230,8 +230,8 @@
         <translation>Bara de unelte</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and vertcoin: URIs)</source>
-        <translation>Cereţi plăţi (generează coduri QR şi vertcoin-uri: URls)</translation>
+        <source>Request payments (generates QR codes and garlicium: URIs)</source>
+        <translation>Cereţi plăţi (generează coduri QR şi garlicium-uri: URls)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -242,16 +242,16 @@
         <translation>Arată lista de adrese pentru primire şi etichetele</translation>
     </message>
     <message>
-        <source>Open a vertcoin: URI or payment request</source>
-        <translation>Deschidere vertcoin: o adresa URI sau o cerere de plată</translation>
+        <source>Open a garlicium: URI or payment request</source>
+        <translation>Deschidere garlicium: o adresa URI sau o cerere de plată</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opţiuni linie de &amp;comandă</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Vertcoin network</source>
-        <translation><numerusform>%n conexiune activă către reţeaua Vertcoin</numerusform><numerusform>%n conexiuni active către reţeaua Vertcoin</numerusform><numerusform>%n de conexiuni active către reţeaua Vertcoin</numerusform></translation>
+        <source>%n active connection(s) to Garlicium network</source>
+        <translation><numerusform>%n conexiune activă către reţeaua Garlicium</numerusform><numerusform>%n conexiuni active către reţeaua Garlicium</numerusform><numerusform>%n de conexiuni active către reţeaua Garlicium</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -656,16 +656,16 @@
         <translation>Cheltuire rest neconfirmat</translation>
     </message>
     <message>
-        <source>Automatically open the Vertcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat în router portul aferent clientului Vertcoin. Funcţionează doar dacă routerul duportă UPnP şi e activat.</translation>
+        <source>Automatically open the Garlicium client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Deschide automat în router portul aferent clientului Garlicium. Funcţionează doar dacă routerul duportă UPnP şi e activat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapare port folosind &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Vertcoin network through a SOCKS5 proxy.</source>
-        <translation>Conectare la reţeaua Vertcoin printr-un proxy SOCKS.</translation>
+        <source>Connect to the Garlicium network through a SOCKS5 proxy.</source>
+        <translation>Conectare la reţeaua Garlicium printr-un proxy SOCKS.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -725,7 +725,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Alegeţi subdiviziunea folosită la afişarea interfeţei şi la trimiterea de vertcoin.</translation>
+        <translation>Alegeţi subdiviziunea folosită la afişarea interfeţei şi la trimiterea de garlicium.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -765,7 +765,7 @@
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Adresa vertcoin pe care aţi specificat-o nu este validă.</translation>
+        <translation>Adresa garlicium pe care aţi specificat-o nu este validă.</translation>
     </message>
 </context>
 <context>
@@ -775,8 +775,8 @@
         <translation>Form</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Vertcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informaţiile afişate pot fi neactualizate. Portofelul dvs. se sincronizează automat cu reţeaua Vertcoin după ce o conexiune este stabilită, dar acest proces nu a fost finalizat încă.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Garlicium network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informaţiile afişate pot fi neactualizate. Portofelul dvs. se sincronizează automat cu reţeaua Garlicium după ce o conexiune este stabilită, dar acest proces nu a fost finalizat încă.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -864,8 +864,8 @@
         <translation>Cantitate</translation>
     </message>
     <message>
-        <source>Enter a Vertcoin address (e.g. %1)</source>
-        <translation>Introduceţi o adresă Vertcoin (de exemplu %1)</translation>
+        <source>Enter a Garlicium address (e.g. %1)</source>
+        <translation>Introduceţi o adresă Garlicium (de exemplu %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1164,8 +1164,8 @@
         <translation>R&amp;efoloseşte o adresă de primire (nu este recomandat)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Vertcoin network.</source>
-        <translation>Un mesaj opţional de ataşat la cererea de plată, care va fi afişat cînd cererea este deschisă. Notă: Acest mesaj nu va fi trimis cu plata către reţeaua Vertcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Garlicium network.</source>
+        <translation>Un mesaj opţional de ataşat la cererea de plată, care va fi afişat cînd cererea este deschisă. Notă: Acest mesaj nu va fi trimis cu plata către reţeaua Garlicium.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1384,8 +1384,8 @@
         <translation>Aceasta este o tranzacţie normală.</translation>
     </message>
     <message>
-        <source>The Vertcoin address to send the payment to</source>
-        <translation>Adresa vertcoin către care se face plata</translation>
+        <source>The Garlicium address to send the payment to</source>
+        <translation>Adresa garlicium către care se face plata</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1412,8 +1412,8 @@
         <translation>Introduceţi eticheta pentru ca această adresa să fie introdusă în lista de adrese folosite</translation>
     </message>
     <message>
-        <source>A message that was attached to the vertcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vertcoin network.</source>
-        <translation>un mesaj a fost ataşat la vertcoin: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua vertcoin.</translation>
+        <source>A message that was attached to the garlicium: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Garlicium network.</source>
+        <translation>un mesaj a fost ataşat la garlicium: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua garlicium.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1449,7 +1449,7 @@
         <translation>&amp;Semnează mesaj</translation>
     </message>
     <message>
-        <source>The Vertcoin address to sign the message with</source>
+        <source>The Garlicium address to sign the message with</source>
         <translation>Adresa cu care semnaţi mesajul</translation>
     </message>
     <message>
@@ -1481,8 +1481,8 @@
         <translation>Copiază semnatura curentă în clipboard-ul sistemului</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Vertcoin address</source>
-        <translation>Semnează mesajul pentru a dovedi ca deţineţi acestă adresă Vertcoin</translation>
+        <source>Sign the message to prove you own this Garlicium address</source>
+        <translation>Semnează mesajul pentru a dovedi ca deţineţi acestă adresă Garlicium</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1501,12 +1501,12 @@
         <translation>&amp;Verifică mesaj</translation>
     </message>
     <message>
-        <source>The Vertcoin address the message was signed with</source>
-        <translation>Introduceţi o adresă Vertcoin</translation>
+        <source>The Garlicium address the message was signed with</source>
+        <translation>Introduceţi o adresă Garlicium</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Vertcoin address</source>
-        <translation>Verificaţi mesajul pentru a vă asigura că a fost semnat cu adresa Vertcoin specificată</translation>
+        <source>Verify the message to ensure it was signed with the specified Garlicium address</source>
+        <translation>Verificaţi mesajul pentru a vă asigura că a fost semnat cu adresa Garlicium specificată</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1568,7 +1568,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>vertcoin-core</name>
+    <name>garlicium-core</name>
     <message>
         <source>Options:</source>
         <translation>Opţiuni:</translation>
@@ -1594,8 +1594,8 @@
         <translation>Rulează în fundal ca un demon şi acceptă comenzi</translation>
     </message>
     <message>
-        <source>Vertcoin Core</source>
-        <translation>Nucleul Vertcoin</translation>
+        <source>Garlicium Core</source>
+        <translation>Nucleul Garlicium</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

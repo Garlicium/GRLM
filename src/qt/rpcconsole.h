@@ -27,7 +27,7 @@ class QMenu;
 class QItemSelection;
 QT_END_NAMESPACE
 
-/** Local Vertcoin RPC console. */
+/** Local Garlicium RPC console. */
 class RPCConsole: public QWidget
 {
     Q_OBJECT

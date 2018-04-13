@@ -65,11 +65,11 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += vertcoind
+  bin_PROGRAMS += garliciumd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += vertcoin-cli vertcoin-tx
+  bin_PROGRAMS += garlicium-cli garlicium-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
@@ -396,16 +396,16 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-vertcoind_SOURCES = bitcoind.cpp
-vertcoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-vertcoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-vertcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+garliciumd_SOURCES = bitcoind.cpp
+garliciumd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+garliciumd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+garliciumd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-vertcoind_SOURCES += bitcoind-res.rc
+garliciumd_SOURCES += bitcoind-res.rc
 endif
 
-vertcoind_LDADD = \
+garliciumd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -419,38 +419,38 @@ vertcoind_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-vertcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+garliciumd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
 # bitcoin-cli binary #
-vertcoin_cli_SOURCES = bitcoin-cli.cpp
-vertcoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-vertcoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-vertcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+garlicium_cli_SOURCES = bitcoin-cli.cpp
+garlicium_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+garlicium_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+garlicium_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-vertcoin_cli_SOURCES += bitcoin-cli-res.rc
+garlicium_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
-vertcoin_cli_LDADD = \
+garlicium_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-vertcoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+garlicium_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
 # bitcoin-tx binary #
-vertcoin_tx_SOURCES = bitcoin-tx.cpp
-vertcoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-vertcoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-vertcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+garlicium_tx_SOURCES = bitcoin-tx.cpp
+garlicium_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+garlicium_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+garlicium_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-vertcoin_tx_SOURCES += bitcoin-tx-res.rc
+garlicium_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
-vertcoin_tx_LDADD = \
+garlicium_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -458,7 +458,7 @@ vertcoin_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-vertcoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+garlicium_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #

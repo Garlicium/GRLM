@@ -230,8 +230,8 @@
         <translation>&amp;Проверить сообщение...</translation>
     </message>
     <message>
-        <source>Vertcoin</source>
-        <translation>Vertcoin Core</translation>
+        <source>Garlicium</source>
+        <translation>Garlicium Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -442,8 +442,8 @@
         <translation>Пробросить порт через &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Vertcoin network through a SOCKS5 proxy.</source>
-        <translation>Подключится к сети Vertcoin через SOCKS5 прокси.</translation>
+        <source>Connect to the Garlicium network through a SOCKS5 proxy.</source>
+        <translation>Подключится к сети Garlicium через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -522,7 +522,7 @@
 <context>
     <name>QObject</name>
     <message>
-        <source>Enter a Vertcoin address (e.g. %1)</source>
+        <source>Enter a Garlicium address (e.g. %1)</source>
         <translation>Введите биткоин-адрес (напр. %1)</translation>
     </message>
     <message numerus="yes">
@@ -830,14 +830,14 @@
     </message>
     </context>
 <context>
-    <name>vertcoin-core</name>
+    <name>garlicium-core</name>
     <message>
-        <source>Vertcoin Core</source>
-        <translation>Vertcoin Core</translation>
+        <source>Garlicium Core</source>
+        <translation>Garlicium Core</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>vertcoin-core</translation>
+        <translation>garlicium-core</translation>
     </message>
     <message>
         <source>Information</source>

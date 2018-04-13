@@ -20,7 +20,7 @@ public:
     State validate(QString &input, int &pos) const;
 };
 
-/** Vertcoin address widget validator, checks for a valid vertcoin address.
+/** Garlicium address widget validator, checks for a valid garlicium address.
  */
 class BitcoinAddressCheckValidator : public QValidator
 {

@@ -37,9 +37,9 @@ SendCoinsEntry::SendCoinsEntry(const PlatformStyle *_platformStyle, QWidget *par
     ui->addAsLabel->setPlaceholderText(tr("Enter a label for this address to add it to your address book"));
 #endif
 
-    // normal vertcoin address field
+    // normal garlicium address field
     GUIUtil::setupAddressWidget(ui->payTo, this);
-    // just a label for displaying vertcoin address(es)
+    // just a label for displaying garlicium address(es)
     ui->payTo_is->setFont(GUIUtil::fixedPitchFont());
 
     // Connect signals

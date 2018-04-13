@@ -10,8 +10,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between vertcoin-cli and bitcoind)
- * of a given instance of the Vertcoin system.
+ * CBaseChainParams defines the base parameters (shared between garlicium-cli and bitcoind)
+ * of a given instance of the Garlicium system.
  */
 class CBaseChainParams
 {

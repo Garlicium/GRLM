@@ -2665,7 +2665,7 @@ bool CWallet::CreateTransaction(const std::vector<CRecipient>& vecSend, CWalletT
 
             // Create change script that will be used if we need change
             // TODO: pass in scriptChange instead of reservekey so
-            // change transaction isn't always pay-to-vertcoin-address
+            // change transaction isn't always pay-to-garlicium-address
             CScript scriptChange;
 
             // coin control: send change to custom address
