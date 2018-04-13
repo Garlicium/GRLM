@@ -142,8 +142,8 @@
         <translation>Deschide &amp;URI...</translation>
     </message>
     <message>
-        <source>Send coins to a Garlicium address</source>
-        <translation>Trimite monedele către o adresă Garlicium</translation>
+        <source>Send coins to a Vertcoin address</source>
+        <translation>Trimite monedele către o adresă Vertcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -166,8 +166,8 @@
         <translation>&amp;Verifică mesajul...</translation>
     </message>
     <message>
-        <source>Garlicium</source>
-        <translation>Garlicium</translation>
+        <source>Vertcoin</source>
+        <translation>Vertcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -194,12 +194,12 @@
         <translation>Criptează cheile private care aparțin portofelului tău.</translation>
     </message>
     <message>
-        <source>Sign messages with your Garlicium addresses to prove you own them</source>
-        <translation>Semnează mesajele cu adresa ta de Garlicium pentru a face dovada că îți aparțin.</translation>
+        <source>Sign messages with your Vertcoin addresses to prove you own them</source>
+        <translation>Semnează mesajele cu adresa ta de Vertcoin pentru a face dovada că îți aparțin.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Garlicium addresses</source>
-        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de Garlicium specificată.</translation>
+        <source>Verify messages to ensure they were signed with specified Vertcoin addresses</source>
+        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de Vertcoin specificată.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -214,12 +214,12 @@
         <translation>&amp;Ajutor</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and garlicium: URIs)</source>
-        <translation>Cerere plată (generează coduri QR și garlicium: URIs)</translation>
+        <source>Request payments (generates QR codes and vertcoin: URIs)</source>
+        <translation>Cerere plată (generează coduri QR și vertcoin: URIs)</translation>
     </message>
     <message>
-        <source>Open a garlicium: URI or payment request</source>
-        <translation>Deschide un garlicium: URI sau cerere de plată</translation>
+        <source>Open a vertcoin: URI or payment request</source>
+        <translation>Deschide un vertcoin: URI sau cerere de plată</translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -746,10 +746,10 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>garlicium-core</name>
+    <name>vertcoin-core</name>
     <message>
-        <source>Garlicium Core</source>
-        <translation>Garlicium Core</translation>
+        <source>Vertcoin Core</source>
+        <translation>Vertcoin Core</translation>
     </message>
     <message>
         <source>Information</source>

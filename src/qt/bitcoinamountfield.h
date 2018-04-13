@@ -15,7 +15,7 @@ QT_BEGIN_NAMESPACE
 class QValueComboBox;
 QT_END_NAMESPACE
 
-/** Widget for entering garlicium amounts.
+/** Widget for entering vertcoin amounts.
   */
 class BitcoinAmountField: public QWidget
 {

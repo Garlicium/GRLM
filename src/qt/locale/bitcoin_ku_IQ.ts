@@ -374,7 +374,7 @@
     </message>
     </context>
 <context>
-    <name>garlicium-core</name>
+    <name>vertcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>هەڵبژاردنەکان:</translation>

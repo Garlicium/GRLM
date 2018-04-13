@@ -170,6 +170,6 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>garlicium-core</name>
+    <name>vertcoin-core</name>
     </context>
 </TS>

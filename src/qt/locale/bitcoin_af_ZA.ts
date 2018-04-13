@@ -214,8 +214,8 @@
         <translation>&amp;Opsies</translation>
     </message>
     <message>
-        <source>Garlicium</source>
-        <translation>Garlicium</translation>
+        <source>Vertcoin</source>
+        <translation>Vertcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -770,7 +770,7 @@
     </message>
     </context>
 <context>
-    <name>garlicium-core</name>
+    <name>vertcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Opsies:</translation>

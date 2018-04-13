@@ -70,7 +70,7 @@
         <translation>Құпия сөзді өзгерту</translation>
     </message>
     <message>
-        <source>Garlicium</source>
+        <source>Vertcoin</source>
         <translation>Биткоин</translation>
     </message>
     <message>
@@ -298,7 +298,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>garlicium-core</name>
+    <name>vertcoin-core</name>
     <message>
         <source>Information</source>
         <translation>Информация</translation>

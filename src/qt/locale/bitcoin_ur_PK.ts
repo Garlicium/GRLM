@@ -238,7 +238,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>garlicium-core</name>
+    <name>vertcoin-core</name>
     <message>
         <source>Insufficient funds</source>
         <translation>ناکافی فنڈز</translation>

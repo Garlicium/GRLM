@@ -801,7 +801,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
         }
         else if (!IsValidDestination(dest)) // Invalid address
         {
-            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Garlicium address"));
+            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Vertcoin address"));
         }
         else // Valid address
         {

@@ -50,7 +50,7 @@
 #include <boost/thread.hpp>
 
 #if defined(NDEBUG)
-# error "Garlicium cannot be compiled without assertions."
+# error "Vertcoin cannot be compiled without assertions."
 #endif
 
 #define MICRO 0.000001
@@ -96,7 +96,7 @@ static void CheckBlockIndex(const Consensus::Params& consensusParams);
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const std::string strMessageMagic = "Garlicium Signed Message:\n";
+const std::string strMessageMagic = "Vertcoin Signed Message:\n";
 
 // Internal stuff
 namespace {
@@ -1563,7 +1563,7 @@ static bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, 
 static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck() {
-    RenameThread("garlicium-scriptch");
+    RenameThread("vertcoin-scriptch");
     scriptcheckqueue.Thread();
 }
 
@@ -2989,7 +2989,7 @@ static bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationSta
         return state.Invalid(false, REJECT_INVALID, "time-too-new", "block timestamp too far in the future");
 
     /*
-         Garlicium <= 0.10.0.2 has a bug left behind from years ago where it never rejected old nVersion numbers
+         Vertcoin <= 0.10.0.2 has a bug left behind from years ago where it never rejected old nVersion numbers
          so we shouldn't reject nVersion < VERSIONBITS_TOP_BITS blocks until SegWit has been enabled
     */  
     if(block.nVersion < VERSIONBITS_TOP_BITS && IsWitnessEnabled(pindexPrev, params.GetConsensus())) {

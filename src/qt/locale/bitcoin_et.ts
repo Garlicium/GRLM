@@ -62,12 +62,12 @@
         <translation>Vastuvõtvad aadressid</translation>
     </message>
     <message>
-        <source>These are your Garlicium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu Garlicium aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
+        <source>These are your Vertcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu Vertcoin aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
     </message>
     <message>
-        <source>These are your Garlicium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Need on sinu Garlicium aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
+        <source>These are your Vertcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Need on sinu Vertcoin aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -290,8 +290,8 @@
         <translation>Kettal olevate blokkide re-indekseerimine...</translation>
     </message>
     <message>
-        <source>Send coins to a Garlicium address</source>
-        <translation>Saada münte Garliciumi aadressile</translation>
+        <source>Send coins to a Vertcoin address</source>
+        <translation>Saada münte Vertcoini aadressile</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -314,8 +314,8 @@
         <translation>&amp;Kontrolli sõnumit...</translation>
     </message>
     <message>
-        <source>Garlicium</source>
-        <translation>Garlicium</translation>
+        <source>Vertcoin</source>
+        <translation>Vertcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -342,12 +342,12 @@
         <translation>Krüpteeri oma rahakoti privaatvõtmed</translation>
     </message>
     <message>
-        <source>Sign messages with your Garlicium addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Garliciumi aadressiga</translation>
+        <source>Sign messages with your Vertcoin addresses to prove you own them</source>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Vertcoini aadressiga</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Garlicium addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Garliciumi aadressiga</translation>
+        <source>Verify messages to ensure they were signed with specified Vertcoin addresses</source>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Vertcoini aadressiga</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -366,20 +366,20 @@
         <translation>Vahelehe tööriistariba</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and garlicium: URIs)</source>
-        <translation>Loo maksepäring (genereerib QR koodid ja garliciumi: URId)</translation>
+        <source>Request payments (generates QR codes and vertcoin: URIs)</source>
+        <translation>Loo maksepäring (genereerib QR koodid ja vertcoini: URId)</translation>
     </message>
     <message>
-        <source>Open a garlicium: URI or payment request</source>
-        <translation>Ava garliciumi: URI või maksepäring</translation>
+        <source>Open a vertcoin: URI or payment request</source>
+        <translation>Ava vertcoini: URI või maksepäring</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Käsurea valikud</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Garlicium network</source>
-        <translation><numerusform>%n aktiivne ühendus Garliciumi võrku</numerusform><numerusform>%n aktiivset ühendust Garliciumi võrku</numerusform></translation>
+        <source>%n active connection(s) to Vertcoin network</source>
+        <translation><numerusform>%n aktiivne ühendus Vertcoini võrku</numerusform><numerusform>%n aktiivset ühendust Vertcoini võrku</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -626,8 +626,8 @@
         <translation>Muuda saatvat aadressi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Garlicium address.</source>
-        <translation>Sisestatud aadress "%1" ei ole korrektne Garlicium aadress.</translation>
+        <source>The entered address "%1" is not a valid Vertcoin address.</source>
+        <translation>Sisestatud aadress "%1" ei ole korrektne Vertcoin aadress.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -756,8 +756,8 @@
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically open the Garlicium client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Garliciumi kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <source>Automatically open the Vertcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Vertcoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -855,7 +855,7 @@
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Garlicium network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Vertcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Bitconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -1337,8 +1337,8 @@
         <translation>Maksepäring aegunud.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Garlicium address</source>
-        <translation>Hoiatus: Ebakorrektne Garlicium aadress</translation>
+        <source>Warning: Invalid Vertcoin address</source>
+        <translation>Hoiatus: Ebakorrektne Vertcoin aadress</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1417,8 +1417,8 @@
         <translation>&amp;Allkirjastamise teade</translation>
     </message>
     <message>
-        <source>The Garlicium address to sign the message with</source>
-        <translation>Garlicium aadress millega sõnum allkirjastada</translation>
+        <source>The Vertcoin address to sign the message with</source>
+        <translation>Vertcoin aadress millega sõnum allkirjastada</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1449,8 +1449,8 @@
         <translation>Kopeeri praegune signatuur vahemällu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Garlicium address</source>
-        <translation>Allkirjasta sõnum Garliciumi aadressi sulle kuulumise tõestamiseks</translation>
+        <source>Sign the message to prove you own this Vertcoin address</source>
+        <translation>Allkirjasta sõnum Vertcoini aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1469,12 +1469,12 @@
         <translation>&amp;Kinnita Sõnum</translation>
     </message>
     <message>
-        <source>The Garlicium address the message was signed with</source>
-        <translation>Garlicium aadress millega sõnum on allkirjastatud</translation>
+        <source>The Vertcoin address the message was signed with</source>
+        <translation>Vertcoin aadress millega sõnum on allkirjastatud</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Garlicium address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Garliciumi aadressiga.</translation>
+        <source>Verify the message to ensure it was signed with the specified Vertcoin address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Vertcoini aadressiga.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1732,7 +1732,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>garlicium-core</name>
+    <name>vertcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Valikud:</translation>
@@ -1758,8 +1758,8 @@
         <translation>Tööta taustal ning aktsepteeri käsklusi</translation>
     </message>
     <message>
-        <source>Garlicium Core</source>
-        <translation>Garliciumi tuumik</translation>
+        <source>Vertcoin Core</source>
+        <translation>Vertcoini tuumik</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

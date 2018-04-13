@@ -137,7 +137,7 @@ public:
 };
 
 /**
- * Garlicium RPC command dispatcher.
+ * Vertcoin RPC command dispatcher.
  */
 class CRPCTable
 {

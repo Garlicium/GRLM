@@ -114,8 +114,8 @@
         <translation>Newid y cyfrinymadrodd a ddefnyddiwyd ar gyfer amgryptio'r waled</translation>
     </message>
     <message>
-        <source>Garlicium</source>
-        <translation>Garlicium</translation>
+        <source>Vertcoin</source>
+        <translation>Vertcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -478,14 +478,14 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>garlicium-core</name>
+    <name>vertcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Opsiynau:</translation>
     </message>
     <message>
-        <source>Garlicium Core</source>
-        <translation>Craidd Garlicium</translation>
+        <source>Vertcoin Core</source>
+        <translation>Craidd Vertcoin</translation>
     </message>
     <message>
         <source>Information</source>

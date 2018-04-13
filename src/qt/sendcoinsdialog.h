@@ -25,7 +25,7 @@ QT_BEGIN_NAMESPACE
 class QUrl;
 QT_END_NAMESPACE
 
-/** Dialog for sending garliciums */
+/** Dialog for sending vertcoins */
 class SendCoinsDialog : public QDialog
 {
     Q_OBJECT

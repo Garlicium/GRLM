@@ -1,4 +1,4 @@
-﻿<TS language="ta" version="2.1">
+<TS language="ta" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -90,8 +90,8 @@
         <translation>&amp;செய்தியை சரிசெய்...</translation>
     </message>
     <message>
-        <source>Garlicium</source>
-        <translation>Garlicium</translation>
+        <source>Vertcoin</source>
+        <translation>Vertcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -706,10 +706,10 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>garlicium-core</name>
+    <name>vertcoin-core</name>
     <message>
-        <source>Garlicium Core</source>
-        <translation>Garlicium மையம்</translation>
+        <source>Vertcoin Core</source>
+        <translation>Vertcoin மையம்</translation>
     </message>
     <message>
         <source>(default: %u)</source>

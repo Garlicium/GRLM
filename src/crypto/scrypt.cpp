@@ -2,7 +2,7 @@
  * Copyright 2009 Colin Percival
  * Copyright 2011 ArtForz
  * Copyright 2012-2013 pooler
- * Copyright 2014-2017 The Garlicium Developers
+ * Copyright 2014-2017 The Vertcoin Developers
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
