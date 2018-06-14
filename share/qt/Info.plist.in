@@ -11,7 +11,7 @@
   </array>
 
   <key>CFBundleIconFile</key>
-  <string>bitcoin.icns</string>
+  <string>vertcoin.icns</string>
 
   <key>CFBundlePackageType</key>
   <string>APPL</string>
@@ -49,7 +49,7 @@
       <string>org.vertcoin.VertcoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>bitcoin</string>
+        <string>vertcoin</string>
       </array>
     </dict>
   </array>

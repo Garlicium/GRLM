@@ -1,18 +1,18 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2016 The Bitcoin Core developers
+// Copyright (c) 2009-2017 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "txdb.h"
+#include <txdb.h>
 
-#include "chainparams.h"
-#include "hash.h"
-#include "random.h"
-#include "pow.h"
-#include "uint256.h"
-#include "util.h"
-#include "ui_interface.h"
-#include "init.h"
+#include <chainparams.h>
+#include <hash.h>
+#include <random.h>
+#include <pow.h>
+#include <uint256.h>
+#include <util.h>
+#include <ui_interface.h>
+#include <init.h>
 
 #include <stdint.h>
 
@@ -310,6 +310,7 @@ bool CBlockTreeDB::LoadBlockIndexGuts(const Consensus::Params& consensusParams, 
                         if (!CheckProofOfWork(pindexNew->GetBlockPoWHash(), pindexNew->nBits, consensusParams))
                             return error("%s: CheckProofOfWork failed: %s\n", __func__, pindexNew->ToString());
                     }
+
                 pcursor->Next();
             } else {
                 return error("%s: failed to read value", __func__);

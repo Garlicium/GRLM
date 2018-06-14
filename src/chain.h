@@ -1,16 +1,16 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2016 The Bitcoin Core developers
+// Copyright (c) 2009-2017 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef BITCOIN_CHAIN_H
 #define BITCOIN_CHAIN_H
 
-#include "arith_uint256.h"
-#include "primitives/block.h"
-#include "pow.h"
-#include "tinyformat.h"
-#include "uint256.h"
+#include <arith_uint256.h>
+#include <primitives/block.h>
+#include <pow.h>
+#include <tinyformat.h>
+#include <uint256.h>
 
 #include <vector>
 
@@ -293,8 +293,8 @@ public:
     {
         return *phashBlock;
     }
-    
-    uint256 GetBlockPoWHash() const
+
+    uint256 GetBlockPoWHash() const 
     {
         return GetBlockHeader().GetPoWHash(nHeight);
     }
@@ -309,7 +309,7 @@ public:
         return (int64_t)nTimeMax;
     }
 
-    enum { nMedianTimeSpan=11 };
+    static constexpr int nMedianTimeSpan = 11;
 
     int64_t GetMedianTimePast() const
     {

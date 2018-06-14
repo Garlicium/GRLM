@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2016 The Bitcoin Core developers
+// Copyright (c) 2011-2017 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -6,7 +6,7 @@
 #define BITCOIN_QT_PAYMENTSERVER_H
 
 // This class handles payment requests from clicking on
-// vertcoin: URIs
+// bitcoin: URIs
 //
 // This is somewhat tricky, because we have to deal with
 // the situation where the user clicks on a link during
@@ -32,8 +32,8 @@
 // sends them to the server.
 //
 
-#include "paymentrequestplus.h"
-#include "walletmodel.h"
+#include <qt/paymentrequestplus.h>
+#include <qt/walletmodel.h>
 
 #include <QObject>
 #include <QString>

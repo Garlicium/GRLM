@@ -1,6 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2016 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Vertcoin developers
+// Copyright (c) 2009-2017 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,9 +12,6 @@
 #include <stdint.h>
 #include <string>
 #include <vector>
-#include <inttypes.h>
-#include <stdio.h>
-#include <limits.h>
 
 class uint256;
 
@@ -29,7 +25,7 @@ template<unsigned int BITS>
 class base_uint
 {
 protected:
-    enum { WIDTH=BITS/32 };
+    static constexpr int WIDTH = BITS / 32;
     uint32_t pn[WIDTH];
 public:
 
@@ -67,7 +63,6 @@ public:
     }
 
     explicit base_uint(const std::string& str);
-    explicit base_uint(const std::vector<unsigned char>& vch);
 
     bool operator!() const
     {
@@ -267,7 +262,6 @@ public:
     arith_uint256(const base_uint<256>& b) : base_uint<256>(b) {}
     arith_uint256(uint64_t b) : base_uint<256>(b) {}
     explicit arith_uint256(const std::string& str) : base_uint<256>(str) {}
-    explicit arith_uint256(const std::vector<unsigned char>& vch) : base_uint<256>(vch) {}
 
     /**
      * The "compact" format is a representation of a whole
@@ -284,7 +278,7 @@ public:
      * Thus 0x1234560000 is compact (0x05123456)
      * and  0xc0de000000 is compact (0x0600c0de)
      *
-     * Vertcoin only uses this "compact" format for encoding difficulty
+     * Bitcoin only uses this "compact" format for encoding difficulty
      * targets, which are unsigned 256bit quantities.  Thus, all the
      * complexities of the sign bit and using base 256 are probably an
      * implementation accident.

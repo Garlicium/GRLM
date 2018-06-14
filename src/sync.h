@@ -1,15 +1,13 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2016 The Bitcoin Core developers
+// Copyright (c) 2009-2017 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef BITCOIN_SYNC_H
 #define BITCOIN_SYNC_H
 
-#include "threadsafety.h"
+#include <threadsafety.h>
 
-#include <boost/thread/condition_variable.hpp>
-#include <boost/thread/mutex.hpp>
 #include <condition_variable>
 #include <thread>
 #include <mutex>
@@ -77,14 +75,17 @@ void EnterCritical(const char* pszName, const char* pszFile, int nLine, void* cs
 void LeaveCritical();
 std::string LocksHeld();
 void AssertLockHeldInternal(const char* pszName, const char* pszFile, int nLine, void* cs);
+void AssertLockNotHeldInternal(const char* pszName, const char* pszFile, int nLine, void* cs);
 void DeleteLock(void* cs);
 #else
 void static inline EnterCritical(const char* pszName, const char* pszFile, int nLine, void* cs, bool fTry = false) {}
 void static inline LeaveCritical() {}
 void static inline AssertLockHeldInternal(const char* pszName, const char* pszFile, int nLine, void* cs) {}
+void static inline AssertLockNotHeldInternal(const char* pszName, const char* pszFile, int nLine, void* cs) {}
 void static inline DeleteLock(void* cs) {}
 #endif
 #define AssertLockHeld(cs) AssertLockHeldInternal(#cs, __FILE__, __LINE__, &cs)
+#define AssertLockNotHeld(cs) AssertLockNotHeldInternal(#cs, __FILE__, __LINE__, &cs)
 
 /**
  * Wrapped mutex: supports recursive locking, but no waiting
@@ -193,8 +194,8 @@ public:
 class CSemaphore
 {
 private:
-    boost::condition_variable condition;
-    boost::mutex mutex;
+    std::condition_variable condition;
+    std::mutex mutex;
     int value;
 
 public:
@@ -202,16 +203,14 @@ public:
 
     void wait()
     {
-        boost::unique_lock<boost::mutex> lock(mutex);
-        while (value < 1) {
-            condition.wait(lock);
-        }
+        std::unique_lock<std::mutex> lock(mutex);
+        condition.wait(lock, [&]() { return value >= 1; });
         value--;
     }
 
     bool try_wait()
     {
-        boost::unique_lock<boost::mutex> lock(mutex);
+        std::lock_guard<std::mutex> lock(mutex);
         if (value < 1)
             return false;
         value--;
@@ -221,7 +220,7 @@ public:
     void post()
     {
         {
-            boost::unique_lock<boost::mutex> lock(mutex);
+            std::lock_guard<std::mutex> lock(mutex);
             value++;
         }
         condition.notify_one();

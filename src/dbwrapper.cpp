@@ -1,12 +1,10 @@
-// Copyright (c) 2012-2016 The Bitcoin Core developers
+// Copyright (c) 2012-2017 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "dbwrapper.h"
+#include <dbwrapper.h>
 
-#include "fs.h"
-#include "util.h"
-#include "random.h"
+#include <random.h>
 
 #include <leveldb/cache.h>
 #include <leveldb/env.h>
@@ -42,7 +40,7 @@ public:
                 if (p < limit) {
                     va_list backup_ap;
                     va_copy(backup_ap, ap);
-                    // Do not use vsnprintf elsewhere in vertcoin source code, see above.
+                    // Do not use vsnprintf elsewhere in bitcoin source code, see above.
                     p += vsnprintf(p, limit - p, format, backup_ap);
                     va_end(backup_ap);
                 }
@@ -64,7 +62,7 @@ public:
 
                 assert(p <= limit);
                 base[std::min(bufsize - 1, (int)(p - base))] = '\0';
-                LogPrintStr(base);
+                LogPrintf("leveldb: %s", base);
                 if (base != buffer) {
                     delete[] base;
                 }

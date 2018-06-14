@@ -1,18 +1,16 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2016 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Vertcoin Developers
+// Copyright (c) 2009-2017 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
 #include <cmath>
 
-#include "pow.h"
+#include <pow.h>
 
-#include "arith_uint256.h"
-#include "bignum.h"
-#include "chain.h"
-#include "primitives/block.h"
-#include "uint256.h"
+#include <arith_uint256.h>
+#include <bignum.h>
+#include <chain.h>
+#include <primitives/block.h>
+#include <uint256.h>
 
 static CBigNum bnProofOfWorkLimit(~uint256_old(0) >> 20);
 
@@ -24,31 +22,16 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     int64_t                     PastSecondsMax       = TimeDaySeconds * 7;
     uint64_t                    PastBlocksMin        = PastSecondsMin / BlocksTargetSpacing;
     uint64_t                    PastBlocksMax        = PastSecondsMax / BlocksTargetSpacing;
-    
-    const int nHeight = pindexLast->nHeight + 1;
 
-    if(params.testnet) {
-        if(nHeight < 2116) {
-	    	return GetNextWorkRequired_Bitcoin(pindexLast, pblock, params);
-	    }
-	    
-  	    // testnet to 12 block difficulty adjustment interval
-        if(nHeight % 12 != 0)
-        {
-	        CBigNum bnNew;
-	        bnNew.SetCompact(pindexLast->nBits);
-	        if (bnNew > bnProofOfWorkLimit) { bnNew = bnProofOfWorkLimit; }
-	        return bnNew.GetCompact();
-        }
-    } else {
-	    if (nHeight < 26754) {
-	        return GetNextWorkRequired_Bitcoin(pindexLast, pblock, params);
-	    } else if (nHeight == 208301) {
-       	    return 0x1e0ffff0;
-	    }
-    }
-    
-    return KimotoGravityWell(pindexLast, pblock, BlocksTargetSpacing, PastBlocksMin, PastBlocksMax, params);
+
+	int nHeight = pindexLast->nHeight + 1;
+	if (nHeight < 26754) {
+	    return GetNextWorkRequired_Bitcoin(pindexLast, pblock, params);
+	}
+	else if (nHeight == 208301) {
+   	    return 0x1e0ffff0;
+	}
+    return KimotoGravityWell(pindexLast, pblock, BlocksTargetSpacing, PastBlocksMin, PastBlocksMax, params);    
 }
 
 unsigned int GetNextWorkRequired_Bitcoin(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
@@ -78,7 +61,6 @@ unsigned int GetNextWorkRequired_Bitcoin(const CBlockIndex* pindexLast, const CB
         return pindexLast->nBits;
     }
 
-    // Go back by what we want to be 14 days worth of blocks
     // Litecoin: This fixes an issue where a 51% attack can change difficulty at will.
     // Go back the full period unless it's the first retarget after genesis. Code courtesy of Art Forz
     int blockstogoback = params.DifficultyAdjustmentInterval()-1;
@@ -93,7 +75,12 @@ unsigned int GetNextWorkRequired_Bitcoin(const CBlockIndex* pindexLast, const CB
     return CalculateNextWorkRequired(pindexLast, pindexFirst->GetBlockTime(), params);
 }
 
-unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pblock, uint64_t TargetBlocksSpacingSeconds, uint64_t PastBlocksMin, uint64_t PastBlocksMax, const Consensus::Params& params) {
+unsigned int KimotoGravityWell(const CBlockIndex* pindexLast, 
+                               const CBlockHeader *pblock, 
+                               uint64_t TargetBlocksSpacingSeconds, 
+                               uint64_t PastBlocksMin, 
+                               uint64_t PastBlocksMax,
+                               const Consensus::Params& params) {
     /* current difficulty formula - kimoto gravity well */
     const CBlockIndex *BlockLastSolved                                = pindexLast;
     const CBlockIndex *BlockReading                                = pindexLast;
@@ -165,7 +152,6 @@ unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nF
     arith_uint256 bnOld;
     bnNew.SetCompact(pindexLast->nBits);
     bnOld = bnNew;
-    // Litecoin: intermediate uint256 can overflow by 1 bit
     bool fShift = bnNew.bits() > 235;
     if (fShift)
         bnNew >>= 1;
@@ -177,7 +163,7 @@ unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nF
     const arith_uint256 bnPowLimit = UintToArith256(params.powLimit);
     if (bnNew > bnPowLimit)
         bnNew = bnPowLimit;
-        
+
     return bnNew.GetCompact();
 }
 

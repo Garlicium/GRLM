@@ -1,18 +1,18 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2016 The Bitcoin Core developers
-// Copytight (c) 2014-2017 The Vertcoin developers
+// Copyright (c) 2009-2017 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef BITCOIN_PRIMITIVES_BLOCK_H
 #define BITCOIN_PRIMITIVES_BLOCK_H
 
-#include "primitives/transaction.h"
-#include "serialize.h"
-#include "uint256.h"
+#include <primitives/transaction.h>
+#include <serialize.h>
+#include <uint256.h>
 
-#include "crypto/scrypt.h"
-#include "crypto/Lyra2RE/Lyra2RE.h"
+#include <crypto/scrypt.h>
+#include <crypto/Lyra2RE/Lyra2RE.h>
+
 
 /** Nodes collect new transactions into a block, hash them into a hash tree,
  * and scan through nonce values to make the block's hash satisfy proof-of-work
@@ -65,8 +65,8 @@ public:
     }
 
     uint256 GetHash() const;
-    
-    uint256 GetPoWHash(int nHeight) const;
+
+    uint256 GetPoWHash(const int nHeight) const;
 
     int64_t GetBlockTime() const
     {

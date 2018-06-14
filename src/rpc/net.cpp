@@ -1,25 +1,25 @@
-// Copyright (c) 2009-2016 The Bitcoin Core developers
+// Copyright (c) 2009-2017 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "rpc/server.h"
+#include <rpc/server.h>
 
-#include "chainparams.h"
-#include "clientversion.h"
-#include "core_io.h"
-#include "validation.h"
-#include "net.h"
-#include "net_processing.h"
-#include "netbase.h"
-#include "policy/policy.h"
-#include "protocol.h"
-#include "sync.h"
-#include "timedata.h"
-#include "ui_interface.h"
-#include "util.h"
-#include "utilstrencodings.h"
-#include "version.h"
-#include "warnings.h"
+#include <chainparams.h>
+#include <clientversion.h>
+#include <core_io.h>
+#include <validation.h>
+#include <net.h>
+#include <net_processing.h>
+#include <netbase.h>
+#include <policy/policy.h>
+#include <rpc/protocol.h>
+#include <sync.h>
+#include <timedata.h>
+#include <ui_interface.h>
+#include <util.h>
+#include <utilstrencodings.h>
+#include <version.h>
+#include <warnings.h>
 
 #include <univalue.h>
 
@@ -89,7 +89,7 @@ UniValue getpeerinfo(const JSONRPCRequest& request)
             "    \"pingtime\": n,             (numeric) ping time (if available)\n"
             "    \"minping\": n,              (numeric) minimum observed ping time (if any at all)\n"
             "    \"pingwait\": n,             (numeric) ping wait (if non-zero)\n"
-            "    \"version\": v,              (numeric) The peer version, such as 7001\n"
+            "    \"version\": v,              (numeric) The peer version, such as 70001\n"
             "    \"subver\": \"/Satoshi:0.8.5/\",  (string) The string version\n"
             "    \"inbound\": true|false,     (boolean) Inbound (true) or Outbound (false)\n"
             "    \"addnode\": true|false,     (boolean) Whether connection was due to addnode/-connect or if it was an automatic/inbound connection\n"
@@ -516,7 +516,7 @@ UniValue setban(const JSONRPCRequest& request)
     CNetAddr netAddr;
     bool isSubnet = false;
 
-    if (request.params[0].get_str().find("/") != std::string::npos)
+    if (request.params[0].get_str().find('/') != std::string::npos)
         isSubnet = true;
 
     if (!isSubnet) {
@@ -571,11 +571,11 @@ UniValue listbanned(const JSONRPCRequest& request)
     g_connman->GetBanned(banMap);
 
     UniValue bannedAddresses(UniValue::VARR);
-    for (banmap_t::iterator it = banMap.begin(); it != banMap.end(); it++)
+    for (const auto& entry : banMap)
     {
-        CBanEntry banEntry = (*it).second;
+        const CBanEntry& banEntry = entry.second;
         UniValue rec(UniValue::VOBJ);
-        rec.push_back(Pair("address", (*it).first.ToString()));
+        rec.push_back(Pair("address", entry.first.ToString()));
         rec.push_back(Pair("banned_until", banEntry.nBanUntil));
         rec.push_back(Pair("ban_created", banEntry.nCreateTime));
         rec.push_back(Pair("ban_reason", banEntry.banReasonToString()));
